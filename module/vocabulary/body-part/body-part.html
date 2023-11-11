@@ -47,7 +47,7 @@
         <div class="row">
           <div class="col-6 col-md-6 col-lg-3 my-1">
             <a href="lesson-0.html">
-              <button class="btn btn-light shadow text-start py-3" type="button" style="width:100%;"  >
+              <button class="btn btn-light shadow text-start py-3 backgroundcolor1" type="button" style="width:100%;"  >
                 <span style='font-size:24px;'>&#128221;</span>
                 <span>1</span>
               </button>   
@@ -56,7 +56,7 @@
 
           <div class="col-6 col-md-6 col-lg-3 my-1">
             <a href="lesson-1.html">
-              <button class="btn btn-light shadow text-start py-3" type="button" style="width:100%;"  >
+              <button class="btn btn-light shadow text-start py-3 backgroundcolor1" type="button" style="width:100%;"  >
               <span style='font-size:24px;'>&#128221;</span>
               <span>2</span>
             </button>   
@@ -65,7 +65,7 @@
  
           <div class="col-6 col-md-6 col-lg-3 my-1">
             <a href="lesson-2.html">
-              <button class="btn btn-light shadow text-start py-3" type="button" style="width:100%;"  >
+              <button class="btn btn-light shadow text-start py-3 backgroundcolor1" type="button" style="width:100%;"  >
               <span style='font-size:24px;'>&#128221;</span>
               <span>3</span>
             </button>   
@@ -74,7 +74,7 @@
 
           <div class="col-6 col-md-6 col-lg-3 my-1">
             <a href="lesson-3.html">
-              <button class="btn btn-light shadow text-start py-3" type="button" style="width:100%;"  >
+              <button class="btn btn-light shadow text-start py-3 backgroundcolor1" type="button" style="width:100%;"  >
               <span style='font-size:24px;'>&#128221;</span>
               <span>4</span>
             </button>   
@@ -87,7 +87,7 @@
         <div class="row">
           <div class="col-6 col-md-6 col-lg-3 my-1">
             <a href="lesson-4.html">
-              <button class="btn btn-light shadow text-start py-3" type="button" style="width:100%;"  >
+              <button class="btn btn-light shadow text-start py-3 backgroundcolor1" type="button" style="width:100%;"  >
                 <span style='font-size:24px;'>&#128221;</span>
                 <span>5</span>
               </button>   
@@ -103,12 +103,12 @@
         <span>click to see lyrics</span>
         <div class="row">
           <div class="col-6 col-md-6 col-lg-3 my-1">
-            <button class="btn btn-light shadow text-start py-3" type="button" style="width:100%;" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+            <button class="btn btn-light shadow text-start py-3 backgroundcolor1" type="button" style="width:100%;" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
               <i class="bi bi-file-music text-danger" style='font-size:24px;'></i>
               <span>lyrics</span>
               <div class="text-center my-2 d-flex justify-content-around align-items-center">
                 <audio id="myAudio" controls preload="none" controlsList="nodownload">
-                  <source id="soundfile" src="" type="audio/mpeg">
+                  <source id="soundfile" src="https://www.dreamenglish.com/mp3/headshoulderskneestoes.mp3" type="audio/mpeg">
                 </audio>
               </div>
             </button>  
@@ -117,24 +117,28 @@
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Song lyrics</h1>
+                  <div class="modal-header backgroundcolor1">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Body part song lyrics</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                  <div class="modal-body">
-                    <p>
-                      
-                      A, B, C, D, E, F, G, H, I, J, K, L, M, N
-                      O, P, Q, R, S, T, U, V, W, X, Y, Z <br>
-                      sing, sing I can sing <br>
-                      sing, sing I can sing <br>
-                      sing, sing I can sing <br>
-                      ABC
+                  <div class="modal-body highlight ">
+                    <p class="h5">
+                      Head, shoulders, knees and toes, knees and toes <br>
+                      Eyes and ears and mouth and nose <br>
+                      Head, shoulders, knees and toes, knees and toes <br>
 
+                      Touch your eyes, touch your ears touch, your mouth, touch your nose <br>
+                      touch your knees, touch your toes <br>
+                      great job! <br>
+
+                      Head, shoulders, knees and toes, knees and toes <br>
+                      Head, shoulders, knees and toes, knees and toes <br>
+                      Eyes and ears and mouth and nose <br>
+                      Head, shoulders, knees and toes, knees and toes 
                     </p>
                   </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>          
+                  <div class="modal-footer backgroundcolor1">
+                    <button type="button" class="text-white btn rounded-pill py-2 px-3 shadow practicebuttoncolor border-0" data-bs-dismiss="modal">Close</button>          
                   </div>
                 </div>
               </div>
@@ -143,64 +147,46 @@
           </div>
 
           <div class="col-6 col-md-6 col-lg-3 my-1">
-            <button class="btn btn-light shadow text-start py-3" type="button" style="width:100%;"  >
-              <i class="bi bi-file-music text-danger" style='font-size:24px;'></i>
-              <span>lyrics</span>
-              <div class="text-center my-2 d-flex justify-content-around align-items-center">
-                <audio id="myAudio" controls preload="none" controlsList="nodownload">
-                  <source id="soundfile" src="../../../asset/audio/body-part/boy.mp3" type="audio/mpeg">
-                </audio>
-              </div>
-            </button>   
-          </div>
- 
-          <div class="col-6 col-md-6 col-lg-3 my-1">
-            <button class="btn btn-light shadow text-start py-3" type="button" style="width:100%;"  >
-              <i class="bi bi-file-music text-danger" style='font-size:24px;'></i>
-              <span>lyrics</span>
-              <div class="text-center my-2 d-flex justify-content-around align-items-center">
-                <audio id="myAudio" controls preload="none" controlsList="nodownload">
-                  <source id="soundfile" src="../../../asset/audio/body-part/boy.mp3" type="audio/mpeg">
-                </audio>
-              </div>
-            </button>  
-          </div>
+            <button class="btn btn-light shadow text-start py-3 backgroundcolor1" type="button" style="width:100%;" data-bs-toggle="modal" data-bs-target="#bodysong1" >
 
-          <div class="col-6 col-md-6 col-lg-3 my-1">
-            <button class="btn btn-light shadow text-start py-3" type="button" style="width:100%;" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
               <i class="bi bi-file-music text-danger" style='font-size:24px;'></i>
               <span>lyrics</span>
               <div class="text-center my-2 d-flex justify-content-around align-items-center">
                 <audio id="myAudio" controls preload="none" controlsList="nodownload">
-                  <source id="soundfile" src="../../../asset/audio/body-part/boy.mp3" type="audio/mpeg">
+                  <source id="soundfile" src="../../../asset/audio/body-part/bodysong1.mp3" type="audio/mpeg">
                 </audio>
               </div>
             </button>  
-            <!-- Button trigger modal -->
-            <!-- Modal -->
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            
+            <div class="modal fade" id="bodysong1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Song transcription</h1>
+                  <div class="modal-header backgroundcolor1">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Body part song lyrics</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                  <div class="modal-body">
-                    <p>
+                  <div class="modal-body highlight ">
+                    <p class="h5">
+                      Head, shoulders, knees, and toes, knees and toes<br>
+                      Head, shoulders, knees, and toes, knees and toes<br>
+                      And eyes and ears and mouth and nose. <br>
+                      Head, shoulders, knees, and toes, knees and toes<br>
                       
-                      How can I help you today? What are you interested in learning? Type "Hello", 
-                      and sign up using email. Once sign-in, select new chat and click on the purple button 
-                      above labeled "Select Character" to begin! Happy Learning! :-)
-
+                      One more time! <br>
+                      
+                      Head, shoulders, knees, and toes, knees and toes<br>
+                      Head, shoulders, knees, and toes, knees and toes<br>
+                      And eyes and ears and mouth and nose<br>
+                      Head, shoulders, knees, and toes, knees and toes
+                      
                     </p>
                   </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>          
+                  <div class="modal-footer backgroundcolor1">
+                    <button type="button" class="text-white btn rounded-pill py-2 px-3 shadow practicebuttoncolor border-0" data-bs-dismiss="modal">Close</button>          
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
         </div> 
       </div> 
@@ -209,7 +195,7 @@
         <div class="row">
           <div class="col-6 col-md-6 col-lg-3 my-1">
             <a href="https://www.youtube.com/watch?v=h4eueDYPTIg">
-              <button class="btn btn-light shadow text-start py-3" type="button" style="width:100%;"  >
+              <button class="btn btn-light shadow text-start py-3 backgroundcolor1" type="button" style="width:100%;"  >
                 <i class="bi bi-youtube text-danger text-danger" style='font-size:24px;'></i>
                 <span>Exercise Song</span>
               </button>   
@@ -218,7 +204,7 @@
 
           <div class="col-6 col-md-6 col-lg-3 my-1">
             <a href="https://www.youtube.com/watch?v=ZanHgPprl-0">
-              <button class="btn btn-light shadow text-start py-3" type="button" style="width:100%;"  >
+              <button class="btn btn-light shadow text-start py-3 backgroundcolor1" type="button" style="width:100%;"  >
                 <i class="bi bi-youtube text-danger" style='font-size:24px;'></i>
                 <span>Head Shoulders...</span>
               </button>   
@@ -227,7 +213,7 @@
 
           <div class="col-6 col-md-6 col-lg-3 my-1">
             <a href="https://www.youtube.com/watch?v=R1Hrkqep8nU">
-              <button class="btn btn-light shadow text-start py-3" type="button" style="width:100%;"  >
+              <button class="btn btn-light shadow text-start py-3 backgroundcolor1" type="button" style="width:100%;"  >
                 <i class="bi bi-youtube text-danger" style='font-size:24px;'></i>
                 <span>Song</span>
               </button>   
@@ -236,7 +222,7 @@
 
           <div class="col-6 col-md-6 col-lg-3 my-1">
             <a href="https://www.youtube.com/watch?v=SUt8q0EKbms">
-              <button class="btn btn-light shadow text-start py-3" type="button" style="width:100%;"  >
+              <button class="btn btn-light shadow text-start py-3 backgroundcolor1" type="button" style="width:100%;"  >
                 <i class="bi bi-youtube text-danger" style='font-size:24px;'></i>
                 <span>Song</span>
               </button>   
@@ -271,14 +257,14 @@
         <div class="row">
           <div class="col-md-6 offset-md-3">  
             <div class="my-3">
-              <button class="btn btn-light shadow text-start py-3" type="button" style="width:70%;" id="wordSoundMatch">
+              <button class="btn btn-light shadow text-start py-3 backgroundcolor1" type="button" style="width:70%;" id="wordSoundMatch">
                 <i class="bi bi-file-music text-danger" style='font-size:24px;'></i>
                 <span>Part-sound match</span>
               </button>   
             </div>
             
             <div class="mb-3">
-              <button class="btn btn-light shadow text-start py-3" type="button" style="width:70%;" id="soundImageMatch">
+              <button class="btn btn-light shadow text-start py-3 backgroundcolor1" type="button" style="width:70%;" id="soundImageMatch">
                 <i class="bi bi-controller text-danger" style='font-size:24px;'></i>
                 <span>Sound-part match</span>
               </button>   
@@ -302,10 +288,10 @@
     </section>
   </main>
 
-  <footer class="py-5 text-white footercolor">
-    <div class="container">
-      © 2023 All rights reserved
-    </div>
+  <footer class="backgroundcolor1 text-center py-3">
+    <p>
+         © 2023 All rights reserved
+    </p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
