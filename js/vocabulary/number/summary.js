@@ -25,7 +25,7 @@ const contentItem3 = {
   word: "Eyebrow",
   sound: "/aɪ.braʊ/",
   Image: "../../../asset/image/body-part/eyebrow.jpg",
-  soundfile: "../../asset/audio/word/eyebrow.mp3"
+  soundfile: "../../../asset/audio/body-part/eyebrow.mp3"
 };
 
 
@@ -181,12 +181,9 @@ const contentItem24 = {
   soundfile: "../../../asset/audio/body-part/shoulder.mp3"
 }
 
-const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
-const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
-const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14];
-const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,contentItem19];
-const contents4 = [contentItem20,contentItem21,contentItem22,contentItem23,contentItem24]; 
-const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4"];
+const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
+  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,
+  contentItem20,contentItem21,contentItem22,contentItem23,contentItem24];
 
 const common ={
   testPreviousBtn: null,
@@ -201,19 +198,9 @@ const common ={
 }
 
 const learnObj = {
-
-  previous: document.getElementById("previous"),
-  next: document.getElementById("next"),
-  content: document.getElementById("content"),
-  sound: document.getElementById("sound"),
-  soundfile: document.getElementById("soundfile"),
-  myAudio: document.getElementById("myAudio"),
-  picture:document.getElementById("picture"),
-  counter: 0,
-  letterList:null,
-  totalLenght: null
+  letterList:contents,
+  totalLenght: contents.length
 };
-
 
 const wordSoundMatchObj = {
   wordElementLst: null,
@@ -279,42 +266,39 @@ const wordSoundMatchObj = {
 
 };
 
-const wordImageMatchObj = {
+const soundImageMatchObj = {
   wordElementLst: null,
   counter: 0,
   sectionLength: 5,
   list0: null,
   list1: null,
   picture: null,
-  wordImageMatch: document.getElementById("wordImageMatch"),
-  wordImageMatchContent: `<div class="card">
-                              <div class="my-3">
-                                <img id="wordImageMatchPicture" src="../../../asset/image/28732095_7480523.svg" width="100" height="100" alt="">
-                              </div>
+  soundImageMatch: document.getElementById("soundImageMatch"),
+  soundImageMatchContent: `<div class="card">
                               <div class="my-3 h2">
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
-                                  <label class="form-check-label" for="letter1"></label>
+                                  <label class="form-check-label" for="letter1"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
                                 </div>
 
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement " type="radio" name="letter" id="letter2" value="">
-                                  <label class="form-check-label" for="letter2"></label>
+                                  <label class="form-check-label" for="letter2"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
                                 </div>
 
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter3" value="">
-                                  <label class="form-check-label" for="letter3"></label>
+                                  <label class="form-check-label" for="letter3"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
                                 </div>   
 
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter4" value="">
-                                  <label class="form-check-label" for="letter4"></label>
+                                  <label class="form-check-label" for="letter4"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
                                 </div>
 
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter5" value="">
-                                  <label class="form-check-label" for="letter5"></label>
+                                  <label class="form-check-label" for="letter5"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
                                 </div>
                               </div>
 
@@ -347,64 +331,106 @@ const wordImageMatchObj = {
 
 };
 
-window.addEventListener("load", function(e){
-  
-  if(pathname.includes(lessons[0]))
-  {
-    learnObj.letterList=contents0;
-
-  }else if(pathname.includes(lessons[1]))
-  {
-    learnObj.letterList=contents1;
-
-  }else if(pathname.includes(lessons[2]))
-  {
-
-    learnObj.letterList=contents2;
-
-  }else if(pathname.includes(lessons[3]))
-  {
-
-    learnObj.letterList=contents3;
-
-  }else if(pathname.includes(lessons[4]))
-  {
-
-    learnObj.letterList=contents4;
-  }
- 
-  learnObj.totalLenght=learnObj.letterList.length;
-});
-
-function loadData()
+function wordGenProcess(i,index)
 {
- 
-  learnObj.content.innerText=learnObj.letterList[learnObj.counter].word;
-  learnObj.sound.innerText=learnObj.letterList[learnObj.counter].sound
-  learnObj.soundfile.setAttribute("src",learnObj.letterList[learnObj.counter].soundfile); 
-  learnObj.picture.setAttribute("src",learnObj.letterList[learnObj.counter].Image);
-  learnObj.myAudio.load();
+
+  for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
+  {
+    let m =Math.floor(Math.random()*learnObj.totalLenght);
+    console.log("m "+m);
+    wordSoundMatchObj.list0[k].value=learnObj.letterList[m].word;
+    wordSoundMatchObj.list1[k].innerText=learnObj.letterList[m].word;
+  }
+  wordSoundMatchObj.list0[i].value=learnObj.letterList[index].word;
+  wordSoundMatchObj.list1[i].innerText=learnObj.letterList[index].word;
+  common.testSoundFile.setAttribute("src",learnObj.letterList[index].soundfile);
+  common.testAudio.load();
 }
 
-learnObj.previous.addEventListener("click", function(){
 
-  if(learnObj.counter>0)
+function wordGen(index){
+
+  
+  let i=index%wordSoundMatchObj.sectionLength;
+  if (i==0)
   {
-    learnObj.counter--;
-    loadData();
+
+    wordGenProcess(i,index);
+
+  }else if(index==1)
+  {
+
+    wordGenProcess(i,index);
+
+  }else if(index==2)
+  {
+
+    wordGenProcess(i,index);
+
+  }else if(index==3)
+  {
+
+    wordGenProcess(i,index);
+
+  }else if(index)
+  {
+
+    wordGenProcess(i,index);
+    
   }
 
-});
+}
 
-learnObj.next.addEventListener("click", function(){
+function imagedGenProcess(i,index)
+{
 
-  if(learnObj.counter<(learnObj.totalLenght-1))
+  for(let k=0; k<soundImageMatchObj.sectionLength;k++)
   {
-    learnObj.counter++;
-    loadData();
+    let m =Math.floor(Math.random()*learnObj.totalLenght);
+    console.log("m "+m);
+    soundImageMatchObj.list0[k].value=learnObj.letterList[m].word;
+    soundImageMatchObj.list1[k].setAttribute("src",learnObj.letterList[m].Image);
   }
-   
-});
+  soundImageMatchObj.list0[i].value=learnObj.letterList[index].word;
+  soundImageMatchObj.list1[i].setAttribute("src",learnObj.letterList[index].Image);
+  common.testSoundFile.setAttribute("src",learnObj.letterList[index].soundfile);
+  common.testAudio.load();
+
+}
+
+
+function imagedGen(index){
+
+  
+  let i=index%soundImageMatchObj.sectionLength;
+  if (i==0)
+  {
+
+    imagedGenProcess(i,index);
+
+  }else if(index==1)
+  {
+
+    imagedGenProcess(i,index);
+
+  }else if(index==2)
+  {
+
+    imagedGenProcess(i,index);
+
+  }else if(index==3)
+  {
+
+    imagedGenProcess(i,index);
+
+  }else if(index)
+  {
+
+    imagedGenProcess(i,index);
+    
+  }
+
+}
 
 function testNextBtnFunction() {
  
@@ -413,13 +439,12 @@ function testNextBtnFunction() {
     common.letterSelected.target.checked=false;
   }
 
-  if(common.game=="wordImageMatch")
+  if(common.game=="soundImageMatch")
   {
-    if(wordImageMatchObj.counter<(learnObj.totalLenght-1))
+    if(soundImageMatchObj.counter<(learnObj.totalLenght-1))
     {
-      wordImageMatchObj.counter++;
-      wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
-      common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
+      soundImageMatchObj.counter++;
+      imagedGen(soundImageMatchObj.counter);
     }
 
   }else if (common.game=="wordSoundMatch")
@@ -428,10 +453,10 @@ function testNextBtnFunction() {
     if(wordSoundMatchObj.counter<(learnObj.totalLenght-1))
     {
       wordSoundMatchObj.counter++;
-      common.testSoundFile.setAttribute("src",learnObj.letterList[wordSoundMatchObj.counter].soundfile);
+      wordGen(wordSoundMatchObj.counter);
     }
   }
-  common.testAudio.load();
+
   document.getElementById("showResult").innerHTML="";
 }
 
@@ -441,13 +466,12 @@ function testPreviousBtnFunction() {
   {
     common.letterSelected.target.checked=false;
   }
-  if(common.game=="wordImageMatch")
+  if(common.game=="soundImageMatch")
   {
-    if(wordImageMatchObj.counter>0)
+    if(soundImageMatchObj.counter>0)
     {
-      wordImageMatchObj.counter--;
-      wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
-      common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
+      soundImageMatchObj.counter--;
+      imagedGen(soundImageMatchObj.counter); 
     }
 
   }else if (common.game=="wordSoundMatch")
@@ -456,19 +480,18 @@ function testPreviousBtnFunction() {
     if(wordSoundMatchObj.counter>0)
     {
       wordSoundMatchObj.counter--;
-      common.testSoundFile.setAttribute("src",learnObj.letterList[wordSoundMatchObj.counter].soundfile);
+      wordGen(wordSoundMatchObj.counter);
     }
   }
-  common.testAudio.load();
   document.getElementById("showResult").innerHTML="";
 }
 
 function letterSoundCheck(e) {
   common.letterSelected=e;
 
-  if(common.game=="wordImageMatch")
+  if(common.game=="soundImageMatch")
   {
-    if(learnObj.letterList[wordImageMatchObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[soundImageMatchObj.counter].word.includes(e.target.value))
     {
   
       document.getElementById("showResult").innerHTML=common.goodResult;
@@ -532,11 +555,11 @@ function buildwordSoundMatch()
 wordSoundMatchObj.wordSoundMatch.addEventListener("click",function() {
   
   wordSoundMatchObj.counter=0;
-  if(common.game=="wordImageMatch")
+  if(common.game=="soundImageMatch")
   {
     common.testNextBtn.removeEventListener("click",testNextBtnFunction);
     common.testPreviousBtn.removeEventListener("click",testPreviousBtnFunction);
-    wordImageMatchObj.wordElementLst.forEach(elem => {
+    soundImageMatchObj.wordElementLst.forEach(elem => {
       elem.removeEventListener("click",letterSoundCheck); 
     });
     common.testSection.innerHTML='';
@@ -556,14 +579,14 @@ wordSoundMatchObj.wordSoundMatch.addEventListener("click",function() {
 
 function buildWordImageMatch()
 {
-  common.game="wordImageMatch";
-  wordImageMatchObj.counter=0;
+  common.game="soundImageMatch";
+  soundImageMatchObj.counter=0;
   let p = document.createElement("div"); 
-  p.innerHTML= wordImageMatchObj.wordImageMatchContent;
+  p.innerHTML= soundImageMatchObj.soundImageMatchContent;
   common.testSection.appendChild(p);
   
-  wordImageMatchObj.list0= document.querySelectorAll(".form-check-input");
-  wordImageMatchObj.list1 = document.querySelectorAll(".form-check-label");
+  soundImageMatchObj.list0= document.querySelectorAll(".form-check-input");
+  soundImageMatchObj.list1 = document.querySelectorAll(".soundImageMatchPicture");
 
   common.testNextBtn = document.getElementById("testNext");
   common.testPreviousBtn = document.getElementById("testPrevious");
@@ -572,25 +595,26 @@ function buildWordImageMatch()
   common.testNextBtn.addEventListener("click",testNextBtnFunction);
   common.testPreviousBtn.addEventListener("click",testPreviousBtnFunction);
 
-  wordImageMatchObj.wordElementLst = document.querySelectorAll(".letterElement");
-  wordImageMatchObj.wordElementLst.forEach(elem => {
+  soundImageMatchObj.wordElementLst = document.querySelectorAll(".letterElement");
+  soundImageMatchObj.wordElementLst.forEach(elem => {
     elem.addEventListener("click",letterSoundCheck); 
   });
 
   //here fill up the letters 
-  for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
+  for(let k=0; k<soundImageMatchObj.sectionLength;k++)
   {
-    wordImageMatchObj.list0[k].value=learnObj.letterList[k].word;
-    wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].word;
+    soundImageMatchObj.list0[k].value=learnObj.letterList[k].word;
+  /*   soundImageMatchObj.list1[k].innerText=learnObj.letterList[k].word; */
+    soundImageMatchObj.list1[k].setAttribute("src",learnObj.letterList[k].Image);
   }
-  wordImageMatchObj.picture=document.getElementById("wordImageMatchPicture");
-  wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[0].Image);
+  /* soundImageMatchObj.picture=document.getElementById("soundImageMatchPicture");
+  soundImageMatchObj.picture.setAttribute("src",learnObj.letterList[0].Image); */
   common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
   common.testAudio.load();
 }
 
 
-wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
+soundImageMatchObj.soundImageMatch.addEventListener("click",function() {
   
   wordSoundMatchObj.counter=0;
   if(common.game=="wordSoundMatch")
@@ -604,7 +628,7 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
     buildWordImageMatch();
   }else 
   {
-    if(common.game=="wordImageMatch")
+    if(common.game=="soundImageMatch")
     {
 
     }else{
