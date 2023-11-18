@@ -1,128 +1,126 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "one",
+  word: "one 1",
   sound: "/wʌn/",
   soundfile: "../../../asset/audio/number/one.mp3"
 };
 
 const contentItem1 = {
-  word: "two",
+  word: "two 2",
   sound: "/tuː/",
   soundfile: "../../../asset/audio/number/two.mp3"
 };
 
 const contentItem2 = {
-  word: "three",
+  word: "three 3",
   sound: "/θriː/",
   soundfile: "../../../asset/audio/number/three.mp3"
 };
 
 const contentItem3 = {
-  word: "four",
+  word: "four 4",
   sound: "/fɔːr/",
   soundfile: "../../../asset/audio/number/four.mp3"
 };
 
 
 const contentItem4 = {
-  word: "five",
+  word: "five 5",
   sound: "/faɪv/",
   soundfile: "../../../asset/audio/number/five.mp3"
 };
 
 const contentItem5 = {
-  word: "six",
-  sound: "/nəʊz/",
-  soundfile: "../../../asset/audio/number/6.mp3"
+  word: "six 6",
+  sound: "/sɪks/",
+  soundfile: "../../../asset/audio/number/six.mp3"
 };
 
 const contentItem6 = {
-  word: "seven",
-  sound: "/lip/",
-  soundfile: "../../../asset/audio/number/7.mp3"
+  word: "seven 7",
+  sound: "/sev.ən/",
+  soundfile: "../../../asset/audio/number/seven.mp3"
 };
 
 
 const contentItem7 = {
-  word: "eight",
-  sound: "/maʊθ/",
-  soundfile: "../../../asset/audio/number/8.mp3"
+  word: "eight 8",
+  sound: "/eɪt/",
+  soundfile: "../../../asset/audio/number/eight.mp3"
 };
 
 const contentItem8 = {
-  word: "nine",
-  sound: "/tiːθ/",
-  soundfile: "../../../asset/audio/number/9.mp3"
+  word: "nine 9",
+  sound: "/naɪn/",
+  soundfile: "../../../asset/audio/number/nine.mp3"
 };
 
 const contentItem9 = {
-  word: "ten",
-  sound: "/tʌŋ/",
-  soundfile: "../../../asset/audio/number/10.mp3"
+  word: "ten 10",
+  sound: "/ten/",
+  soundfile: "../../../asset/audio/number/ten.mp3"
 };
 
-
 const contentItem10 = {
-  word: "eleven",
-  sound: "/nek/",
-  soundfile: "../../../asset/audio/number/11.mp3"
+  word: "eleven 11",
+  sound: "/ɪˈlev.ən/",
+  soundfile: "../../../asset/audio/number/eleven.mp3"
 }
 
 const contentItem11 = {
-  word: "twelve",
-  sound: "/el/",
-  soundfile: "../../../asset/audio/number/12.mp3"
+  word: "twelve 12",
+  sound: "/twelv/",
+  soundfile: "../../../asset/audio/number/twelve.mp3"
 };
 
 const contentItem12 = {
-  word: "thirten",
-  sound: "/em/",
-  soundfile: "../../../asset/audio/number/13.mp3"
+  word: "thirteen 13",
+  sound: "/θɜːˈtiːn/",
+  soundfile: "../../../asset/audio/number/thirteen.mp3"
 }
 
 const contentItem13 = {
-  word: "forten",
-  sound: "/ˈfɪŋ.ɡər/",
-  soundfile: "../../../asset/audio/number/14.mp3"
+  word: "fourteen 14",
+  sound: "/ˌfɔːˈtiːn/",
+  soundfile: "../../../asset/audio/number/fourteen.mp3"
 };
 
 const contentItem14 = {
-  word: "fiveten",
-  sound: "/fist/",
-  soundfile: "../../../asset/audio/number/15.mp3"
+  word: "fifteen 15",
+  sound: "/ˌfɪfˈtiːn/",
+  soundfile: "../../../asset/audio/number/fifteen.mp3"
 };
 
 const contentItem15 = {
-  word: "sixten",
-  sound: "/fɪŋ.ɡə.neɪl/",
-  soundfile: "../../../asset/audio/number/16.mp3"
+  word: "sixteen 16",
+  sound: "/ˌsɪkˈstiːn/",
+  soundfile: "../../../asset/audio/number/sixteen.mp3"
 };
-
 
 
 const contentItem16 = {
-  word: "1seven7",
-  sound: "/fuːt/",
-  soundfile: "../../../asset/audio/number/17.mp3"
+  word: "seventeen 17",
+  sound: "/ˌsev.ənˈtiːn/",
+  soundfile: "../../../asset/audio/number/seventeen.mp3"
 };
 
 const contentItem17 = {
-  word: "eighten",
-  sound: "/leg/",
-  soundfile: "../../../asset/audio/number/18.mp3"
+  word: "eighteen 18",
+  sound: "/ˌeɪˈtiːn/",
+  soundfile: "../../../asset/audio/number/eighteen.mp3"
 };
 
 const contentItem18 = {
-  word: "nienten",
-  sound: "/təʊ/",
-  soundfile: "../../../asset/audio/number/19.mp3"
+  word: "nineteen 19",
+  sound: "/ˌnaɪnˈtiːn/",
+  soundfile: "../../../asset/audio/number/nineteen.mp3"
 };
 
 const contentItem19 = {
-  word: "twenty",
-  sound: "/ni:/",
-  soundfile: "../../../asset/audio/number/20.mp3"
+  word: "twenty 20",
+  sound: "/twen.ti/",
+  soundfile: "../../../asset/audio/number/twenty.mp3"
 };
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
@@ -164,7 +162,7 @@ const wordSoundMatchObj = {
   list0: null,
   list1: null,
   wordSoundMatch: document.getElementById("wordSoundMatch"),
-  wordSoundMatchContent: `<div class="card">
+  wordSoundMatchContent: `<div class="card highlight">
                               <div class="my-5 h2">
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">

@@ -116,7 +116,6 @@ const contentItem15 = {
 };
 
 
-
 const contentItem16 = {
   word: "Foot",
   sound: "/fuːt/",
@@ -199,7 +198,7 @@ const common ={
 
 const learnObj = {
   letterList:contents,
-  totalLenght: contents.length
+  totalLength: contents.length
 };
 
 const wordSoundMatchObj = {
@@ -336,7 +335,7 @@ function wordGenProcess(i,index)
 
   for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
   {
-    let m =Math.floor(Math.random()*learnObj.totalLenght);
+    let m =Math.floor(Math.random()*learnObj.totalLength);
     console.log("m "+m);
     wordSoundMatchObj.list0[k].value=learnObj.letterList[m].word;
     wordSoundMatchObj.list1[k].innerText=learnObj.letterList[m].word;
@@ -386,7 +385,7 @@ function imagedGenProcess(i,index)
 
   for(let k=0; k<soundImageMatchObj.sectionLength;k++)
   {
-    let m =Math.floor(Math.random()*learnObj.totalLenght);
+    let m =Math.floor(Math.random()*learnObj.totalLength);
     console.log("m "+m);
     soundImageMatchObj.list0[k].value=learnObj.letterList[m].word;
     soundImageMatchObj.list1[k].setAttribute("src",learnObj.letterList[m].Image);
@@ -441,7 +440,7 @@ function testNextBtnFunction() {
 
   if(common.game=="soundImageMatch")
   {
-    if(soundImageMatchObj.counter<(learnObj.totalLenght-1))
+    if(soundImageMatchObj.counter<(learnObj.totalLength-1))
     {
       soundImageMatchObj.counter++;
       imagedGen(soundImageMatchObj.counter);
@@ -450,7 +449,7 @@ function testNextBtnFunction() {
   }else if (common.game=="wordSoundMatch")
   {
 
-    if(wordSoundMatchObj.counter<(learnObj.totalLenght-1))
+    if(wordSoundMatchObj.counter<(learnObj.totalLength-1))
     {
       wordSoundMatchObj.counter++;
       wordGen(wordSoundMatchObj.counter);
