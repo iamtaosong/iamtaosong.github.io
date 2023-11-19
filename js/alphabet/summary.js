@@ -842,4 +842,26 @@ SpellingOrderObj.spelling.addEventListener("click", function(){
  
 });
 
+ document.getElementById("video0").addEventListener("click",function(){
 
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/hq3yfQnllfQ?si=N_trdSgVY7q4jcgX";
+  
+});
+
+document.getElementById("video1").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/kDdg2M1_EuE?si=aa6tXIS-Q8_oEIid";
+  
+});
+
+document.getElementById("video2").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/2n4enj6YMnw?si=9Vz7hfiVc884J3nE";
+  
+});
+
+document.getElementById("video3").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ehGj4TFYknw?si=TzNB3dzHxuBhFxQg";
+  
+});
