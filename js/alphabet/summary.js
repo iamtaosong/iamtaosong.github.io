@@ -187,7 +187,7 @@ const letterSoundMatchObj = {
   list0: null,
   list1: null,
   letterSoundMatch: document.getElementById("letterSoundMatch"),
-  letterSoundMatchContent: `<div class="card">
+  letterSoundMatchContent: `<div class="card border-0 highlight">
                               <div class="my-5 h2">
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
@@ -580,7 +580,7 @@ function checkResult()
   {
     for(let i=0; i< LetterOrderObj.droppableElements.length-1; i++)
     {
-      if(LetterOrderObj.droppableElements[i].innerText<LetterOrderObj.droppableElements[i+1].innerText)
+      if(LetterOrderObj.droppableElements[i].innerText<=LetterOrderObj.droppableElements[i+1].innerText)
       {
 
       }else

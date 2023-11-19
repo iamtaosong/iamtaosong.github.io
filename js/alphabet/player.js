@@ -174,7 +174,7 @@ const contents4 = [contentItem20,contentItem21,contentItem22,contentItem23,conte
 const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4"];
 
 const letterSoundMatchContent = `
-<div class="card border border-0">
+<div class="card border-0 highlight">
   <div class="my-5 h2">
     <div class="form-check form-check-inline">
       <input class="form-check-input" type="radio" name="letter" id="letter1" value="">
@@ -232,7 +232,7 @@ const letterSoundMatchContent = `
 `;
 
 const spellingContent =`
-<div class="card border border-0">
+<div class="card border-0">
 
   <div class="row justify-content-center my-5">
     <div class="col-4">
@@ -322,12 +322,11 @@ const letterOrderContent =`
    
    </div>
 
-    <button id="checkResult" type="button" style="width: 50%;" class="btn rounded-pill py-2 px-3 my-3 shadow practicebuttoncolor border-0">
-      <span class="text-white">Play again</span> 
-      <i class="bi bi-hand-index-thumb text-white">
-
-      </i>    
+    <button id="checkResult" type="button" style="width: 50%;" class="btn btn-light rounded-pill py-2 px-3 my-3 shadow backgroundcolor1">
+    <span >Play again</span> 
+    <i class="bi bi-hand-index-thumb text-danger" style='font-size:24px;'></i>    
     </button>
+
   </div> 
 </div> 
 `;
@@ -653,8 +652,12 @@ function buildletterSoundMatch()
 
   for(let i=0; i< letterList.length;i++)
   {
-    list0[i].value=letterList[i].alphabet.charAt(0);
-    list1[i].innerText=letterList[i].alphabet.charAt(0);
+    if(i<=4)
+    {
+      list0[i].value=letterList[i].alphabet.charAt(0);
+      list1[i].innerText=letterList[i].alphabet.charAt(0)
+    }
+   ;
   }
   testSoundFile.setAttribute("src",letterList[0].soundfile);
   myAudio.load();
@@ -729,7 +732,7 @@ function checkResult()
   {
     for(let i=0; i< droppableElements.length-1; i++)
     {
-      if(droppableElements[i].innerText<droppableElements[i+1].innerText)
+      if(droppableElements[i].innerText<=droppableElements[i+1].innerText)
       {
 
       }else
@@ -741,11 +744,9 @@ function checkResult()
 
     if(flag==false)
     {
-      console.log("well done");
       document.getElementById("showResult").innerHTML=goodResult;
     }else{
       document.getElementById("showResult").innerHTML=poorResult;
-      console.log("try again");
     }
   }
  
@@ -758,7 +759,7 @@ function drop(ev) {
   {
     ev.target.appendChild(document.getElementById(data)); 
   }else{
-    console.log("has data in here");
+ 
   }
   checkResult();
 }
@@ -801,7 +802,11 @@ function buildletterOrder(){
 
   for(let i=0; i< letterList.length;i++)
   {
-    draggableElements[i].innerText=letterList[i].alphabet.charAt(0);
+    if(i<=4)
+    {
+      draggableElements[i].innerText=letterList[i].alphabet.charAt(0);
+    }
+  
   }
 
   draggableElements.forEach(elem => {

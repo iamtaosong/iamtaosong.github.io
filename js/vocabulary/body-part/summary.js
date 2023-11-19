@@ -208,7 +208,7 @@ const wordSoundMatchObj = {
   list0: null,
   list1: null,
   wordSoundMatch: document.getElementById("wordSoundMatch"),
-  wordSoundMatchContent: `<div class="card">
+  wordSoundMatchContent: `<div class="card highlight">
                               <div class="my-5 h2">
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
@@ -273,7 +273,7 @@ const soundImageMatchObj = {
   list1: null,
   picture: null,
   soundImageMatch: document.getElementById("soundImageMatch"),
-  soundImageMatchContent: `<div class="card">
+  soundImageMatchContent: `<div class="card highlight">
                               <div class="my-3 h2">
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
