@@ -1,192 +1,117 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "Head",
-  sound: "/hed/",
-  Image: "../../../asset/image/body-part/head.jpg",
-  soundfile: "../../../asset/audio/body-part/head.mp3"
+  word: "Red",
+  sound: "/red/",
+  setting: "background-color: #FF0000; width: 100px; height: 100px",
+  soundfile: "../../../asset/audio/color/red.mp3"
 };
 
 const contentItem1 = {
-  word: "Hair",
-  sound: "/heər/",
-  Image: "../../../asset/image/body-part/hair.jpg",
-  soundfile: "../../../asset/audio/body-part/hair.mp3"
+  word: "Blue",
+  sound: "/bluː/",
+  setting: "background-color: #0000FF; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/blue.mp3"
 };
 
 const contentItem2 = {
-  word: "Eye",
-  sound: "/aɪ/",
-  Image: "../../../asset/image/body-part/eye.jpg",
-  soundfile: "../../../asset/audio/body-part/eye.mp3"
+  word: "Yellow",
+  sound: "/ˈjel.əʊ/",
+  setting: "background-color: #FFFF00; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/yellow.mp3"
 };
 
 const contentItem3 = {
-  word: "Eyebrow",
-  sound: "/aɪ.braʊ/",
-  Image: "../../../asset/image/body-part/eyebrow.jpg",
-  soundfile: "../../../asset/audio//body-part/eyebrow.mp3"
+  word: "Green",
+  sound: "/ɡriːn/",
+  setting: "background-color: #008000; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/green.mp3"
 };
 
-
 const contentItem4 = {
-  word: "Ear",
-  sound: "/ɪər/",
-  Image: "../../../asset/image/body-part/ear.jpg",
-  soundfile: "../../../asset/audio/body-part/ear.mp3"
+  word: "Orange",
+  sound: "ˈɒr.ɪndʒ",
+  setting: "background-color: #FFA500; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/orange.mp3"
 };
 
 const contentItem5 = {
-  word: "Nose",
+  word: "Purple",
   sound: "/nəʊz/",
-  Image: "../../../asset/image/body-part/nose.jpg",
-  soundfile: "../../../asset/audio/body-part/nose.mp3"
+  setting: "background-color: #FFA500; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/orange.mp3"
 };
 
 const contentItem6 = {
-  word: "Lip",
+  word: "Black",
   sound: "/lip/",
-  Image: "../../../asset/image/body-part/lip.jpg",
-  soundfile: "../../../asset/audio/body-part/lip.mp3"
+  setting: "background-color: #FFA500; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/orange.mp3"
 };
 
 
 const contentItem7 = {
-  word: "Mouth",
+  word: "White",
   sound: "/maʊθ/",
-  Image: "../../../asset/image/body-part/mouth.jpg",
-  soundfile: "../../../asset/audio/body-part/mouth.mp3"
+  setting: "background-color: #FFA500; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/orange.mp3"
 };
 
 const contentItem8 = {
-  word: "Teeth",
+  word: "Pink",
   sound: "/tiːθ/",
-  Image: "../../../asset/image/body-part/teeth.jpg",
-  soundfile: "../../../asset/audio/body-part/teeth.mp3"
+  setting: "background-color: #FFA500; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/orange.mp3"
 };
 
 const contentItem9 = {
-  word: "Tongue",
+  word: "Gray",
   sound: "/tʌŋ/",
-  Image: "../../../asset/image/body-part/tongue.jpg",
-  soundfile: "../../../asset/audio/body-part/tongue.mp3"
+  setting: "background-color: #FFA500; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/orange.mp3"
 };
 
 
 const contentItem10 = {
-  word: "Neck",
+  word: "Brown",
   sound: "/nek/",
-  Image: "../../../asset/image/body-part/neck.jpg",
-  soundfile: "../../../asset/audio/body-part/neck.mp3"
+  setting: "background-color: #FFA500; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/orange.mp3"
 };
 
 const contentItem11 = {
-  word: "Arm",
+  word: "Silver",
   sound: "/el/",
-  Image: "../../../asset/image/body-part/arm.jpg",
-  soundfile: "../../../asset/audio/body-part/arm.mp3"
+  setting: "background-color: #FFA500; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/orange.mp3"
 };
 
 const contentItem12 = {
-  word: "Hand",
+  word: "Gold",
   sound: "/em/",
-  Image: "../../../asset/image/body-part/hand.jpg",
-  soundfile: "../../../asset/audio/body-part/hand.mp3"
+  setting: "background-color: #FFA500; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/orange.mp3"
 };
 
 const contentItem13 = {
   word: "Finger",
   sound: "/ˈfɪŋ.ɡər/",
-  Image: "../../../asset/image/body-part/finger.jpg",
-  soundfile: "../../../asset/audio/body-part/finger.mp3"
+  setting: "background-color: #FFA500; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/orange.mp3"
 };
 
 const contentItem14 = {
   word: "Fist",
   sound: "/fist/",
-  Image: "../../../asset/image/body-part/fist.jpg",
-  soundfile: "../../../asset/audio/body-part/fist.mp3"
+  setting: "background-color: #FFA500; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/orange.mp3"
 };
-
-const contentItem15 = {
-  word: "Fingernail",
-  sound: "/fɪŋ.ɡə.neɪl/",
-  Image: "../../../asset/image/body-part/fingernail.jpg",
-  soundfile: "../../../asset/audio/body-part/fingernail.mp3"
-};
-
-
-
-const contentItem16 = {
-  word: "Foot",
-  sound: "/fuːt/",
-  Image: "../../../asset/image/body-part/foot.jpg",
-  soundfile: "../../../asset/audio/body-part/foot.mp3"
-};
-
-const contentItem17 = {
-  word: "Leg",
-  sound: "/leg/",
-  Image: "../../../asset/image/body-part/leg.jpg",
-  soundfile: "../../../asset/audio/body-part/leg.mp3"
-};
-
-const contentItem18 = {
-  word: "Toe",
-  sound: "/təʊ/",
-  Image: "../../../asset/image/body-part/toe.jpg",
-  soundfile: "../../../asset/audio/body-part/toe.mp3"
-};
-
-const contentItem19 = {
-  word: "Knee",
-  sound: "/ni:/",
-  Image: "../../../asset/image/body-part/knee.jpg",
-  soundfile: "../../../asset/audio/body-part/knee.mp3"
-};
-
-const contentItem20 = {
-  word: "Boy",
-  sound: "/bɔɪ:/",
-  Image: "../../../asset/image/body-part/boy.jpg",
-  soundfile: "../../../asset/audio/body-part/boy.mp3"
-};
-
-
-const contentItem21 = {
-  word: "Girl",
-  sound: "/ɡɜːl/",
-  Image: "../../../asset/image/body-part/girl.jpg",
-  soundfile: "../../../asset/audio/body-part/girl.mp3"
-};
-
-const contentItem22 = {
-  word: "Front",
-  sound: "/frʌnt/",
-  Image: "../../../asset/image/body-part/front.jpg",
-  soundfile: "../../../asset/audio/body-part/front.mp3"
-};
-
-const contentItem23 = {
-  word: "Back",
-  sound: "/bæk/",
-  Image: "../../../asset/image/body-part/back.jpg",
-  soundfile: "../../../asset/audio/body-part/back.mp3"
-};
-
-const contentItem24 = {
-  word: "Shoulder",
-  sound: "/ʃəʊl.dər/",
-  Image: "../../../asset/image/body-part/shoulder.jpg",
-  soundfile: "../../../asset/audio/body-part/shoulder.mp3"
-}
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
 const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14];
-const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,contentItem19];
-const contents4 = [contentItem20,contentItem21,contentItem22,contentItem23,contentItem24]; 
-const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4"];
+
+const lessons = ["lesson-0","lesson-1","lesson-2"];
 
 const common ={
   testPreviousBtn: null,
@@ -201,7 +126,6 @@ const common ={
 }
 
 const learnObj = {
-
   previous: document.getElementById("previous"),
   next: document.getElementById("next"),
   content: document.getElementById("content"),
@@ -362,15 +286,6 @@ window.addEventListener("load", function(e){
 
     learnObj.letterList=contents2;
 
-  }else if(pathname.includes(lessons[3]))
-  {
-
-    learnObj.letterList=contents3;
-
-  }else if(pathname.includes(lessons[4]))
-  {
-
-    learnObj.letterList=contents4;
   }
  
   learnObj.totalLenght=learnObj.letterList.length;
@@ -378,11 +293,10 @@ window.addEventListener("load", function(e){
 
 function loadData()
 {
- 
   learnObj.content.innerText=learnObj.letterList[learnObj.counter].word;
   learnObj.sound.innerText=learnObj.letterList[learnObj.counter].sound
   learnObj.soundfile.setAttribute("src",learnObj.letterList[learnObj.counter].soundfile); 
-  learnObj.picture.setAttribute("src",learnObj.letterList[learnObj.counter].Image);
+  learnObj.picture.setAttribute("style",learnObj.letterList[learnObj.counter].setting);
   learnObj.myAudio.load();
 }
 
