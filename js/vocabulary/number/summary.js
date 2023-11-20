@@ -558,3 +558,26 @@ wordOrderObj.wordOrder.addEventListener("click", function(){
  
 });  */
 
+document.getElementById("video0").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ShqXL-zfLxY?si=cibtBjcPa9EZ0vUh";
+  
+});
+
+document.getElementById("video1").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/Aq4UAss33qA?si=uMLHgyxCfo9NaQFF";
+  
+});
+
+document.getElementById("video2").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/VNRNAloCb5Y?si=jSPI0KnY1CxIHZIo";
+  
+});
+
+document.getElementById("video3").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/DR-cfDsHCGA?si=evKl7ebyESsJ3P4V";
+  
+});

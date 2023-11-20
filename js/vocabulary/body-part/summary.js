@@ -637,3 +637,27 @@ soundImageMatchObj.soundImageMatch.addEventListener("click",function() {
   }
 
 });
+
+document.getElementById("video0").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/h4eueDYPTIg?si=F28ivrFziOcy_8Mw";
+  
+});
+
+document.getElementById("video1").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ZanHgPprl-0?si=IPHd31g3rVSqWIVI";
+  
+});
+
+document.getElementById("video2").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/R1Hrkqep8nU?si=RRnUmn0_-frqTfwE";
+  
+});
+
+document.getElementById("video3").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/SUt8q0EKbms?si=L3bhrsCGcBS8Wny9";
+  
+});
