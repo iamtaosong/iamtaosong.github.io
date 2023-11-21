@@ -71,47 +71,10 @@ const contentItem9 = {
   soundfile:  "../../../asset/audio/color/gray.mp3"
 };
 
-
-const contentItem10 = {
-  word: "Brown",
-  sound: "/nek/",
-  setting: "background-color: #FFA500; width: 100px; height: 100px",
-  soundfile:  "../../../asset/audio/color/orange.mp3"
-};
-
-const contentItem11 = {
-  word: "Silver",
-  sound: "/el/",
-  setting: "background-color: #FFA500; width: 100px; height: 100px",
-  soundfile:  "../../../asset/audio/color/orange.mp3"
-};
-
-const contentItem12 = {
-  word: "Gold",
-  sound: "/em/",
-  setting: "background-color: #FFA500; width: 100px; height: 100px",
-  soundfile:  "../../../asset/audio/color/orange.mp3"
-};
-
-const contentItem13 = {
-  word: "Finger",
-  sound: "/ˈfɪŋ.ɡər/",
-  setting: "background-color: #FFA500; width: 100px; height: 100px",
-  soundfile:  "../../../asset/audio/color/orange.mp3"
-};
-
-const contentItem14 = {
-  word: "Fist",
-  sound: "/fist/",
-  setting: "background-color: #FFA500; width: 100px; height: 100px",
-  soundfile:  "../../../asset/audio/color/orange.mp3"
-};
-
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
-const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14];
 
-const lessons = ["lesson-0","lesson-1","lesson-2"];
+const lessons = ["lesson-0","lesson-1"];
 
 const common ={
   testPreviousBtn: null,
