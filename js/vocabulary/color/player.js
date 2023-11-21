@@ -37,38 +37,38 @@ const contentItem4 = {
 
 const contentItem5 = {
   word: "Purple",
-  sound: "/nəʊz/",
-  setting: "background-color: #FFA500; width: 100px; height: 100px",
-  soundfile:  "../../../asset/audio/color/orange.mp3"
+  sound: "/pɜː.pəl/",
+  setting: "background-color: #800080; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/purple.mp3"
 };
 
 const contentItem6 = {
   word: "Black",
-  sound: "/lip/",
-  setting: "background-color: #FFA500; width: 100px; height: 100px",
-  soundfile:  "../../../asset/audio/color/orange.mp3"
+  sound: "/blæk/",
+  setting: "background-color: #000000; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/black.mp3"
 };
 
 
 const contentItem7 = {
   word: "White",
-  sound: "/maʊθ/",
-  setting: "background-color: #FFA500; width: 100px; height: 100px",
-  soundfile:  "../../../asset/audio/color/orange.mp3"
+  sound: "/waɪt/",
+  setting: "background-color: #FFFFFF; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/white.mp3"
 };
 
 const contentItem8 = {
   word: "Pink",
-  sound: "/tiːθ/",
-  setting: "background-color: #FFA500; width: 100px; height: 100px",
-  soundfile:  "../../../asset/audio/color/orange.mp3"
+  sound: "/pɪŋk/",
+  setting: "background-color: #FFC0CB; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/pink.mp3"
 };
 
 const contentItem9 = {
   word: "Gray",
-  sound: "/tʌŋ/",
-  setting: "background-color: #FFA500; width: 100px; height: 100px",
-  soundfile:  "../../../asset/audio/color/orange.mp3"
+  sound: "/ɡreɪ/",
+  setting: "background-color: #808080; width: 100px; height: 100px",
+  soundfile:  "../../../asset/audio/color/gray.mp3"
 };
 
 
@@ -212,9 +212,9 @@ const wordImageMatchObj = {
   picture: null,
   wordImageMatch: document.getElementById("wordImageMatch"),
   wordImageMatchContent: `<div class="card highlight">
-                              <div class="my-3">
-                                <img id="wordImageMatchPicture" src="../../../asset/image/28732095_7480523.svg" width="100" height="100" alt="">
-                              </div>
+                            <div class="my-3 d-flex justify-content-center">
+                              <div id="wordImageMatchPicture" class="border border-5 border-black rounded-circle" style="background-color: #800080; width: 100px; height: 100px;"></div>
+                            </div>
                               <div class="my-3 h2">
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
@@ -332,7 +332,7 @@ function testNextBtnFunction() {
     if(wordImageMatchObj.counter<(learnObj.totalLenght-1))
     {
       wordImageMatchObj.counter++;
-      wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
+      wordImageMatchObj.picture.setAttribute("style",learnObj.letterList[wordImageMatchObj.counter].setting);
       common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
     }
 
@@ -360,7 +360,7 @@ function testPreviousBtnFunction() {
     if(wordImageMatchObj.counter>0)
     {
       wordImageMatchObj.counter--;
-      wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
+      wordImageMatchObj.picture.setAttribute("style",learnObj.letterList[wordImageMatchObj.counter].setting);
       common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
     }
 
@@ -498,7 +498,7 @@ function buildWordImageMatch()
     wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].word;
   }
   wordImageMatchObj.picture=document.getElementById("wordImageMatchPicture");
-  wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[0].Image);
+  wordImageMatchObj.picture.setAttribute("style",learnObj.letterList[learnObj.counter].setting);
   common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
   common.testAudio.load();
 }
