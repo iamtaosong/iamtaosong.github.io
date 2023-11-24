@@ -32,160 +32,85 @@ const contentItem3 = {
 
 const contentItem4 = {
   word: "Pentagon",
-  sound: "/ɪər/",
+  sound: "/ˈpen.tə.ɡən/",
   Image: "../../../asset/image/shape/pentagon.jpg",
   soundfile: "../../../asset/audio/shape/pentagon.mp3"
 };
 
 const contentItem5 = {
-  word: "Nose",
-  sound: "/nəʊz/",
-  Image: "../../../asset/image/body-part/nose.jpg",
-  soundfile: "../../../asset/audio/body-part/nose.mp3"
+  word: "Hexagon",
+  sound: "/hek.sə.ɡən/",
+  Image: "../../../asset/image/shape/hexagon.jpg",
+  soundfile: "../../../asset/audio/shape/hexagon.mp3"
 };
 
 const contentItem6 = {
-  word: "Lip",
-  sound: "/lip/",
-  Image: "../../../asset/image/body-part/lip.jpg",
-  soundfile: "../../../asset/audio/body-part/lip.mp3"
+  word: "Octagon",
+  sound: "/ˈɒk.tə.ɡən/",
+  Image: "../../../asset/image/shape/octagon.png",
+  soundfile: "../../../asset/audio/shape/octagon.mp3"
 };
 
 const contentItem7 = {
-  word: "Mouth",
-  sound: "/maʊθ/",
-  Image: "../../../asset/image/body-part/mouth.jpg",
-  soundfile: "../../../asset/audio/body-part/mouth.mp3"
+  word: "Oval",
+  sound: "/ˈəʊ.vəl/",
+  Image: "../../../asset/image/shape/oval.jpg",
+  soundfile: "../../../asset/audio/shape/oval.mp3"
 };
 
 const contentItem8 = {
-  word: "Teeth",
-  sound: "/tiːθ/",
-  Image: "../../../asset/image/body-part/teeth.jpg",
-  soundfile: "../../../asset/audio/body-part/teeth.mp3"
+  word: "Star",
+  sound: "/stɑːr/",
+  Image: "../../../asset/image/shape/star.jpg",
+  soundfile: "../../../asset/audio/shape/star.mp3"
 };
 
 const contentItem9 = {
-  word: "Tongue",
-  sound: "/tʌŋ/",
-  Image: "../../../asset/image/body-part/tongue.jpg",
-  soundfile: "../../../asset/audio/body-part/tongue.mp3"
+  word: "Heart",
+  sound: "/hɑːt/",
+  Image: "../../../asset/image/shape/heart.jpg",
+  soundfile: "../../../asset/audio/shape/heart.mp3"
 };
 
 
 const contentItem10 = {
-  word: "Neck",
-  sound: "/nek/",
-  Image: "../../../asset/image/body-part/neck.jpg",
-  soundfile: "../../../asset/audio/body-part/neck.mp3"
+  word: "Diamond",
+  sound: "/daɪə.mənd/",
+  Image: "../../../asset/image/shape/diamond.jpg",
+  soundfile: "../../../asset/audio/shape/diamond.mp3"
 };
 
 const contentItem11 = {
-  word: "Arm",
-  sound: "/el/",
-  Image: "../../../asset/image/body-part/arm.jpg",
-  soundfile: "../../../asset/audio/body-part/arm.mp3"
+  word: "Crescent ",
+  sound: "/ˈkres.ənt/",
+  Image: "../../../asset/image/shape/crescent.jpg",
+  soundfile: "../../../asset/audio/shape/crescent.mp3"
 };
 
 const contentItem12 = {
-  word: "Hand",
-  sound: "/em/",
-  Image: "../../../asset/image/body-part/hand.jpg",
-  soundfile: "../../../asset/audio/body-part/hand.mp3"
+  word: "Cross",
+  sound: "/krɒs/",
+  Image: "../../../asset/image/shape/cross.jpg",
+  soundfile: "../../../asset/audio/shape/cross.mp3"
 };
 
 const contentItem13 = {
-  word: "Finger",
-  sound: "/ˈfɪŋ.ɡər/",
-  Image: "../../../asset/image/body-part/finger.jpg",
-  soundfile: "../../../asset/audio/body-part/finger.mp3"
+  word: "Semicircle",
+  sound: "/ˈsem.iˌsɜː.kəl/",
+  Image: "../../../asset/image/shape/semicircle.jpg",
+  soundfile: "../../../asset/audio/shape/semicircle.mp3"
 };
 
 const contentItem14 = {
-  word: "Fist",
-  sound: "/fist/",
-  Image: "../../../asset/image/body-part/fist.jpg",
-  soundfile: "../../../asset/audio/body-part/fist.mp3"
+  word: "Trapezoid",
+  sound: "/ˈtræp.ɪ.zɔɪd/",
+  Image: "../../../asset/image/shape/trapezoid.jpg",
+  soundfile: "../../../asset/audio/shape/trapezoid.mp3"
 };
-
-const contentItem15 = {
-  word: "Fingernail",
-  sound: "/fɪŋ.ɡə.neɪl/",
-  Image: "../../../asset/image/body-part/fingernail.jpg",
-  soundfile: "../../../asset/audio/body-part/fingernail.mp3"
-};
-
-
-
-const contentItem16 = {
-  word: "Foot",
-  sound: "/fuːt/",
-  Image: "../../../asset/image/body-part/foot.jpg",
-  soundfile: "../../../asset/audio/body-part/foot.mp3"
-};
-
-const contentItem17 = {
-  word: "Leg",
-  sound: "/leg/",
-  Image: "../../../asset/image/body-part/leg.jpg",
-  soundfile: "../../../asset/audio/body-part/leg.mp3"
-};
-
-const contentItem18 = {
-  word: "Toe",
-  sound: "/təʊ/",
-  Image: "../../../asset/image/body-part/toe.jpg",
-  soundfile: "../../../asset/audio/body-part/toe.mp3"
-};
-
-const contentItem19 = {
-  word: "Knee",
-  sound: "/ni:/",
-  Image: "../../../asset/image/body-part/knee.jpg",
-  soundfile: "../../../asset/audio/body-part/knee.mp3"
-};
-
-const contentItem20 = {
-  word: "Boy",
-  sound: "/bɔɪ:/",
-  Image: "../../../asset/image/body-part/boy.jpg",
-  soundfile: "../../../asset/audio/body-part/boy.mp3"
-};
-
-
-const contentItem21 = {
-  word: "Girl",
-  sound: "/ɡɜːl/",
-  Image: "../../../asset/image/body-part/girl.jpg",
-  soundfile: "../../../asset/audio/body-part/girl.mp3"
-};
-
-const contentItem22 = {
-  word: "Front",
-  sound: "/frʌnt/",
-  Image: "../../../asset/image/body-part/front.jpg",
-  soundfile: "../../../asset/audio/body-part/front.mp3"
-};
-
-const contentItem23 = {
-  word: "Back",
-  sound: "/bæk/",
-  Image: "../../../asset/image/body-part/back.jpg",
-  soundfile: "../../../asset/audio/body-part/back.mp3"
-};
-
-const contentItem24 = {
-  word: "Shoulder",
-  sound: "/ʃəʊl.dər/",
-  Image: "../../../asset/image/body-part/shoulder.jpg",
-  soundfile: "../../../asset/audio/body-part/shoulder.mp3"
-}
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
-const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14];
-const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,contentItem19];
-const contents4 = [contentItem20,contentItem21,contentItem22,contentItem23,contentItem24]; 
+const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14]; 
 const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4"];
 
 const common ={
