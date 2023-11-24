@@ -135,7 +135,7 @@ const wordSoundMatchObj = {
   list0: null,
   list1: null,
   wordSoundMatch: document.getElementById("wordSoundMatch"),
-  wordSoundMatchContent: `<div class="card highlight">
+  wordSoundMatchContent: `<div class="card highlight border-0">
                               <div class="my-5 h2">
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
@@ -200,7 +200,7 @@ const soundImageMatchObj = {
   list1: null,
   picture: null,
   soundImageMatch: document.getElementById("soundImageMatch"),
-  soundImageMatchContent: `<div class="card highlight">
+  soundImageMatchContent: `<div class="card highlight border-0">
                               <div class="my-3 h2">
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
@@ -567,24 +567,24 @@ soundImageMatchObj.soundImageMatch.addEventListener("click",function() {
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/h4eueDYPTIg?si=F28ivrFziOcy_8Mw";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/VdzzE20zQC8?si=Ez4uKTVtuWiuRBe1";
   
 });
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ZanHgPprl-0?si=IPHd31g3rVSqWIVI";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/pZ8gZ3PxgLc?si=BsUaQpfES9Vq9D7j";
   
 });
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/R1Hrkqep8nU?si=RRnUmn0_-frqTfwE";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/lcl8uB2AWM0?si=2e805iD8nrYwCEXa";
   
 });
 
 document.getElementById("video3").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/SUt8q0EKbms?si=L3bhrsCGcBS8Wny9";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/xJxq0kR8yNc?si=mh8MuErngKZvGO_h";
   
 });
