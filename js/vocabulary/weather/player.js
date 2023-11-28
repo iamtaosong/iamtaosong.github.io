@@ -1,117 +1,152 @@
 "use strict"; 
 const pathname=window.location.pathname;
-
 const contentItem0 = {
-  word: "Circle",
-  sound: "/ˈsɜː.kəl/",
-  Image: "../../../asset/image/shape/circle.jpg",
-  soundfile: "../../../asset/audio/shape/circle.mp3"
+  word: "sunny",
+  sound: "/ˈsʌn.i/",
+  Image: "../../../asset/image/weather/sunny.jpg",
+  soundfile: "../../../asset/audio/weather/sunny.mp3"
 };
 
 const contentItem1 = {
-  word: "Square",
-  sound: "/skweər/",
-  Image: "../../../asset/image/shape/square.jpg",
-  soundfile: "../../../asset/audio/shape/square.mp3"
+  word: "cloudy",
+  sound: "/ˈklaʊ.di/",
+  Image: "../../../asset/image/weather/cloudy.jpg",
+  soundfile: "../../../asset/audio/weather/cloudy.mp3"
 };
 
 const contentItem2 = {
-  word: "Rectangle",
-  sound: "/rek.tæŋ.ɡəl/",
-  Image: "../../../asset/image/shape/rectangle.png",
-  soundfile: "../../../asset/audio/shape/rectangle.mp3"
+  word: "rainy",
+  sound: "/ˈreɪ.ni/",
+  Image: "../../../asset/image/weather/rainy.jpg",
+  soundfile: "../../../asset/audio/weather/rainy.mp3"
 };
 
 const contentItem3 = {
-  word: "Triangle",
-  sound: "/ˈtraɪ.æŋ.ɡəl/",
-  Image: "../../../asset/image/shape/triangle.jpg",
-  soundfile: "../../../asset/audio/shape/triangle.mp3"
+  word: "snowy",
+  sound: "/ˈsnəʊ.i/",
+  Image: "../../../asset/image/weather/snowy.jpg",
+  soundfile: "../../../asset/audio/weather/snowy.mp3"
 };
 
 
 const contentItem4 = {
-  word: "Pentagon",
-  sound: "/ˈpen.tə.ɡən/",
-  Image: "../../../asset/image/shape/pentagon.jpg",
-  soundfile: "../../../asset/audio/shape/pentagon.mp3"
+  word: "windy",
+  sound: "/ˈwɪn.di/",
+  Image: "../../../asset/image/weather/windy.jpg",
+  soundfile: "../../../asset/audio/weather/windy.mp3"
 };
 
 const contentItem5 = {
-  word: "Hexagon",
-  sound: "/hek.sə.ɡən/",
-  Image: "../../../asset/image/shape/hexagon.jpg",
-  soundfile: "../../../asset/audio/shape/hexagon.mp3"
+  word: "stormy",
+  sound: "/ˈstɔː.mi/",
+  Image: "../../../asset/image/weather/stormy.jpg",
+  soundfile: "../../../asset/audio/weather/stormy.mp3"
 };
 
 const contentItem6 = {
-  word: "Octagon",
-  sound: "/ˈɒk.tə.ɡən/",
-  Image: "../../../asset/image/shape/octagon.png",
-  soundfile: "../../../asset/audio/shape/octagon.mp3"
+  word: "sleet",
+  sound: "/sliːt/",
+  Image: "../../../asset/image/weather/sleet.jpg",
+  soundfile: "../../../asset/audio/weather/sleet.mp3"
 };
 
 const contentItem7 = {
-  word: "Oval",
-  sound: "/ˈəʊ.vəl/",
-  Image: "../../../asset/image/shape/oval.jpg",
-  soundfile: "../../../asset/audio/shape/oval.mp3"
+  word: "hot",
+  sound: "/hɒt/",
+  Image: "../../../asset/image/weather/hot.jpg",
+  soundfile: "../../../asset/audio/weather/hot.mp3"
 };
 
 const contentItem8 = {
-  word: "Star",
-  sound: "/stɑːr/",
-  Image: "../../../asset/image/shape/star.jpg",
-  soundfile: "../../../asset/audio/shape/star.mp3"
+  word: "cold",
+  sound: "/kəʊld/",
+  Image: "../../../asset/image/weather/cold.jpg",
+  soundfile: "../../../asset/audio/weather/cold.mp3"
 };
 
 const contentItem9 = {
-  word: "Heart",
-  sound: "/hɑːt/",
-  Image: "../../../asset/image/shape/heart.jpg",
-  soundfile: "../../../asset/audio/shape/heart.mp3"
+  word: "humid",
+  sound: "/ˈhjuː.mɪd/",
+  Image: "../../../asset/image/weather/humid.jpg",
+  soundfile: "../../../asset/audio/weather/humid.mp3"
 };
 
 
 const contentItem10 = {
-  word: "Diamond",
-  sound: "/daɪə.mənd/",
-  Image: "../../../asset/image/shape/diamond.jpg",
-  soundfile: "../../../asset/audio/shape/diamond.mp3"
+  word: "sun",
+  sound: "/sʌn/",
+  Image: "../../../asset/image/weather/sun.jpg",
+  soundfile: "../../../asset/audio/weather/sun.mp3"
 };
 
 const contentItem11 = {
-  word: "Crescent ",
-  sound: "/ˈkres.ənt/",
-  Image: "../../../asset/image/shape/crescent.jpg",
-  soundfile: "../../../asset/audio/shape/crescent.mp3"
+  word: "moon",
+  sound: "/muːn/",
+  Image: "../../../asset/image/weather/moon.jpg",
+  soundfile: "../../../asset/audio/weather/moon.mp3"
 };
 
 const contentItem12 = {
-  word: "Cross",
-  sound: "/krɒs/",
-  Image: "../../../asset/image/shape/cross.jpg",
-  soundfile: "../../../asset/audio/shape/cross.mp3"
+  word: "snow",
+  sound: "/snəʊ/",
+  Image: "../../../asset/image/weather/snow.jpg",
+  soundfile: "../../../asset/audio/weather/snow.mp3"
 };
 
 const contentItem13 = {
-  word: "Semicircle",
-  sound: "/ˈsem.iˌsɜː.kəl/",
-  Image: "../../../asset/image/shape/semicircle.jpg",
-  soundfile: "../../../asset/audio/shape/semicircle.mp3"
+  word: "rain",
+  sound: "/reɪn/",
+  Image: "../../../asset/image/weather/rain.jpg",
+  soundfile: "../../../asset/audio/weather/rain.mp3"
 };
 
 const contentItem14 = {
-  word: "Trapezoid",
-  sound: "/ˈtræp.ɪ.zɔɪd/",
-  Image: "../../../asset/image/shape/trapezoid.jpg",
-  soundfile: "../../../asset/audio/shape/trapezoid.mp3"
+  word: "rainbow",
+  sound: "/ˈreɪn.bəʊ/",
+  Image: "../../../asset/image/weather/rainbow.jpg",
+  soundfile: "../../../asset/audio/weather/rainbow.mp3"
+};
+
+const contentItem15 = {
+  word: "cyclone",
+  sound: "/ˈsaɪ.kləʊn/",
+  Image: "../../../asset/image/weather/cyclone.jpg",
+  soundfile: "../../../asset/audio/weather/cyclone.mp3"
+};
+
+const contentItem16 = {
+  word: "lightning",
+  sound: "/ˈlaɪt.nɪŋ/",
+  Image: "../../../asset/image/weather/lightning.jpg",
+  soundfile: "../../../asset/audio/weather/lightning.mp3"
+};
+
+const contentItem17 = {
+  word: "icicle",
+  sound: "/ˈaɪ.sɪ.kəl/",
+  Image: "../../../asset/image/weather/icicle.jpg",
+  soundfile: "../../../asset/audio/weather/icicle.mp3"
+};
+
+const contentItem18 = {
+  word: "foggy",
+  sound: "/ˈfɒɡ.i/",
+  Image: "../../../asset/image/weather/foggy.jpg",
+  soundfile: "../../../asset/audio/weather/foggy.mp3"
+};
+
+const contentItem19 = {
+  word: "icy",
+  sound: "/ˈaɪ.si/",
+  Image: "../../../asset/image/weather/icy.jpg",
+  soundfile: "../../../asset/audio/weather/icy.mp3"
 };
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
 const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14]; 
-const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4"];
+const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,contentItem19]; 
+const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3"];
 
 const common ={
   testPreviousBtn: null,
@@ -292,12 +327,7 @@ window.addEventListener("load", function(e){
 
     learnObj.letterList=contents3;
 
-  }else if(pathname.includes(lessons[4]))
-  {
-
-    learnObj.letterList=contents4;
   }
- 
   learnObj.totalLenght=learnObj.letterList.length;
 });
 
