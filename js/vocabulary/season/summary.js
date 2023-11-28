@@ -389,7 +389,7 @@ function buildwordSoundMatch()
   common.testAudio.load();
 }
 
-wordSoundMatchObj.wordSoundMatch.addEventListener("click",function() {
+/* wordSoundMatchObj.wordSoundMatch.addEventListener("click",function() {
   
   wordSoundMatchObj.counter=0;
   if(common.game=="soundImageMatch")
@@ -412,7 +412,7 @@ wordSoundMatchObj.wordSoundMatch.addEventListener("click",function() {
     }
   }
 
-});
+}); */
 
 function buildWordImageMatch()
 {
@@ -451,7 +451,7 @@ function buildWordImageMatch()
 }
 
 
-soundImageMatchObj.soundImageMatch.addEventListener("click",function() {
+/* soundImageMatchObj.soundImageMatch.addEventListener("click",function() {
   
   wordSoundMatchObj.counter=0;
   if(common.game=="wordSoundMatch")
@@ -474,11 +474,11 @@ soundImageMatchObj.soundImageMatch.addEventListener("click",function() {
     }
   }
 
-});
+}); */
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/8ZjpI6fgYSY?si=wKMkBsAtBUdBCXdG";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/8ZjpI6fgYSY?si=k-TCzuoPnVKDnkLu";
   
 });
 
