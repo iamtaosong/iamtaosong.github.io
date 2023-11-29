@@ -386,3 +386,6 @@ huanxiongedu
 kidsfunenglish.com
 justfunenglish.com
 easykidsenglish.com
+https://kidvideo.org/video/family-finger-house-song-dream-english-kids-i44209.html
+https://kidvideo.org/
+https://kidsclubenglish.com/song-playlists/family-songs/
