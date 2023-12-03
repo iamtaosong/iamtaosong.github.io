@@ -143,7 +143,6 @@ function wordGenProcess(i,index)
   for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
   {
     let m =Math.floor(Math.random()*learnObj.totalLength);
-    console.log("m "+m);
     wordSoundMatchObj.list0[k].value=learnObj.letterList[m].word;
     wordSoundMatchObj.list1[k].innerText=learnObj.letterList[m].word;
   }

@@ -34,6 +34,24 @@ https://www.prodigygame.com/main-en/
 https://learn.khanacademy.org/khan-academy-kids/
 https://dictionary.cambridge.org/plus/quiz/image/food-and-drink2_1
 
+https://m.pdfdrive.com.pk/6358/?fbclid=IwAR2lqXRdz-4DKWt_EG6cFjmibxYGsZ9kdaAVAr83WOIDB1ZIM-SVYsssbrU
+
+
+kidsfunenglish.com
+justfunenglish.com
+easykidsenglish.com
+https://kidvideo.org/video/family-finger-house-song-dream-english-kids-i44209.html
+https://kidvideo.org/
+https://kidsclubenglish.com/song-playlists/family-songs/
+
+//english books downlaod website
+https://english.worksheethouse.com/pdf-books/3720/?
+https://sania.worksheetpoint.com/
+https://library.fimsschools.com/
+
+english.worksheethouse.com
+fbclid=IwAR2TUyJz1s-i25LslSg-0Ev0lWavleTYRSQjeDYvQLRAKH3KkPdjHL_0mws
+
 https://static.tildacdn.com/tild6631-6537-4335-a432-373932353038/reshenie_bg_blue.svg
 
 https://uk.fimsschools.com/
@@ -45,7 +63,12 @@ https://www.elrawyy.com/
 https://www.listening.io/#pricing
 
 
-
+english with games
+https://www.fredisalearns.com/unit-1-classroom-commands/
+https://www.eslgamesplus.com/english-courses-for-kids/
+https://www.eslgamesplus.com/
+https://pixijs.com/
+https://www.gamestolearnenglish.com/
 icon size 24*24 or 30*30
 1024*768
 800*600
@@ -383,9 +406,3 @@ google anyalytics account
 huanxiongedu
 
 
-kidsfunenglish.com
-justfunenglish.com
-easykidsenglish.com
-https://kidvideo.org/video/family-finger-house-song-dream-english-kids-i44209.html
-https://kidvideo.org/
-https://kidsclubenglish.com/song-playlists/family-songs/

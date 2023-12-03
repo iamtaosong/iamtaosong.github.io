@@ -296,7 +296,6 @@ function wordGenProcess(i,index)
   for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
   {
     let m =Math.floor(Math.random()*learnObj.totalLength);
-    console.log("m "+m);
     wordSoundMatchObj.list0[k].value=learnObj.letterList[m].word;
     wordSoundMatchObj.list1[k].innerText=learnObj.letterList[m].word;
   }
@@ -600,7 +599,7 @@ soundImageMatchObj.soundImageMatch.addEventListener("click",function() {
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/KBL5aXSJTlE?si=p1LiFlfJnqrD_d3R";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/YC1HfRDWwQQ?si=p9lavbN4zaiHFVpP";
   
 });
 
