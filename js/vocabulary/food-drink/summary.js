@@ -141,8 +141,44 @@ const contentItem19 = {
   soundfile: "../../../asset/audio/food-drink/water.mp3"
 };
 
+const contentItem20 = {
+  word: "coke",
+  sound: "/kəʊk/",
+  Image: "../../../asset/image/food-drink/coke.jpg",
+  soundfile: "../../../asset/audio/food-drink/coke.mp3"
+};
+
+const contentItem21 = {
+  word: "soda",
+  sound: "/ˈsəʊ.də/",
+  Image: "../../../asset/image/food-drink/soda.jpg",
+  soundfile: "../../../asset/audio/food-drink/soda.mp3"
+};
+
+const contentItem22 = {
+  word: "milk tea",
+  sound: "/mɪlk tiː/",
+  Image: "../../../asset/image/food-drink/milk-tea.jpg",
+  soundfile: "../../../asset/audio/food-drink/milk-tea.mp3"
+};
+
+const contentItem23 = {
+  word: "ice cream",
+  sound: "/ˌaɪs ˈkriːm/",
+  Image: "../../../asset/image/food-drink/ice-cream.jpg",
+  soundfile: "../../../asset/audio/food-drink/ice-cream.mp3"
+};
+
+const contentItem24 = {
+  word: "yogurt",
+  sound: "/ˈjɒɡ.ət/",
+  Image: "../../../asset/image/food-drink/yogurt.jpg",
+  soundfile: "../../../asset/audio/food-drink/yogurt.mp3"
+};
+
+
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
-  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19];
+  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,contentItem20,contentItem21,contentItem22,contentItem23,contentItem24];
 
 const common ={
   testPreviousBtn: null,
@@ -599,24 +635,19 @@ soundImageMatchObj.soundImageMatch.addEventListener("click",function() {
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/YC1HfRDWwQQ?si=p9lavbN4zaiHFVpP";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/A_AJrtGtC3Y?si=8UDr5CrmGgkcPyd5";
   
 });
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/CXKj7bm4Ops?si=seMq5_GUAWNb7lhm";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/y6MM_21MH08?si=CN_72Zbi5ehnCXdE";
   
 });
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/KUSbazn3STo?si=qiPcxGE8FrsrQkbL";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/nqwxYlix7Fw?si=2ZrXj3MxksMorgMy";
   
 });
 
-document.getElementById("video3").addEventListener("click",function(){
-
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/xJxq0kR8yNc?si=mh8MuErngKZvGO_h";
-  
-});

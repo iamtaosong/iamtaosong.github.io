@@ -141,11 +141,48 @@ const contentItem19 = {
   soundfile: "../../../asset/audio/food-drink/water.mp3"
 };
 
+const contentItem20 = {
+  word: "coke",
+  sound: "/kəʊk/",
+  Image: "../../../asset/image/food-drink/coke.jpg",
+  soundfile: "../../../asset/audio/food-drink/coke.mp3"
+};
+
+const contentItem21 = {
+  word: "soda",
+  sound: "/ˈsəʊ.də/",
+  Image: "../../../asset/image/food-drink/soda.jpg",
+  soundfile: "../../../asset/audio/food-drink/soda.mp3"
+};
+
+const contentItem22 = {
+  word: "milk tea",
+  sound: "/mɪlk tiː/",
+  Image: "../../../asset/image/food-drink/milk-tea.jpg",
+  soundfile: "../../../asset/audio/food-drink/milk-tea.mp3"
+};
+
+const contentItem23 = {
+  word: "ice cream",
+  sound: "/ˌaɪs ˈkriːm/",
+  Image: "../../../asset/image/food-drink/ice-cream.jpg",
+  soundfile: "../../../asset/audio/food-drink/ice-cream.mp3"
+};
+
+const contentItem24 = {
+  word: "yogurt",
+  sound: "/ˈjɒɡ.ət/",
+  Image: "../../../asset/image/food-drink/yogurt.jpg",
+  soundfile: "../../../asset/audio/food-drink/yogurt.mp3"
+};
+
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
 const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14]; 
 const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,contentItem19]; 
-const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3"];
+const contents4 = [contentItem20,contentItem21,contentItem22,contentItem23,contentItem24]; 
+
+const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4"];
 
 const common ={
   testPreviousBtn: null,
@@ -325,6 +362,11 @@ window.addEventListener("load", function(e){
   {
 
     learnObj.letterList=contents3;
+
+  } else if(pathname.includes(lessons[4]))
+  {
+
+    learnObj.letterList=contents4;
 
   }
   learnObj.totalLenght=learnObj.letterList.length;
