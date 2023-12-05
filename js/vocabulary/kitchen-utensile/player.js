@@ -1,179 +1,179 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "chicken",
-  sound: "/ˈtʃɪk.ɪn/",
-  Image: "../../../asset/image/food-drink/chicken.jpg",
-  soundfile: "../../../asset/audio/food-drink/chicken.mp3"
+  word: "knife",
+  sound: "/naɪf/",
+  Image: "../../../asset/image/kitchen-utensile/knife.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/knife.mp3"
 };
 
 const contentItem1 = {
-  word: "beef",
-  sound: "/biːf/",
-  Image: "../../../asset/image/food-drink/beef.jpg",
-  soundfile: "../../../asset/audio/food-drink/beef.mp3"
+  word: "plate",
+  sound: "/pleɪt/",
+  Image: "../../../asset/image/kitchen-utensile/plate.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/plate.mp3"
 };
 
 const contentItem2 = {
-  word: "lamb",
-  sound: "/læm/",
-  Image: "../../../asset/image/food-drink/lamb.jpg",
-  soundfile: "../../../asset/audio/food-drink/lamb.mp3"
+  word: "fork",
+  sound: "/fɔːk/",
+  Image: "../../../asset/image/kitchen-utensile/fork.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/fork.mp3"
 };
 
 const contentItem3 = {
-  word: "pork",
-  sound: "/pɔːk/",
-  Image: "../../../asset/image/food-drink/pork.jpg",
-  soundfile: "../../../asset/audio/food-drink/pork.mp3"
+  word: "chopstick",
+  sound: "/ˈtʃɒp.stɪk/",
+  Image: "../../../asset/image/kitchen-utensile/chopstick.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/chopstick.mp3"
 };
 
 
 const contentItem4 = {
-  word: "turkey",
-  sound: "/ˈtɜː.ki/",
-  Image: "../../../asset/image/food-drink/turkey.jpg",
-  soundfile: "../../../asset/audio/food-drink/turkey.mp3"
+  word: "spoon",
+  sound: "/spuːn/",
+  Image: "../../../asset/image/kitchen-utensile/spoon.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/spoon.mp3"
 };
 
 const contentItem5 = {
-  word: "sandwich",
-  sound: "/ˈsæn.wɪdʒ/",
-  Image: "../../../asset/image/food-drink/sandwich.jpg",
-  soundfile: "../../../asset/audio/food-drink/sandwich.mp3"
+  word: "glass",
+  sound: "/ɡlɑːs/",
+  Image: "../../../asset/image/kitchen-utensile/glass.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/glass.mp3"
 };
 
 const contentItem6 = {
-  word: "pizza",
-  sound: "/ˈpiːt.sə/",
-  Image: "../../../asset/image/food-drink/pizza.jpg",
-  soundfile: "../../../asset/audio/food-drink/pizza.mp3"
+  word: "cup",
+  sound: "/kʌp/",
+  Image: "../../../asset/image/kitchen-utensile/cup.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/cup.mp3"
 };
 
 const contentItem7 = {
-  word: "burger",
-  sound: "/ˈbɜː.ɡər/",
-  Image: "../../../asset/image/food-drink/burger.jpg",
-  soundfile: "../../../asset/audio/food-drink/burger.mp3"
+  word: "spatula",
+  sound: "/ˈspætʃ.ə.lə/",
+  Image: "../../../asset/image/kitchen-utensile/spatula.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/spatula.mp3"
 };
 
 const contentItem8 = {
-  word: "rice",
-  sound: "/raɪs/",
-  Image: "../../../asset/image/food-drink/rice.jpg",
-  soundfile: "../../../asset/audio/food-drink/rice.mp3"
+  word: "whisk",
+  sound: "/wɪsk/",
+  Image: "../../../asset/image/kitchen-utensile/whisk.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/whisk.mp3"
 };
 
 const contentItem9 = {
-  word: "noodle",
+  word: "ladle",
   sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/food-drink/noodle.jpg",
-  soundfile: "../../../asset/audio/food-drink/noodle.mp3"
+  Image: "../../../asset/image/kitchen-utensile/ladle.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/ladle.mp3"
 };
 
 const contentItem10 = {
-  word: "tomato",
-  sound: "/təˈmɑː.təʊ/",
-  Image: "../../../asset/image/food-drink/tomato.jpg",
-  soundfile: "../../../asset/audio/food-drink/tomato.mp3"
+  word: "peeler",
+  sound: "/ˈpiː.lər/",
+  Image: "../../../asset/image/kitchen-utensile/peeler.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/peeler.mp3"
 };
 
 const contentItem11 = {
-  word: "pepper",
-  sound: "/ˈpep.ər/",
-  Image: "../../../asset/image/food-drink/pepper.jpg",
-  soundfile: "../../../asset/audio/food-drink/pepper.mp3"
+  word: "grater",
+  sound: "/ˈɡreɪ.tər",
+  Image: "../../../asset/image/kitchen-utensile/grater.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/grater.mp3"
 };
 
 const contentItem12 = {
-  word: "carrot",
-  sound: "/snəʊ/",
-  Image: "../../../asset/image/food-drink/carrot.jpg",
-  soundfile: "../../../asset/audio/food-drink/carrot.mp3"
+  word: "bowl",
+  sound: "/bəʊl/",
+  Image: "../../../asset/image/kitchen-utensile/bowl.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/bowl.mp3"
 };
 
 const contentItem13 = {
-  word: "mushroom",
-  sound: "/ˈmʌʃ.ruːm/",
-  Image: "../../../asset/image/food-drink/mushroom.jpg",
-  soundfile: "../../../asset/audio/food-drink/mushroom.mp3"
+  word: "cutting board",
+  sound: "/ˈkʌt.ɪŋ ˌbɔːd/",
+  Image: "../../../asset/image/kitchen-utensile/cutting-board.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/cutting-board.mp3"
 };
 
 const contentItem14 = {
-  word: "broccoli",
-  sound: "/ˈbrɒk.əl.i/",
-  Image: "../../../asset/image/food-drink/broccoli.jpg",
-  soundfile: "../../../asset/audio/food-drink/broccoli.mp3"
+  word: "colander",
+  sound: "/ˈkɒl.ən.dər",
+  Image: "../../../asset/image/kitchen-utensile/colander.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/colander.mp3"
 };
 
 const contentItem15 = {
-  word: "milk",
-  sound: "/mɪlk/",
-  Image: "../../../asset/image/food-drink/milk.jpg",
-  soundfile: "../../../asset/audio/food-drink/milk.mp3"
+  word: "tongs",
+  sound: "/tɒŋz/",
+  Image: "../../../asset/image/kitchen-utensile/tongs.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/tongs.mp3"
 };
 
 const contentItem16 = {
-  word: "juice",
-  sound: "/dʒuːs/",
-  Image: "../../../asset/image/food-drink/juice.jpg",
-  soundfile: "../../../asset/audio/food-drink/juice.mp3"
+  word: "bottle",
+  sound: "/ˈbɒt.əl/",
+  Image: "../../../asset/image/kitchen-utensile/bottle.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/bottle.mp3"
 };
 
 const contentItem17 = {
-  word: "coffee",
-  sound: "/ˈkɒf.i/",
-  Image: "../../../asset/image/food-drink/coffee.jpg",
-  soundfile: "../../../asset/audio/food-drink/coffee.mp3"
+  word: "rolling pin",
+  sound: "/ˈrəʊ.lɪŋˌpɪn/",
+  Image: "../../../asset/image/kitchen-utensile/rolling-pin.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/rolling-pin.mp3"
 };
 
 const contentItem18 = {
-  word: "tea",
-  sound: "/tiː/",
-  Image: "../../../asset/image/food-drink/tea.jpg",
-  soundfile: "../../../asset/audio/food-drink/tea.mp3"
+  word: "kettle",
+  sound: "/ˈket.əl/",
+  Image: "../../../asset/image/kitchen-utensile/kettle.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/kettle.mp3"
 };
 
 const contentItem19 = {
-  word: "water",
-  sound: "/ˈwɔː.tər/",
-  Image: "../../../asset/image/food-drink/water.jpg",
-  soundfile: "../../../asset/audio/food-drink/water.mp3"
+  word: "pot",
+  sound: "/pɒt/",
+  Image: "../../../asset/image/kitchen-utensile/pot.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/pot.mp3"
 };
 
 const contentItem20 = {
-  word: "coke",
-  sound: "/kəʊk/",
-  Image: "../../../asset/image/food-drink/coke.jpg",
-  soundfile: "../../../asset/audio/food-drink/coke.mp3"
+  word: "fridge",
+  sound: "/frɪdʒ/",
+  Image: "../../../asset/image/kitchen-utensile/fridge.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/fridge.mp3"
 };
 
 const contentItem21 = {
-  word: "soda",
-  sound: "/ˈsəʊ.də/",
-  Image: "../../../asset/image/food-drink/soda.jpg",
-  soundfile: "../../../asset/audio/food-drink/soda.mp3"
+  word: "mitt",
+  sound: "/mit/",
+  Image: "../../../asset/image/kitchen-utensile/mitt.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/mitt.mp3"
 };
 
 const contentItem22 = {
-  word: "milk tea",
-  sound: "/mɪlk tiː/",
-  Image: "../../../asset/image/food-drink/milk-tea.jpg",
-  soundfile: "../../../asset/audio/food-drink/milk-tea.mp3"
+  word: "frying pan",
+  sound: "/ˈfraɪ.ɪŋˌpæn/",
+  Image: "../../../asset/image/kitchen-utensile/frying-pan.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/frying-pan.mp3"
 };
 
 const contentItem23 = {
-  word: "ice cream",
-  sound: "/ˌaɪs ˈkriːm/",
-  Image: "../../../asset/image/food-drink/ice-cream.jpg",
-  soundfile: "../../../asset/audio/food-drink/ice-cream.mp3"
+  word: "microwave",
+  sound: "/ˈmaɪ.krə.weɪv/",
+  Image: "../../../asset/image/kitchen-utensile/microwave.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/microwave.mp3"
 };
 
 const contentItem24 = {
-  word: "yogurt",
-  sound: "/ˈjɒɡ.ət/",
-  Image: "../../../asset/image/food-drink/yogurt.jpg",
-  soundfile: "../../../asset/audio/food-drink/yogurt.mp3"
+  word: "apron",
+  sound: "/ˈeɪ.prən/",
+  Image: "../../../asset/image/kitchen-utensile/apron.jpg",
+  soundfile: "../../../asset/audio/kitchen-utensile/apron.mp3"
 };
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
