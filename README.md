@@ -48,6 +48,9 @@ https://kidsclubenglish.com/song-playlists/family-songs/
 https://english.worksheethouse.com/pdf-books/3720/?
 https://sania.worksheetpoint.com/
 https://library.fimsschools.com/
+https://h.fimsschools.com/the-complete-book-of-phonics/
+https://learning-english-online01.blogspot.com/p/4000-essential-english-words-book-6-pdf.html
+
 
 english.worksheethouse.com
 fbclid=IwAR2TUyJz1s-i25LslSg-0Ev0lWavleTYRSQjeDYvQLRAKH3KkPdjHL_0mws

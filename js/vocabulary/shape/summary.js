@@ -1,28 +1,28 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "Circle",
+  word: "circle",
   sound: "/ˈsɜː.kəl/",
   Image: "../../../asset/image/shape/circle.jpg",
   soundfile: "../../../asset/audio/shape/circle.mp3"
 };
 
 const contentItem1 = {
-  word: "Square",
+  word: "square",
   sound: "/skweər/",
   Image: "../../../asset/image/shape/square.jpg",
   soundfile: "../../../asset/audio/shape/square.mp3"
 };
 
 const contentItem2 = {
-  word: "Rectangle",
+  word: "rectangle",
   sound: "/rek.tæŋ.ɡəl/",
   Image: "../../../asset/image/shape/rectangle.png",
   soundfile: "../../../asset/audio/shape/rectangle.mp3"
 };
 
 const contentItem3 = {
-  word: "Triangle",
+  word: "triangle",
   sound: "/ˈtraɪ.æŋ.ɡəl/",
   Image: "../../../asset/image/shape/triangle.jpg",
   soundfile: "../../../asset/audio/shape/triangle.mp3"
@@ -30,42 +30,42 @@ const contentItem3 = {
 
 
 const contentItem4 = {
-  word: "Pentagon",
+  word: "pentagon",
   sound: "/ˈpen.tə.ɡən/",
   Image: "../../../asset/image/shape/pentagon.jpg",
   soundfile: "../../../asset/audio/shape/pentagon.mp3"
 };
 
 const contentItem5 = {
-  word: "Hexagon",
+  word: "hexagon",
   sound: "/hek.sə.ɡən/",
   Image: "../../../asset/image/shape/hexagon.jpg",
   soundfile: "../../../asset/audio/shape/hexagon.mp3"
 };
 
 const contentItem6 = {
-  word: "Octagon",
+  word: "octagon",
   sound: "/ˈɒk.tə.ɡən/",
   Image: "../../../asset/image/shape/octagon.png",
   soundfile: "../../../asset/audio/shape/octagon.mp3"
 };
 
 const contentItem7 = {
-  word: "Oval",
+  word: "oval",
   sound: "/ˈəʊ.vəl/",
   Image: "../../../asset/image/shape/oval.jpg",
   soundfile: "../../../asset/audio/shape/oval.mp3"
 };
 
 const contentItem8 = {
-  word: "Star",
+  word: "star",
   sound: "/stɑːr/",
   Image: "../../../asset/image/shape/star.jpg",
   soundfile: "../../../asset/audio/shape/star.mp3"
 };
 
 const contentItem9 = {
-  word: "Heart",
+  word: "heart",
   sound: "/hɑːt/",
   Image: "../../../asset/image/shape/heart.jpg",
   soundfile: "../../../asset/audio/shape/heart.mp3"
@@ -73,40 +73,39 @@ const contentItem9 = {
 
 
 const contentItem10 = {
-  word: "Diamond",
+  word: "diamond",
   sound: "/daɪə.mənd/",
   Image: "../../../asset/image/shape/diamond.jpg",
   soundfile: "../../../asset/audio/shape/diamond.mp3"
 };
 
 const contentItem11 = {
-  word: "Crescent ",
+  word: "crescent ",
   sound: "/ˈkres.ənt/",
   Image: "../../../asset/image/shape/crescent.jpg",
   soundfile: "../../../asset/audio/shape/crescent.mp3"
 };
 
 const contentItem12 = {
-  word: "Cross",
+  word: "cross",
   sound: "/krɒs/",
   Image: "../../../asset/image/shape/cross.jpg",
   soundfile: "../../../asset/audio/shape/cross.mp3"
 };
 
 const contentItem13 = {
-  word: "Semicircle",
+  word: "semicircle",
   sound: "/ˈsem.iˌsɜː.kəl/",
   Image: "../../../asset/image/shape/semicircle.jpg",
   soundfile: "../../../asset/audio/shape/semicircle.mp3"
 };
 
 const contentItem14 = {
-  word: "Trapezoid",
+  word: "trapezoid",
   sound: "/ˈtræp.ɪ.zɔɪd/",
   Image: "../../../asset/image/shape/trapezoid.jpg",
   soundfile: "../../../asset/audio/shape/trapezoid.mp3"
 };
-
 
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
   contentItem10,contentItem11,contentItem12,contentItem13,contentItem14];
