@@ -66,6 +66,10 @@ https://www.elrawyy.com/
 https://www.listening.io/#pricing
 
 
+AI animation
+https://www.youtube.com/watch?v=SeGNUfnAv8U
+
+
 english with games
 https://www.fredisalearns.com/unit-1-classroom-commands/
 https://www.eslgamesplus.com/english-courses-for-kids/
