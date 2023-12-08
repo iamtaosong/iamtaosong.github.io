@@ -89,21 +89,21 @@ const contentItem12 = {
   word: "have a nice day",
   sound: "/bəʊl/",
   Image: "../../../asset/image/simple-sentence/boy.jpg",
-  soundfile: "../../../asset/audio/simple-sentence/have-a-nice-day.mp3"
+  soundfile: "../../../asset/audio/simple-sentence/niceday.mp3"
 };
 
 const contentItem13 = {
   word: "can you help me?",
   sound: "/ˈkʌt.ɪŋ ˌbɔːd/",
   Image: "../../../asset/image/simple-sentence/boy.jpg",
-  soundfile: "../../../asset/audio/simple-sentence/can-you-help-me.mp3"
+  soundfile: "../../../asset/audio/simple-sentence/help.mp3"
 };
 
 const contentItem14 = {
   word: "I need help",
   sound: "/ˈkɒl.ən.dər",
   Image: "../../../asset/image/simple-sentence/boy.jpg",
-  soundfile: "../../../asset/audio/simple-sentence/I-need-help.mp3"
+  soundfile: "../../../asset/audio/simple-sentence/needhelp.mp3"
 };
 
 const contentItem15 = {
