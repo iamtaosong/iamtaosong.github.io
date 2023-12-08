@@ -3,177 +3,177 @@ const pathname=window.location.pathname;
 const contentItem0 = {
   word: "good morning",
   sound: "/naɪf/",
-  Image: "../../../asset/image/kitchen-utensile/knife.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/knife.mp3"
+  Image: "../../../asset/image/simple-sentence/good-morning.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/good-morning.mp3"
 };
 
 const contentItem1 = {
   word: "good afternoon",
   sound: "/pleɪt/",
-  Image: "../../../asset/image/kitchen-utensile/plate.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/plate.mp3"
+  Image: "../../../asset/image/simple-sentence/good-afternoon.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/good-afternoon.mp3"
 };
 
 const contentItem2 = {
   word: "good evening",
   sound: "/fɔːk/",
-  Image: "../../../asset/image/kitchen-utensile/fork.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/fork.mp3"
+  Image: "../../../asset/image/simple-sentence/good-evening.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/good-evening.mp3"
 };
 
 const contentItem3 = {
   word: "good night",
   sound: "/ˈtʃɒp.stɪk/",
-  Image: "../../../asset/image/kitchen-utensile/chopstick.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/chopstick.mp3"
+  Image: "../../../asset/image/simple-sentence/good-night.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/good-night.mp3"
 };
 
 
 const contentItem4 = {
-  word: "how are you",
+  word: "how are you？",
   sound: "/spuːn/",
-  Image: "../../../asset/image/kitchen-utensile/spoon.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/spoon.mp3"
+  Image: "../../../asset/image/simple-sentence/girl.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/how-are-you.mp3"
 };
 
 const contentItem5 = {
   word: "nice to meet you",
   sound: "/ɡlɑːs/",
-  Image: "../../../asset/image/kitchen-utensile/glass.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/glass.mp3"
+  Image: "../../../asset/image/simple-sentence/girl.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/nice-to-meet-you.mp3"
 };
 
 const contentItem6 = {
   word: "what's your name",
   sound: "/kʌp/",
-  Image: "../../../asset/image/kitchen-utensile/cup.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/cup.mp3"
+  Image: "../../../asset/image/simple-sentence/girl.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/what's-your-name.mp3"
 };
 
 const contentItem7 = {
-  word: "my name is john",
+  word: "my name is Grace",
   sound: "/ˈspætʃ.ə.lə/",
-  Image: "../../../asset/image/kitchen-utensile/spatula.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/spatula.mp3"
+  Image: "../../../asset/image/simple-sentence/girl.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/my-name-is-grace.mp3"
 };
 
 const contentItem8 = {
   word: "excuse me",
   sound: "/wɪsk/",
-  Image: "../../../asset/image/kitchen-utensile/whisk.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/whisk.mp3"
+  Image: "../../../asset/image/simple-sentence/girl.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/excuse-me.mp3"
 };
 
 const contentItem9 = {
   word: "thank you",
   sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/kitchen-utensile/ladle.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/ladle.mp3"
+  Image: "../../../asset/image/simple-sentence/girl.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/thank-you.mp3"
 };
 
 const contentItem10 = {
   word: "I am sorry",
   sound: "/ˈpiː.lər/",
-  Image: "../../../asset/image/kitchen-utensile/peeler.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/peeler.mp3"
+  Image: "../../../asset/image/simple-sentence/boy.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/sorry.mp3"
 };
 
 const contentItem11 = {
   word: "goodbye",
   sound: "/ˈɡreɪ.tər",
-  Image: "../../../asset/image/kitchen-utensile/grater.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/grater.mp3"
+  Image: "../../../asset/image/simple-sentence/boy.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/goodbye.mp3"
 };
 
 const contentItem12 = {
   word: "have a nice day",
   sound: "/bəʊl/",
-  Image: "../../../asset/image/kitchen-utensile/bowl.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/bowl.mp3"
+  Image: "../../../asset/image/simple-sentence/boy.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/have-a-nice-day.mp3"
 };
 
 const contentItem13 = {
   word: "can you help me?",
   sound: "/ˈkʌt.ɪŋ ˌbɔːd/",
-  Image: "../../../asset/image/kitchen-utensile/cutting-board.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/cutting-board.mp3"
+  Image: "../../../asset/image/simple-sentence/boy.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/can-you-help-me.mp3"
 };
 
 const contentItem14 = {
   word: "I need help",
   sound: "/ˈkɒl.ən.dər",
-  Image: "../../../asset/image/kitchen-utensile/colander.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/colander.mp3"
+  Image: "../../../asset/image/simple-sentence/boy.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/I-need-help.mp3"
 };
 
 const contentItem15 = {
   word: "I am thirsty",
   sound: "/tɒŋz/",
-  Image: "../../../asset/image/kitchen-utensile/tongs.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/tongs.mp3"
+  Image: "../../../asset/image/simple-sentence/thirsty.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/thirsty.mp3"
 };
 
 const contentItem16 = {
   word: "I am hungry",
   sound: "/ˈbɒt.əl/",
-  Image: "../../../asset/image/kitchen-utensile/bottle.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/bottle.mp3"
+  Image: "../../../asset/image/simple-sentence/hungry.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/hungry.mp3"
 };
 
 const contentItem17 = {
   word: "I am happy",
   sound: "/ˈrəʊ.lɪŋˌpɪn/",
-  Image: "../../../asset/image/kitchen-utensile/rolling-pin.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/rolling-pin.mp3"
+  Image: "../../../asset/image/simple-sentence/happy.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/happy.mp3"
 };
 
 const contentItem18 = {
   word: "I am sad",
   sound: "/ˈket.əl/",
-  Image: "../../../asset/image/kitchen-utensile/kettle.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/kettle.mp3"
+  Image: "../../../asset/image/simple-sentence/sad.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/sad.mp3"
 };
 
 const contentItem19 = {
   word: "I am tired",
   sound: "/pɒt/",
-  Image: "../../../asset/image/kitchen-utensile/pot.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/pot.mp3"
+  Image: "../../../asset/image/simple-sentence/tired.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/tired.mp3"
 };
 
 const contentItem20 = {
   word: "take a bite",
   sound: "/frɪdʒ/",
-  Image: "../../../asset/image/kitchen-utensile/fridge.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/fridge.mp3"
+  Image: "../../../asset/image/simple-sentence/bite.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/bite.mp3"
 };
 
 const contentItem21 = {
   word: "take a sip",
   sound: "/mit/",
-  Image: "../../../asset/image/kitchen-utensile/mitt.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/mitt.mp3"
+  Image: "../../../asset/image/simple-sentence/sip.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/sip.mp3"
 };
 
 const contentItem22 = {
   word: "It is hot",
   sound: "/ˈfraɪ.ɪŋˌpæn/",
-  Image: "../../../asset/image/kitchen-utensile/frying-pan.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/frying-pan.mp3"
+  Image: "../../../asset/image/simple-sentence/hot.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/hot.mp3"
 };
 
 const contentItem23 = {
   word: "It is cold",
   sound: "/ˈmaɪ.krə.weɪv/",
-  Image: "../../../asset/image/kitchen-utensile/microwave.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/microwave.mp3"
+  Image: "../../../asset/image/simple-sentence/cold.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/cold.mp3"
 };
 
 const contentItem24 = {
-  word: "welcome",
+  word: "you are welcome",
   sound: "/ˈeɪ.prən/",
-  Image: "../../../asset/image/kitchen-utensile/apron.jpg",
-  soundfile: "../../../asset/audio/kitchen-utensile/apron.mp3"
+  Image: "../../../asset/image/simple-sentence/boy.jpg",
+  soundfile: "../../../asset/audio/simple-sentence/welcome.mp3"
 };
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
@@ -376,7 +376,7 @@ function loadData()
 {
  
   learnObj.content.innerText=learnObj.letterList[learnObj.counter].word;
-  learnObj.sound.innerText=learnObj.letterList[learnObj.counter].sound
+  // learnObj.sound.innerText=learnObj.letterList[learnObj.counter].sound
   learnObj.soundfile.setAttribute("src",learnObj.letterList[learnObj.counter].soundfile); 
   learnObj.picture.setAttribute("src",learnObj.letterList[learnObj.counter].Image);
   learnObj.myAudio.load();
