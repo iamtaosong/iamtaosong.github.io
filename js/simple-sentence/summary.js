@@ -634,25 +634,25 @@ function buildWordImageMatch()
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/Z8lqXEIukhc?si=8avx0KHbcaOG2vTs";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/gghDRJVxFxU?si=3gu2nEnkRcqlfLiy";
   
 });
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/i1Pa0TAoX_k?si=RtukgWiqaaK8g89z";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/mebfKDQ4dLo?si=orR76Olz0Moe8I6J";
   
 });
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/qpYD_nCo-AU?si=1KsIRP5ghHVfn6hw";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/tVlcKp3bWH8?si=Vb9YSRbI7Bcg2Y2C";
   
 });
 
 document.getElementById("video3").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/c4SEW8QADoQ?si=OJk1mAq8NUeK0nSR";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/Z8lqXEIukhc?si=8avx0KHbcaOG2vTs";
   
 });
 
