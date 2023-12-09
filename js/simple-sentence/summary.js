@@ -186,8 +186,8 @@ const common ={
   game: null,
   testSection: document.getElementById("testSection"),
   letterSelected: false,
-  goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`
+  goodResult: `<img src="../../asset/image/happy.png" alt="happy--v1"/>`,
+  poorResult: `<img src="../../asset/image/sad.png" alt="happy--v1"/>`
 }
 
 const learnObj = {
