@@ -414,3 +414,10 @@ google anyalytics account
 huanxiongedu
 
 
+english ideas
+1) baisc sentences 
+2) Q&A ocnversations
+3) AI chats
+4) idoms
+5) daily stories (free usual one + paied AI 3D animation?)
+6) 
