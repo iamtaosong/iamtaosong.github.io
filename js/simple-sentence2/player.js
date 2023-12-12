@@ -1,179 +1,179 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "good morning",
+  word: "get up",
   sound: "/naɪf/",
-  Image: "../../asset/image/simple-sentence/good-morning.jpg",
-  soundfile: "../../asset/audio/simple-sentence/good-morning.mp3"
+  Image: "../../asset/image/simple-sentence2/up.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/getup.mp3"
 };
 
 const contentItem1 = {
-  word: "good afternoon",
+  word: "get dressed",
   sound: "/pleɪt/",
-  Image: "../../asset/image/simple-sentence/good-afternoon.jpg",
-  soundfile: "../../asset/audio/simple-sentence/good-afternoon.mp3"
+  Image: "../../asset/image/simple-sentence2/dress.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/dress.mp3"
 };
 
 const contentItem2 = {
-  word: "good evening",
+  word: "wash your face",
   sound: "/fɔːk/",
-  Image: "../../asset/image/simple-sentence/good-evening.jpg",
-  soundfile: "../../asset/audio/simple-sentence/good-evening.mp3"
+  Image: "../../asset/image/simple-sentence2/face.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/face.mp3"
 };
 
 const contentItem3 = {
-  word: "good night",
+  word: "brush your teeth",
   sound: "/ˈtʃɒp.stɪk/",
-  Image: "../../asset/image/simple-sentence/good-night.jpg",
-  soundfile: "../../asset/audio/simple-sentence/good-night.mp3"
+  Image: "../../asset/image/simple-sentence2/teeth.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/teeth.mp3"
 };
 
-
 const contentItem4 = {
-  word: "how are you？",
+  word: "brush your hair",
   sound: "/spuːn/",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
-  soundfile: "../../asset/audio/simple-sentence/how-are-you.mp3"
+  Image: "../../asset/image/simple-sentence2/hair.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/hair.mp3"
 };
 
 const contentItem5 = {
-  word: "nice to meet you",
+  word: "have breakfast",
   sound: "/ɡlɑːs/",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
-  soundfile: "../../asset/audio/simple-sentence/nice-to-meet-you.mp3"
+  Image: "../../asset/image/simple-sentence2/breakfast.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/breakfast.mp3"
 };
 
 const contentItem6 = {
-  word: "what's your name",
+  word: "go to school",
   sound: "/kʌp/",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
-  soundfile: "../../asset/audio/simple-sentence/what's-your-name.mp3"
+  Image: "../../asset/image/simple-sentence2/school.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/school.mp3"
 };
 
 const contentItem7 = {
-  word: "my name is Grace",
+  word: "have lunch",
   sound: "/ˈspætʃ.ə.lə/",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
-  soundfile: "../../asset/audio/simple-sentence/my-name-is-grace.mp3"
+  Image: "../../asset/image/simple-sentence2/lunch.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/lunch.mp3"
 };
 
 const contentItem8 = {
-  word: "excuse me",
+  word: "play football",
   sound: "/wɪsk/",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
-  soundfile: "../../asset/audio/simple-sentence/excuse-me.mp3"
+  Image: "../../asset/image/simple-sentence2/football.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/football.mp3"
 };
 
 const contentItem9 = {
-  word: "thank you",
+  word: "hurry up",
   sound: "/ˈnuː.dəl/",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
-  soundfile: "../../asset/audio/simple-sentence/thank-you.mp3"
+  Image: "../../asset/image/simple-sentence2/hurry.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/hurryup.mp3"
 };
 
+
 const contentItem10 = {
-  word: "I am sorry",
-  sound: "/ˈpiː.lər/",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
-  soundfile: "../../asset/audio/simple-sentence/sorry.mp3"
+  word: "take classes",
+  sound: "/ˈɡreɪ.tər",
+  Image: "../../asset/image/simple-sentence2/class.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/class.mp3"
 };
 
 const contentItem11 = {
-  word: "goodbye",
-  sound: "/ˈɡreɪ.tər",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
-  soundfile: "../../asset/audio/simple-sentence/goodbye.mp3"
+  word: "go to bed",
+  sound: "/bəʊl/",
+  Image: "../../asset/image/simple-sentence2/bed.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/bed.mp3"
 };
 
 const contentItem12 = {
-  word: "have a nice day",
-  sound: "/bəʊl/",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
-  soundfile: "../../asset/audio/simple-sentence/niceday.mp3"
+  word: "come home",
+  sound: "/ˈkʌt.ɪŋ ˌbɔːd/",
+  Image: "../../asset/image/simple-sentence2/home.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/home.mp3"
 };
 
 const contentItem13 = {
-  word: "can you help me?",
-  sound: "/ˈkʌt.ɪŋ ˌbɔːd/",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
-  soundfile: "../../asset/audio/simple-sentence/help.mp3"
+  word: "have dinner",
+  sound: "/tɒŋz/",
+  Image: "../../asset/image/simple-sentence2/dinner.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/dinner.mp3"
 };
 
 const contentItem14 = {
-  word: "I need help",
-  sound: "/ˈkɒl.ən.dər",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
-  soundfile: "../../asset/audio/simple-sentence/needhelp.mp3"
+  word: "do your homework",
+  sound: "/ˈbɒt.əl/",
+  Image: "../../asset/image/simple-sentence2/homework.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/homework.mp3"
 };
 
 const contentItem15 = {
-  word: "I am thirsty",
-  sound: "/tɒŋz/",
-  Image: "../../asset/image/simple-sentence/thirsty.jpg",
-  soundfile: "../../asset/audio/simple-sentence/thirsty.mp3"
+  word: "walk dog",
+  sound: "/ˈket.əl/",
+  Image: "../../asset/image/simple-sentence2/dog.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/dog.mp3"
 };
 
 const contentItem16 = {
-  word: "I am hungry",
-  sound: "/ˈbɒt.əl/",
-  Image: "../../asset/image/simple-sentence/hungry.jpg",
-  soundfile: "../../asset/audio/simple-sentence/hungry.mp3"
+  word: "take a shower",
+  sound: "/pɒt/",
+  Image: "../../asset/image/simple-sentence2/shower.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/shower.mp3"
 };
 
 const contentItem17 = {
-  word: "I am happy",
-  sound: "/ˈrəʊ.lɪŋˌpɪn/",
-  Image: "../../asset/image/simple-sentence/happy.jpg",
-  soundfile: "../../asset/audio/simple-sentence/happy.mp3"
+  word: "take a bath",
+  sound: "/frɪdʒ/",
+  Image: "../../asset/image/simple-sentence2/bath.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/bath.mp3"
 };
 
 const contentItem18 = {
-  word: "I am sad",
-  sound: "/ˈket.əl/",
-  Image: "../../asset/image/simple-sentence/sad.jpg",
-  soundfile: "../../asset/audio/simple-sentence/sad.mp3"
+  word: "drink water",
+  sound: "/mit/",
+  Image: "../../asset/image/simple-sentence2/water.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/water.mp3"
 };
 
 const contentItem19 = {
-  word: "I am tired",
-  sound: "/pɒt/",
-  Image: "../../asset/image/simple-sentence/tired.jpg",
-  soundfile: "../../asset/audio/simple-sentence/tired.mp3"
+  word: "ride a bike",
+  sound: "/ˈfraɪ.ɪŋˌpæn/",
+  Image: "../../asset/image/simple-sentence2/bike.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/bike.mp3"
 };
 
 const contentItem20 = {
-  word: "take a bite",
-  sound: "/frɪdʒ/",
-  Image: "../../asset/image/simple-sentence/bite.jpg",
-  soundfile: "../../asset/audio/simple-sentence/bite.mp3"
+  word: "go and play",
+  sound: "/ˈmaɪ.krə.weɪv/",
+  Image: "../../asset/image/simple-sentence2/play.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/play.mp3"
 };
 
 const contentItem21 = {
-  word: "take a sip",
-  sound: "/mit/",
-  Image: "../../asset/image/simple-sentence/sip.jpg",
-  soundfile: "../../asset/audio/simple-sentence/sip.mp3"
+  word: "I love the food",
+  sound: "/ˈeɪ.prən/",
+  Image: "../../asset/image/simple-sentence2/food.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/food.mp3"
 };
 
 const contentItem22 = {
-  word: "It is hot",
-  sound: "/ˈfraɪ.ɪŋˌpæn/",
-  Image: "../../asset/image/simple-sentence/hot.jpg",
-  soundfile: "../../asset/audio/simple-sentence/hot.mp3"
+  word: "we are friends",
+  sound: "/ˈeɪ.prən/",
+  Image: "../../asset/image/simple-sentence2/friend.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/friend.mp3"
 };
 
 const contentItem23 = {
-  word: "It is cold",
-  sound: "/ˈmaɪ.krə.weɪv/",
-  Image: "../../asset/image/simple-sentence/cold.jpg",
-  soundfile: "../../asset/audio/simple-sentence/cold.mp3"
+  word: "take school bus",
+  sound: "/ˈeɪ.prən/",
+  Image: "../../asset/image/simple-sentence2/schoolbus.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/bus.mp3"
 };
 
 const contentItem24 = {
-  word: "you are welcome",
+  word: "watch TV",
   sound: "/ˈeɪ.prən/",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
-  soundfile: "../../asset/audio/simple-sentence/welcome.mp3"
+  Image: "../../asset/image/simple-sentence2/Tv.jpg",
+  soundfile: "../../asset/audio/simple-sentence2/tv.mp3"
 };
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];

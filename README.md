@@ -421,3 +421,35 @@ english ideas
 4) idoms
 5) daily stories (free usual one + paied AI 3D animation?)
 6) 
+
+
+<img id="myImage" src="image.jpg" style="position: absolute; left: 0; transition: left 2s">
+<button onclick="moveImage()">Move Image</button>
+
+let direction = 1;
+let intervalId;
+
+function moveImage() {
+    let image = document.getElementById('myImage');
+    if (intervalId) {
+        clearInterval(intervalId);
+        intervalId = null;
+    } else {
+        intervalId = setInterval(function () {
+            let left = parseInt(image.style.left, 10);
+            if (isNaN(left)) {
+                left = 0;
+            }
+            if (left > 200) {
+                direction = -1;
+            } else if (left < 0) {
+                direction = 1;
+            }
+            image.style.left = (left + (10 * direction)) + 'px';
+        }, 100);
+    }
+}
+
+In this example, when the "Move Image" button is clicked, the moveImage function is called, which starts an interval that moves the image 10 pixels to the right every 100 milliseconds. When the image has moved more than 200 pixels to the right, it starts moving to the left. If the button is clicked again, the movement stops.
+
+This creates a continuous back and forth animation until the button is clicked again to stop it. You can adjust the values to change the speed and range of the movement.
