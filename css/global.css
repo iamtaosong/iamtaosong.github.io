@@ -39,3 +39,8 @@
   75% { color: green; }
   100% { color: red; }
 }
+
+
+.playBtn {
+  color: #FF69B4;
+}

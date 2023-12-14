@@ -1,182 +1,197 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "good morning",
-  sound: "/naɪf/",
-  Image: "../../asset/image/simple-sentence/good-morning.jpg",
-  soundfile: "../../asset/audio/simple-sentence/good-morning.mp3"
+  question: "get up",
+  answer: "/naɪf/",
+  Image: "../../asset/image/basic-conversation/up.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem1 = {
-  word: "good afternoon",
-  sound: "/pleɪt/",
-  Image: "../../asset/image/simple-sentence/good-afternoon.jpg",
-  soundfile: "../../asset/audio/simple-sentence/good-afternoon.mp3"
+  question: "get dressed",
+  answer: "/pleɪt/",
+  Image: "../../asset/image/basic-conversation/dress.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem2 = {
-  word: "good evening",
-  sound: "/fɔːk/",
-  Image: "../../asset/image/simple-sentence/good-evening.jpg",
-  soundfile: "../../asset/audio/simple-sentence/good-evening.mp3"
+  question: "wash your face",
+  answer: "/fɔːk/",
+  Image: "../../asset/image/basic-conversation/face.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem3 = {
-  word: "good night",
-  sound: "/ˈtʃɒp.stɪk/",
-  Image: "../../asset/image/simple-sentence/good-night.jpg",
-  soundfile: "../../asset/audio/simple-sentence/good-night.mp3"
+  question: "brush your teeth",
+  answer: "/ˈtʃɒp.stɪk/",
+  soundfileQ: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
-
 const contentItem4 = {
-  word: "how are you？",
-  sound: "/spuːn/",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
-  soundfile: "../../asset/audio/simple-sentence/how-are-you.mp3"
+  question: "brush your hair",
+  answer: "/spuːn/",
+  Image: "../../asset/image/basic-conversation/hair.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem5 = {
-  word: "nice to meet you",
-  sound: "/ɡlɑːs/",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
-  soundfile: "../../asset/audio/simple-sentence/nice-to-meet-you.mp3"
+  question: "have breakfast",
+  answer: "/ɡlɑːs/",
+  Image: "../../asset/image/basic-conversation/breakfast.jpg",
+  soundfile: "../../asset/audio/basic-conversation/breakfast.mp3"
 };
 
 const contentItem6 = {
-  word: "what's your name",
-  sound: "/kʌp/",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
-  soundfile: "../../asset/audio/simple-sentence/what's-your-name.mp3"
+  question: "go to school",
+  answer: "/kʌp/",
+  Image: "../../asset/image/basic-conversation/school.jpg",
+  soundfile: "../../asset/audio/basic-conversation/school.mp3"
 };
 
 const contentItem7 = {
-  word: "my name is Grace",
-  sound: "/ˈspætʃ.ə.lə/",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
-  soundfile: "../../asset/audio/simple-sentence/my-name-is-grace.mp3"
+  question: "have lunch",
+  answer: "/ˈspætʃ.ə.lə/",
+  Image: "../../asset/image/basic-conversation/lunch.jpg",
+  soundfile: "../../asset/audio/basic-conversation/lunch.mp3"
 };
 
 const contentItem8 = {
-  word: "excuse me",
-  sound: "/wɪsk/",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
-  soundfile: "../../asset/audio/simple-sentence/excuse-me.mp3"
+  question: "play football",
+  answer: "/wɪsk/",
+  Image: "../../asset/image/basic-conversation/football.jpg",
+  soundfile: "../../asset/audio/basic-conversation/football.mp3"
 };
 
 const contentItem9 = {
-  word: "thank you",
-  sound: "/ˈnuː.dəl/",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
-  soundfile: "../../asset/audio/simple-sentence/thank-you.mp3"
+  question: "hurry up",
+  answer: "/ˈnuː.dəl/",
+  Image: "../../asset/image/basic-conversation/hurry.jpg",
+  soundfile: "../../asset/audio/basic-conversation/hurryup.mp3"
 };
 
+
 const contentItem10 = {
-  word: "I am sorry",
-  sound: "/ˈpiː.lər/",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
-  soundfile: "../../asset/audio/simple-sentence/sorry.mp3"
+  question: "take classes",
+  answer: "/ˈɡreɪ.tər",
+  Image: "../../asset/image/basic-conversation/class.jpg",
+  soundfile: "../../asset/audio/basic-conversation/class.mp3"
 };
 
 const contentItem11 = {
-  word: "goodbye",
-  sound: "/ˈɡreɪ.tər",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
-  soundfile: "../../asset/audio/simple-sentence/goodbye.mp3"
+  question: "go to bed",
+  answer: "/bəʊl/",
+  Image: "../../asset/image/basic-conversation/bed.jpg",
+  soundfile: "../../asset/audio/basic-conversation/bed.mp3"
 };
 
 const contentItem12 = {
-  word: "have a nice day",
-  sound: "/bəʊl/",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
-  soundfile: "../../asset/audio/simple-sentence/niceday.mp3"
+  question: "come home",
+  answer: "/ˈkʌt.ɪŋ ˌbɔːd/",
+  Image: "../../asset/image/basic-conversation/home.jpg",
+  soundfile: "../../asset/audio/basic-conversation/home.mp3"
 };
 
 const contentItem13 = {
-  word: "can you help me?",
-  sound: "/ˈkʌt.ɪŋ ˌbɔːd/",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
-  soundfile: "../../asset/audio/simple-sentence/help.mp3"
+  question: "have dinner",
+  answer: "/tɒŋz/",
+  Image: "../../asset/image/basic-conversation/dinner.jpg",
+  soundfile: "../../asset/audio/basic-conversation/dinner.mp3"
 };
 
 const contentItem14 = {
-  word: "I need help",
-  sound: "/ˈkɒl.ən.dər",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
-  soundfile: "../../asset/audio/simple-sentence/needhelp.mp3"
+  question: "do your homework",
+  answer: "/ˈbɒt.əl/",
+  Image: "../../asset/image/basic-conversation/homework.jpg",
+  soundfile: "../../asset/audio/basic-conversation/homework.mp3"
 };
 
 const contentItem15 = {
-  word: "I am thirsty",
-  sound: "/tɒŋz/",
-  Image: "../../asset/image/simple-sentence/thirsty.jpg",
-  soundfile: "../../asset/audio/simple-sentence/thirsty.mp3"
+  question: "walk dog",
+  answer: "/ˈket.əl/",
+  Image: "../../asset/image/basic-conversation/dog.jpg",
+  soundfile: "../../asset/audio/basic-conversation/dog.mp3"
 };
 
 const contentItem16 = {
-  word: "I am hungry",
-  sound: "/ˈbɒt.əl/",
-  Image: "../../asset/image/simple-sentence/hungry.jpg",
-  soundfile: "../../asset/audio/simple-sentence/hungry.mp3"
+  question: "take a shower",
+  answer: "/pɒt/",
+  Image: "../../asset/image/basic-conversation/shower.jpg",
+  soundfile: "../../asset/audio/basic-conversation/shower.mp3"
 };
 
 const contentItem17 = {
-  word: "I am happy",
-  sound: "/ˈrəʊ.lɪŋˌpɪn/",
-  Image: "../../asset/image/simple-sentence/happy.jpg",
-  soundfile: "../../asset/audio/simple-sentence/happy.mp3"
+  question: "take a bath",
+  answer: "/frɪdʒ/",
+  Image: "../../asset/image/basic-conversation/bath.jpg",
+  soundfile: "../../asset/audio/basic-conversation/bath.mp3"
 };
 
 const contentItem18 = {
-  word: "I am sad",
-  sound: "/ˈket.əl/",
-  Image: "../../asset/image/simple-sentence/sad.jpg",
-  soundfile: "../../asset/audio/simple-sentence/sad.mp3"
+  question: "drink water",
+  answer: "/mit/",
+  Image: "../../asset/image/basic-conversation/water.jpg",
+  soundfile: "../../asset/audio/basic-conversation/water.mp3"
 };
 
 const contentItem19 = {
-  word: "I am tired",
-  sound: "/pɒt/",
-  Image: "../../asset/image/simple-sentence/tired.jpg",
-  soundfile: "../../asset/audio/simple-sentence/tired.mp3"
+  question: "ride a bike",
+  answer: "/ˈfraɪ.ɪŋˌpæn/",
+  Image: "../../asset/image/basic-conversation/bike.jpg",
+  soundfile: "../../asset/audio/basic-conversation/bike.mp3"
 };
 
 const contentItem20 = {
-  word: "take a bite",
-  sound: "/frɪdʒ/",
-  Image: "../../asset/image/simple-sentence/bite.jpg",
-  soundfile: "../../asset/audio/simple-sentence/bite.mp3"
+  question: "go and play",
+  answer: "/ˈmaɪ.krə.weɪv/",
+  Image: "../../asset/image/basic-conversation/play.jpg",
+  soundfile: "../../asset/audio/basic-conversation/play.mp3"
 };
 
 const contentItem21 = {
-  word: "take a sip",
-  sound: "/mit/",
-  Image: "../../asset/image/simple-sentence/sip.jpg",
-  soundfile: "../../asset/audio/simple-sentence/sip.mp3"
+  question: "I love the food",
+  answer: "/ˈeɪ.prən/",
+  Image: "../../asset/image/basic-conversation/food.jpg",
+  soundfile: "../../asset/audio/basic-conversation/food.mp3"
 };
 
 const contentItem22 = {
-  word: "It is hot",
-  sound: "/ˈfraɪ.ɪŋˌpæn/",
-  Image: "../../asset/image/simple-sentence/hot.jpg",
-  soundfile: "../../asset/audio/simple-sentence/hot.mp3"
+  question: "we are friends",
+  answer: "/ˈeɪ.prən/",
+  Image: "../../asset/image/basic-conversation/friend.jpg",
+  soundfile: "../../asset/audio/basic-conversation/friend.mp3"
 };
 
 const contentItem23 = {
-  word: "It is cold",
-  sound: "/ˈmaɪ.krə.weɪv/",
-  Image: "../../asset/image/simple-sentence/cold.jpg",
-  soundfile: "../../asset/audio/simple-sentence/cold.mp3"
+  question: "take school bus",
+  answer: "/ˈeɪ.prən/",
+  Image: "../../asset/image/basic-conversation/schoolbus.jpg",
+  soundfile: "../../asset/audio/basic-conversation/bus.mp3"
 };
 
 const contentItem24 = {
-  word: "you are welcome",
-  sound: "/ˈeɪ.prən/",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
-  soundfile: "../../asset/audio/simple-sentence/welcome.mp3"
+  question: "watch TV",
+  answer: "/ˈeɪ.prən/",
+  Image: "../../asset/image/basic-conversation/Tv.jpg",
+  soundfile: "../../asset/audio/basic-conversation/tv.mp3"
 };
-const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
-  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,contentItem20,contentItem21,contentItem22,contentItem23,contentItem24];
+
+const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
+const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
+const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14]; 
+const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,contentItem19]; 
+const contents4 = [contentItem20,contentItem21,contentItem22,contentItem23,contentItem24]; 
+
+const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4"];
 
 const common ={
   testPreviousBtn: null,
@@ -191,9 +206,20 @@ const common ={
 }
 
 const learnObj = {
-  letterList:contents,
-  totalLength: contents.length
+
+  previous: document.getElementById("previous"),
+  next: document.getElementById("next"),
+  content: document.getElementById("content"),
+  sound: document.getElementById("sound"),
+  soundfile: document.getElementById("soundfile"),
+  myAudio: document.getElementById("myAudio"),
+  picture:document.getElementById("picture"),
+  playBtn:document.getElementById("playBtn"),
+  counter: 0,
+  letterList:null,
+  totalLenght: null
 };
+
 
 const wordSoundMatchObj = {
   wordElementLst: null,
@@ -202,7 +228,7 @@ const wordSoundMatchObj = {
   list0: null,
   list1: null,
   wordSoundMatch: document.getElementById("wordSoundMatch"),
-  wordSoundMatchContent: `<div class="card highlight border-0">
+  wordSoundMatchContent: `<div class="card highlight">
                               <div class="my-5 h2">
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
@@ -259,39 +285,42 @@ const wordSoundMatchObj = {
 
 };
 
-const soundImageMatchObj = {
+const wordImageMatchObj = {
   wordElementLst: null,
   counter: 0,
   sectionLength: 5,
   list0: null,
   list1: null,
   picture: null,
-  soundImageMatch: document.getElementById("soundImageMatch"),
-  soundImageMatchContent: `<div class="card highlight border-0">
+  wordImageMatch: document.getElementById("wordImageMatch"),
+  wordImageMatchContent: `<div class="card highlight">
+                              <div class="my-3">
+                                <img id="wordImageMatchPicture" src="../../../asset/image/28732095_7480523.svg" width="100" height="100" alt="">
+                              </div>
                               <div class="my-3 h2">
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
-                                  <label class="form-check-label" for="letter1"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
+                                  <label class="form-check-label" for="letter1"></label>
                                 </div>
 
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement " type="radio" name="letter" id="letter2" value="">
-                                  <label class="form-check-label" for="letter2"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
+                                  <label class="form-check-label" for="letter2"></label>
                                 </div>
 
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter3" value="">
-                                  <label class="form-check-label" for="letter3"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
+                                  <label class="form-check-label" for="letter3"></label>
                                 </div>   
 
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter4" value="">
-                                  <label class="form-check-label" for="letter4"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
+                                  <label class="form-check-label" for="letter4"></label>
                                 </div>
 
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter5" value="">
-                                  <label class="form-check-label" for="letter5"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
+                                  <label class="form-check-label" for="letter5"></label>
                                 </div>
                               </div>
 
@@ -324,105 +353,94 @@ const soundImageMatchObj = {
 
 };
 
-function wordGenProcess(i,index)
-{
-
-  for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
-  {
-    let m =Math.floor(Math.random()*learnObj.totalLength);
-    wordSoundMatchObj.list0[k].value=learnObj.letterList[m].word;
-    wordSoundMatchObj.list1[k].innerText=learnObj.letterList[m].word;
-  }
-  wordSoundMatchObj.list0[i].value=learnObj.letterList[index].word;
-  wordSoundMatchObj.list1[i].innerText=learnObj.letterList[index].word;
-  common.testSoundFile.setAttribute("src",learnObj.letterList[index].soundfile);
-  common.testAudio.load();
-}
-
-
-function wordGen(index){
-
+window.addEventListener("load", function(e){
   
-  let i=index%wordSoundMatchObj.sectionLength;
-  if (i==0)
+  if(pathname.includes(lessons[0]))
+  {
+    learnObj.letterList=contents0;
+
+  }else if(pathname.includes(lessons[1]))
+  {
+    learnObj.letterList=contents1;
+
+  }else if(pathname.includes(lessons[2]))
   {
 
-    wordGenProcess(i,index);
+    learnObj.letterList=contents2;
 
-  }else if(index==1)
+  }else if(pathname.includes(lessons[3]))
   {
 
-    wordGenProcess(i,index);
+    learnObj.letterList=contents3;
 
-  }else if(index==2)
+  } else if(pathname.includes(lessons[4]))
   {
 
-    wordGenProcess(i,index);
+    learnObj.letterList=contents4;
 
-  }else if(index==3)
-  {
-
-    wordGenProcess(i,index);
-
-  }else if(index)
-  {
-
-    wordGenProcess(i,index);
-    
   }
+  learnObj.totalLenght=learnObj.letterList.length;
+  document.getElementById("content").style.opacity = 1;
+  document.getElementById("content2").style.opacity = 1;
+});
 
-}
 
-function imagedGenProcess(i,index)
+/* learnObj.playBtn.addEventListener("click", function(){
+  var x = document.getElementById("myAudio"); 
+  x.play(); 
+});
+ */
+
+function loadData()
 {
+ 
+  learnObj.content.innerText=learnObj.letterList[learnObj.counter].question;
 
-  for(let k=0; k<soundImageMatchObj.sectionLength;k++)
-  {
-    let m =Math.floor(Math.random()*learnObj.totalLength);
-    console.log("m "+m);
-    soundImageMatchObj.list0[k].value=learnObj.letterList[m].word;
-    soundImageMatchObj.list1[k].setAttribute("src",learnObj.letterList[m].Image);
-  }
-  soundImageMatchObj.list0[i].value=learnObj.letterList[index].word;
-  soundImageMatchObj.list1[i].setAttribute("src",learnObj.letterList[index].Image);
-  common.testSoundFile.setAttribute("src",learnObj.letterList[index].soundfile);
-  common.testAudio.load();
-
+  learnObj.soundfile.setAttribute("src",learnObj.letterList[learnObj.counter].soundfile); 
+  learnObj.picture.setAttribute("src",learnObj.letterList[learnObj.counter].Image);
+  learnObj.myAudio.load();
 }
 
+learnObj.previous.addEventListener("click", function(){
 
-function imagedGen(index){
-
+  if(learnObj.counter>0)
+  {
+    learnObj.counter--;
+    loadData();
+  }
   
-  let i=index%soundImageMatchObj.sectionLength;
-  if (i==0)
+  document.getElementById("content").style.opacity = 0;
+  setTimeout(function() {
+       document.getElementById("content").style.opacity = 1;
+  }, 1000);
+ 
+  document.getElementById("content2").style.opacity = 0;
+  setTimeout(function() {
+       document.getElementById("content2").style.opacity = 1;
+  }, 1000);
+
+});
+
+learnObj.next.addEventListener("click", function(){
+
+
+  if(learnObj.counter<(learnObj.totalLenght-1))
   {
-
-    imagedGenProcess(i,index);
-
-  }else if(index==1)
-  {
-
-    imagedGenProcess(i,index);
-
-  }else if(index==2)
-  {
-
-    imagedGenProcess(i,index);
-
-  }else if(index==3)
-  {
-
-    imagedGenProcess(i,index);
-
-  }else if(index)
-  {
-
-    imagedGenProcess(i,index);
-    
+    learnObj.counter++;
+    loadData();
   }
+  document.getElementById("content").style.opacity = 0;
+  setTimeout(function() {
+       document.getElementById("content").style.opacity = 1;
+  }, 1000);
+ 
 
-}
+  document.getElementById("content2").style.opacity = 0;
+  setTimeout(function() {
+       document.getElementById("content2").style.opacity = 1;
+  }, 1000);
+
+});
 
 function testNextBtnFunction() {
  
@@ -431,24 +449,25 @@ function testNextBtnFunction() {
     common.letterSelected.target.checked=false;
   }
 
-  if(common.game=="soundImageMatch")
+  if(common.game=="wordImageMatch")
   {
-    if(soundImageMatchObj.counter<(learnObj.totalLength-1))
+    if(wordImageMatchObj.counter<(learnObj.totalLenght-1))
     {
-      soundImageMatchObj.counter++;
-      imagedGen(soundImageMatchObj.counter);
+      wordImageMatchObj.counter++;
+      wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
+      common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
     }
 
   }else if (common.game=="wordSoundMatch")
   {
 
-    if(wordSoundMatchObj.counter<(learnObj.totalLength-1))
+    if(wordSoundMatchObj.counter<(learnObj.totalLenght-1))
     {
       wordSoundMatchObj.counter++;
-      wordGen(wordSoundMatchObj.counter);
+      common.testSoundFile.setAttribute("src",learnObj.letterList[wordSoundMatchObj.counter].soundfile);
     }
   }
-
+  common.testAudio.load();
   document.getElementById("showResult").innerHTML="";
 }
 
@@ -458,12 +477,13 @@ function testPreviousBtnFunction() {
   {
     common.letterSelected.target.checked=false;
   }
-  if(common.game=="soundImageMatch")
+  if(common.game=="wordImageMatch")
   {
-    if(soundImageMatchObj.counter>0)
+    if(wordImageMatchObj.counter>0)
     {
-      soundImageMatchObj.counter--;
-      imagedGen(soundImageMatchObj.counter); 
+      wordImageMatchObj.counter--;
+      wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
+      common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
     }
 
   }else if (common.game=="wordSoundMatch")
@@ -472,18 +492,19 @@ function testPreviousBtnFunction() {
     if(wordSoundMatchObj.counter>0)
     {
       wordSoundMatchObj.counter--;
-      wordGen(wordSoundMatchObj.counter);
+      common.testSoundFile.setAttribute("src",learnObj.letterList[wordSoundMatchObj.counter].soundfile);
     }
   }
+  common.testAudio.load();
   document.getElementById("showResult").innerHTML="";
 }
 
 function letterSoundCheck(e) {
   common.letterSelected=e;
 
-  if(common.game=="soundImageMatch")
+  if(common.game=="wordImageMatch")
   {
-    if(learnObj.letterList[soundImageMatchObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[wordImageMatchObj.counter].question.includes(e.target.value))
     {
   
       document.getElementById("showResult").innerHTML=common.goodResult;
@@ -498,7 +519,7 @@ function letterSoundCheck(e) {
   }else if (common.game=="wordSoundMatch")
   {
 
-    if(learnObj.letterList[wordSoundMatchObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[wordSoundMatchObj.counter].question.includes(e.target.value))
     {
   
       document.getElementById("showResult").innerHTML=common.goodResult;
@@ -536,8 +557,8 @@ function buildwordSoundMatch()
   //here fill up the letters 
   for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
   {
-    wordSoundMatchObj.list0[k].value=learnObj.letterList[k].word;
-    wordSoundMatchObj.list1[k].innerText=learnObj.letterList[k].word;
+    wordSoundMatchObj.list0[k].value=learnObj.letterList[k].question;
+    wordSoundMatchObj.list1[k].innerText=learnObj.letterList[k].question;
   }
 
   common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
@@ -547,11 +568,11 @@ function buildwordSoundMatch()
 wordSoundMatchObj.wordSoundMatch.addEventListener("click",function() {
   
   wordSoundMatchObj.counter=0;
-  if(common.game=="soundImageMatch")
+  if(common.game=="wordImageMatch")
   {
     common.testNextBtn.removeEventListener("click",testNextBtnFunction);
     common.testPreviousBtn.removeEventListener("click",testPreviousBtnFunction);
-    soundImageMatchObj.wordElementLst.forEach(elem => {
+    wordImageMatchObj.wordElementLst.forEach(elem => {
       elem.removeEventListener("click",letterSoundCheck); 
     });
     common.testSection.innerHTML='';
@@ -571,14 +592,14 @@ wordSoundMatchObj.wordSoundMatch.addEventListener("click",function() {
 
 function buildWordImageMatch()
 {
-  common.game="soundImageMatch";
-  soundImageMatchObj.counter=0;
+  common.game="wordImageMatch";
+  wordImageMatchObj.counter=0;
   let p = document.createElement("div"); 
-  p.innerHTML= soundImageMatchObj.soundImageMatchContent;
+  p.innerHTML= wordImageMatchObj.wordImageMatchContent;
   common.testSection.appendChild(p);
   
-  soundImageMatchObj.list0= document.querySelectorAll(".form-check-input");
-  soundImageMatchObj.list1 = document.querySelectorAll(".soundImageMatchPicture");
+  wordImageMatchObj.list0= document.querySelectorAll(".form-check-input");
+  wordImageMatchObj.list1 = document.querySelectorAll(".form-check-label");
 
   common.testNextBtn = document.getElementById("testNext");
   common.testPreviousBtn = document.getElementById("testPrevious");
@@ -587,26 +608,25 @@ function buildWordImageMatch()
   common.testNextBtn.addEventListener("click",testNextBtnFunction);
   common.testPreviousBtn.addEventListener("click",testPreviousBtnFunction);
 
-  soundImageMatchObj.wordElementLst = document.querySelectorAll(".letterElement");
-  soundImageMatchObj.wordElementLst.forEach(elem => {
+  wordImageMatchObj.wordElementLst = document.querySelectorAll(".letterElement");
+  wordImageMatchObj.wordElementLst.forEach(elem => {
     elem.addEventListener("click",letterSoundCheck); 
   });
 
   //here fill up the letters 
-  for(let k=0; k<soundImageMatchObj.sectionLength;k++)
+  for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
   {
-    soundImageMatchObj.list0[k].value=learnObj.letterList[k].word;
-  /*   soundImageMatchObj.list1[k].innerText=learnObj.letterList[k].word; */
-    soundImageMatchObj.list1[k].setAttribute("src",learnObj.letterList[k].Image);
+    wordImageMatchObj.list0[k].value=learnObj.letterList[k].question;
+    wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].question;
   }
-  /* soundImageMatchObj.picture=document.getElementById("soundImageMatchPicture");
-  soundImageMatchObj.picture.setAttribute("src",learnObj.letterList[0].Image); */
+  wordImageMatchObj.picture=document.getElementById("wordImageMatchPicture");
+  wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[0].Image);
   common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
   common.testAudio.load();
 }
 
 
-/* soundImageMatchObj.soundImageMatch.addEventListener("click",function() {
+wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
   
   wordSoundMatchObj.counter=0;
   if(common.game=="wordSoundMatch")
@@ -620,7 +640,7 @@ function buildWordImageMatch()
     buildWordImageMatch();
   }else 
   {
-    if(common.game=="soundImageMatch")
+    if(common.game=="wordImageMatch")
     {
 
     }else{
@@ -629,29 +649,6 @@ function buildWordImageMatch()
     }
   }
 
-}); */
-
-document.getElementById("video0").addEventListener("click",function(){
-
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/gghDRJVxFxU?si=3gu2nEnkRcqlfLiy";
-  
 });
 
-document.getElementById("video1").addEventListener("click",function(){
-
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/mebfKDQ4dLo?si=orR76Olz0Moe8I6J";
-  
-});
-
-document.getElementById("video2").addEventListener("click",function(){
-
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/tVlcKp3bWH8?si=Vb9YSRbI7Bcg2Y2C";
-  
-});
-
-document.getElementById("video3").addEventListener("click",function(){
-
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/dLsjQLdp8WM?si=2AuAsVVHhWY4R_VE";
-  
-});
 
