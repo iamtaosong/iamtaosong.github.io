@@ -1,197 +1,191 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  question: "get up",
+  question: "What's this",
   answer: "/naɪf/",
   Image: "../../asset/image/basic-conversation/up.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQ: "../../asset/audio/basic-conversation/this.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
   soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem1 = {
-  question: "get dressed",
+  question: "What's this",
   answer: "/pleɪt/",
   Image: "../../asset/image/basic-conversation/dress.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQ: "../../asset/audio/basic-conversation/this.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
   soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem2 = {
-  question: "wash your face",
+  question: "What's this",
   answer: "/fɔːk/",
   Image: "../../asset/image/basic-conversation/face.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQ: "../../asset/audio/basic-conversation/this.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
   soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem3 = {
-  question: "brush your teeth",
+  question: "What's this",
   answer: "/ˈtʃɒp.stɪk/",
-  soundfileQ: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQ: "../../asset/audio/basic-conversation/this.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
   soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem4 = {
-  question: "brush your hair",
+  question: "What's this",
   answer: "/spuːn/",
   Image: "../../asset/image/basic-conversation/hair.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQ: "../../asset/audio/basic-conversation/this.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
   soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem5 = {
-  question: "have breakfast",
+  question: "What's that",
   answer: "/ɡlɑːs/",
   Image: "../../asset/image/basic-conversation/breakfast.jpg",
-  soundfile: "../../asset/audio/basic-conversation/breakfast.mp3"
+  soundfileQ: "../../asset/audio/basic-conversation/that.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem6 = {
-  question: "go to school",
+  question: "What's that",
   answer: "/kʌp/",
   Image: "../../asset/image/basic-conversation/school.jpg",
-  soundfile: "../../asset/audio/basic-conversation/school.mp3"
+  soundfileQ: "../../asset/audio/basic-conversation/that.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem7 = {
-  question: "have lunch",
+  question: "What's that",
   answer: "/ˈspætʃ.ə.lə/",
   Image: "../../asset/image/basic-conversation/lunch.jpg",
-  soundfile: "../../asset/audio/basic-conversation/lunch.mp3"
+  soundfileQ: "../../asset/audio/basic-conversation/that.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem8 = {
-  question: "play football",
+  question: "What's that",
   answer: "/wɪsk/",
   Image: "../../asset/image/basic-conversation/football.jpg",
-  soundfile: "../../asset/audio/basic-conversation/football.mp3"
+  soundfileQ: "../../asset/audio/basic-conversation/that.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem9 = {
-  question: "hurry up",
+  question: "What's that",
   answer: "/ˈnuː.dəl/",
   Image: "../../asset/image/basic-conversation/hurry.jpg",
-  soundfile: "../../asset/audio/basic-conversation/hurryup.mp3"
+  soundfileQ: "../../asset/audio/basic-conversation/that.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 
 const contentItem10 = {
-  question: "take classes",
+  question: "what are these",
   answer: "/ˈɡreɪ.tər",
   Image: "../../asset/image/basic-conversation/class.jpg",
-  soundfile: "../../asset/audio/basic-conversation/class.mp3"
+  soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem11 = {
-  question: "go to bed",
+  question: "what are these",
   answer: "/bəʊl/",
   Image: "../../asset/image/basic-conversation/bed.jpg",
-  soundfile: "../../asset/audio/basic-conversation/bed.mp3"
+  soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem12 = {
-  question: "come home",
+  question: "what are these",
   answer: "/ˈkʌt.ɪŋ ˌbɔːd/",
   Image: "../../asset/image/basic-conversation/home.jpg",
-  soundfile: "../../asset/audio/basic-conversation/home.mp3"
+  soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem13 = {
-  question: "have dinner",
+  question: "what are these",
   answer: "/tɒŋz/",
   Image: "../../asset/image/basic-conversation/dinner.jpg",
-  soundfile: "../../asset/audio/basic-conversation/dinner.mp3"
+  soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem14 = {
-  question: "do your homework",
+  question: "what are these",
   answer: "/ˈbɒt.əl/",
   Image: "../../asset/image/basic-conversation/homework.jpg",
-  soundfile: "../../asset/audio/basic-conversation/homework.mp3"
+  soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem15 = {
-  question: "walk dog",
+  question: "what are those",
   answer: "/ˈket.əl/",
   Image: "../../asset/image/basic-conversation/dog.jpg",
-  soundfile: "../../asset/audio/basic-conversation/dog.mp3"
+  soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem16 = {
-  question: "take a shower",
+  question: "what are those",
   answer: "/pɒt/",
   Image: "../../asset/image/basic-conversation/shower.jpg",
-  soundfile: "../../asset/audio/basic-conversation/shower.mp3"
+  soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem17 = {
-  question: "take a bath",
+  question: "what are those",
   answer: "/frɪdʒ/",
   Image: "../../asset/image/basic-conversation/bath.jpg",
-  soundfile: "../../asset/audio/basic-conversation/bath.mp3"
+  soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem18 = {
-  question: "drink water",
+  question: "what are those",
   answer: "/mit/",
   Image: "../../asset/image/basic-conversation/water.jpg",
-  soundfile: "../../asset/audio/basic-conversation/water.mp3"
+  soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contentItem19 = {
-  question: "ride a bike",
+  question: "what are those",
   answer: "/ˈfraɪ.ɪŋˌpæn/",
   Image: "../../asset/image/basic-conversation/bike.jpg",
-  soundfile: "../../asset/audio/basic-conversation/bike.mp3"
-};
-
-const contentItem20 = {
-  question: "go and play",
-  answer: "/ˈmaɪ.krə.weɪv/",
-  Image: "../../asset/image/basic-conversation/play.jpg",
-  soundfile: "../../asset/audio/basic-conversation/play.mp3"
-};
-
-const contentItem21 = {
-  question: "I love the food",
-  answer: "/ˈeɪ.prən/",
-  Image: "../../asset/image/basic-conversation/food.jpg",
-  soundfile: "../../asset/audio/basic-conversation/food.mp3"
-};
-
-const contentItem22 = {
-  question: "we are friends",
-  answer: "/ˈeɪ.prən/",
-  Image: "../../asset/image/basic-conversation/friend.jpg",
-  soundfile: "../../asset/audio/basic-conversation/friend.mp3"
-};
-
-const contentItem23 = {
-  question: "take school bus",
-  answer: "/ˈeɪ.prən/",
-  Image: "../../asset/image/basic-conversation/schoolbus.jpg",
-  soundfile: "../../asset/audio/basic-conversation/bus.mp3"
-};
-
-const contentItem24 = {
-  question: "watch TV",
-  answer: "/ˈeɪ.prən/",
-  Image: "../../asset/image/basic-conversation/Tv.jpg",
-  soundfile: "../../asset/audio/basic-conversation/tv.mp3"
+  soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
 };
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
 const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14]; 
 const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,contentItem19]; 
-const contents4 = [contentItem20,contentItem21,contentItem22,contentItem23,contentItem24]; 
 
-const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4"];
+const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3"];
 
 const common ={
   testPreviousBtn: null,
@@ -373,12 +367,8 @@ window.addEventListener("load", function(e){
 
     learnObj.letterList=contents3;
 
-  } else if(pathname.includes(lessons[4]))
-  {
-
-    learnObj.letterList=contents4;
-
   }
+
   learnObj.totalLenght=learnObj.letterList.length;
   document.getElementById("content").style.opacity = 1;
   document.getElementById("content2").style.opacity = 1;
@@ -395,8 +385,7 @@ function loadData()
 {
  
   learnObj.content.innerText=learnObj.letterList[learnObj.counter].question;
-
-  learnObj.soundfile.setAttribute("src",learnObj.letterList[learnObj.counter].soundfile); 
+  learnObj.soundfile.setAttribute("src",learnObj.letterList[learnObj.counter].soundfileQA); 
   learnObj.picture.setAttribute("src",learnObj.letterList[learnObj.counter].Image);
   learnObj.myAudio.load();
 }
@@ -455,7 +444,7 @@ function testNextBtnFunction() {
     {
       wordImageMatchObj.counter++;
       wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
-      common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
+      common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfileQ); 
     }
 
   }else if (common.game=="wordSoundMatch")
@@ -464,7 +453,7 @@ function testNextBtnFunction() {
     if(wordSoundMatchObj.counter<(learnObj.totalLenght-1))
     {
       wordSoundMatchObj.counter++;
-      common.testSoundFile.setAttribute("src",learnObj.letterList[wordSoundMatchObj.counter].soundfile);
+      common.testSoundFile.setAttribute("src",learnObj.letterList[wordSoundMatchObj.counter].soundfileQ);
     }
   }
   common.testAudio.load();
@@ -483,7 +472,7 @@ function testPreviousBtnFunction() {
     {
       wordImageMatchObj.counter--;
       wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
-      common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
+      common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfileQ); 
     }
 
   }else if (common.game=="wordSoundMatch")
@@ -492,7 +481,7 @@ function testPreviousBtnFunction() {
     if(wordSoundMatchObj.counter>0)
     {
       wordSoundMatchObj.counter--;
-      common.testSoundFile.setAttribute("src",learnObj.letterList[wordSoundMatchObj.counter].soundfile);
+      common.testSoundFile.setAttribute("src",learnObj.letterList[wordSoundMatchObj.counter].soundfileQ);
     }
   }
   common.testAudio.load();
@@ -561,7 +550,7 @@ function buildwordSoundMatch()
     wordSoundMatchObj.list1[k].innerText=learnObj.letterList[k].question;
   }
 
-  common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
+  common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfileQ);
   common.testAudio.load();
 }
 
@@ -621,7 +610,7 @@ function buildWordImageMatch()
   }
   wordImageMatchObj.picture=document.getElementById("wordImageMatchPicture");
   wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[0].Image);
-  common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
+  common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfileQ);
   common.testAudio.load();
 }
 
