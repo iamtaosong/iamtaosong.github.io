@@ -51,6 +51,7 @@ https://library.fimsschools.com/
 https://h.fimsschools.com/the-complete-book-of-phonics/
 https://learning-english-online01.blogspot.com/p/4000-essential-english-words-book-6-pdf.html
 https://b.fims.pk/3801/
+https://i6.fims.org.pk/instant-phonics-practice/
 
 
 english.worksheethouse.com
@@ -453,3 +454,5 @@ function moveImage() {
 In this example, when the "Move Image" button is clicked, the moveImage function is called, which starts an interval that moves the image 10 pixels to the right every 100 milliseconds. When the image has moved more than 200 pixels to the right, it starts moving to the left. If the button is clicked again, the movement stops.
 
 This creates a continuous back and forth animation until the button is clicked again to stop it. You can adjust the values to change the speed and range of the movement.
+
+

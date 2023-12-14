@@ -2,97 +2,98 @@
 const pathname=window.location.pathname;
 const contentItem0 = {
   question: "What's this",
-  answer: "/naɪf/",
-  Image: "../../asset/image/basic-conversation/up.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/this.mp3",
-  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  answer: "This is cat",
+  Image: "../../asset/image/basic-conversation/cat.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatsthis.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/cat.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/qacat.mp3"
 };
 
 const contentItem1 = {
   question: "What's this",
-  answer: "/pleɪt/",
-  Image: "../../asset/image/basic-conversation/dress.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/this.mp3",
+  answer: "This is tiger",
+  Image: "../../asset/image/basic-conversation/tiger.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatsthis.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qatiger.mp3"
 };
 
 const contentItem2 = {
   question: "What's this",
-  answer: "/fɔːk/",
-  Image: "../../asset/image/basic-conversation/face.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/this.mp3",
+  answer: "This is fox",
+  Image: "../../asset/image/basic-conversation/fox.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatsthis.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qafox.mp3"
 };
 
 const contentItem3 = {
   question: "What's this",
-  answer: "/ˈtʃɒp.stɪk/",
-  soundfileQ: "../../asset/audio/basic-conversation/this.mp3",
+  answer: "This is frog",
+  Image: "../../asset/image/basic-conversation/frog.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatsthis.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qafrog.mp3"
 };
 
 const contentItem4 = {
   question: "What's this",
-  answer: "/spuːn/",
-  Image: "../../asset/image/basic-conversation/hair.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/this.mp3",
+  answer: "This is pig",
+  Image: "../../asset/image/basic-conversation/pig.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatsthis.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qapig.mp3"
 };
 
 const contentItem5 = {
   question: "What's that",
-  answer: "/ɡlɑːs/",
-  Image: "../../asset/image/basic-conversation/breakfast.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/that.mp3",
+  answer: "That is dog",
+  Image: "../../asset/image/basic-conversation/dog.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatsthat.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qadog.mp3"
 };
 
 const contentItem6 = {
   question: "What's that",
-  answer: "/kʌp/",
-  Image: "../../asset/image/basic-conversation/school.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/that.mp3",
+  answer: "That is fish",
+  Image: "../../asset/image/basic-conversation/fish.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatsthat.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qafish.mp3"
 };
 
 const contentItem7 = {
   question: "What's that",
-  answer: "/ˈspætʃ.ə.lə/",
-  Image: "../../asset/image/basic-conversation/lunch.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/that.mp3",
+  answer: "That is goat",
+  Image: "../../asset/image/basic-conversation/goat.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatsthat.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qagoat.mp3"
 };
 
 const contentItem8 = {
   question: "What's that",
-  answer: "/wɪsk/",
-  Image: "../../asset/image/basic-conversation/football.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/that.mp3",
+  answer: "That is panda",
+  Image: "../../asset/image/basic-conversation/panda.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatsthat.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qapanda.mp3"
 };
 
 const contentItem9 = {
   question: "What's that",
-  answer: "/ˈnuː.dəl/",
-  Image: "../../asset/image/basic-conversation/hurry.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/that.mp3",
+  answer: "That is horse",
+  Image: "../../asset/image/basic-conversation/horse.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatsthat.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qahorse.mp3"
 };
 
 
 const contentItem10 = {
   question: "what are these",
-  answer: "/ˈɡreɪ.tər",
+  answer: "These are ",
   Image: "../../asset/image/basic-conversation/class.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
@@ -101,7 +102,7 @@ const contentItem10 = {
 
 const contentItem11 = {
   question: "what are these",
-  answer: "/bəʊl/",
+  answer: "These are",
   Image: "../../asset/image/basic-conversation/bed.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
@@ -110,7 +111,7 @@ const contentItem11 = {
 
 const contentItem12 = {
   question: "what are these",
-  answer: "/ˈkʌt.ɪŋ ˌbɔːd/",
+  answer: "These are",
   Image: "../../asset/image/basic-conversation/home.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
@@ -119,7 +120,7 @@ const contentItem12 = {
 
 const contentItem13 = {
   question: "what are these",
-  answer: "/tɒŋz/",
+  answer: "These are",
   Image: "../../asset/image/basic-conversation/dinner.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
@@ -128,7 +129,7 @@ const contentItem13 = {
 
 const contentItem14 = {
   question: "what are these",
-  answer: "/ˈbɒt.əl/",
+  answer: "These are",
   Image: "../../asset/image/basic-conversation/homework.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
@@ -137,7 +138,7 @@ const contentItem14 = {
 
 const contentItem15 = {
   question: "what are those",
-  answer: "/ˈket.əl/",
+  answer: "Those are ",
   Image: "../../asset/image/basic-conversation/dog.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
@@ -146,7 +147,7 @@ const contentItem15 = {
 
 const contentItem16 = {
   question: "what are those",
-  answer: "/pɒt/",
+  answer: "Those are ",
   Image: "../../asset/image/basic-conversation/shower.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
@@ -155,7 +156,7 @@ const contentItem16 = {
 
 const contentItem17 = {
   question: "what are those",
-  answer: "/frɪdʒ/",
+  answer: "Those are ",
   Image: "../../asset/image/basic-conversation/bath.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
@@ -164,7 +165,7 @@ const contentItem17 = {
 
 const contentItem18 = {
   question: "what are those",
-  answer: "/mit/",
+  answer: "Those are ",
   Image: "../../asset/image/basic-conversation/water.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
@@ -173,7 +174,7 @@ const contentItem18 = {
 
 const contentItem19 = {
   question: "what are those",
-  answer: "/ˈfraɪ.ɪŋˌpæn/",
+  answer: "Those are ",
   Image: "../../asset/image/basic-conversation/bike.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
@@ -203,7 +204,8 @@ const learnObj = {
 
   previous: document.getElementById("previous"),
   next: document.getElementById("next"),
-  content: document.getElementById("content"),
+  question: document.getElementById("question"),
+  answer:document.getElementById("answer"),
   sound: document.getElementById("sound"),
   soundfile: document.getElementById("soundfile"),
   myAudio: document.getElementById("myAudio"),
@@ -370,21 +372,15 @@ window.addEventListener("load", function(e){
   }
 
   learnObj.totalLenght=learnObj.letterList.length;
-  document.getElementById("content").style.opacity = 1;
-  document.getElementById("content2").style.opacity = 1;
+  document.getElementById("question").style.opacity = 1;
+  document.getElementById("answer").style.opacity = 1;
 });
-
-
-/* learnObj.playBtn.addEventListener("click", function(){
-  var x = document.getElementById("myAudio"); 
-  x.play(); 
-});
- */
 
 function loadData()
 {
  
-  learnObj.content.innerText=learnObj.letterList[learnObj.counter].question;
+  learnObj.question.innerText=learnObj.letterList[learnObj.counter].question;
+  learnObj.answer.innerText=learnObj.letterList[learnObj.counter].answer;
   learnObj.soundfile.setAttribute("src",learnObj.letterList[learnObj.counter].soundfileQA); 
   learnObj.picture.setAttribute("src",learnObj.letterList[learnObj.counter].Image);
   learnObj.myAudio.load();
@@ -398,14 +394,14 @@ learnObj.previous.addEventListener("click", function(){
     loadData();
   }
   
-  document.getElementById("content").style.opacity = 0;
+  document.getElementById("question").style.opacity = 0;
   setTimeout(function() {
-       document.getElementById("content").style.opacity = 1;
+       document.getElementById("question").style.opacity = 1;
   }, 1000);
  
-  document.getElementById("content2").style.opacity = 0;
+  document.getElementById("answer").style.opacity = 0;
   setTimeout(function() {
-       document.getElementById("content2").style.opacity = 1;
+       document.getElementById("answer").style.opacity = 1;
   }, 1000);
 
 });
@@ -418,15 +414,15 @@ learnObj.next.addEventListener("click", function(){
     learnObj.counter++;
     loadData();
   }
-  document.getElementById("content").style.opacity = 0;
+  document.getElementById("question").style.opacity = 0;
   setTimeout(function() {
-       document.getElementById("content").style.opacity = 1;
+       document.getElementById("question").style.opacity = 1;
   }, 1000);
  
 
-  document.getElementById("content2").style.opacity = 0;
+  document.getElementById("answer").style.opacity = 0;
   setTimeout(function() {
-       document.getElementById("content2").style.opacity = 1;
+       document.getElementById("answer").style.opacity = 1;
   }, 1000);
 
 });
@@ -493,7 +489,7 @@ function letterSoundCheck(e) {
 
   if(common.game=="wordImageMatch")
   {
-    if(learnObj.letterList[wordImageMatchObj.counter].question.includes(e.target.value))
+    if(learnObj.letterList[wordImageMatchObj.counter].answer.includes(e.target.value))
     {
   
       document.getElementById("showResult").innerHTML=common.goodResult;
@@ -508,7 +504,7 @@ function letterSoundCheck(e) {
   }else if (common.game=="wordSoundMatch")
   {
 
-    if(learnObj.letterList[wordSoundMatchObj.counter].question.includes(e.target.value))
+    if(learnObj.letterList[wordSoundMatchObj.counter].answer.includes(e.target.value))
     {
   
       document.getElementById("showResult").innerHTML=common.goodResult;
@@ -546,15 +542,15 @@ function buildwordSoundMatch()
   //here fill up the letters 
   for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
   {
-    wordSoundMatchObj.list0[k].value=learnObj.letterList[k].question;
-    wordSoundMatchObj.list1[k].innerText=learnObj.letterList[k].question;
+    wordSoundMatchObj.list0[k].value=learnObj.letterList[k].answer;
+    wordSoundMatchObj.list1[k].innerText=learnObj.letterList[k].answer;
   }
 
   common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfileQ);
   common.testAudio.load();
 }
 
-wordSoundMatchObj.wordSoundMatch.addEventListener("click",function() {
+/* wordSoundMatchObj.wordSoundMatch.addEventListener("click",function() {
   
   wordSoundMatchObj.counter=0;
   if(common.game=="wordImageMatch")
@@ -577,7 +573,7 @@ wordSoundMatchObj.wordSoundMatch.addEventListener("click",function() {
     }
   }
 
-});
+}); */
 
 function buildWordImageMatch()
 {
@@ -605,8 +601,8 @@ function buildWordImageMatch()
   //here fill up the letters 
   for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
   {
-    wordImageMatchObj.list0[k].value=learnObj.letterList[k].question;
-    wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].question;
+    wordImageMatchObj.list0[k].value=learnObj.letterList[k].answer;
+    wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].answer;
   }
   wordImageMatchObj.picture=document.getElementById("wordImageMatchPicture");
   wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[0].Image);
