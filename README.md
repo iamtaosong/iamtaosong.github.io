@@ -52,6 +52,7 @@ https://h.fimsschools.com/the-complete-book-of-phonics/
 https://learning-english-online01.blogspot.com/p/4000-essential-english-words-book-6-pdf.html
 https://b.fims.pk/3801/
 https://i6.fims.org.pk/instant-phonics-practice/
+https://m.pdfdrive.com.pk/20782/?fbclid=IwAR1DIIA485JihJoCfOVcdSYOB9VIkHG9u6UmVwnLnYEYAxkVu_EiwrMtkug
 
 
 english.worksheethouse.com

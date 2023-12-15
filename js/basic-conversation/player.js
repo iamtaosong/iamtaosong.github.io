@@ -216,7 +216,6 @@ const learnObj = {
   totalLenght: null
 };
 
-
 const wordSoundMatchObj = {
   wordElementLst: null,
   counter: 0,
@@ -291,7 +290,7 @@ const wordImageMatchObj = {
   wordImageMatch: document.getElementById("wordImageMatch"),
   wordImageMatchContent: `<div class="card highlight">
                               <div class="my-3">
-                                <img id="wordImageMatchPicture" src="../../../asset/image/28732095_7480523.svg" width="100" height="100" alt="">
+                                <img id="wordImageMatchPicture" src="" width="100" height="100" alt="">
                               </div>
                               <div class="my-3 h2">
                                 <div class="form-check form-check-inline">
@@ -550,30 +549,6 @@ function buildwordSoundMatch()
   common.testAudio.load();
 }
 
-/* wordSoundMatchObj.wordSoundMatch.addEventListener("click",function() {
-  
-  wordSoundMatchObj.counter=0;
-  if(common.game=="wordImageMatch")
-  {
-    common.testNextBtn.removeEventListener("click",testNextBtnFunction);
-    common.testPreviousBtn.removeEventListener("click",testPreviousBtnFunction);
-    wordImageMatchObj.wordElementLst.forEach(elem => {
-      elem.removeEventListener("click",letterSoundCheck); 
-    });
-    common.testSection.innerHTML='';
-    buildwordSoundMatch();
-  }else 
-  {
-    if(common.game=="wordSoundMatch")
-    {
-  
-  
-    }else{
-      buildwordSoundMatch();
-    }
-  }
-
-}); */
 
 function buildWordImageMatch()
 {

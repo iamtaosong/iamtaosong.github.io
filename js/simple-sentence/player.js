@@ -285,7 +285,7 @@ const wordImageMatchObj = {
   wordImageMatch: document.getElementById("wordImageMatch"),
   wordImageMatchContent: `<div class="card highlight">
                               <div class="my-3">
-                                <img id="wordImageMatchPicture" src="../../../asset/image/28732095_7480523.svg" width="100" height="100" alt="">
+                                <img id="wordImageMatchPicture" src="" width="100" height="100" alt="">
                               </div>
                               <div class="my-3 h2">
                                 <div class="form-check form-check-inline">
