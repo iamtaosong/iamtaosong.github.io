@@ -1,7 +1,7 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  question: "What's this",
+  question: "What's this?",
   answer: "This is cat",
   Image: "../../asset/image/basic-conversation/cat.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/whatsthis.mp3",
@@ -10,7 +10,7 @@ const contentItem0 = {
 };
 
 const contentItem1 = {
-  question: "What's this",
+  question: "What's this?",
   answer: "This is tiger",
   Image: "../../asset/image/basic-conversation/tiger.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/whatsthis.mp3",
@@ -19,7 +19,7 @@ const contentItem1 = {
 };
 
 const contentItem2 = {
-  question: "What's this",
+  question: "What's this?",
   answer: "This is fox",
   Image: "../../asset/image/basic-conversation/fox.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/whatsthis.mp3",
@@ -28,7 +28,7 @@ const contentItem2 = {
 };
 
 const contentItem3 = {
-  question: "What's this",
+  question: "What's this?",
   answer: "This is frog",
   Image: "../../asset/image/basic-conversation/frog.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/whatsthis.mp3",
@@ -37,7 +37,7 @@ const contentItem3 = {
 };
 
 const contentItem4 = {
-  question: "What's this",
+  question: "What's this?",
   answer: "This is pig",
   Image: "../../asset/image/basic-conversation/pig.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/whatsthis.mp3",
@@ -46,7 +46,7 @@ const contentItem4 = {
 };
 
 const contentItem5 = {
-  question: "What's that",
+  question: "What's that?",
   answer: "That is dog",
   Image: "../../asset/image/basic-conversation/dog.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/whatsthat.mp3",
@@ -55,7 +55,7 @@ const contentItem5 = {
 };
 
 const contentItem6 = {
-  question: "What's that",
+  question: "What's that?",
   answer: "That is fish",
   Image: "../../asset/image/basic-conversation/fish.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/whatsthat.mp3",
@@ -64,7 +64,7 @@ const contentItem6 = {
 };
 
 const contentItem7 = {
-  question: "What's that",
+  question: "What's that?",
   answer: "That is goat",
   Image: "../../asset/image/basic-conversation/goat.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/whatsthat.mp3",
@@ -73,7 +73,7 @@ const contentItem7 = {
 };
 
 const contentItem8 = {
-  question: "What's that",
+  question: "What's that?",
   answer: "That is panda",
   Image: "../../asset/image/basic-conversation/panda.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/whatsthat.mp3",
@@ -82,7 +82,7 @@ const contentItem8 = {
 };
 
 const contentItem9 = {
-  question: "What's that",
+  question: "What's that?",
   answer: "That is horse",
   Image: "../../asset/image/basic-conversation/horse.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/whatsthat.mp3",
@@ -92,7 +92,7 @@ const contentItem9 = {
 
 
 const contentItem10 = {
-  question: "what are these",
+  question: "what are these?",
   answer: "These are ",
   Image: "../../asset/image/basic-conversation/class.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
@@ -101,7 +101,7 @@ const contentItem10 = {
 };
 
 const contentItem11 = {
-  question: "what are these",
+  question: "what are these?",
   answer: "These are",
   Image: "../../asset/image/basic-conversation/bed.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
@@ -110,7 +110,7 @@ const contentItem11 = {
 };
 
 const contentItem12 = {
-  question: "what are these",
+  question: "what are these?",
   answer: "These are",
   Image: "../../asset/image/basic-conversation/home.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
@@ -119,7 +119,7 @@ const contentItem12 = {
 };
 
 const contentItem13 = {
-  question: "what are these",
+  question: "what are these?",
   answer: "These are",
   Image: "../../asset/image/basic-conversation/dinner.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
@@ -128,7 +128,7 @@ const contentItem13 = {
 };
 
 const contentItem14 = {
-  question: "what are these",
+  question: "what are these?",
   answer: "These are",
   Image: "../../asset/image/basic-conversation/homework.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
@@ -137,7 +137,7 @@ const contentItem14 = {
 };
 
 const contentItem15 = {
-  question: "what are those",
+  question: "what are those?",
   answer: "Those are ",
   Image: "../../asset/image/basic-conversation/dog.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
@@ -146,7 +146,7 @@ const contentItem15 = {
 };
 
 const contentItem16 = {
-  question: "what are those",
+  question: "what are those?",
   answer: "Those are ",
   Image: "../../asset/image/basic-conversation/shower.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
@@ -155,7 +155,7 @@ const contentItem16 = {
 };
 
 const contentItem17 = {
-  question: "what are those",
+  question: "what are those?",
   answer: "Those are ",
   Image: "../../asset/image/basic-conversation/bath.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
@@ -164,7 +164,7 @@ const contentItem17 = {
 };
 
 const contentItem18 = {
-  question: "what are those",
+  question: "what are those?",
   answer: "Those are ",
   Image: "../../asset/image/basic-conversation/water.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
@@ -173,7 +173,7 @@ const contentItem18 = {
 };
 
 const contentItem19 = {
-  question: "what are those",
+  question: "what are those?",
   answer: "Those are ",
   Image: "../../asset/image/basic-conversation/bike.jpg",
   soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
