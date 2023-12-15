@@ -93,93 +93,94 @@ const contentItem9 = {
 
 const contentItem10 = {
   question: "what are these?",
-  answer: "These are ",
-  Image: "../../asset/image/basic-conversation/class.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
+  answer: "These are shorts",
+  Image: "../../asset/image/basic-conversation/short.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatthese.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qashort.mp3"
 };
 
 const contentItem11 = {
   question: "what are these?",
-  answer: "These are",
-  Image: "../../asset/image/basic-conversation/bed.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
+  answer: "These are shoes",
+  Image: "../../asset/image/basic-conversation/shoe.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatthese.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qashoe.mp3"
 };
 
 const contentItem12 = {
   question: "what are these?",
-  answer: "These are",
-  Image: "../../asset/image/basic-conversation/home.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
+  answer: "These are pants",
+  Image: "../../asset/image/basic-conversation/pant.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatthese.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qapant.mp3"
 };
 
 const contentItem13 = {
   question: "what are these?",
-  answer: "These are",
-  Image: "../../asset/image/basic-conversation/dinner.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
-  soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  answer: "These are socks",
+  Image: "../../asset/image/basic-conversation/sock.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatthese.mp3",
+  soundfileA: "../../asset/audio/basic-conversation/these.mp3",
+  soundfileQA: "../../asset/audio/basic-conversation/qasock.mp3"
 };
 
 const contentItem14 = {
   question: "what are these?",
-  answer: "These are",
-  Image: "../../asset/image/basic-conversation/homework.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/these.mp3",
+  answer: "These are gloves",
+  Image: "../../asset/image/basic-conversation/glove.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatthese.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qaglove.mp3"
 };
 
 const contentItem15 = {
   question: "what are those?",
-  answer: "Those are ",
-  Image: "../../asset/image/basic-conversation/dog.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
+  answer: "Those are broccoli",
+  Image: "../../asset/image/basic-conversation/broccoli.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatthose.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qabrocoli.mp3"
 };
 
 const contentItem16 = {
   question: "what are those?",
-  answer: "Those are ",
-  Image: "../../asset/image/basic-conversation/shower.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
+  answer: "Those are tomatoes",
+  Image: "../../asset/image/basic-conversation/tomato.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatthose.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qatomato.mp3"
 };
 
 const contentItem17 = {
   question: "what are those?",
-  answer: "Those are ",
-  Image: "../../asset/image/basic-conversation/bath.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
+  answer: "Those are mushrooms",
+  Image: "../../asset/image/basic-conversation/mushroom.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatthose.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qamushroom.mp3"
 };
 
 const contentItem18 = {
   question: "what are those?",
-  answer: "Those are ",
-  Image: "../../asset/image/basic-conversation/water.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
+  answer: "Those are carrots",
+  Image: "../../asset/image/basic-conversation/carrot.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatthose.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qacarrot.mp3"
 };
 
 const contentItem19 = {
   question: "what are those?",
-  answer: "Those are ",
-  Image: "../../asset/image/basic-conversation/bike.jpg",
-  soundfileQ: "../../asset/audio/basic-conversation/those.mp3",
+  answer: "Those are green peppers",
+  Image: "../../asset/image/basic-conversation/pepper.jpg",
+  soundfileQ: "../../asset/audio/basic-conversation/whatthose.mp3",
   soundfileA: "../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../asset/audio/basic-conversation/getup.mp3"
+  soundfileQA: "../../asset/audio/basic-conversation/qapepper.mp3"
 };
+
 
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
   contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19];
@@ -450,3 +451,4 @@ document.getElementById("video3").addEventListener("click",function(){
   
 });
 // https://www.youtube.com/embed/4KriRML8_ps?si=q5gsXbp2ctE6qRCE
+// https://www.youtube.com/watch?v=h-Ta1TG4RGA&t=32s
