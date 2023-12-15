@@ -586,7 +586,7 @@ function buildWordImageMatch()
   });
 
   //here fill up the letters 
-  for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
+  for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
     wordImageMatchObj.list0[k].value=learnObj.letterList[k].word;
     wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].word;
