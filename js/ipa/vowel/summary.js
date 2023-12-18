@@ -639,19 +639,19 @@ document.getElementById("video0").addEventListener("click",function(){
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/mebfKDQ4dLo?si=orR76Olz0Moe8I6J";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/KrfXMO_3lgo?si=FYs7AGAS5ggLwtUa";
   
 });
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/tVlcKp3bWH8?si=Vb9YSRbI7Bcg2Y2C";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/aV0Pvexqclc?si=UiGh-AOXGdlysckk";
   
 });
 
 document.getElementById("video3").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/dLsjQLdp8WM?si=2AuAsVVHhWY4R_VE";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/XKEv8hdl1yU?si=pi6dvQ-QOYr6CSJO";
   
 });
 
