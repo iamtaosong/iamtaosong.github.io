@@ -3,140 +3,140 @@ const pathname=window.location.pathname;
 const contentItem0 = {
   word: "iː",
   sound: "iː",
-  Image: "../../../asset/image/simple-sentence/good-morning.jpg",
+  Image: "../../../asset/image/ipa/vowel/i-long.png",
   soundfile: "../../../asset/audio/ipa/vowel/i-long.mp3"
 };
 
 const contentItem1 = {
   word: "i",
   sound: "i",
-  Image: "../../asset/image/simple-sentence/good-afternoon.jpg",
+  Image: "../../../asset/image/ipa/vowel/i.png",
   soundfile: "../../../asset/audio/ipa/vowel/i.mp3"
 };
 
 const contentItem2 = {
   word: "uː",
   sound: "uː",
-  Image: "../../asset/image/simple-sentence/good-evening.jpg",
+  Image: "../../../asset/image/ipa/vowel/u-long.png",
   soundfile: "../../../asset/audio/ipa/vowel/u-long.mp3"
 };
 
 const contentItem3 = {
   word: "ʊ",
   sound: "ʊ",
-  Image: "../../asset/image/simple-sentence/good-night.jpg",
+  Image: "../../../asset/image/ipa/vowel/u.png",
   soundfile: "../../../asset/audio/ipa/vowel/u.mp3"
 };
 
 const contentItem4 = {
   word: "e",
   sound: "e",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
+  Image: "../../../asset/image/ipa/vowel/e.png",
   soundfile: "../../../asset/audio/ipa/vowel/e.mp3"
 };
 
 const contentItem5 = {
   word: "æ",
   sound: "æ",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
+  Image: "../../../asset/image/ipa/vowel/æ.png",
   soundfile: "../../../asset/audio/ipa/vowel/æ.mp3"
 };
 
 const contentItem6 = {
   word: "ɔː",
   sound: "ɔː",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
+  Image: "../../../asset/image/ipa/vowel/o-long.png",
   soundfile: "../../../asset/audio/ipa/vowel/o-long.mp3"
 };
 
 const contentItem7 = {
   word: "ɒ",
   sound: "ɒ",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
+  Image: "../../../asset/image/ipa/vowel/o.png",
   soundfile: "../../../asset/audio/ipa/vowel/o.mp3"
 };
 
 const contentItem8 = {
   word: "ə",
   sound: "ə",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
+  Image: "../../../asset/image/ipa/vowel/ə.png",
   soundfile: "../../../asset/audio/ipa/vowel/ə.mp3"
 };
 
 const contentItem9 = {
   word: "ɜː",
   sound: "ɜː",
-  Image: "../../asset/image/simple-sentence/girl.jpg",
+  Image: "../../../asset/image/ipa/vowel/ə.png",
   soundfile: "../../../asset/audio/ipa/vowel/ə-long.mp3"
 };
 
 const contentItem10 = {
   word: "ʌ",
   sound: "ʌ",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
+  Image: "../../../asset/image/ipa/vowel/ʌ.png",
   soundfile: "../../../asset/audio/ipa/vowel/ʌ.mp3"
 };
 
 const contentItem11 = {
   word: "ɑː",
   sound: "ɑː",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
+  Image: "../../../asset/image/ipa/vowel/ʌ-long.png",
   soundfile: "../../../asset/audio/ipa/vowel/ʌ-long.mp3"
 };
 
 const contentItem12 = {
   word: "ɪə",
   sound: "ɪə",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
+  Image: "../../../asset/image/ipa/vowel/ɪə.gif",
   soundfile: "../../../asset/audio/ipa/vowel/ɪə.mp3"
 };
 
 const contentItem13 = {
   word: "eɪ",
   sound: "eɪ",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
+  Image: "../../../asset/image/ipa/vowel/ei.gif",
   soundfile: "../../../asset/audio/ipa/vowel/ei.mp3"
 };
 
 const contentItem14 = {
   word: "ʊə",
   sound: "ʊə",
-  Image: "../../asset/image/simple-sentence/boy.jpg",
+  Image: "../../../asset/image/ipa/vowel/ʊə.gif",
   soundfile: "../../../asset/audio/ipa/vowel/ʊə.mp3"
 };
 
 const contentItem15 = {
   word: "ɔɪ",
   sound: "/tɒŋz/",
-  Image: "../../asset/image/simple-sentence/thirsty.jpg",
+  Image: "../../../asset/image/ipa/vowel/ɔɪ.gif",
   soundfile: "../../../asset/audio/ipa/vowel/ɔɪ.mp3"
 };
 
 const contentItem16 = {
   word: "əʊ",
   sound: "/ˈbɒt.əl/",
-  Image: "../../asset/image/simple-sentence/hungry.jpg",
+  Image: "../../../asset/image/ipa/vowel/əʊ.gif",
   soundfile: "../../../asset/audio/ipa/vowel/əʊ.mp3"
 };
 
 const contentItem17 = {
   word: "eə",
   sound: "/ˈrəʊ.lɪŋˌpɪn/",
-  Image: "../../asset/image/simple-sentence/happy.jpg",
+  Image: "../../../asset/image/ipa/vowel/eə.png",
   soundfile: "../../../asset/audio/ipa/vowel/eə.mp3"
 };
 
 const contentItem18 = {
   word: "aɪ",
   sound: "/ˈket.əl/",
-  Image: "../../asset/image/simple-sentence/sad.jpg",
+  Image: "../../../asset/image/ipa/vowel/aɪ.gif",
   soundfile: "../../../asset/audio/ipa/vowel/aɪ.mp3"
 };
 
 const contentItem19 = {
   word: "aʊ",
   sound: "/pɒt/",
-  Image: "../../asset/image/simple-sentence/tired.jpg",
+  Image: "../../../asset/image/ipa/vowel/aʊ.gif",
   soundfile: "../../../asset/audio/ipa/vowel/aʊ.mp3"
 };
 
@@ -328,6 +328,7 @@ window.addEventListener("load", function(e){
 
   }
   learnObj.totalLenght=learnObj.letterList.length;
+
 });
 
 function loadData()
@@ -357,7 +358,8 @@ learnObj.next.addEventListener("click", function(){
     learnObj.counter++;
     loadData();
   }
-   
+
+
 });
 
 function testNextBtnFunction() {
