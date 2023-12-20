@@ -380,7 +380,7 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
 });
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/gghDRJVxFxU?si=3gu2nEnkRcqlfLiy";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/C2c0zG47k3k?si=WgF8Uh-HGnCEdurh";
   
 });
 
@@ -402,3 +402,4 @@ document.getElementById("video3").addEventListener("click",function(){
   
 });
 
+// https://www.youtube.com/embed/dg2Ep3DF8VY?si=sT1ZKcAt55sLNOfw
