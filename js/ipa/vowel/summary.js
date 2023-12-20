@@ -378,28 +378,44 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
   }
 
 });
+
+
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/C2c0zG47k3k?si=WgF8Uh-HGnCEdurh";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/MaBess5ygYo?si=Unv803nGmJ91ckd1";
   
 });
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/KrfXMO_3lgo?si=FYs7AGAS5ggLwtUa";
-  
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/C2c0zG47k3k?si=thH7cDecOvH5da0S";
+
 });
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/aV0Pvexqclc?si=UiGh-AOXGdlysckk";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/dg2Ep3DF8VY?si=_QtXWaXgT5fdoF81";
   
 });
 
 document.getElementById("video3").addEventListener("click",function(){
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/69DwHUg2f7s?si=Ngb0yXkErDjgWnD_";
+});
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/XKEv8hdl1yU?si=pi6dvQ-QOYr6CSJO";
+document.getElementById("video4").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/vL1iGL11Jzg?si=4FPGh1RnY-i4R0Xx";
   
 });
 
-// https://www.youtube.com/embed/dg2Ep3DF8VY?si=sT1ZKcAt55sLNOfw
+document.getElementById("video5").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/HdXCF8KHSMQ?si=RzaLIpAGGIZE5EiM";
+  
+});
+
+document.getElementById("video6").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/jORgKrANiMw?si=iyqvpR9bbtHhBof_";
+  
+});

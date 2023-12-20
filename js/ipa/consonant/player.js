@@ -1,151 +1,186 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "iː",
-  sound: "iː",
-  Image: "../../../asset/image/ipa/vowel/i-long.png",
-  soundfile: "../../../asset/audio/ipa/vowel/i-long.mp3"
+  word: "p",
+  sound: "p",
+  Image: "../../../asset/image/ipa/consonant/p.png",
+  soundfile: "../../../asset/audio/ipa/consonant/p.mp3"
 };
 
 const contentItem1 = {
-  word: "i",
+  word: "b",
   sound: "i",
-  Image: "../../../asset/image/ipa/vowel/i.png",
-  soundfile: "../../../asset/audio/ipa/vowel/i.mp3"
+  Image: "../../../asset/image/ipa/consonant/b.png",
+  soundfile: "../../../asset/audio/ipa/consonant/b.mp3"
 };
 
 const contentItem2 = {
-  word: "uː",
+  word: "t",
   sound: "uː",
-  Image: "../../../asset/image/ipa/vowel/u-long.png",
-  soundfile: "../../../asset/audio/ipa/vowel/u-long.mp3"
+  Image: "../../../asset/image/ipa/consonant/t.png",
+  soundfile: "../../../asset/audio/ipa/consonant/t.mp3"
 };
 
 const contentItem3 = {
-  word: "ʊ",
+  word: "d",
   sound: "ʊ",
-  Image: "../../../asset/image/ipa/vowel/u.png",
-  soundfile: "../../../asset/audio/ipa/vowel/u.mp3"
+  Image: "../../../asset/image/ipa/consonant/d.png",
+  soundfile: "../../../asset/audio/ipa/consonant/d.mp3"
 };
 
 const contentItem4 = {
-  word: "e",
+  word: "k",
   sound: "e",
-  Image: "../../../asset/image/ipa/vowel/e.png",
-  soundfile: "../../../asset/audio/ipa/vowel/e.mp3"
+  Image: "../../../asset/image/ipa/consonant/k.png",
+  soundfile: "../../../asset/audio/ipa/consonant/k.mp3"
 };
 
 const contentItem5 = {
-  word: "æ",
+  word: "g",
   sound: "æ",
-  Image: "../../../asset/image/ipa/vowel/æ.png",
-  soundfile: "../../../asset/audio/ipa/vowel/æ.mp3"
+  Image: "../../../asset/image/ipa/consonant/g.png",
+  soundfile: "../../../asset/audio/ipa/consonant/g.mp3"
 };
 
 const contentItem6 = {
-  word: "ɔː",
+  word: "f",
   sound: "ɔː",
-  Image: "../../../asset/image/ipa/vowel/o-long.png",
-  soundfile: "../../../asset/audio/ipa/vowel/o-long.mp3"
+  Image: "../../../asset/image/ipa/consonant/f.png",
+  soundfile: "../../../asset/audio/ipa/consonant/f.mp3"
 };
 
 const contentItem7 = {
-  word: "ɒ",
+  word: "v",
   sound: "ɒ",
-  Image: "../../../asset/image/ipa/vowel/o.png",
-  soundfile: "../../../asset/audio/ipa/vowel/o.mp3"
+  Image: "../../../asset/image/ipa/consonant/v.png",
+  soundfile: "../../../asset/audio/ipa/consonant/v.mp3"
 };
 
 const contentItem8 = {
-  word: "ə",
+  word: "θ",
   sound: "ə",
-  Image: "../../../asset/image/ipa/vowel/ə.png",
-  soundfile: "../../../asset/audio/ipa/vowel/ə.mp3"
+  Image: "../../../asset/image/ipa/consonant/θ.png",
+  soundfile: "../../../asset/audio/ipa/consonant/θ.mp3"
 };
 
 const contentItem9 = {
-  word: "ɜː",
+  word: "ð",
   sound: "ɜː",
-  Image: "../../../asset/image/ipa/vowel/ə.png",
-  soundfile: "../../../asset/audio/ipa/vowel/ə-long.mp3"
+  Image: "../../../asset/image/ipa/consonant/ð.png",
+  soundfile: "../../../asset/audio/ipa/consonant/ð.mp3"
 };
 
 const contentItem10 = {
-  word: "ʌ",
-  sound: "ʌ",
-  Image: "../../../asset/image/ipa/vowel/ʌ.png",
-  soundfile: "../../../asset/audio/ipa/vowel/ʌ.mp3"
+  word: "s",
+  sound: "ɑː",
+  Image: "../../../asset/image/ipa/consonant/s.png",
+  soundfile: "../../../asset/audio/ipa/consonant/s.mp3"
 };
 
 const contentItem11 = {
-  word: "ɑː",
-  sound: "ɑː",
-  Image: "../../../asset/image/ipa/vowel/ʌ-long.png",
-  soundfile: "../../../asset/audio/ipa/vowel/ʌ-long.mp3"
+  word: "z",
+  sound: "ɪə",
+  Image: "../../../asset/image/ipa/consonant/z.png",
+  soundfile: "../../../asset/audio/ipa/consonant/z.mp3"
 };
 
 const contentItem12 = {
-  word: "ɪə",
-  sound: "ɪə",
-  Image: "../../../asset/image/ipa/vowel/ɪə.gif",
-  soundfile: "../../../asset/audio/ipa/vowel/ɪə.mp3"
+  word: "ʃ",
+  sound: "eɪ",
+  Image: "../../../asset/image/ipa/consonant/ʃ.png",
+  soundfile: "../../../asset/audio/ipa/consonant/ʃ.mp3"
 };
 
 const contentItem13 = {
-  word: "eɪ",
-  sound: "eɪ",
-  Image: "../../../asset/image/ipa/vowel/ei.gif",
-  soundfile: "../../../asset/audio/ipa/vowel/ei.mp3"
+  word: "ʒ",
+  sound: "ʊə",
+  Image: "../../../asset/image/ipa/consonant/ʒ.png",
+  soundfile: "../../../asset/audio/ipa/consonant/ʒ.mp3"
 };
 
 const contentItem14 = {
-  word: "ʊə",
-  sound: "ʊə",
-  Image: "../../../asset/image/ipa/vowel/ʊə.gif",
-  soundfile: "../../../asset/audio/ipa/vowel/ʊə.mp3"
+  word: "tʃ",
+  sound: "/tɒŋz/",
+  Image: "../../../asset/image/ipa/consonant/tʃ.png",
+  soundfile: "../../../asset/audio/ipa/consonant/tʃ.mp3"
 };
 
 const contentItem15 = {
-  word: "ɔɪ",
-  sound: "/tɒŋz/",
-  Image: "../../../asset/image/ipa/vowel/ɔɪ.gif",
-  soundfile: "../../../asset/audio/ipa/vowel/ɔɪ.mp3"
+  word: "dʒ",
+  sound: "/ˈbɒt.əl/",
+  Image: "../../../asset/image/ipa/consonant/dʒ.png",
+  soundfile: "../../../asset/audio/ipa/consonant/dʒ.mp3"
 };
 
 const contentItem16 = {
-  word: "əʊ",
-  sound: "/ˈbɒt.əl/",
-  Image: "../../../asset/image/ipa/vowel/əʊ.gif",
-  soundfile: "../../../asset/audio/ipa/vowel/əʊ.mp3"
+  word: "m",
+  sound: "/ˈrəʊ.lɪŋˌpɪn/",
+  Image: "../../../asset/image/ipa/consonant/m.png",
+  soundfile: "../../../asset/audio/ipa/consonant/m.mp3"
 };
 
 const contentItem17 = {
-  word: "eə",
-  sound: "/ˈrəʊ.lɪŋˌpɪn/",
-  Image: "../../../asset/image/ipa/vowel/eə.png",
-  soundfile: "../../../asset/audio/ipa/vowel/eə.mp3"
+  word: "n",
+  sound: "/ˈket.əl/",
+  Image: "../../../asset/image/ipa/consonant/n.png",
+  soundfile: "../../../asset/audio/ipa/consonant/n.mp3"
 };
 
 const contentItem18 = {
-  word: "aɪ",
-  sound: "/ˈket.əl/",
-  Image: "../../../asset/image/ipa/vowel/aɪ.gif",
-  soundfile: "../../../asset/audio/ipa/vowel/aɪ.mp3"
+  word: "ŋ",
+  sound: "/pɒt/",
+  Image: "../../../asset/image/ipa/consonant/ŋ.png",
+  soundfile: "../../../asset/audio/ipa/consonant/ŋ.mp3"
 };
 
 const contentItem19 = {
-  word: "aʊ",
+  word: "l",
+  sound: "/tɒŋz/",
+  Image: "../../../asset/image/ipa/consonant/l.png",
+  soundfile: "../../../asset/audio/ipa/consonant/l.mp3"
+};
+
+const contentItem20 = {
+  word: "r",
+  sound: "/ˈbɒt.əl/",
+  Image: "../../../asset/image/ipa/consonant/r.png",
+  soundfile: "../../../asset/audio/ipa/consonant/r.mp3"
+};
+
+const contentItem21 = {
+  word: "w",
+  sound: "/ˈrəʊ.lɪŋˌpɪn/",
+  Image: "../../../asset/image/ipa/consonant/w.png",
+  soundfile: "../../../asset/audio/ipa/consonant/w.mp3"
+};
+
+const contentItem22 = {
+  word: "j",
+  sound: "/ˈket.əl/",
+  Image: "../../../asset/image/ipa/consonant/j.png",
+  soundfile: "../../../asset/audio/ipa/consonant/j.mp3"
+};
+
+const contentItem23 = {
+  word: "h",
   sound: "/pɒt/",
-  Image: "../../../asset/image/ipa/vowel/aʊ.gif",
-  soundfile: "../../../asset/audio/ipa/vowel/aʊ.mp3"
+  Image: "../../../asset/image/ipa/consonant/h.png",
+  soundfile: "../../../asset/audio/ipa/consonant/h.mp3"
+};
+
+const contentItem24 = {
+  word: "great",
+  sound: "/pɒt/",
+  Image: "../../../asset/image/ipa/consonant/great.png",
+  soundfile: "../../../asset/audio/ipa/consonant/great.mp3"
 };
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
 const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14]; 
 const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,contentItem19]; 
-
-const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3"];
+const contents4 = [contentItem20,contentItem21,contentItem22,contentItem23,contentItem24]; 
+const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4"];
 
 const common ={
   testPreviousBtn: null,
@@ -325,6 +360,11 @@ window.addEventListener("load", function(e){
   {
 
     learnObj.letterList=contents3;
+
+  }else if(pathname.includes(lessons[4]))
+  {
+
+    learnObj.letterList=contents4;
 
   }
   learnObj.totalLenght=learnObj.letterList.length;
