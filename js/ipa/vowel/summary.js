@@ -320,7 +320,7 @@ function letterSoundCheck(e) {
 
   if(common.game=="wordImageMatch")
   {
-    if(learnObj.letterList[wordImageMatchObj.counter].answer.includes(e.target.value))
+    if(learnObj.letterList[wordImageMatchObj.counter].word === (e.target.value))
     {
         document.getElementById("showResult").innerHTML=common.goodResult;
     }else 
