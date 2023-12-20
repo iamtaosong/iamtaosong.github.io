@@ -1,124 +1,124 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "one 1",
+  word: "1",
   sound: "/wʌn/",
   soundfile: "../../../asset/audio/number/one.mp3"
 };
 
 const contentItem1 = {
-  word: "two 2",
+  word: "2",
   sound: "/tuː/",
   soundfile: "../../../asset/audio/number/two.mp3"
 };
 
 const contentItem2 = {
-  word: "three 3",
+  word: "3",
   sound: "/θriː/",
   soundfile: "../../../asset/audio/number/three.mp3"
 };
 
 const contentItem3 = {
-  word: "four 4",
+  word: "4",
   sound: "/fɔːr/",
   soundfile: "../../../asset/audio/number/four.mp3"
 };
 
 
 const contentItem4 = {
-  word: "five 5",
+  word: "5",
   sound: "/faɪv/",
   soundfile: "../../../asset/audio/number/five.mp3"
 };
 
 const contentItem5 = {
-  word: "six 6",
+  word: "6",
   sound: "/sɪks/",
   soundfile: "../../../asset/audio/number/six.mp3"
 };
 
 const contentItem6 = {
-  word: "seven 7",
+  word: "7",
   sound: "/sev.ən/",
   soundfile: "../../../asset/audio/number/seven.mp3"
 };
 
 
 const contentItem7 = {
-  word: "eight 8",
+  word: "8",
   sound: "/eɪt/",
   soundfile: "../../../asset/audio/number/eight.mp3"
 };
 
 const contentItem8 = {
-  word: "nine 9",
+  word: "9",
   sound: "/naɪn/",
   soundfile: "../../../asset/audio/number/nine.mp3"
 };
 
 const contentItem9 = {
-  word: "ten 10",
+  word: "10",
   sound: "/ten/",
   soundfile: "../../../asset/audio/number/ten.mp3"
 };
 
 const contentItem10 = {
-  word: "eleven 11",
+  word: "11",
   sound: "/ɪˈlev.ən/",
   soundfile: "../../../asset/audio/number/eleven.mp3"
 }
 
 const contentItem11 = {
-  word: "twelve 12",
+  word: "12",
   sound: "/twelv/",
   soundfile: "../../../asset/audio/number/twelve.mp3"
 };
 
 const contentItem12 = {
-  word: "thirteen 13",
+  word: "13",
   sound: "/θɜːˈtiːn/",
   soundfile: "../../../asset/audio/number/thirteen.mp3"
 }
 
 const contentItem13 = {
-  word: "fourteen 14",
+  word: "14",
   sound: "/ˌfɔːˈtiːn/",
   soundfile: "../../../asset/audio/number/fourteen.mp3"
 };
 
 const contentItem14 = {
-  word: "fifteen 15",
+  word: "15",
   sound: "/ˌfɪfˈtiːn/",
   soundfile: "../../../asset/audio/number/fifteen.mp3"
 };
 
 const contentItem15 = {
-  word: "sixteen 16",
+  word: "16",
   sound: "/ˌsɪkˈstiːn/",
   soundfile: "../../../asset/audio/number/sixteen.mp3"
 };
 
 
 const contentItem16 = {
-  word: "seventeen 17",
+  word: "17",
   sound: "/ˌsev.ənˈtiːn/",
   soundfile: "../../../asset/audio/number/seventeen.mp3"
 };
 
 const contentItem17 = {
-  word: "eighteen 18",
+  word: "18",
   sound: "/ˌeɪˈtiːn/",
   soundfile: "../../../asset/audio/number/eighteen.mp3"
 };
 
 const contentItem18 = {
-  word: "nineteen 19",
+  word: "19",
   sound: "/ˌnaɪnˈtiːn/",
   soundfile: "../../../asset/audio/number/nineteen.mp3"
 };
 
 const contentItem19 = {
-  word: "twenty 20",
+  word: "20",
   sound: "/twen.ti/",
   soundfile: "../../../asset/audio/number/twenty.mp3"
 };
