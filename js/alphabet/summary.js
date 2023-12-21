@@ -306,9 +306,9 @@ const LetterOrderObj = {
                         
                         </div>
 
-                        <button id="checkResult" type="button" style="width: 50%;" class="btn btn-light rounded-pill py-2 px-3 my-3 shadow backgroundcolor1">
+                        <button id="checkResult" type="button" style="width: 50%;" class="btn btn-light rounded-pill py-2 px-3 my-3 shadow practicebuttoncolor text-white">
                           <span >Play again</span> 
-                          <i class="bi bi-hand-index-thumb text-danger" style='font-size:24px;'></i>    
+                          <i class="bi bi-hand-index-thumb" style='font-size:24px;'></i>    
                         </button>
 
                         </div> 
