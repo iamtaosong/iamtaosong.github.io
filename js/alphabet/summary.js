@@ -255,7 +255,7 @@ const LetterOrderObj = {
   draggableElements: null,
   droppableElements: null,
   checkResultBtn:null,
-  letterOrderContent: `<div class="card border shadow">
+  letterOrderContent: `<div class="card border">
                         <div class="h2">
                           <div class="row justify-content-center my-5">
                             <div class="col-2">
@@ -306,9 +306,9 @@ const LetterOrderObj = {
                         
                         </div>
 
-                        <button id="checkResult" type="button" style="width: 50%;" class="btn btn-light rounded-pill py-2 px-3 my-3 shadow practicebuttoncolor text-white">
+                        <button id="checkResult" type="button" style="width: 50%;" class="btn btn-light rounded-pill py-2 px-3 my-3 shadow backgroundcolor1">
                           <span >Play again</span> 
-                          <i class="bi bi-hand-index-thumb" style='font-size:24px;'></i>    
+                          <i class="bi bi-hand-index-thumb text-danger" style='font-size:24px;'></i>    
                         </button>
 
                         </div> 
