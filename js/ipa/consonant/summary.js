@@ -180,7 +180,9 @@ const common ={
   testSection: document.getElementById("testSection"),
   letterSelected: false,
   goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`
+  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../../asset/image/right.mp3",
+  wrong: "../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {
@@ -192,11 +194,13 @@ const wordImageMatchObj = {
   wordElementLst: null,
   counter: 0,
   sectionLength: 5,
+  progress: null,
   list0: null,
   list1: null,
   picture: null,
   wordImageMatch: document.getElementById("wordImageMatch"),
   wordImageMatchContent: `<div class="card highlight">
+                              <h1 class="text-center my-3" id="progress">Learning test</h1>
                               <div class="my-3">
                                 <img id="wordImageMatchPicture" src="" width="100" height="100" alt="">
                               </div>
@@ -319,6 +323,7 @@ function testNextBtnFunction() {
     wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
     common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
   }
+  wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1 +"/"+learnObj.totalLength;
   common.testAudio.load();
   document.getElementById("showResult").innerHTML="";
 }
@@ -339,7 +344,9 @@ function testPreviousBtnFunction() {
 
     wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
     common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
+   
   }
+  wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1+"/"+learnObj.totalLength;
   common.testAudio.load();
   document.getElementById("showResult").innerHTML="";
 }
@@ -352,13 +359,16 @@ function letterSoundCheck(e) {
     if(learnObj.letterList[wordImageMatchObj.counter].word === (e.target.value))
     {
         document.getElementById("showResult").innerHTML=common.goodResult;
+        common.testSoundFile.setAttribute("src",common.right);
     }else 
     {
        document.getElementById("showResult").innerHTML=common.poorResult;
+       common.testSoundFile.setAttribute("src",common.wrong);
     }
 
   }
-   
+  common.testAudio.load();
+  common.testAudio.play();
 }
 
 function buildWordImageMatch()
@@ -385,6 +395,8 @@ function buildWordImageMatch()
     elem.addEventListener("click",letterSoundCheck); 
   });
 
+  wordImageMatchObj.progress=document.getElementById("progress");
+  wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1+"/"+learnObj.totalLength;
   //here fill up the letters 
   for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
@@ -394,6 +406,7 @@ function buildWordImageMatch()
   wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[0].Image);
   common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
   common.testAudio.load();
+
 }
 
 wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
