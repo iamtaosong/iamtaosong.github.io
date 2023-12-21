@@ -255,7 +255,7 @@ const LetterOrderObj = {
   draggableElements: null,
   droppableElements: null,
   checkResultBtn:null,
-  letterOrderContent: `<div class="card border">
+  letterOrderContent: `<div class="card border shadow">
                         <div class="h2">
                           <div class="row justify-content-center my-5">
                             <div class="col-2">
