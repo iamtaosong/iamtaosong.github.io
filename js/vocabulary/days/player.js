@@ -283,7 +283,7 @@ function wordSoundCheck(e) {
 
   if(common.game=="spelling")
   {
-    if(learnObj.letterList[spellingObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[spellingObj.counter].word === (e.target.value))
     {
   
       document.getElementById("showResult").innerHTML=common.goodResult;
@@ -298,7 +298,7 @@ function wordSoundCheck(e) {
   }else if (common.game=="wordSoundMatch")
   {
 
-    if(learnObj.letterList[wordSoundMatchObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[wordSoundMatchObj.counter].word === (e.target.value))
     {
   
       document.getElementById("showResult").innerHTML=common.goodResult;

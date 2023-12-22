@@ -484,7 +484,7 @@ function letterSoundCheck(e) {
 
   if(common.game=="soundImageMatch")
   {
-    if(learnObj.letterList[soundImageMatchObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[soundImageMatchObj.counter].word === (e.target.value))
     {
   
       document.getElementById("showResult").innerHTML=common.goodResult;
@@ -499,7 +499,7 @@ function letterSoundCheck(e) {
   }else if (common.game=="wordSoundMatch")
   {
 
-    if(learnObj.letterList[wordSoundMatchObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[wordSoundMatchObj.counter].word === (e.target.value))
     {
   
       document.getElementById("showResult").innerHTML=common.goodResult;

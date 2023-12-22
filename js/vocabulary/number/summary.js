@@ -366,7 +366,7 @@ function wordSoundCheck(e) {
   common.letterSelected=e;
  if (common.game=="wordSoundMatch")
   {
-    if(learnObj.letterList[wordSoundMatchObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[wordSoundMatchObj.counter].word === (e.target.value))
     {
   
       document.getElementById("showResult").innerHTML=common.goodResult;

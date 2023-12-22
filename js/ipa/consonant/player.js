@@ -466,7 +466,7 @@ function letterSoundCheck(e) {
 
   if(common.game=="wordImageMatch")
   {
-    if(learnObj.letterList[wordImageMatchObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[wordImageMatchObj.counter].word === (e.target.value))
     {
       document.getElementById("showResult").innerHTML=common.goodResult;
       common.testSoundFile.setAttribute("src",common.right);
@@ -481,10 +481,10 @@ function letterSoundCheck(e) {
   }else if (common.game=="wordSoundMatch")
   {
 
-    if(learnObj.letterList[wordSoundMatchObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[wordSoundMatchObj.counter].word === (e.target.value))
     {
   
-      document.getElementById("showResult").innerHTML=common.goodResult;
+      document.getElementById("showResult").innerHTML=common.goodResult; 
       common.testSoundFile.setAttribute("src",common.right);
     }else 
     {
