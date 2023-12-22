@@ -2,98 +2,98 @@
 const pathname=window.location.pathname;
 const contentItem0 = {
   word: "angry",
-  sound: "ˈæŋ.ɡri",
+  sound: "/ˈæŋ.ɡri/",
   Image: "../../../asset/image/feeling/angry.jpg",
   soundfile: "../../../asset/audio/feeling/angry.mp3"
 };
 
 const contentItem1 = {
   word: "bored",
-  sound: "bɔːd",
+  sound: "/bɔːd/",
   Image: "../../../asset/image/feeling/bored.jpg",
   soundfile: "../../../asset/audio/feeling/bored.mp3"
 };
 
 const contentItem2 = {
   word: "confused",
-  sound: "kənˈfjuːzd",
+  sound: "/kənˈfjuːzd/",
   Image: "../../../asset/image/feeling/confused.jpg",
   soundfile: "../../../asset/audio/feeling/confused.mp3"
 };
 
 const contentItem3 = {
   word: "crying",
-  sound: "ˈkraɪ.ɪŋ",
+  sound: "/ˈkraɪ.ɪŋ/",
   Image: "../../../asset/image/feeling/crying.jpg",
   soundfile: "../../../asset/audio/feeling/crying.mp3"
 };
 
 const contentItem4 = {
   word: "excited",
-  sound: "ɪkˈsaɪ.tɪd",
+  sound: "/ɪkˈsaɪ.tɪd/",
   Image: "../../../asset/image/feeling/excited.jpg",
   soundfile: "../../../asset/audio/feeling/excited.mp3"
 };
 
 const contentItem5 = {
   word: "happy",
-  sound: "ˈhæp.i",
+  sound: "/ˈhæp.i/",
   Image: "../../../asset/image/feeling/happy.jpg",
   soundfile: "../../../asset/audio/feeling/happy.mp3"
 };
 
 const contentItem6 = {
   word: "jealous",
-  sound: "ˈdʒel.əs",
+  sound: "/ˈdʒel.əs/",
   Image: "../../../asset/image/feeling/jealous.jpg",
   soundfile: "../../../asset/audio/feeling/jealous.mp3"
 };
 
 const contentItem7 = {
   word: "loving",
-  sound: "ˈlʌv.ɪŋ",
+  sound: "/ˈlʌv.ɪŋ/",
   Image: "../../../asset/image/feeling/loving.jpg",
   soundfile: "../../../asset/audio/feeling/loving.mp3"
 };
 
 const contentItem8 = {
   word: "nervous",
-  sound: "ˈnɜː.vəs",
+  sound: "/ˈnɜː.vəs/",
   Image: "../../../asset/image/feeling/nervous.jpg",
   soundfile: "../../../asset/audio/feeling/nervous.mp3"
 };
 
 const contentItem9 = {
   word: "proud",
-  sound: "ɜː",
+  sound: "/praʊd/",
   Image: "../../../asset/image/feeling/proud.jpg",
   soundfile: "../../../asset/audio/feeling/proud.mp3"
 };
 
 const contentItem10 = {
   word: "sad",
-  sound: "sæd",
+  sound: "/sæd/",
   Image: "../../../asset/image/feeling/sad.jpg",
   soundfile: "../../../asset/audio/feeling/sad.mp3"
 };
 
 const contentItem11 = {
   word: "scared",
-  sound: "skeəd",
+  sound: "/skeəd/",
   Image: "../../../asset/image/feeling/scared.jpg",
   soundfile: "../../../asset/audio/feeling/scared.mp3"
 };
 
 const contentItem12 = {
   word: "shy",
-  sound: "ʃaɪ",
+  sound: "/ʃaɪ/",
   Image: "../../../asset/image/feeling/shy.jpg",
   soundfile: "../../../asset/audio/feeling/shy.mp3"
 };
 
 const contentItem13 = {
   word: "sick",
-  sound: "ʊə",
+  sound: "/sik/",
   Image: "../../../asset/image/feeling/sick.jpg",
   soundfile: "../../../asset/audio/feeling/sick.mp3"
 };
@@ -122,7 +122,7 @@ const contentItem16 = {
 
 const contentItem17 = {
   word: "tired ",
-  sound: "/pɒt/",
+  sound: "/taɪəd/",
   Image: "../../../asset/image/feeling/tired.jpg",
   soundfile: "../../../asset/audio/feeling/tired.mp3"
 };
@@ -136,7 +136,7 @@ const contentItem18 = {
 
 const contentItem19 = {
   word: "worried",
-  sound: "/ˈbɒt.əl/",
+  sound: "/ˈwʌr.idl/",
   Image: "../../../asset/image/feeling/worried.jpg",
   soundfile: "../../../asset/audio/feeling/worried.mp3"
 };
@@ -339,6 +339,7 @@ function loadData()
  
   learnObj.content.innerText=learnObj.letterList[learnObj.counter].word;
   learnObj.soundfile.setAttribute("src",learnObj.letterList[learnObj.counter].soundfile); 
+  learnObj.sound.innerText=learnObj.letterList[learnObj.counter].sound;
   learnObj.picture.setAttribute("src",learnObj.letterList[learnObj.counter].Image);
   learnObj.myAudio.load();
 }
