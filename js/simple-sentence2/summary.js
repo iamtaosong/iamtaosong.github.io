@@ -3,177 +3,177 @@ const pathname=window.location.pathname;
 const contentItem0 = {
   word: "get up",
   sound: "/naɪf/",
-  Image: "../../asset/image/simple-sentence2/up.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/getup.mp3"
+  Image: "../../../asset/image/simple-sentence2/up.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/getup.mp3"
 };
 
 const contentItem1 = {
   word: "get dressed",
   sound: "/pleɪt/",
-  Image: "../../asset/image/simple-sentence2/dress.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/dress.mp3"
+  Image: "../../../asset/image/simple-sentence2/dress.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/dress.mp3"
 };
 
 const contentItem2 = {
   word: "wash your face",
   sound: "/fɔːk/",
-  Image: "../../asset/image/simple-sentence2/face.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/face.mp3"
+  Image: "../../../asset/image/simple-sentence2/face.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/face.mp3"
 };
 
 const contentItem3 = {
   word: "brush your teeth",
   sound: "/ˈtʃɒp.stɪk/",
-  Image: "../../asset/image/simple-sentence2/teeth.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/teeth.mp3"
+  Image: "../../../asset/image/simple-sentence2/teeth.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/teeth.mp3"
 };
 
 const contentItem4 = {
   word: "brush your hair",
   sound: "/spuːn/",
-  Image: "../../asset/image/simple-sentence2/hair.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/hair.mp3"
+  Image: "../../../asset/image/simple-sentence2/hair.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/hair.mp3"
 };
 
 const contentItem5 = {
   word: "have breakfast",
   sound: "/ɡlɑːs/",
-  Image: "../../asset/image/simple-sentence2/breakfast.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/breakfast.mp3"
+  Image: "../../../asset/image/simple-sentence2/breakfast.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/breakfast.mp3"
 };
 
 const contentItem6 = {
   word: "go to school",
   sound: "/kʌp/",
-  Image: "../../asset/image/simple-sentence2/school.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/school.mp3"
+  Image: "../../../asset/image/simple-sentence2/school.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/school.mp3"
 };
 
 const contentItem7 = {
   word: "have lunch",
   sound: "/ˈspætʃ.ə.lə/",
-  Image: "../../asset/image/simple-sentence2/lunch.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/lunch.mp3"
+  Image: "../../../asset/image/simple-sentence2/lunch.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/lunch.mp3"
 };
 
 const contentItem8 = {
   word: "play football",
   sound: "/wɪsk/",
-  Image: "../../asset/image/simple-sentence2/football.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/football.mp3"
+  Image: "../../../asset/image/simple-sentence2/football.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/football.mp3"
 };
 
 const contentItem9 = {
   word: "hurry up",
   sound: "/ˈnuː.dəl/",
-  Image: "../../asset/image/simple-sentence2/hurry.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/hurryup.mp3"
+  Image: "../../../asset/image/simple-sentence2/hurry.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/hurryup.mp3"
 };
 
 
 const contentItem10 = {
   word: "take classes",
   sound: "/ˈɡreɪ.tər",
-  Image: "../../asset/image/simple-sentence2/class.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/class.mp3"
+  Image: "../../../asset/image/simple-sentence2/class.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/class.mp3"
 };
 
 const contentItem11 = {
   word: "go to bed",
   sound: "/bəʊl/",
-  Image: "../../asset/image/simple-sentence2/bed.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/bed.mp3"
+  Image: "../../../asset/image/simple-sentence2/bed.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/bed.mp3"
 };
 
 const contentItem12 = {
   word: "come home",
   sound: "/ˈkʌt.ɪŋ ˌbɔːd/",
-  Image: "../../asset/image/simple-sentence2/home.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/home.mp3"
+  Image: "../../../asset/image/simple-sentence2/home.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/home.mp3"
 };
 
 const contentItem13 = {
   word: "have dinner",
   sound: "/tɒŋz/",
-  Image: "../../asset/image/simple-sentence2/dinner.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/dinner.mp3"
+  Image: "../../../asset/image/simple-sentence2/dinner.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/dinner.mp3"
 };
 
 const contentItem14 = {
   word: "do your homework",
   sound: "/ˈbɒt.əl/",
-  Image: "../../asset/image/simple-sentence2/homework.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/homework.mp3"
+  Image: "../../../asset/image/simple-sentence2/homework.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/homework.mp3"
 };
 
 const contentItem15 = {
   word: "walk dog",
   sound: "/ˈket.əl/",
-  Image: "../../asset/image/simple-sentence2/dog.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/dog.mp3"
+  Image: "../../../asset/image/simple-sentence2/dog.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/dog.mp3"
 };
 
 const contentItem16 = {
   word: "take a shower",
   sound: "/pɒt/",
-  Image: "../../asset/image/simple-sentence2/shower.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/shower.mp3"
+  Image: "../../../asset/image/simple-sentence2/shower.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/shower.mp3"
 };
 
 const contentItem17 = {
   word: "take a bath",
   sound: "/frɪdʒ/",
-  Image: "../../asset/image/simple-sentence2/bath.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/bath.mp3"
+  Image: "../../../asset/image/simple-sentence2/bath.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/bath.mp3"
 };
 
 const contentItem18 = {
   word: "drink water",
   sound: "/mit/",
-  Image: "../../asset/image/simple-sentence2/water.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/water.mp3"
+  Image: "../../../asset/image/simple-sentence2/water.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/water.mp3"
 };
 
 const contentItem19 = {
   word: "ride a bike",
   sound: "/ˈfraɪ.ɪŋˌpæn/",
-  Image: "../../asset/image/simple-sentence2/bike.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/bike.mp3"
+  Image: "../../../asset/image/simple-sentence2/bike.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/bike.mp3"
 };
 
 const contentItem20 = {
   word: "go and play",
   sound: "/ˈmaɪ.krə.weɪv/",
-  Image: "../../asset/image/simple-sentence2/play.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/play.mp3"
+  Image: "../../../asset/image/simple-sentence2/play.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/play.mp3"
 };
 
 const contentItem21 = {
   word: "I love the food",
   sound: "/ˈeɪ.prən/",
-  Image: "../../asset/image/simple-sentence2/food.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/food.mp3"
+  Image: "../../../asset/image/simple-sentence2/food.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/food.mp3"
 };
 
 const contentItem22 = {
   word: "we are friends",
   sound: "/ˈeɪ.prən/",
-  Image: "../../asset/image/simple-sentence2/friend.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/friend.mp3"
+  Image: "../../../asset/image/simple-sentence2/friend.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/friend.mp3"
 };
 
 const contentItem23 = {
   word: "take school bus",
   sound: "/ˈeɪ.prən/",
-  Image: "../../asset/image/simple-sentence2/schoolbus.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/bus.mp3"
+  Image: "../../../asset/image/simple-sentence2/schoolbus.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/bus.mp3"
 };
 
 const contentItem24 = {
   word: "watch TV",
   sound: "/ˈeɪ.prən/",
-  Image: "../../asset/image/simple-sentence2/Tv.jpg",
-  soundfile: "../../asset/audio/simple-sentence2/tv.mp3"
+  Image: "../../../asset/image/simple-sentence2/Tv.jpg",
+  soundfile: "../../../asset/audio/simple-sentence2/tv.mp3"
 };
 
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
@@ -187,8 +187,8 @@ const common ={
   game: null,
   testSection: document.getElementById("testSection"),
   letterSelected: false,
-  goodResult: `<img src="../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../asset/image/sad.png" alt="happy--v1"/>`
+  goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
+  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`
 }
 
 const learnObj = {
