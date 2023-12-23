@@ -1,192 +1,239 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  question: "What's this?",
-  answer: "This is cat",
-  Image: "../../../asset/image/basic-conversation/cat.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatsthis.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/cat.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qacat.mp3"
+  question: "How is the weather?",
+  answer: "It's sunny",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/sunny.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/weather.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/sunny.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qasunny.mp3"
 };
 
 const contentItem1 = {
-  question: "What's this?",
-  answer: "This is tiger",
-  Image: "../../../asset/image/basic-conversation/tiger.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatsthis.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qatiger.mp3"
+  question: "How is the weather?",
+  answer: "It's rainy?",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/rainy.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/weather.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qarainy.mp3"
 };
 
 const contentItem2 = {
-  question: "What's this?",
-  answer: "This is fox",
-  Image: "../../../asset/image/basic-conversation/fox.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatsthis.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qafox.mp3"
+  question: "How is the weather?",
+  answer: "It's cloudy",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/cloudy.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/weather.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qacloudy.mp3"
 };
 
 const contentItem3 = {
-  question: "What's this?",
-  answer: "This is frog",
-  Image: "../../../asset/image/basic-conversation/frog.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatsthis.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qafrog.mp3"
+  question: "How is the weather?",
+  answer: "It's snowy",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/snowy.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/weather.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qasnowy.mp3"
 };
 
 const contentItem4 = {
-  question: "What's this?",
-  answer: "This is pig",
-  Image: "../../../asset/image/basic-conversation/pig.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatsthis.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qapig.mp3"
+  question: "How is the weather?",
+  answer: "It's windy",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/windy.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/weather.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qawindy.mp3"
 };
 
 const contentItem5 = {
-  question: "What's that?",
-  answer: "That is dog",
-  Image: "../../../asset/image/basic-conversation/dog.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatsthat.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qadog.mp3"
+  question: "What food do you like?",
+  answer: "I like pizza",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/pizza.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/food.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qapizza.mp3"
 };
 
 const contentItem6 = {
-  question: "What's that?",
-  answer: "That is fish",
-  Image: "../../../asset/image/basic-conversation/fish.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatsthat.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qafish.mp3"
+  question: "What food do you like?",
+  answer: "I like ice cream",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/ice-cream.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/food.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qaice.mp3"
 };
 
 const contentItem7 = {
-  question: "What's that?",
-  answer: "That is goat",
-  Image: "../../../asset/image/basic-conversation/goat.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatsthat.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qagoat.mp3"
+  question: "What food do you like?",
+  answer: "I like juice",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/juice.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/food.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qajuice.mp3"
 };
 
 const contentItem8 = {
-  question: "What's that?",
-  answer: "That is panda",
-  Image: "../../../asset/image/basic-conversation/panda.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatsthat.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qapanda.mp3"
+  question: "What food do you like?",
+  answer: "I like broccoli",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/broccoli.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/food.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qabroccoli.mp3"
 };
 
 const contentItem9 = {
-  question: "What's that?",
-  answer: "That is horse",
-  Image: "../../../asset/image/basic-conversation/horse.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatsthat.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qahorse.mp3"
+  question: "What food do you like?",
+  answer: "I like burger",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/burger.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/food.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qaburger.mp3"
 };
 
 
 const contentItem10 = {
-  question: "what are these?",
-  answer: "These are shorts",
-  Image: "../../../asset/image/basic-conversation/short.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatthese.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qashort.mp3"
+  question: "What shape is it?",
+  answer: "It's circle",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/circle.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/shape.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qacircle.mp3"
 };
 
 const contentItem11 = {
-  question: "what are these?",
-  answer: "These are shoes",
-  Image: "../../../asset/image/basic-conversation/shoe.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatthese.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qashoe.mp3"
+  question: "What shape is it?",
+  answer: "It's square",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/square.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/shape.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qasquare.mp3"
 };
 
 const contentItem12 = {
-  question: "what are these?",
-  answer: "These are pants",
-  Image: "../../../asset/image/basic-conversation/pant.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatthese.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qapant.mp3"
+  question: "What shape is it?",
+  answer: "It's heart",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/heart.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/shape.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qaheart.mp3"
 };
 
 const contentItem13 = {
-  question: "what are these?",
-  answer: "These are socks",
-  Image: "../../../asset/image/basic-conversation/sock.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatthese.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/these.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qasock.mp3"
+  question: "What shape is it?",
+  answer: "It's rectangle",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/rectangle.png",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/shape.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/these.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qarectangle.mp3"
 };
 
 const contentItem14 = {
-  question: "what are these?",
-  answer: "These are gloves",
-  Image: "../../../asset/image/basic-conversation/glove.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatthese.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qaglove.mp3"
+  question: "What shape is it?",
+  answer: "It's triangle",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/triangle.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/shape.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qatriangle.mp3"
 };
 
 const contentItem15 = {
-  question: "what are those?",
-  answer: "Those are broccoli",
-  Image: "../../../asset/image/basic-conversation/broccoli.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatthose.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qabrocoli.mp3"
+  question: "How are you feeling?",
+  answer: "I'm feeling happy",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/happy.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/feeling.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qahappy.mp3"
 };
 
 const contentItem16 = {
-  question: "what are those?",
-  answer: "Those are tomatoes",
-  Image: "../../../asset/image/basic-conversation/tomato.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatthose.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qatomato.mp3"
+  question: "How are you feeling?",
+  answer: "I'm feeling sad",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/sad.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/feeling.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qasad.mp3"
 };
 
 const contentItem17 = {
-  question: "what are those?",
-  answer: "Those are mushrooms",
-  Image: "../../../asset/image/basic-conversation/mushroom.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatthose.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qamushroom.mp3"
+  question: "How are you feeling?",
+  answer: "I'm feeling angry",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/angry.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/feeling.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qaangry.mp3"
 };
 
 const contentItem18 = {
-  question: "what are those?",
-  answer: "Those are carrots",
-  Image: "../../../asset/image/basic-conversation/carrot.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatthose.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qacarrot.mp3"
+  question: "How are you feeling?",
+  answer: "I'm feeling excited",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/excited.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/feeling.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qaexcited.mp3"
 };
 
 const contentItem19 = {
-  question: "what are those?",
-  answer: "Those are green peppers",
-  Image: "../../../asset/image/basic-conversation/pepper.jpg",
-  soundfileQ: "../../../asset/audio/basic-conversation/whatthose.mp3",
-  soundfileA: "../../../asset/audio/basic-conversation/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-conversation/qapepper.mp3"
+  question: "How are you feeling?",
+  answer: "I'm feeling tired",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/tired.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/feeling.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qatired.mp3"
 };
+
+const contentItem20 = {
+  question: "who is she?",
+  answer: "she's my mother",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/mother.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/she.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qamother.mp3"
+};
+
+const contentItem21 = {
+  question: "who is she?",
+  answer: "she's my sister",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/sister.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/she.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qasister.mp3"
+};
+
+const contentItem22 = {
+  question: "who is she?",
+  answer: "she's my grandmother",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/grandmother.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/she.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qagrandmother.mp3"
+};
+
+const contentItem23 = {
+  question: "who is he?",
+  answer: "he's my father",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/father.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/he.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qafather.mp3"
+};
+
+const contentItem24 = {
+  question: "who is he?",
+  answer: "he's my brother",
+  Image: "../../../asset/image/basic-sentence/basic-conversation2/brother.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/basic-conversation2/he.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/basic-conversation2/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/basic-conversation2/qabrother.mp3"
+};
+
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
 const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14]; 
 const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,contentItem19]; 
+const contents4 = [contentItem20,contentItem21,contentItem22,contentItem23,contentItem24]; 
 
-const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3"];
+const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4"];
 
 const common ={
   testPreviousBtn: null,
@@ -197,7 +244,9 @@ const common ={
   testSection: document.getElementById("testSection"),
   letterSelected: false,
   goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`
+  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../../asset/image/right.mp3",
+  wrong: "../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {
@@ -303,6 +352,11 @@ window.addEventListener("load", function(e){
   {
 
     learnObj.letterList=contents3;
+
+  }else if(pathname.includes(lessons[4]))
+  {
+
+    learnObj.letterList=contents4;
 
   }
 
@@ -412,14 +466,16 @@ function letterSoundCheck(e) {
     {
   
       document.getElementById("showResult").innerHTML=common.goodResult;
-   
+      common.testSoundFile.setAttribute("src",common.right);
     }else 
     {
   
       document.getElementById("showResult").innerHTML=common.poorResult;
+      common.testSoundFile.setAttribute("src",common.wrong);
     }
   
-
+    common.testAudio.load();
+    common.testAudio.play();
   }
 }
 
