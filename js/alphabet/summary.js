@@ -856,7 +856,7 @@ document.getElementById("video1").addEventListener("click",function(){
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/h4eueDYPTIg?si=fqeTWAgaSqyIOUvp";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/VwT5Tj-6tps?si=mvwzjLWh_FdKnstE";
   
 });
 
