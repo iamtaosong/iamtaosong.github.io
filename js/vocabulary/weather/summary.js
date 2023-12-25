@@ -601,7 +601,7 @@ soundImageMatchObj.soundImageMatch.addEventListener("click",function() {
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/KBL5aXSJTlE?si=p1LiFlfJnqrD_d3R";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/rD6FRDd9Hew?si=uhVBcooU5lzoUQV4";
   
 });
 
@@ -619,6 +619,6 @@ document.getElementById("video2").addEventListener("click",function(){
 
 document.getElementById("video3").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/xJxq0kR8yNc?si=mh8MuErngKZvGO_h";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/qoVcMJTjJ4A?si=qMwtWiaqJUSWXjwD";
   
 });
