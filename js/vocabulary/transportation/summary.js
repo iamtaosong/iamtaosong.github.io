@@ -395,13 +395,13 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
 });
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/gDePBaUc42w?si=Mzy1WMgbkhAqLXVP";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/5-DeiXPJ3H8?si=TEactbxFcaG30Ns_";
   
 });
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/mfReSbQ7jzE?si=BrB0tZnwRFMwovCN";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/Ut-HbauKzDw?si=532O9CfVNozE3r4O";
   
 });
 
