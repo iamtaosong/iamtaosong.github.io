@@ -1,144 +1,144 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "apple",
-  sound: "/ˈæp.əl/",
-  Image: "../../../asset/image/vocabulary/fruit/apple.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/apple.mp3"
+  word: "car",
+  sound: "/kɑːr/",
+  Image: "../../../asset/image/vocabulary/transportation/car.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/car.mp3"
 };
 
 const contentItem1 = {
-  word: "banana",
-  sound: "/bəˈnɑː.nə/",
-  Image: "../../../asset/image/vocabulary/fruit/banana.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/banana.mp3"
+  word: "bicycle",
+  sound: "/ˈbaɪ.sɪ.kəl/",
+  Image: "../../../asset/image/vocabulary/transportation/bicycle.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/bicycle.mp3"
 };
 
 const contentItem2 = {
-  word: "cheery",
-  sound: "/ˈtʃɪə.ri/",
-  Image: "../../../asset/image/vocabulary/fruit/cherry.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/cherry.mp3"
+  word: "bus",
+  sound: "/bʌs/",
+  Image: "../../../asset/image/vocabulary/transportation/bus.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/bus.mp3"
 };
 
 const contentItem3 = {
-  word: "grape",
-  sound: "/ɡreɪp/",
-  Image: "../../../asset/image/vocabulary/fruit/grape.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/grape.mp3"
+  word: "truck",
+  sound: "/trʌk/",
+  Image: "../../../asset/image/vocabulary/transportation/truck.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/truck.mp3"
 };
 
 const contentItem4 = {
-  word: "kiwi",
-  sound: "/ˈkiː.wiː/",
-  Image: "../../../asset/image/vocabulary/fruit/kiwi.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/kiwi.mp3"
+  word: "boat",
+  sound: "/bəʊt/",
+  Image: "../../../asset/image/vocabulary/transportation/boat.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/boat.mp3"
 };
 
 const contentItem5 = {
-  word: "lemon",
-  sound: "/ˈlem.ən/",
-  Image: "../../../asset/image/vocabulary/fruit/lemon.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/lemon.mp3"
+  word: "train",
+  sound: "/treɪn/",
+  Image: "../../../asset/image/vocabulary/transportation/train.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/train.mp3"
 };
 
 const contentItem6 = {
-  word: "mango",
-  sound: "/ˈmæŋ.ɡəʊ/",
-  Image: "../../../asset/image/vocabulary/fruit/mango.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/mango.mp3"
+  word: "airplane",
+  sound: "/ˈeə.pleɪn/",
+  Image: "../../../asset/image/vocabulary/transportation/airplane.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/airplane.mp3"
 };
 
 const contentItem7 = {
-  word: "orange",
-  sound: "/ˈɒr.ɪndʒ/",
-  Image: "../../../asset/image/vocabulary/fruit/orange.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/orange.mp3"
+  word: "helicopter",
+  sound: "/ˈhel.ɪˌkɒp.tər/",
+  Image: "../../../asset/image/vocabulary/transportation/helicopter.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/helicopter.mp3"
 };
 
 const contentItem8 = {
-  word: "peach",
-  sound: "/piːt/",
-  Image: "../../../asset/image/vocabulary/fruit/peach.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/peach.mp3"
+  word: "motorcycle",
+  sound: "/ˈməʊ.təˌsaɪ.kəl/",
+  Image: "../../../asset/image/vocabulary/transportation/motorcycle.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/motorcycle.mp3"
 };
 
 const contentItem9 = {
-  word: "pear",
-  sound: "/peər/",
-  Image: "../../../asset/image/vocabulary/fruit/pear.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/pear.mp3"
+  word: "scooter",
+  sound: "/ˈskuː.tər/",
+  Image: "../../../asset/image/vocabulary/transportation/scooter.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/scooter.mp3"
 };
 
 const contentItem10 = {
-  word: "pineapple",
-  sound: "/ˈpaɪnˌæp.əl/",
-  Image: "../../../asset/image/vocabulary/fruit/pineapple.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/pineapple.mp3"
+  word: "tram",
+  sound: "/træm/",
+  Image: "../../../asset/image/vocabulary/transportation/tram.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/tram.mp3"
 };
 
 const contentItem11 = {
-  word: "plum",
-  sound: "/plʌm/",
-  Image: "../../../asset/image/vocabulary/fruit/plum.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/plum.mp3"
+  word: "subway",
+  sound: "/ˈsʌb.weɪ/",
+  Image: "../../../asset/image/vocabulary/transportation/subway.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/subway.mp3"
 };
 
 const contentItem12 = {
-  word: "raspberry",
+  word: "taxi",
   sound: "/ˈrɑːz.bər.i/",
-  Image: "../../../asset/image/vocabulary/fruit/raspberry.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/raspberry.mp3"
+  Image: "../../../asset/image/vocabulary/transportation/taxi.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/taxi.mp3"
 };
 
 const contentItem13 = {
-  word: "strawberry",
-  sound: "/ˈstrɔː.bər.i/",
-  Image: "../../../asset/image/vocabulary/fruit/strawberry.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/strawberry.mp3"
+  word: "van",
+  sound: "/væn/",
+  Image: "../../../asset/image/vocabulary/transportation/van.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/van.mp3"
 };
 
 const contentItem14 = {
-  word: "watermelon",
-  sound: "/ˈwɔː.təˌmel.ən/",
-  Image: "../../../asset/image/vocabulary/fruit/watermelon.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/watermelon.mp3"
+  word: "ship",
+  sound: "/ʃɪp/",
+  Image: "../../../asset/image/vocabulary/transportation/ship.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/ship.mp3"
 };
 
 
 const contentItem15 = {
-  word: "coconut",
-  sound: "/ˈkəʊ.kə.nʌt/",
-  Image: "../../../asset/image/vocabulary/fruit/coconut.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/coconut.mp3"
+  word: "yacht",
+  sound: "/jɒt/",
+  Image: "../../../asset/image/vocabulary/transportation/yacht.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/yacht.mp3"
 };
 
 const contentItem16 = {
-  word: "avocado",
-  sound: "/ˌæv.əˈkɑː.dəʊ/",
-  Image: "../../../asset/image/vocabulary/fruit/avocado.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/avocado.mp3"
+  word: "hot-air balloon",
+  sound: "/hɒtˈeə bəˌluːn/",
+  Image: "../../../asset/image/vocabulary/transportation/balloon.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/balloon.mp3"
 };
 
 const contentItem17 = {
-  word: "dragon fruit",
-  sound: "/ˈdræɡ.ənˌfruːt/",
-  Image: "../../../asset/image/vocabulary/fruit/dragon.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/dragon.mp3"
+  word: "rocket",
+  sound: "/ˈrɒk.ɪt/",
+  Image: "../../../asset/image/vocabulary/transportation/rocket.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/rocket.mp3"
 };
 
 const contentItem18 = {
-  word: "papaya",
-  sound: "/pəˈpaɪ.ə/",
-  Image: "../../../asset/image/vocabulary/fruit/papaya.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/papaya.mp3"
+  word: "skateboard",
+  sound: "/ˈskeɪt.bɔːd/",
+  Image: "../../../asset/image/vocabulary/transportation/skateboard.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/skateboard.mp3"
 };
 
 const contentItem19 = {
-  word: "starfruit",
-  sound: "/ˈstɑː.fruːt/",
-  Image: "../../../asset/image/vocabulary/fruit/starfruit.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/starfruit.mp3"
+  word: "roller skate",
+  sound: "/ˈrəʊ.lə skeɪt/",
+  Image: "../../../asset/image/vocabulary/transportation/roller.jpg",
+  soundfile: "../../../asset/audio/vocabulary/transportation/roller.mp3"
 };
 
 
