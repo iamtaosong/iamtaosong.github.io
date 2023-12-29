@@ -1,144 +1,144 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "apple",
+  word: "pig",
   sound: "/ˈæp.əl/",
-  Image: "../../../asset/image/vocabulary/fruit/apple.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/apple.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/pig.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/pig.mp3"
 };
 
 const contentItem1 = {
-  word: "banana",
+  word: "cow",
   sound: "/bəˈnɑː.nə/",
-  Image: "../../../asset/image/vocabulary/fruit/banana.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/banana.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/cow.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/cow.mp3"
 };
 
 const contentItem2 = {
-  word: "cheery",
+  word: "rooster",
   sound: "/ˈtʃɪə.ri/",
-  Image: "../../../asset/image/vocabulary/fruit/cherry.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/cherry.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/rooster.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/rooster.mp3"
 };
 
 const contentItem3 = {
-  word: "grape",
+  word: "hen",
   sound: "/ɡreɪp/",
-  Image: "../../../asset/image/vocabulary/fruit/grape.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/grape.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/hen.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/hen.mp3"
 };
 
 const contentItem4 = {
-  word: "kiwi",
+  word: "chick",
   sound: "/ˈkiː.wiː/",
-  Image: "../../../asset/image/vocabulary/fruit/kiwi.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/kiwi.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/chick.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/chick.mp3"
 };
 
 const contentItem5 = {
-  word: "lemon",
+  word: "dog",
   sound: "/ˈlem.ən/",
-  Image: "../../../asset/image/vocabulary/fruit/lemon.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/lemon.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/dog.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/dog.mp3"
 };
 
 const contentItem6 = {
-  word: "mango",
+  word: "cat",
   sound: "/ˈmæŋ.ɡəʊ/",
-  Image: "../../../asset/image/vocabulary/fruit/mango.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/mango.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/cat.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/cat.mp3"
 };
 
 const contentItem7 = {
-  word: "orange",
+  word: "rabbit",
   sound: "/ˈɒr.ɪndʒ/",
-  Image: "../../../asset/image/vocabulary/fruit/orange.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/orange.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/rabbit.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/rabbit.mp3"
 };
 
 const contentItem8 = {
-  word: "peach",
+  word: "duck",
   sound: "/piːt/",
-  Image: "../../../asset/image/vocabulary/fruit/peach.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/peach.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/duck.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/duck.mp3"
 };
 
 const contentItem9 = {
-  word: "pear",
+  word: "donkey",
   sound: "/peər/",
-  Image: "../../../asset/image/vocabulary/fruit/pear.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/pear.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/donkey.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/donkey.mp3"
 };
 
 const contentItem10 = {
-  word: "pineapple",
+  word: "llama",
   sound: "/ˈpaɪnˌæp.əl/",
-  Image: "../../../asset/image/vocabulary/fruit/pineapple.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/pineapple.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/llama.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/llama.mp3"
 };
 
 const contentItem11 = {
-  word: "plum",
+  word: "bird",
   sound: "/plʌm/",
-  Image: "../../../asset/image/vocabulary/fruit/plum.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/plum.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/bird.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/bird.mp3"
 };
 
 const contentItem12 = {
-  word: "raspberry",
+  word: "bat",
   sound: "/ˈrɑːz.bər.i/",
-  Image: "../../../asset/image/vocabulary/fruit/raspberry.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/raspberry.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/bat.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/bat.mp3"
 };
 
 const contentItem13 = {
-  word: "strawberry",
+  word: "mouse",
   sound: "/ˈstrɔː.bər.i/",
-  Image: "../../../asset/image/vocabulary/fruit/strawberry.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/strawberry.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/mouse.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/mouse.mp3"
 };
 
 const contentItem14 = {
-  word: "watermelon",
+  word: "sheep",
   sound: "/ˈwɔː.təˌmel.ən/",
-  Image: "../../../asset/image/vocabulary/fruit/watermelon.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/watermelon.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/sheep.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/sheep.mp3"
 };
 
 
 const contentItem15 = {
-  word: "coconut",
+  word: "horse",
   sound: "/ˈkəʊ.kə.nʌt/",
-  Image: "../../../asset/image/vocabulary/fruit/coconut.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/coconut.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/horse.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/horse.mp3"
 };
 
 const contentItem16 = {
-  word: "avocado",
+  word: "goat",
   sound: "/ˌæv.əˈkɑː.dəʊ/",
-  Image: "../../../asset/image/vocabulary/fruit/avocado.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/avocado.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/goat.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/goat.mp3"
 };
 
 const contentItem17 = {
-  word: "dragon fruit",
+  word: "goose",
   sound: "/ˈdræɡ.ənˌfruːt/",
-  Image: "../../../asset/image/vocabulary/fruit/dragon.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/dragon.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/geese.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/geese.mp3"
 };
 
 const contentItem18 = {
-  word: "papaya",
+  word: "bull",
   sound: "/pəˈpaɪ.ə/",
-  Image: "../../../asset/image/vocabulary/fruit/papaya.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/papaya.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/bull.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/bull.mp3"
 };
 
 const contentItem19 = {
-  word: "starfruit",
+  word: "turkey",
   sound: "/ˈstɑː.fruːt/",
-  Image: "../../../asset/image/vocabulary/fruit/starfruit.jpg",
-  soundfile: "../../../asset/audio/vocabulary/fruit/starfruit.mp3"
+  Image: "../../../asset/image/vocabulary/farm-animal/turkey.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/turkey.mp3"
 };
 
 
