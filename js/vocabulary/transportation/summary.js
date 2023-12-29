@@ -407,13 +407,13 @@ document.getElementById("video1").addEventListener("click",function(){
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/BDRQdMufFL0?si=WLHoz2bD3mejc5p8";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/OMyT91W9iV4?si=k4t8ec03hZtAUoUX";
   
 });
 
 document.getElementById("video3").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/oUGsMV-rphw?si=wMCFcq1xphukjNJL";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/48OXJtf8c3E?si=OkeZhGxlun4EVPDH";
   
 });
 
