@@ -2,105 +2,105 @@
 const pathname=window.location.pathname;
 const contentItem0 = {
   word: "pig",
-  sound: "/ˈæp.əl/",
+  sound: "/pɪɡ/",
   Image: "../../../asset/image/vocabulary/farm-animal/pig.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/pig.mp3"
 };
 
 const contentItem1 = {
   word: "cow",
-  sound: "/bəˈnɑː.nə/",
+  sound: "/kaʊ/",
   Image: "../../../asset/image/vocabulary/farm-animal/cow.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/cow.mp3"
 };
 
 const contentItem2 = {
   word: "rooster",
-  sound: "/ˈtʃɪə.ri/",
+  sound: "/ˈruː.stər/",
   Image: "../../../asset/image/vocabulary/farm-animal/rooster.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/rooster.mp3"
 };
 
 const contentItem3 = {
   word: "hen",
-  sound: "/ɡreɪp/",
+  sound: "/hen/",
   Image: "../../../asset/image/vocabulary/farm-animal/hen.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/hen.mp3"
 };
 
 const contentItem4 = {
   word: "chick",
-  sound: "/ˈkiː.wiː/",
+  sound: "/tʃɪk/",
   Image: "../../../asset/image/vocabulary/farm-animal/chick.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/chick.mp3"
 };
 
 const contentItem5 = {
   word: "dog",
-  sound: "/ˈlem.ən/",
+  sound: "/dɒɡ/",
   Image: "../../../asset/image/vocabulary/farm-animal/dog.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/dog.mp3"
 };
 
 const contentItem6 = {
   word: "cat",
-  sound: "/ˈmæŋ.ɡəʊ/",
+  sound: "/kæt/",
   Image: "../../../asset/image/vocabulary/farm-animal/cat.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/cat.mp3"
 };
 
 const contentItem7 = {
   word: "rabbit",
-  sound: "/ˈɒr.ɪndʒ/",
+  sound: "/ˈræb.ɪt/",
   Image: "../../../asset/image/vocabulary/farm-animal/rabbit.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/rabbit.mp3"
 };
 
 const contentItem8 = {
   word: "duck",
-  sound: "/piːt/",
+  sound: "/dʌk/",
   Image: "../../../asset/image/vocabulary/farm-animal/duck.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/duck.mp3"
 };
 
 const contentItem9 = {
   word: "donkey",
-  sound: "/peər/",
+  sound: "/ˈdɒŋ.ki/",
   Image: "../../../asset/image/vocabulary/farm-animal/donkey.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/donkey.mp3"
 };
 
 const contentItem10 = {
   word: "llama",
-  sound: "/ˈpaɪnˌæp.əl/",
+  sound: "/ˈlɑː.mə/",
   Image: "../../../asset/image/vocabulary/farm-animal/llama.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/llama.mp3"
 };
 
 const contentItem11 = {
   word: "bird",
-  sound: "/plʌm/",
+  sound: "/bɜːd/",
   Image: "../../../asset/image/vocabulary/farm-animal/bird.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/bird.mp3"
 };
 
 const contentItem12 = {
   word: "bat",
-  sound: "/ˈrɑːz.bər.i/",
+  sound: "/bæt/",
   Image: "../../../asset/image/vocabulary/farm-animal/bat.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/bat.mp3"
 };
 
 const contentItem13 = {
   word: "mouse",
-  sound: "/ˈstrɔː.bər.i/",
+  sound: "/maʊs/",
   Image: "../../../asset/image/vocabulary/farm-animal/mouse.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/mouse.mp3"
 };
 
 const contentItem14 = {
   word: "sheep",
-  sound: "/ˈwɔː.təˌmel.ən/",
+  sound: "/ʃiːp/",
   Image: "../../../asset/image/vocabulary/farm-animal/sheep.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/sheep.mp3"
 };
@@ -108,35 +108,35 @@ const contentItem14 = {
 
 const contentItem15 = {
   word: "horse",
-  sound: "/ˈkəʊ.kə.nʌt/",
+  sound: "/hɔːs/",
   Image: "../../../asset/image/vocabulary/farm-animal/horse.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/horse.mp3"
 };
 
 const contentItem16 = {
   word: "goat",
-  sound: "/ˌæv.əˈkɑː.dəʊ/",
+  sound: "/ɡəʊt/",
   Image: "../../../asset/image/vocabulary/farm-animal/goat.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/goat.mp3"
 };
 
 const contentItem17 = {
   word: "goose",
-  sound: "/ˈdræɡ.ənˌfruːt/",
-  Image: "../../../asset/image/vocabulary/farm-animal/geese.jpg",
-  soundfile: "../../../asset/audio/vocabulary/farm-animal/geese.mp3"
+  sound: "/ɡuːs/",
+  Image: "../../../asset/image/vocabulary/farm-animal/goose.jpg",
+  soundfile: "../../../asset/audio/vocabulary/farm-animal/goose.mp3"
 };
 
 const contentItem18 = {
   word: "bull",
-  sound: "/pəˈpaɪ.ə/",
+  sound: "/bʊl/",
   Image: "../../../asset/image/vocabulary/farm-animal/bull.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/bull.mp3"
 };
 
 const contentItem19 = {
   word: "turkey",
-  sound: "/ˈstɑː.fruːt/",
+  sound: "/ˈtɜː.ki/",
   Image: "../../../asset/image/vocabulary/farm-animal/turkey.jpg",
   soundfile: "../../../asset/audio/vocabulary/farm-animal/turkey.mp3"
 };
