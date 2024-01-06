@@ -28,7 +28,6 @@ const contentItem3 = {
   soundfile: "../../../asset/audio/clothes/sweater.mp3"
 };
 
-
 const contentItem4 = {
   word: "hoodie",
   sound: "/ˈhʊd.i/",

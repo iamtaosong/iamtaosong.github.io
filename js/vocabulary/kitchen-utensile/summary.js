@@ -66,7 +66,7 @@ const contentItem8 = {
 
 const contentItem9 = {
   word: "ladle",
-  sound: "/ˈnuː.dəl/",
+  sound: "/ˈleɪ.dəl/",
   Image: "../../../asset/image/kitchen-utensile/ladle.jpg",
   soundfile: "../../../asset/audio/kitchen-utensile/ladle.mp3"
 };
