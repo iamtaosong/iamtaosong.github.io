@@ -1,148 +1,112 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "car",
-  sound: "/kɑːr/",
-  Image: "../../../asset/image/vocabulary/transportation/car.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/car.mp3"
+  word: "football",
+  sound: "/ˈfʊt.bɔːl/",
+  Image: "../../../asset/image/vocabulary/sport/football.jpg",
+  soundfile: "../../../asset/audio/vocabulary/sport/football.mp3"
 };
 
 const contentItem1 = {
-  word: "bicycle",
+  word: "basketball",
   sound: "/ˈbaɪ.sɪ.kəl/",
-  Image: "../../../asset/image/vocabulary/transportation/bicycle.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/bicycle.mp3"
+  Image: "../../../asset/image/vocabulary/sport/basketball.jpg",
+  soundfile: "../../../asset/audio/vocabulary/sport/basketball.mp3"
 };
 
 const contentItem2 = {
-  word: "bus",
-  sound: "/bʌs/",
-  Image: "../../../asset/image/vocabulary/transportation/bus.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/bus.mp3"
+  word: "baseball",
+  sound: "/ˈbeɪs.bɔːl/",
+  Image: "../../../asset/image/vocabulary/sport/baseball.jpg",
+  soundfile: "../../../asset/audio/vocabulary/sport/baseball.mp3"
 };
 
 const contentItem3 = {
-  word: "truck",
-  sound: "/trʌk/",
-  Image: "../../../asset/image/vocabulary/transportation/truck.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/truck.mp3"
+  word: "volleyball",
+  sound: "/ˈvɒl.i.bɔːl/",
+  Image: "../../../asset/image/vocabulary/sport/volleyball.jpg",
+  soundfile: "../../../asset/audio/vocabulary/sport/volleyball.mp3"
 };
 
 const contentItem4 = {
-  word: "boat",
-  sound: "/bəʊt/",
-  Image: "../../../asset/image/vocabulary/transportation/boat.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/boat.mp3"
+  word: "tennis",
+  sound: "/ˈten.ɪs/",
+  Image: "../../../asset/image/vocabulary/sport/tennis.jpg",
+  soundfile: "../../../asset/audio/vocabulary/sport/tennis.mp3"
 };
 
 const contentItem5 = {
-  word: "train",
-  sound: "/treɪn/",
-  Image: "../../../asset/image/vocabulary/transportation/train.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/train.mp3"
+  word: "swimming",
+  sound: "/ˈswɪm.ɪŋ/",
+  Image: "../../../asset/image/vocabulary/sport/swimming.jpg",
+  soundfile: "../../../asset/audio/vocabulary/sport/swimming.mp3"
 };
 
 const contentItem6 = {
-  word: "airplane",
-  sound: "/ˈeə.pleɪn/",
-  Image: "../../../asset/image/vocabulary/transportation/airplane.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/airplane.mp3"
+  word: "cycling",
+  sound: "/ˈsaɪ.klɪŋ/",
+  Image: "../../../asset/image/vocabulary/sport/cycling.jpg",
+  soundfile: "../../../asset/audio/vocabulary/sport/cycling.mp3"
 };
 
 const contentItem7 = {
-  word: "helicopter",
-  sound: "/ˈhel.ɪˌkɒp.tər/",
-  Image: "../../../asset/image/vocabulary/transportation/helicopter.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/helicopter.mp3"
+  word: "badminton",
+  sound: "/ˈbæd.mɪn.tən/",
+  Image: "../../../asset/image/vocabulary/sport/badminton.jpg",
+  soundfile: "../../../asset/audio/vocabulary/sport/badminton.mp3"
 };
 
 const contentItem8 = {
-  word: "motorcycle",
-  sound: "/ˈməʊ.təˌsaɪ.kəl/",
-  Image: "../../../asset/image/vocabulary/transportation/motorcycle.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/motorcycle.mp3"
+  word: "running",
+  sound: "/ˈrʌn.ɪŋ/",
+  Image: "../../../asset/image/vocabulary/sport/running.jpg",
+  soundfile: "../../../asset/audio/vocabulary/sport/running.mp3"
 };
 
 const contentItem9 = {
-  word: "scooter",
-  sound: "/ˈskuː.tər/",
-  Image: "../../../asset/image/vocabulary/transportation/scooter.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/scooter.mp3"
+  word: "boxing",
+  sound: "/ˈbɒk.sɪŋ/",
+  Image: "../../../asset/image/vocabulary/sport/boxing.jpg",
+  soundfile: "../../../asset/audio/vocabulary/sport/boxing.mp3"
 };
 
 const contentItem10 = {
-  word: "tram",
-  sound: "/træm/",
-  Image: "../../../asset/image/vocabulary/transportation/tram.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/tram.mp3"
+  word: "archery",
+  sound: "/ˈɑː.tʃər.i/",
+  Image: "../../../asset/image/vocabulary/sport/archery.jpg",
+  soundfile: "../../../asset/audio/vocabulary/sport/archery.mp3"
 };
 
 const contentItem11 = {
-  word: "subway",
-  sound: "/ˈsʌb.weɪ/",
-  Image: "../../../asset/image/vocabulary/transportation/subway.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/subway.mp3"
+  word: "ice skating",
+  sound: "/ˈaɪsˌskeɪ.tɪŋ/",
+  Image: "../../../asset/image/vocabulary/sport/ice-skating.jpg",
+  soundfile: "../../../asset/audio/vocabulary/sport/ice-skating.mp3"
 };
 
 const contentItem12 = {
-  word: "taxi",
-  sound: "/ˈrɑːz.bər.i/",
-  Image: "../../../asset/image/vocabulary/transportation/taxi.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/taxi.mp3"
+  word: "surfing",
+  sound: "/ˈsɜː.fɪŋ/",
+  Image: "../../../asset/image/vocabulary/sport/surfing.jpg",
+  soundfile: "../../../asset/audio/vocabulary/sport/surfing.mp3"
 };
 
 const contentItem13 = {
-  word: "van",
-  sound: "/væn/",
-  Image: "../../../asset/image/vocabulary/transportation/van.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/van.mp3"
+  word: "karate",
+  sound: "/kəˈrɑː.ti/",
+  Image: "../../../asset/image/vocabulary/sport/karate.jpg",
+  soundfile: "../../../asset/audio/vocabulary/sport/karate.mp3"
 };
 
 const contentItem14 = {
-  word: "ship",
-  sound: "/ʃɪp/",
-  Image: "../../../asset/image/vocabulary/transportation/ship.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/ship.mp3"
-};
-
-
-const contentItem15 = {
-  word: "yacht",
-  sound: "/jɒt/",
-  Image: "../../../asset/image/vocabulary/transportation/yacht.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/yacht.mp3"
-};
-
-const contentItem16 = {
-  word: "hot-air balloon",
-  sound: "/hɒtˈeə bəˌluːn/",
-  Image: "../../../asset/image/vocabulary/transportation/balloon.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/balloon.mp3"
-};
-
-const contentItem17 = {
-  word: "rocket",
-  sound: "/ˈrɒk.ɪt/",
-  Image: "../../../asset/image/vocabulary/transportation/rocket.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/rocket.mp3"
-};
-
-const contentItem18 = {
-  word: "skateboard",
-  sound: "/ˈskeɪt.bɔːd/",
-  Image: "../../../asset/image/vocabulary/transportation/skateboard.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/skateboard.mp3"
-};
-
-const contentItem19 = {
-  word: "roller skate",
-  sound: "/ˈrəʊ.lə skeɪt/",
-  Image: "../../../asset/image/vocabulary/transportation/roller.jpg",
-  soundfile: "../../../asset/audio/vocabulary/transportation/roller.mp3"
+  word: "diving",
+  sound: "/ˈdaɪ.vɪŋ/",
+  Image: "../../../asset/image/vocabulary/sport/diving.jpg",
+  soundfile: "../../../asset/audio/vocabulary/sport/diving.mp3"
 };
 
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
-  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19];
+  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14];
 
 const common ={
   testPreviousBtn: null,

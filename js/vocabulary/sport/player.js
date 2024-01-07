@@ -2,7 +2,7 @@
 const pathname=window.location.pathname;
 const contentItem0 = {
   word: "football",
-  sound: "/kɑːr/",
+  sound: "/ˈfʊt.bɔːl/",
   Image: "../../../asset/image/vocabulary/sport/football.jpg",
   soundfile: "../../../asset/audio/vocabulary/sport/football.mp3"
 };
@@ -16,91 +16,91 @@ const contentItem1 = {
 
 const contentItem2 = {
   word: "baseball",
-  sound: "/bʌs/",
+  sound: "/ˈbeɪs.bɔːl/",
   Image: "../../../asset/image/vocabulary/sport/baseball.jpg",
   soundfile: "../../../asset/audio/vocabulary/sport/baseball.mp3"
 };
 
 const contentItem3 = {
   word: "volleyball",
-  sound: "/trʌk/",
+  sound: "/ˈvɒl.i.bɔːl/",
   Image: "../../../asset/image/vocabulary/sport/volleyball.jpg",
   soundfile: "../../../asset/audio/vocabulary/sport/volleyball.mp3"
 };
 
 const contentItem4 = {
   word: "tennis",
-  sound: "/bəʊt/",
+  sound: "/ˈten.ɪs/",
   Image: "../../../asset/image/vocabulary/sport/tennis.jpg",
   soundfile: "../../../asset/audio/vocabulary/sport/tennis.mp3"
 };
 
 const contentItem5 = {
   word: "swimming",
-  sound: "/treɪn/",
+  sound: "/ˈswɪm.ɪŋ/",
   Image: "../../../asset/image/vocabulary/sport/swimming.jpg",
   soundfile: "../../../asset/audio/vocabulary/sport/swimming.mp3"
 };
 
 const contentItem6 = {
   word: "cycling",
-  sound: "/ˈeə.pleɪn/",
+  sound: "/ˈsaɪ.klɪŋ/",
   Image: "../../../asset/image/vocabulary/sport/cycling.jpg",
   soundfile: "../../../asset/audio/vocabulary/sport/cycling.mp3"
 };
 
 const contentItem7 = {
   word: "badminton",
-  sound: "/ˈhel.ɪˌkɒp.tər/",
+  sound: "/ˈbæd.mɪn.tən/",
   Image: "../../../asset/image/vocabulary/sport/badminton.jpg",
   soundfile: "../../../asset/audio/vocabulary/sport/badminton.mp3"
 };
 
 const contentItem8 = {
   word: "running",
-  sound: "/ˈməʊ.təˌsaɪ.kəl/",
+  sound: "/ˈrʌn.ɪŋ/",
   Image: "../../../asset/image/vocabulary/sport/running.jpg",
   soundfile: "../../../asset/audio/vocabulary/sport/running.mp3"
 };
 
 const contentItem9 = {
   word: "boxing",
-  sound: "/ˈskuː.tər/",
+  sound: "/ˈbɒk.sɪŋ/",
   Image: "../../../asset/image/vocabulary/sport/boxing.jpg",
   soundfile: "../../../asset/audio/vocabulary/sport/boxing.mp3"
 };
 
 const contentItem10 = {
   word: "archery",
-  sound: "/træm/",
+  sound: "/ˈɑː.tʃər.i/",
   Image: "../../../asset/image/vocabulary/sport/archery.jpg",
   soundfile: "../../../asset/audio/vocabulary/sport/archery.mp3"
 };
 
 const contentItem11 = {
   word: "ice skating",
-  sound: "/ˈsʌb.weɪ/",
+  sound: "/ˈaɪsˌskeɪ.tɪŋ/",
   Image: "../../../asset/image/vocabulary/sport/ice-skating.jpg",
   soundfile: "../../../asset/audio/vocabulary/sport/ice-skating.mp3"
 };
 
 const contentItem12 = {
   word: "surfing",
-  sound: "/ˈrɑːz.bər.i/",
+  sound: "/ˈsɜː.fɪŋ/",
   Image: "../../../asset/image/vocabulary/sport/surfing.jpg",
   soundfile: "../../../asset/audio/vocabulary/sport/surfing.mp3"
 };
 
 const contentItem13 = {
   word: "karate",
-  sound: "/væn/",
+  sound: "/kəˈrɑː.ti/",
   Image: "../../../asset/image/vocabulary/sport/karate.jpg",
   soundfile: "../../../asset/audio/vocabulary/sport/karate.mp3"
 };
 
 const contentItem14 = {
   word: "diving",
-  sound: "/ʃɪp/",
+  sound: "/ˈdaɪ.vɪŋ/",
   Image: "../../../asset/image/vocabulary/sport/diving.jpg",
   soundfile: "../../../asset/audio/vocabulary/sport/diving.mp3"
 };
@@ -288,7 +288,7 @@ window.addEventListener("load", function(e){
     learnObj.letterList=contents2;
 
   }
-  
+
   learnObj.totalLenght=learnObj.letterList.length;
 
 });
