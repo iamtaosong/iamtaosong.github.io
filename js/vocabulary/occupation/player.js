@@ -2,70 +2,70 @@
 const pathname=window.location.pathname;
 const contentItem0 = {
   word: "teacher",
-  sound: "/ˈfʊt.bɔːl/",
+  sound: "/ˈtiː.tʃər/",
   Image: "../../../asset/image/vocabulary/occupation/teacher.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/teacher.mp3"
 };
 
 const contentItem1 = {
   word: "student",
-  sound: "/ˈbaɪ.sɪ.kəl/",
+  sound: "/ˈstjuː.dənt/",
   Image: "../../../asset/image/vocabulary/occupation/student.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/student.mp3"
 };
 
 const contentItem2 = {
   word: "nurse",
-  sound: "/ˈbeɪs.bɔːl/",
+  sound: "/nɜːs/",
   Image: "../../../asset/image/vocabulary/occupation/nurse.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/nurse.mp3"
 };
 
 const contentItem3 = {
   word: "doctor",
-  sound: "/ˈvɒl.i.bɔːl/",
+  sound: "/ˈdɒk.tər/",
   Image: "../../../asset/image/vocabulary/occupation/doctor.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/doctor.mp3"
 };
 
 const contentItem4 = {
   word: "firefighter",
-  sound: "/ˈten.ɪs/",
+  sound: "/ˈfaɪəˌfaɪ.tər/",
   Image: "../../../asset/image/vocabulary/occupation/firefighter.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/firefighter.mp3"
 };
 
 const contentItem5 = {
   word: "police",
-  sound: "/ˈswɪm.ɪŋ/",
+  sound: "/pəˈliːs/",
   Image: "../../../asset/image/vocabulary/occupation/police.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/police.mp3"
 };
 
 const contentItem6 = {
   word: "dentist",
-  sound: "/ˈsaɪ.klɪŋ/",
+  sound: "/ˈden.tɪst/",
   Image: "../../../asset/image/vocabulary/occupation/dentist.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/dentist.mp3"
 };
 
 const contentItem7 = {
   word: "farmer",
-  sound: "/ˈbæd.mɪn.tən/",
+  sound: "/ˈfɑː.mər/",
   Image: "../../../asset/image/vocabulary/occupation/farmer.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/farmer.mp3"
 };
 
 const contentItem8 = {
   word: "cook",
-  sound: "/ˈrʌn.ɪŋ/",
+  sound: "/kʊk/",
   Image: "../../../asset/image/vocabulary/occupation/cook.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/cook.mp3"
 };
 
 const contentItem9 = {
   word: "pilot",
-  sound: "/ˈbɒk.sɪŋ/",
+  sound: "/ˈpaɪ.lət/",
   Image: "../../../asset/image/vocabulary/occupation/pilot.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/pilot.mp3"
 };
@@ -79,63 +79,63 @@ const contentItem10 = {
 
 const contentItem11 = {
   word: "mechanic",
-  sound: "/ˈaɪsˌskeɪ.tɪŋ/",
+  sound: "/məˈkæn.ɪk/",
   Image: "../../../asset/image/vocabulary/occupation/mechanic.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/mechanic.mp3"
 };
 
 const contentItem12 = {
   word: "painter",
-  sound: "/ˈsɜː.fɪŋ/",
+  sound: "/ˈpeɪn.tər/",
   Image: "../../../asset/image/vocabulary/occupation/painter.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/painter.mp3"
 };
 
 const contentItem13 = {
   word: "waiter",
-  sound: "/kəˈrɑː.ti/",
+  sound: "/ˈweɪ.tər/",
   Image: "../../../asset/image/vocabulary/occupation/waiter.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/waiter.mp3"
 };
 
 const contentItem14 = {
   word: "judge",
-  sound: "/ˈdaɪ.vɪŋ/",
+  sound: "/dʒʌdʒ/",
   Image: "../../../asset/image/vocabulary/occupation/judge.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/judge.mp3"
 };
 
 const contentItem15 = {
   word: "plumber",
-  sound: "/ˈdaɪ.vɪŋ/",
+  sound: "/ˈplʌm.ər/",
   Image: "../../../asset/image/vocabulary/occupation/plumber.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/plumber.mp3"
 };
 
 const contentItem16 = {
-  word: "scientist ",
-  sound: "/ˈdaɪ.vɪŋ/",
+  word: "scientist",
+  sound: "/ˈsaɪən.tɪst/",
   Image: "../../../asset/image/vocabulary/occupation/scientist.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/scientist.mp3"
 };
 
 const contentItem17 = {
   word: "postman",
-  sound: "/ˈdaɪ.vɪŋ/",
+  sound: "/ˈpəʊst.mən/",
   Image: "../../../asset/image/vocabulary/occupation/postman.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/postman.mp3"
 };
 
 const contentItem18 = {
   word: "footballer",
-  sound: "/ˈdaɪ.vɪŋ/",
+  sound: "/ˈfʊt.bɔː.lər/",
   Image: "../../../asset/image/vocabulary/occupation/footballer.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/footballer.mp3"
 };
 
 const contentItem19 = {
   word: "reporter",
-  sound: "/ˈdaɪ.vɪŋ/",
+  sound: "/rɪˈpɔː.tər/",
   Image: "../../../asset/image/vocabulary/occupation/reporter.jpg",
   soundfile: "../../../asset/audio/vocabulary/occupation/reporter.mp3"
 };
