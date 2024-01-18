@@ -1,113 +1,255 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "football",
-  sound: "/ˈfʊt.bɔːl/",
-  Image: "../../../asset/image/vocabulary/sport/football.jpg",
-  soundfile: "../../../asset/audio/vocabulary/sport/football.mp3"
+  word: "cab",
+  sound: "/kæb/",
+  Image: "../../../../../asset/image/phonics/cvc/cac/cab.jpg",
+  soundfile: "../../../../../asset/audio/phonics/cvc/cac/cab.mp3"
 };
 
 const contentItem1 = {
-  word: "basketball",
-  sound: "/ˈbaɪ.sɪ.kəl/",
-  Image: "../../../asset/image/vocabulary/sport/basketball.jpg",
-  soundfile: "../../../asset/audio/vocabulary/sport/basketball.mp3"
+  word: "jab",
+  sound: "/dʒæb/",
+  Image: "../../../../asset/image/phonics/cvc/cac/jab.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/jab.mp3"
 };
 
 const contentItem2 = {
-  word: "baseball",
-  sound: "/ˈbeɪs.bɔːl/",
-  Image: "../../../asset/image/vocabulary/sport/baseball.jpg",
-  soundfile: "../../../asset/audio/vocabulary/sport/baseball.mp3"
+  word: "lab",
+  sound: "/læb/",
+  Image: "../../../../asset/image/phonics/cvc/cac/lab.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/lab.mp3"
 };
 
 const contentItem3 = {
-  word: "volleyball",
-  sound: "/ˈvɒl.i.bɔːl/",
-  Image: "../../../asset/image/vocabulary/sport/volleyball.jpg",
-  soundfile: "../../../asset/audio/vocabulary/sport/volleyball.mp3"
+  word: "nab",
+  sound: "/næb/",
+  Image: "../../../../asset/image/phonics/cvc/cac/nab.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/nab.mp3"
 };
 
 const contentItem4 = {
-  word: "tennis",
-  sound: "/ˈten.ɪs/",
-  Image: "../../../asset/image/vocabulary/sport/tennis.jpg",
-  soundfile: "../../../asset/audio/vocabulary/sport/tennis.mp3"
+  word: "tab",
+  sound: "/tæb/",
+  Image: "../../../../asset/image/phonics/cvc/cac/tab.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/tab.mp3"
 };
 
 const contentItem5 = {
-  word: "swimming",
-  sound: "/ˈswɪm.ɪŋ/",
-  Image: "../../../asset/image/vocabulary/sport/swimming.jpg",
-  soundfile: "../../../asset/audio/vocabulary/sport/swimming.mp3"
+  word: "bad",
+  sound: "/bæd/",
+  Image: "../../../../asset/image/phonics/cvc/cac/bad.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/bad.mp3"
 };
 
 const contentItem6 = {
-  word: "cycling",
-  sound: "/ˈsaɪ.klɪŋ/",
-  Image: "../../../asset/image/vocabulary/sport/cycling.jpg",
-  soundfile: "../../../asset/audio/vocabulary/sport/cycling.mp3"
+  word: "dad",
+  sound: "/dæd/",
+  Image: "../../../../asset/image/phonics/cvc/cac/dad.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/dad.mp3"
 };
 
 const contentItem7 = {
-  word: "badminton",
-  sound: "/ˈbæd.mɪn.tən/",
-  Image: "../../../asset/image/vocabulary/sport/badminton.jpg",
-  soundfile: "../../../asset/audio/vocabulary/sport/badminton.mp3"
+  word: "mad",
+  sound: "/mæd/",
+  Image: "../../../../asset/image/phonics/cvc/cac/mad.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/mad.mp3"
 };
 
 const contentItem8 = {
-  word: "running",
-  sound: "/ˈrʌn.ɪŋ/",
-  Image: "../../../asset/image/vocabulary/sport/running.jpg",
-  soundfile: "../../../asset/audio/vocabulary/sport/running.mp3"
+  word: "pad",
+  sound: "/pæd/",
+  Image: "../../../../asset/image/phonics/cvc/cac/pad.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/pad.mp3"
 };
 
 const contentItem9 = {
-  word: "boxing",
-  sound: "/ˈbɒk.sɪŋ/",
-  Image: "../../../asset/image/vocabulary/sport/boxing.jpg",
-  soundfile: "../../../asset/audio/vocabulary/sport/boxing.mp3"
+  word: "lad",
+  sound: "/læd/",
+  Image: "../../../../asset/image/phonics/cvc/cac/lad.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/lad.mp3"
 };
 
 const contentItem10 = {
-  word: "archery",
-  sound: "/ˈɑː.tʃər.i/",
-  Image: "../../../asset/image/vocabulary/sport/archery.jpg",
-  soundfile: "../../../asset/audio/vocabulary/sport/archery.mp3"
+  word: "bag",
+  sound: "/bæg/",
+  Image: "../../../../asset/image/phonics/cvc/cac/bag.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/bag.mp3"
 };
 
 const contentItem11 = {
-  word: "ice skating",
-  sound: "/ˈaɪsˌskeɪ.tɪŋ/",
-  Image: "../../../asset/image/vocabulary/sport/ice-skating.jpg",
-  soundfile: "../../../asset/audio/vocabulary/sport/ice-skating.mp3"
+  word: "nag",
+  sound: "/næg/",
+  Image: "../../../../asset/image/phonics/cvc/cac/nag.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/nag.mp3"
 };
 
 const contentItem12 = {
-  word: "surfing",
-  sound: "/ˈsɜː.fɪŋ/",
-  Image: "../../../asset/image/vocabulary/sport/surfing.jpg",
-  soundfile: "../../../asset/audio/vocabulary/sport/surfing.mp3"
+  word: "rag",
+  sound: "/ræg/",
+  Image: "../../../../asset/image/phonics/cvc/cac/rag.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/rag.mp3"
 };
 
 const contentItem13 = {
-  word: "karate",
-  sound: "/kəˈrɑː.ti/",
-  Image: "../../../asset/image/vocabulary/sport/karate.jpg",
-  soundfile: "../../../asset/audio/vocabulary/sport/karate.mp3"
+  word: "tag",
+  sound: "/tæg/",
+  Image: "../../../../asset/image/phonics/cvc/cac/tag.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/tag.mp3"
 };
 
 const contentItem14 = {
-  word: "diving",
-  sound: "/ˈdaɪ.vɪŋ/",
-  Image: "../../../asset/image/vocabulary/sport/diving.jpg",
-  soundfile: "../../../asset/audio/vocabulary/sport/diving.mp3"
+  word: "wag",
+  sound: "/wæg/",
+  Image: "../../../../asset/image/phonics/cvc/cac/wag.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/wag.mp3"
+};
+
+const contentItem15 = {
+  word: "dam",
+  sound: "/dæm/",
+  Image: "../../../../asset/image/phonics/cvc/cac/dam.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/dam.mp3"
+};
+
+const contentItem16 = {
+  word: "ham",
+  sound: "/hæm/",
+  Image: "../../../../asset/image/phonics/cvc/cac/ham.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/ham.mp3"
+};
+
+const contentItem17 = {
+  word: "jam",
+  sound: "/jæm/",
+  Image: "../../../../asset/image/phonics/cvc/cac/jam.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/jam.mp3"
+};
+
+const contentItem18 = {
+  word: "ram",
+  sound: "/ræm/",
+  Image: "../../../../asset/image/phonics/cvc/cac/ram.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/ram.mp3"
+};
+
+const contentItem19 = {
+  word: "yam",
+  sound: "/jæm/",
+  Image: "../../../../asset/image/phonics/cvc/cac/yam.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/yam.mp3"
+};
+
+const contentItem20 = {
+  word: "can",
+  sound: "/cæn/",
+  Image: "../../../../asset/image/phonics/cvc/cac/can.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/can.mp3"
+};
+
+const contentItem21 = {
+  word: "fan",
+  sound: "/fæn/",
+  Image: "../../../../asset/image/phonics/cvc/cac/fan.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/fan.mp3"
+};
+
+const contentItem22 = {
+  word: "man",
+  sound: "/mæn/",
+  Image: "../../../../asset/image/phonics/cvc/cac/man.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/man.mp3"
+};
+
+const contentItem23 = {
+  word: "pan",
+  sound: "/pæn/",
+  Image: "../../../../asset/image/phonics/cvc/cac/pan.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/pan.mp3"
+};
+
+const contentItem24 = {
+  word: "ran",
+  sound: "/ræn/",
+  Image: "../../../../asset/image/phonics/cvc/cac/ran.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/ran.mp3"
+};
+
+const contentItem25 = {
+  word: "cap",
+  sound: "/ræp/",
+  Image: "../../../../asset/image/phonics/cvc/cac/cap.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/cap.mp3"
+};
+
+const contentItem26 = {
+  word: "lap",
+  sound: "/læp/",
+  Image: "../../../../asset/image/phonics/cvc/cac/lap.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/lap.mp3"
+};
+
+const contentItem27 = {
+  word: "map",
+  sound: "/mæp/",
+  Image: "../../../../asset/image/phonics/cvc/cac/map.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/map.mp3"
+};
+
+const contentItem28 = {
+  word: "nap",
+  sound: "/næp/",
+  Image: "../../../../asset/image/phonics/cvc/cac/nap.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/nap.mp3"
+};
+
+const contentItem29 = {
+  word: "tap",
+  sound: "/tæp/",
+  Image: "../../../../asset/image/phonics/cvc/cac/tap.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/tap.mp3"
+};
+
+const contentItem30 = {
+  word: "bat",
+  sound: "/bæt/",
+  Image: "../../../../asset/image/phonics/cvc/cac/bat.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/bat.mp3"
+};
+
+const contentItem31 = {
+  word: "cat",
+  sound: "/kæt/",
+  Image: "../../../../asset/image/phonics/cvc/cac/cat.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/cat.mp3"
+};
+
+const contentItem32 = {
+  word: "rat",
+  sound: "/hæt/",
+  Image: "../../../../asset/image/phonics/cvc/cac/rat.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/rat.mp3"
+};
+
+const contentItem33 = {
+  word: "mat",
+  sound: "/mæt/",
+  Image: "../../../../asset/image/phonics/cvc/cac/mat.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/mat.mp3"
+};
+
+const contentItem34 = {
+  word: "sat",
+  sound: "/sæt/",
+  Image: "../../../../asset/image/phonics/cvc/cac/sat.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/sat.mp3"
 };
 
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
-  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14];
-
+  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,
+  contentItem20,contentItem21,contentItem22,contentItem23,contentItem24,contentItem25,contentItem26,contentItem27,contentItem28,contentItem29, 
+  contentItem30,contentItem31,contentItem32,contentItem33,contentItem34]; 
+  
 const common ={
   testPreviousBtn: null,
   testNextBtn: null,
@@ -116,10 +258,10 @@ const common ={
   game: null,
   testSection: document.getElementById("testSection"),
   letterSelected: false,
-  goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`,
-  right: "../../../asset/image/right.mp3",
-  wrong: "../../../asset/image/wrong.mp3"
+  goodResult: `<img src="../../../../asset/image/happy.png" alt="happy--v1"/>`,
+  poorResult: `<img src="../../../../asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../../../asset/image/right.mp3",
+  wrong: "../../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {

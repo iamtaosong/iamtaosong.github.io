@@ -8,10 +8,10 @@ const contentItem0 = {
 };
 
 const contentItem1 = {
-  word: "cap",
-  sound: "/kæp/",
-  Image: "../../../../asset/image/phonics/cvc/cac/cap.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/cap.mp3"
+  word: "jab",
+  sound: "/dʒæb/",
+  Image: "../../../../asset/image/phonics/cvc/cac/jab.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/jab.mp3"
 };
 
 const contentItem2 = {
@@ -22,10 +22,10 @@ const contentItem2 = {
 };
 
 const contentItem3 = {
-  word: "nap",
-  sound: "/næp/",
-  Image: "../../../../asset/image/phonics/cvc/cac/nap.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/nap.mp3"
+  word: "nab",
+  sound: "/næb/",
+  Image: "../../../../asset/image/phonics/cvc/cac/nab.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/nab.mp3"
 };
 
 const contentItem4 = {
@@ -225,10 +225,10 @@ const contentItem31 = {
 };
 
 const contentItem32 = {
-  word: "hat",
+  word: "rat",
   sound: "/hæt/",
-  Image: "../../../../asset/image/phonics/cvc/cac/hat.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/hat.mp3"
+  Image: "../../../../asset/image/phonics/cvc/cac/rat.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cac/rat.mp3"
 };
 
 const contentItem33 = {
