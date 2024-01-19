@@ -396,24 +396,24 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/cT29fKypSME?si=rAz7pMc6RWxXBaEe";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/p8ue-UrXgE4?si=pVvR50yBsl2Ys4cW";
   
 });
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/g3wiUPFHgIA?si=d0XfxxZzPt6dPuz-";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ijvwIDJkRfE?si=Gfzd2-qBDk3y3g_a";
   
 });
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/7JBpu8BLGco?si=6_O7obvjnhvBdK46";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ehCrjk4hdc4?si=X9lN-pcpVSyphRZk";
   
 });
 
 document.getElementById("video3").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/zBJmed6oUmA?si=SEoODhrPZNic_L1w";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/jXmB_ZMwbSE?si=29nYk82mc6IwAIDf";
   
 });
