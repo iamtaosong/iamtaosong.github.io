@@ -1,116 +1,151 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "bed",
-  sound: "/bed/",
-  Image: "../../../../asset/image/phonics/cvc/cec/bed.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cec/bed.mp3"
+  word: "big",
+  sound: "/big/",
+  Image: "../../../../asset/image/phonics/cvc/cic/big.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/big.mp3"
 };
 
 const contentItem1 = {
-  word: "fed",
-  sound: "/fed/",
-  Image: "../../../../asset/image/phonics/cvc/cec/fed.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cec/fed.mp3"
+  word: "dig",
+  sound: "/dig/",
+  Image: "../../../../asset/image/phonics/cvc/cic/dig.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/dig.mp3"
 };
 
 const contentItem2 = {
-  word: "led",
-  sound: "/led/",
-  Image: "../../../../asset/image/phonics/cvc/cec/led.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cec/led.mp3"
+  word: "fig",
+  sound: "/fig/",
+  Image: "../../../../asset/image/phonics/cvc/cic/fig.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/fig.mp3"
 };
 
 const contentItem3 = {
-  word: "wed",
-  sound: "/wed/",
-  Image: "../../../../asset/image/phonics/cvc/cec/wed.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cec/wed.mp3"
+  word: "pig",
+  sound: "/pig/",
+  Image: "../../../../asset/image/phonics/cvc/cic/pig.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/pig.mp3"
 };
 
 const contentItem4 = {
-  word: "red",
-  sound: "/red/",
-  Image: "../../../../asset/image/phonics/cvc/cec/red.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cec/red.mp3"
+  word: "wig",
+  sound: "/wig/",
+  Image: "../../../../asset/image/phonics/cvc/cic/wig.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/wig.mp3"
 };
 
 const contentItem5 = {
-  word: "pen",
-  sound: "/pen/",
-  Image: "../../../../asset/image/phonics/cvc/cec/pen.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cec/pen.mp3"
+  word: "bin",
+  sound: "/bin/",
+  Image: "../../../../asset/image/phonics/cvc/cic/bin.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/bin.mp3"
 };
 
 const contentItem6 = {
-  word: "men",
-  sound: "/men/",
-  Image: "../../../../asset/image/phonics/cvc/cec/men.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cec/men.mp3"
+  word: "fin",
+  sound: "/fin/",
+  Image: "../../../../asset/image/phonics/cvc/cic/fin.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/fin.mp3"
 };
 
 const contentItem7 = {
-  word: "den",
-  sound: "/den/",
-  Image: "../../../../asset/image/phonics/cvc/cec/den.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cec/den.mp3"
+  word: "pin",
+  sound: "/pin/",
+  Image: "../../../../asset/image/phonics/cvc/cic/pin.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/pin.mp3"
 };
 
 const contentItem8 = {
-  word: "hen",
-  sound: "/hen/",
-  Image: "../../../../asset/image/phonics/cvc/cec/hen.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cec/hen.mp3"
+  word: "tin",
+  sound: "/tin/",
+  Image: "../../../../asset/image/phonics/cvc/cic/tin.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/tin.mp3"
 };
 
 const contentItem9 = {
-  word: "ten",
+  word: "win",
   sound: "/ten/",
-  Image: "../../../../asset/image/phonics/cvc/cec/ten.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cec/ten.mp3"
+  Image: "../../../../asset/image/phonics/cvc/cic/win.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/win.mp3"
 };
 
 const contentItem10 = {
-  word: "pet",
-  sound: "/bæg/",
-  Image: "../../../../asset/image/phonics/cvc/cec/pet.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cec/pet.mp3"
+  word: "dip",
+  sound: "/dip/",
+  Image: "../../../../asset/image/phonics/cvc/cic/dip.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/dip.mp3"
 };
 
 const contentItem11 = {
-  word: "net",
-  sound: "/net/",
-  Image: "../../../../asset/image/phonics/cvc/cec/net.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cec/net.mp3"
+  word: "lip",
+  sound: "/hip/",
+  Image: "../../../../asset/image/phonics/cvc/cic/lip.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/lip.mp3"
 };
 
 const contentItem12 = {
-  word: "jet",
-  sound: "/dʒet/",
-  Image: "../../../../asset/image/phonics/cvc/cec/jet.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cec/jet.mp3"
+  word: "rip",
+  sound: "/rip/",
+  Image: "../../../../asset/image/phonics/cvc/cic/rip.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/rip.mp3"
 };
 
 const contentItem13 = {
-  word: "vet",
-  sound: "/vet/",
-  Image: "../../../../asset/image/phonics/cvc/cec/vet.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cec/vet.mp3"
+  word: "sip",
+  sound: "/sip/",
+  Image: "../../../../asset/image/phonics/cvc/cic/sip.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/sip.mp3"
 };
 
 const contentItem14 = {
-  word: "wet",
-  sound: "/wet/",
-  Image: "../../../../asset/image/phonics/cvc/cec/wet.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cec/wet.mp3"
+  word: "zip",
+  sound: "/zip/",
+  Image: "../../../../asset/image/phonics/cvc/cic/zip.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/zip.mp3"
 };
 
+const contentItem15 = {
+  word: "bit",
+  sound: "/bit/",
+  Image: "../../../../asset/image/phonics/cvc/cic/bit.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/bit.mp3"
+};
+
+const contentItem16 = {
+  word: "fit",
+  sound: "/fit/",
+  Image: "../../../../asset/image/phonics/cvc/cic/fit.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/fit.mp3"
+};
+
+const contentItem17 = {
+  word: "hit",
+  sound: "/hit/",
+  Image: "../../../../asset/image/phonics/cvc/cic/hit.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/hit.mp3"
+};
+
+const contentItem18 = {
+  word: "lit",
+  sound: "/lit/",
+  Image: "../../../../asset/image/phonics/cvc/cic/lit.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/lit.mp3"
+};
+
+const contentItem19 = {
+  word: "sit",
+  sound: "/sit/",
+  Image: "../../../../asset/image/phonics/cvc/cic/sit.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cic/sit.mp3"
+};
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
 const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14]; 
+const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,contentItem19]; 
 
-const lessons = ["lesson-0","lesson-1","lesson-2"];
+const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3"];
 
 const common ={
   testPreviousBtn: null,
@@ -287,6 +322,11 @@ window.addEventListener("load", function(e){
   {
 
     learnObj.letterList=contents2;
+
+  }else if(pathname.includes(lessons[3]))
+  {
+
+    learnObj.letterList=contents3;
 
   }
 
