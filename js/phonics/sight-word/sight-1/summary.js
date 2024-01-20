@@ -1,147 +1,248 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "cub",
-  sound: "/kʌb/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/cub.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/cub.mp3"
+  word: "a",
+  sound: "/ə/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/a.mp3"
 };
 
 const contentItem1 = {
-  word: "hub",
-  sound: "/hʌb/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/hub.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/hub.mp3"
+  word: "and",
+  sound: "/ænd/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/and.mp3"
 };
 
 const contentItem2 = {
-  word: "rub",
-  sound: "/rʌb/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/rub.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/rub.mp3"
+  word: "away",
+  sound: "/əˈweɪ/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/away.mp3"
 };
 
 const contentItem3 = {
-  word: "tub",
-  sound: "/tʌb/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/tub.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/tub.mp3"
+  word: "big",
+  sound: "/bɪɡ/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/big.mp3"
 };
 
 const contentItem4 = {
-  word: "sub",
-  sound: "/sʌb/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/sub.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/sub.mp3"
+  word: "blue",
+  sound: "/bluː/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/blue.mp3"
 };
 
 const contentItem5 = {
-  word: "bug",
-  sound: "/bʌg/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/bug.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/bug.mp3"
+  word: "can",
+  sound: "/kæn/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/can.mp3"
 };
 
 const contentItem6 = {
-  word: "hug",
-  sound: "/hʌɡ/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/hug.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/hug.mp3"
+  word: "come",
+  sound: "/kʌm/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/come.mp3"
 };
 
 const contentItem7 = {
-  word: "jug",
-  sound: "/dʒʌɡ/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/jug.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/jug.mp3"
+  word: "down",
+  sound: "/daʊn/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/down.mp3"
 };
 
 const contentItem8 = {
-  word: "mug",
-  sound: "/mʌɡ/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/mug.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/mug.mp3"
+  word: "find",
+  sound: "/faɪnd/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/find.mp3"
 };
 
 const contentItem9 = {
-  word: "rug",
-  sound: "/rʌɡ/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/rug.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/rug.mp3"
+  word: "for",
+  sound: "/fɔːr/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/for.mp3"
 };
 
 const contentItem10 = {
-  word: "bun",
-  sound: "/bʌn/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/bun.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/bun.mp3"
+  word: "funny",
+  sound: "/ˈfʌn.i/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/funny.mp3"
 };
 
 const contentItem11 = {
-  word: "fun",
-  sound: "/fʌn/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/fun.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/fun.mp3"
+  word: "go",
+  sound: "/ɡəʊ/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/go.mp3"
 };
 
 const contentItem12 = {
-  word: "sun",
-  sound: "/sʌn/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/sun.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/sun.mp3"
+  word: "help",
+  sound: "/help/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/help.mp3"
 };
 
 const contentItem13 = {
-  word: "run",
-  sound: "/rʌn/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/run.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/run.mp3"
+  word: "here",
+  sound: "/hɪər/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/here.mp3"
 };
 
 const contentItem14 = {
-  word: "gun",
-  sound: "/gʌn/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/gun.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/gun.mp3"
+  word: "i",
+  sound: "/aɪ/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/i.mp3"
 };
 
 const contentItem15 = {
-  word: "cut",
-  sound: "/kʌt/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/cut.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/cut.mp3"
+  word: "in",
+  sound: "/ɪn/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/in.mp3"
 };
 
 const contentItem16 = {
-  word: "hut",
-  sound: "/hʌt/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/hut.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/hut.mp3"
+  word: "is",
+  sound: "/ɪz/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/is.mp3"
 };
 
 const contentItem17 = {
-  word: "gut",
-  sound: "/gʌt/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/gut.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/gut.mp3"
+  word: "it",
+  sound: "/it/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/it.mp3"
 };
 
 const contentItem18 = {
-  word: "nut",
-  sound: "/nʌt/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/nut.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/nut.mp3"
+  word: "jump",
+  sound: "/dʒʌmp/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/jump.mp3"
 };
 
 const contentItem19 = {
-  word: "rut",
-  sound: "/tot/",
-  Image: "../../../../asset/image/phonics/cvc/cuc/rut.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cuc/rut.mp3"
+  word: "little",
+  sound: "/ˈlɪt.əl/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/little.mp3"
 };
+const contentItem20 = {
+  word: "look",
+  sound: "/lʊk/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/look.mp3"
+};
+
+const contentItem21 = {
+  word: "make",
+  sound: "/meɪk/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/make.mp3"
+};
+
+const contentItem22 = {
+  word: "me",
+  sound: "/miː/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/me.mp3"
+};
+
+const contentItem23 = {
+  word: "my",
+  sound: "/maɪ/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/my.mp3"
+};
+
+const contentItem24 = {
+  word: "not",
+  sound: "/nɒt/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/not.mp3"
+};
+
+const contentItem25 = {
+  word: "one",
+  sound: "/wʌn/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/one.mp3"
+};
+
+const contentItem26 = {
+  word: "play",
+  sound: "/pleɪ/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/play.mp3"
+};
+
+const contentItem27 = {
+  word: "red",
+  sound: "/red/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/red.mp3"
+};
+
+const contentItem28 = {
+  word: "run",
+  sound: "/rʌn/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/run.mp3"
+};
+
+const contentItem29 = {
+  word: "said",
+  sound: "/sed/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/said.mp3"
+};
+
+const contentItem30 = {
+  word: "see",
+  sound: "/siː/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/see.mp3"
+};
+
+const contentItem31 = {
+  word: "the",
+  sound: "/ðiː/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/the.mp3"
+};
+
+const contentItem32 = {
+  word: "three",
+  sound: "/θriː/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/three.mp3"
+};
+
+const contentItem33 = {
+  word: "to",
+  sound: "/tuː/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/to.mp3"
+};
+
+const contentItem34 = {
+  word: "two",
+  sound: "/tuː/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/two.mp3"
+};
+
+const contentItem35 = {
+  word: "up",
+  sound: "/ʌp/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/up.mp3"
+};
+
+const contentItem36 = {
+  word: "we",
+  sound: "/wiː/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/we.mp3"
+};
+
+const contentItem37 = {
+  word: "where",
+  sound: "/weər/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/where.mp3"
+};
+
+const contentItem38 = {
+  word: "yellow",
+  sound: "/ˈjel.əʊ/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/yellow.mp3"
+};
+
+const contentItem39 = {
+  word: "you",
+  sound: "/juː/",
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/you.mp3"
+};
+
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
-  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19]; 
-  
+  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,contentItem20,contentItem21,contentItem22,contentItem23,contentItem24,
+  contentItem25,contentItem26,contentItem27,contentItem28,contentItem29,contentItem30,contentItem31,contentItem32,contentItem33,contentItem34,contentItem35,contentItem36,contentItem37,contentItem38,contentItem39];
+
 const common ={
   testPreviousBtn: null,
   testNextBtn: null,
@@ -168,13 +269,9 @@ const wordImageMatchObj = {
   progress: null,
   list0: null,
   list1: null,
-  picture: null,
   wordImageMatch: document.getElementById("wordImageMatch"),
   wordImageMatchContent: `<div class="card highlight">
                               <h1 class="text-center my-3" id="progress">Learning test</h1>
-                              <div class="my-3">
-                                <img id="wordImageMatchPicture" src="" width="100" height="100" alt="">
-                              </div>
                               <div class="my-3 h2">
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
@@ -291,7 +388,6 @@ function testNextBtnFunction() {
       wordImageMatchObj.counter++;
       wordGen(wordImageMatchObj.counter);
     }
-    wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
     common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
   }
   wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1 +"/"+learnObj.totalLength;
@@ -313,7 +409,6 @@ function testPreviousBtnFunction() {
       wordGen(wordImageMatchObj.counter);
     }
 
-    wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
     common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
    
   }
@@ -374,7 +469,7 @@ function buildWordImageMatch()
     wordImageMatchObj.list0[k].value=learnObj.letterList[k].word;
     wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].word;
   }
-  wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[0].Image);
+
   common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
   common.testAudio.load();
 
