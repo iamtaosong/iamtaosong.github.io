@@ -56,7 +56,7 @@ const contentItem8 = {
 
 const contentItem9 = {
   word: "for",
-  sound: "/rʌɡ/",
+  sound: "/fɔːr/",
   soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/for.mp3"
 };
 
@@ -140,7 +140,7 @@ const contentItem22 = {
 const contentItem23 = {
   word: "my",
   sound: "/maɪ/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/tub.mp3"
+  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/my.mp3"
 };
 
 const contentItem24 = {
@@ -238,6 +238,7 @@ const contentItem39 = {
   sound: "/juː/",
   soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/you.mp3"
 };
+
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
 const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14]; 
@@ -247,7 +248,7 @@ const contents5 = [contentItem25,contentItem26,contentItem27,contentItem28,conte
 const contents6 = [contentItem30,contentItem31,contentItem32,contentItem33,contentItem34]; 
 const contents7 = [contentItem35,contentItem36,contentItem37,contentItem38,contentItem39]; 
 
-const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3"];
+const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4","lesson-5","lesson-6","lesson-7"];
 
 const common ={
   testPreviousBtn: null,
@@ -356,6 +357,22 @@ window.addEventListener("load", function(e){
   }else if(pathname.includes(lessons[3]))
   {
     learnObj.letterList=contents3;
+  }else if(pathname.includes(lessons[4]))
+  {
+    learnObj.letterList=contents4;
+
+  }else if(pathname.includes(lessons[5]))
+  {
+    learnObj.letterList=contents5;
+
+  }else if(pathname.includes(lessons[6]))
+  {
+    learnObj.letterList=contents6;
+
+  }else if(pathname.includes(lessons[7]))
+  {
+    learnObj.letterList=contents7;
+    
   }
 
   learnObj.totalLenght=learnObj.letterList.length;
