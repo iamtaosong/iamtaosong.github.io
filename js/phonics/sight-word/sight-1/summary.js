@@ -490,24 +490,13 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/p8ue-UrXgE4?si=pVvR50yBsl2Ys4cW";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/N2XMVfb8wNc?si=z9vtXEoRo3kKmJxK";
   
 });
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ijvwIDJkRfE?si=Gfzd2-qBDk3y3g_a";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/iTF4kxmYEl4?si=fZfnl5vFOpOj3xkV";
   
 });
 
-document.getElementById("video2").addEventListener("click",function(){
-
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ehCrjk4hdc4?si=X9lN-pcpVSyphRZk";
-  
-});
-
-document.getElementById("video3").addEventListener("click",function(){
-
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/jXmB_ZMwbSE?si=29nYk82mc6IwAIDf";
-  
-});
