@@ -458,3 +458,11 @@ This creates a continuous back and forth animation until the button is clicked a
 
 
 https://www.youtube.com/playlist?list=PLQK2XiUY9C2i9KjOqXfEZeZHnY1VFQ89f
+
+
+
+beginning consonant blends words lis
+Initial Consonant Blends
+ ENDING CONSONANT BLENDS
+
+ CCVC means consonant-consonant-vowel-consonant.
