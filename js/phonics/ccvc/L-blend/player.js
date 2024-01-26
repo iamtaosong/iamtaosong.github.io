@@ -64,15 +64,15 @@ const contentItem8 = {
 };
 
 const contentItem9 = {
-  word: "green",
-  sound: "/læd/",
-  Image: "../../../../asset/image/phonics/ccvc/L-blend/glue.jpg",
-  soundfile: "../../../../asset/audio/phonics/ccvc/L-blend/glue.mp3"
+  word: "ɡlen",
+  sound: "/ɡlen/",
+  Image: "../../../../asset/image/phonics/ccvc/L-blend/glen.jpg",
+  soundfile: "../../../../asset/audio/phonics/ccvc/L-blend/ɡlen.mp3"
 };
 
 const contentItem10 = {
   word: "glass",
-  sound: "/glass/",
+  sound: "/ɡlæs/",
   Image: "../../../../asset/image/phonics/ccvc/L-blend/glass.jpg",
   soundfile: "../../../../asset/audio/phonics/ccvc/L-blend/glass.mp3"
 };
@@ -106,11 +106,9 @@ const contentItem14 = {
 };
 
 
-
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
 const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14]; 
-
 
 const lessons = ["lesson-0","lesson-1","lesson-2"];
 
