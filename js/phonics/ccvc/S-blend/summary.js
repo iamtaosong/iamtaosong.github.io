@@ -331,13 +331,13 @@ document.getElementById("video0").addEventListener("click",function(){
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/R3pKyWhBG60?si=-2uBeWqqOaxD99cW";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/54tbiF3gqhg?si=V_0rvTXEdJ_AU4ab";
   
 });
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/tvAHnCI--JU?si=Dhdd_KkSPTNllHuz";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/XZZYVSR3jZ8?si=6e54_ZQRzXc2cJPf";
   
 });
 

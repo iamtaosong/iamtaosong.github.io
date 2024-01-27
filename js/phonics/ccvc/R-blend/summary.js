@@ -373,7 +373,7 @@ document.getElementById("video1").addEventListener("click",function(){
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/tvAHnCI--JU?si=Dhdd_KkSPTNllHuz";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/svqH6KIm_Os?si=DgfgXWgt6_CGDMX8";
   
 });
 
