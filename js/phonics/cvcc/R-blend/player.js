@@ -2,23 +2,16 @@
 const pathname=window.location.pathname;
 const contentItem0 = {
   word: "bird",
-  sound: "/bræt/",
+  sound: "/bɜːd/",
   Image: "../../../../asset/image/phonics/cvcc/R-blend/bird.jpg",
   soundfile: "../../../../asset/audio/phonics/cvcc/R-blend/bird.mp3"
 };
 
 const contentItem1 = {
   word: "card",
-  sound: "/brɪk/",
+  sound: "/kɑːd/",
   Image: "../../../../asset/image/phonics/cvcc/R-blend/card.jpg",
   soundfile: "../../../../asset/audio/phonics/cvcc/R-blend/card.mp3"
-};
-
-const contentItem2 = {
-  word: "herd",
-  sound: "/kræb/",
-  Image: "../../../../asset/image/phonics/cvcc/R-blend/herd.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvcc/R-blend/herd.mp3"
 };
 
 const contentItem3 = {

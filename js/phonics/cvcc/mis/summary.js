@@ -1,76 +1,113 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "smell",
-  sound: "/smel/",
-  Image: "../../../../asset/image/phonics/ccvc/S-blend/smell.jpg",
-  soundfile: "../../../../asset/audio/phonics/ccvc/S-blend/smell.mp3"
+  word: "fist",
+  sound: "/fɪst/",
+  Image: "../../../../asset/image/phonics/cvcc/mis/fist.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvcc/mis/fist.mp3"
 };
 
 const contentItem1 = {
-  word: "smog",
-  sound: "/smɒɡ/",
-  Image: "../../../../asset/image/phonics/ccvc/S-blend/smog.jpg",
-  soundfile: "../../../../asset/audio/phonics/ccvc/S-blend/smog.mp3"
+  word: "lost",
+  sound: "/lɒst/",
+  Image: "../../../../asset/image/phonics/cvcc/mis/lost.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvcc/mis/lost.mp3"
 };
 
 const contentItem2 = {
-  word: "snap",
-  sound: "/snap/",
-  Image: "../../../../asset/image/phonics/ccvc/S-blend/snap.jpg",
-  soundfile: "../../../../asset/audio/phonics/ccvc/S-blend/snap.mp3"
+  word: "mast",
+  sound: "/mæst/",
+  Image: "../../../../asset/image/phonics/cvcc/mis/mast.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvcc/mis/mast.mp3"
 };
 
 const contentItem3 = {
-  word: "snack",
-  sound: "/snæk/",
-  Image: "../../../../asset/image/phonics/ccvc/S-blend/snack.jpg",
-  soundfile: "../../../../asset/audio/phonics/ccvc/S-blend/snack.mp3"
+  word: "nest",
+  sound: "/nest/",
+  Image: "../../../../asset/image/phonics/cvcc/mis/nest.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvcc/mis/nest.mp3"
 };
 
 const contentItem4 = {
-  word: "spin",
-  sound: "/spɪn/",
-  Image: "../../../../asset/image/phonics/ccvc/S-blend/spin.jpg",
-  soundfile: "../../../../asset/audio/phonics/ccvc/S-blend/spin.mp3"
+  word: "rust",
+  sound: "/rʌst/",
+  Image: "../../../../asset/image/phonics/cvcc/mis/rust.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvcc/mis/rust.mp3"
 };
 
 const contentItem5 = {
-  word: "spill",
-  sound: "/spɪl/",
-  Image: "../../../../asset/image/phonics/ccvc/S-blend/spill.jpg",
-  soundfile: "../../../../asset/audio/phonics/ccvc/S-blend/spill.mp3"
+  word: "desk",
+  sound: "/desk/",
+  Image: "../../../../asset/image/phonics/cvcc/mis/desk.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvcc/mis/desk.mp3"
 };
 
 const contentItem6 = {
-  word: "stop",
-  sound: "/stop/",
-  Image: "../../../../asset/image/phonics/ccvc/S-blend/stop.jpg",
-  soundfile: "../../../../asset/audio/phonics/ccvc/S-blend/stop.mp3"
+  word: "disk",
+  sound: "/dɪsk/",
+  Image: "../../../../asset/image/phonics/cvcc/mis/disk.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvcc/mis/disk.mp3"
 };
 
 const contentItem7 = {
-  word: "stick",
-  sound: "/dres/",
-  Image: "../../../../asset/image/phonics/ccvc/S-blend/stick.jpg",
-  soundfile: "../../../../asset/audio/phonics/ccvc/S-blend/stick.mp3"
+  word: "mask",
+  sound: "/mæsk/",
+  Image: "../../../../asset/image/phonics/cvcc/mis/mask.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvcc/mis/mask.mp3"
 };
 
 const contentItem8 = {
-  word: "swing",
-  sound: "/swɪŋ/",
-  Image: "../../../../asset/image/phonics/ccvc/S-blend/swing.jpg",
-  soundfile: "../../../../asset/audio/phonics/ccvc/S-blend/swing.mp3"
+  word: "tusk",
+  sound: "/tʌsk/",
+  Image: "../../../../asset/image/phonics/cvcc/mis/tusk.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvcc/mis/tusk.mp3"
 };
 
 const contentItem9 = {
-  word: "swim",
-  sound: "/swim/",
-  Image: "../../../../asset/image/phonics/ccvc/S-blend/swim.jpg",
-  soundfile: "../../../../asset/audio/phonics/ccvc/S-blend/swim.mp3"
+  word: "wasp",
+  sound: "/wɒsp/",
+  Image: "../../../../asset/image/phonics/cvcc/mis/wasp.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvcc/mis/wasp.mp3"
 };
 
-const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9]; 
+const contentItem10 = {
+  word: "duct",
+  sound: "/dʌkt/",
+  Image: "../../../../asset/image/phonics/cvcc/mis/duct.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvcc/mis/duct.mp3"
+};
+
+const contentItem11 = {
+  word: "lamp",
+  sound: "/læmp/",
+  Image: "../../../../asset/image/phonics/cvcc/mis/lamp.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvcc/mis/lamp.mp3"
+};
+
+const contentItem12 = {
+  word: "limp",
+  sound: "/lɪmp/",
+  Image: "../../../../asset/image/phonics/cvcc/mis/limp.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvcc/mis/limp.mp3"
+};
+
+const contentItem13 = {
+  word: "jump",
+  sound: "/dʒʌmp/",
+  Image: "../../../../asset/image/phonics/cvcc/mis/jump.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvcc/mis/jump.mp3"
+};
+
+const contentItem14 = {
+  word: "romp",
+  sound: "/rɒmp/",
+  Image: "../../../../asset/image/phonics/cvcc/mis/romp.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvcc/mis/romp.mp3"
+};
+
+
+const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
+  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14]; 
   
 const common ={
   testPreviousBtn: null,
@@ -325,19 +362,19 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/YJqa-Kybp_s?si=UHK_HXvvqwd41Jue";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/rn_AbSzk_b8?si=rwkWxdh7E71zzQWm";
   
 });
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/54tbiF3gqhg?si=V_0rvTXEdJ_AU4ab";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/R3pKyWhBG60?si=-2uBeWqqOaxD99cW";
   
 });
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/XZZYVSR3jZ8?si=6e54_ZQRzXc2cJPf";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/svqH6KIm_Os?si=DgfgXWgt6_CGDMX8";
   
 });
 
