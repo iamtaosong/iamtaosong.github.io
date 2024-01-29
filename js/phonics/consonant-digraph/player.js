@@ -1,114 +1,225 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "fist",
+  word: "chip",
   sound: "/fɪst/",
-  Image: "../../../../asset/image/phonics/cvcc/mis/fist.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvcc/mis/fist.mp3"
+  Image: "../../../asset/image/phonics/consonant-digraph/chip.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/chip.mp3"
 };
 
 const contentItem1 = {
-  word: "lost",
+  word: "chest",
   sound: "/lɒst/",
-  Image: "../../../../asset/image/phonics/cvcc/mis/lost.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvcc/mis/lost.mp3"
+  Image: "../../../asset/image/phonics/consonant-digraph/chest.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/chest.mp3"
 };
 
 const contentItem2 = {
-  word: "mast",
+  word: "chop",
   sound: "/mæst/",
-  Image: "../../../../asset/image/phonics/cvcc/mis/mast.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvcc/mis/mast.mp3"
+  Image: "../../../asset/image/phonics/consonant-digraph/chop.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/chop.mp3"
 };
 
 const contentItem3 = {
-  word: "nest",
+  word: "rich",
   sound: "/nest/",
-  Image: "../../../../asset/image/phonics/cvcc/mis/nest.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvcc/mis/nest.mp3"
+  Image: "../../../asset/image/phonics/consonant-digraph/rich.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/rich.mp3"
 };
 
 const contentItem4 = {
-  word: "rust",
+  word: "lunch",
   sound: "/rʌst/",
-  Image: "../../../../asset/image/phonics/cvcc/mis/rust.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvcc/mis/rust.mp3"
+  Image: "../../../asset/image/phonics/consonant-digraph/lunch.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/lunch.mp3"
 };
 
 const contentItem5 = {
-  word: "desk",
+  word: "shed",
   sound: "/desk/",
-  Image: "../../../../asset/image/phonics/cvcc/mis/desk.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvcc/mis/desk.mp3"
+  Image: "../../../asset/image/phonics/consonant-digraph/shed.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/shed.mp3"
 };
 
 const contentItem6 = {
-  word: "disk",
+  word: "ship",
   sound: "/dɪsk/",
-  Image: "../../../../asset/image/phonics/cvcc/mis/disk.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvcc/mis/disk.mp3"
+  Image: "../../../asset/image/phonics/consonant-digraph/ship.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/ship.mp3"
 };
 
 const contentItem7 = {
-  word: "mask",
+  word: "dish",
   sound: "/mæsk/",
-  Image: "../../../../asset/image/phonics/cvcc/mis/mask.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvcc/mis/mask.mp3"
+  Image: "../../../asset/image/phonics/consonant-digraph/dish.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/dish.mp3"
 };
 
 const contentItem8 = {
-  word: "tusk",
+  word: "fish",
   sound: "/tʌsk/",
-  Image: "../../../../asset/image/phonics/cvcc/mis/tusk.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvcc/mis/tusk.mp3"
+  Image: "../../../asset/image/phonics/consonant-digraph/fish.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/fish.mp3"
 };
 
 const contentItem9 = {
-  word: "wasp",
+  word: "trash",
   sound: "/wɒsp/",
-  Image: "../../../../asset/image/phonics/cvcc/mis/wasp.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvcc/mis/wasp.mp3"
+  Image: "../../../asset/image/phonics/consonant-digraph/trash.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/trash.mp3"
 };
 
 const contentItem10 = {
-  word: "duct",
+  word: "three",
   sound: "/dʌkt/",
-  Image: "../../../../asset/image/phonics/cvcc/mis/duct.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvcc/mis/duct.mp3"
+  Image: "../../../asset/image/phonics/consonant-digraph/three.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/three.mp3"
 };
 
 const contentItem11 = {
-  word: "lamp",
+  word: "thank",
   sound: "/læmp/",
-  Image: "../../../../asset/image/phonics/cvcc/mis/lamp.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvcc/mis/lamp.mp3"
+  Image: "../../../asset/image/phonics/consonant-digraph/thank.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/thank.mp3"
 };
 
 const contentItem12 = {
-  word: "limp",
+  word: "thin",
   sound: "/lɪmp/",
-  Image: "../../../../asset/image/phonics/cvcc/mis/limp.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvcc/mis/limp.mp3"
+  Image: "../../../asset/image/phonics/consonant-digraph/thin.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/thin.mp3"
 };
 
 const contentItem13 = {
-  word: "jump",
+  word: "bath",
   sound: "/dʒʌmp/",
-  Image: "../../../../asset/image/phonics/cvcc/mis/jump.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvcc/mis/jump.mp3"
+  Image: "../../../asset/image/phonics/consonant-digraph/bath.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/bath.mp3"
 };
 
 const contentItem14 = {
-  word: "romp",
+  word: "moth",
   sound: "/rɒmp/",
-  Image: "../../../../asset/image/phonics/cvcc/mis/romp.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvcc/mis/romp.mp3"
+  Image: "../../../asset/image/phonics/consonant-digraph/moth.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/moth.mp3"
 };
 
+
+const contentItem15 = {
+  word: "neck",
+  sound: "/dʌkt/",
+  Image: "../../../asset/image/phonics/consonant-digraph/neck.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/neck.mp3"
+};
+
+const contentItem16 = {
+  word: "sack",
+  sound: "/læmp/",
+  Image: "../../../asset/image/phonics/consonant-digraph/sack.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/sack.mp3"
+};
+
+const contentItem17 = {
+  word: "sick",
+  sound: "/lɪmp/",
+  Image: "../../../asset/image/phonics/consonant-digraph/sick.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/sick.mp3"
+};
+
+const contentItem18 = {
+  word: "sock",
+  sound: "/dʒʌmp/",
+  Image: "../../../asset/image/phonics/consonant-digraph/sock.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/sock.mp3"
+};
+
+const contentItem19 = {
+  word: "duck",
+  sound: "/rɒmp/",
+  Image: "../../../asset/image/phonics/consonant-digraph/duck.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/duck.mp3"
+};
+
+const contentItem20 = {
+  word: "hang",
+  sound: "/rɒmp/",
+  Image: "../../../asset/image/phonics/consonant-digraph/hang.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/hang.mp3"
+};
+
+
+const contentItem21 = {
+  word: "lung",
+  sound: "/dʌkt/",
+  Image: "../../../asset/image/phonics/consonant-digraph/lung.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/lung.mp3"
+};
+
+const contentItem22 = {
+  word: "ring",
+  sound: "/læmp/",
+  Image: "../../../asset/image/phonics/consonant-digraph/ring.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/ring.mp3"
+};
+
+const contentItem23 = {
+  word: "sing",
+  sound: "/lɪmp/",
+  Image: "../../../asset/image/phonics/consonant-digraph/sing.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/sing.mp3"
+};
+
+const contentItem24 = {
+  word: "song",
+  sound: "/dʒʌmp/",
+  Image: "../../../asset/image/phonics/consonant-digraph/song.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/song.mp3"
+};
+
+const contentItem25 = {
+  word: "graph",
+  sound: "/rɒmp/",
+  Image: "../../../asset/image/phonics/consonant-digraph/graph.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/graph.mp3"
+};
+
+
+const contentItem26 = {
+  word: "hiss",
+  sound: "/rɒmp/",
+  Image: "../../../asset/image/phonics/consonant-digraph/hiss.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/hiss.mp3"
+};
+
+const contentItem27 = {
+  word: "kiss",
+  sound: "/rɒmp/",
+  Image: "../../../asset/image/phonics/consonant-digraph/kiss.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/kiss.mp3"
+};
+
+
+const contentItem28 = {
+  word: "miss",
+  sound: "/rɒmp/",
+  Image: "../../../asset/image/phonics/consonant-digraph/miss.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/miss.mp3"
+};
+
+const contentItem29 = {
+  word: "judge",
+  sound: "/rɒmp/",
+  Image: "../../../asset/image/phonics/consonant-digraph/judge.jpg",
+  soundfile: "../../../asset/audio/phonics/consonant-digraph/judge.mp3"
+};
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
 const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14]; 
+const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,contentItem19];
+const contents4 = [contentItem20,contentItem21,contentItem22,contentItem23,contentItem24];
+const contents5 = [contentItem25,contentItem26,contentItem27,contentItem28,contentItem29];  
 
 const lessons = ["lesson-0","lesson-1","lesson-2"];
 
@@ -120,10 +231,10 @@ const common ={
   game: null,
   testSection: document.getElementById("testSection"),
   letterSelected: false,
-  goodResult: `<img src="../../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../../asset/image/sad.png" alt="happy--v1"/>`,
-  right: "../../../../asset/image/right.mp3",
-  wrong: "../../../../asset/image/wrong.mp3"
+  goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
+  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../../asset/image/right.mp3",
+  wrong: "../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {
@@ -287,6 +398,21 @@ window.addEventListener("load", function(e){
   {
 
     learnObj.letterList=contents2;
+
+  }else if(pathname.includes(lessons[3]))
+  {
+
+    learnObj.letterList=contents3;
+
+  }else if(pathname.includes(lessons[4]))
+  {
+
+    learnObj.letterList=contents4;
+
+  }else if(pathname.includes(lessons[5]))
+  {
+
+    learnObj.letterList=contents5;
 
   }
 
