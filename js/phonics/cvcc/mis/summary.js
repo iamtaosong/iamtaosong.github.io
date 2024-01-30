@@ -368,13 +368,13 @@ document.getElementById("video0").addEventListener("click",function(){
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/R3pKyWhBG60?si=-2uBeWqqOaxD99cW";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/IaCA-_R5ZQM?si=dwe5dwiCaLhwC620";
   
 });
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/svqH6KIm_Os?si=DgfgXWgt6_CGDMX8";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/mJZjfHH4aCI?si=qCCy8PgdQHaswyMo";
   
 });
 
