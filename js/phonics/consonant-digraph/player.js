@@ -105,7 +105,6 @@ const contentItem14 = {
   soundfile: "../../../asset/audio/phonics/consonant-digraph/moth.mp3"
 };
 
-
 const contentItem15 = {
   word: "neck",
   sound: "/dʌkt/",
@@ -221,7 +220,8 @@ const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,conte
 const contents4 = [contentItem20,contentItem21,contentItem22,contentItem23,contentItem24];
 const contents5 = [contentItem25,contentItem26,contentItem27,contentItem28,contentItem29];  
 
-const lessons = ["lesson-0","lesson-1","lesson-2"];
+const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4","lesson-5"];
+
 
 const common ={
   testPreviousBtn: null,
