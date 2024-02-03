@@ -69,7 +69,7 @@ const contentItem7 = {
   Image: "../../../asset/image/basic-sentence/where/He.jpg",
   soundfileQ: "../../../asset/audio/basic-sentence/where/fromhe.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/where/qahe.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/where/qafromhe.mp3"
 };
 
 const contentItem8 = {
@@ -85,7 +85,7 @@ const contentItem9 = {
   question: "Are we from london?",
   answer: "yes, we are",
   Image: "../../../asset/image/basic-sentence/where/We.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/where/food.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/where/we.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
   soundfileQA: "../../../asset/audio/basic-sentence/where/qawe.mp3"
 };
@@ -94,7 +94,7 @@ const contentItem9 = {
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
  
-const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4"];
+const lessons = ["lesson-0","lesson-1"];
 
 const common ={
   testPreviousBtn: null,
@@ -203,21 +203,6 @@ window.addEventListener("load", function(e){
   }else if(pathname.includes(lessons[1]))
   {
     learnObj.letterList=contents1;
-
-  }else if(pathname.includes(lessons[2]))
-  {
-
-    learnObj.letterList=contents2;
-
-  }else if(pathname.includes(lessons[3]))
-  {
-
-    learnObj.letterList=contents3;
-
-  }else if(pathname.includes(lessons[4]))
-  {
-
-    learnObj.letterList=contents4;
 
   }
 
