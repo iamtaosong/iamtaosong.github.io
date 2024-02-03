@@ -3,50 +3,50 @@ const pathname=window.location.pathname;
 const contentItem0 = {
   word: "I",
   sound: "/aɪi/",
-  Image: "../../../asset/image/vocabulary/pronoun/I.jpg",
-  soundfile: "../../../asset/audio/vocabulary/pronoun/I.mp3"
+  Image: "../../../../asset/image/grammar/basic/pronoun/I.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/I.mp3"
 };
 
 const contentItem1 = {
   word: "He",
   sound: "/hiː/",
-  Image: "../../../asset/image/vocabulary/pronoun/He.jpg",
-  soundfile: "../../../asset/audio/vocabulary/pronoun/He.mp3"
+  Image: "../../../../asset/image/grammar/basic/pronoun/He.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/He.mp3"
 };
 
 const contentItem2 = {
   word: "She",
   sound: "/ʃiː/",
-  Image: "../../../asset/image/vocabulary/pronoun/She.jpg",
-  soundfile: "../../../asset/audio/vocabulary/pronoun/She.mp3"
+  Image: "../../../../asset/image/grammar/basic/pronoun/She.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/She.mp3"
 };
 
 const contentItem3 = {
   word: "It",
   sound: "/ɪt/",
-  Image: "../../../asset/image/vocabulary/pronoun/It.jpg",
-  soundfile: "../../../asset/audio/vocabulary/pronoun/It.mp3"
+  Image: "../../../../asset/image/grammar/basic/pronoun/It.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/It.mp3"
 };
 
 const contentItem4 = {
   word: "We",
   sound: "/wiː/",
-  Image: "../../../asset/image/vocabulary/pronoun/We.jpg",
-  soundfile: "../../../asset/audio/vocabulary/pronoun/We.mp3"
+  Image: "../../../../asset/image/grammar/basic/pronoun/We.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/We.mp3"
 };
 
 const contentItem5 = {
   word: "They",
   sound: "/ðeɪ/",
-  Image: "../../../asset/image/vocabulary/pronoun/They.jpg",
-  soundfile: "../../../asset/audio/vocabulary/pronoun/They.mp3"
+  Image: "../../../../asset/image/grammar/basic/pronoun/They.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/They.mp3"
 };
 
 const contentItem6 = {
   word: "You",
   sound: "/juː/",
-  Image: "../../../asset/image/vocabulary/pronoun/You.jpg",
-  soundfile: "../../../asset/audio/vocabulary/pronoun/You.mp3"
+  Image: "../../../../asset/image/grammar/basic/pronoun/You.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/You.mp3"
 };
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6];
@@ -60,10 +60,10 @@ const common ={
   game: null,
   testSection: document.getElementById("testSection"),
   letterSelected: false,
-  goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`,
-  right: "../../../asset/image/right.mp3",
-  wrong: "../../../asset/image/wrong.mp3"
+  goodResult: `<img src="../../../../asset/image/happy.png" alt="happy--v1"/>`,
+  poorResult: `<img src="../../../../asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../../../asset/image/right.mp3",
+  wrong: "../../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {
