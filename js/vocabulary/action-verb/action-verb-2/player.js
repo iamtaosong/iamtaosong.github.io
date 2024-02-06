@@ -3,142 +3,142 @@ const pathname=window.location.pathname;
 const contentItem0 = {
   word: "bend",
   sound: "/bend/",
-  Image: "../../../asset/image/vocabulary/action-verb/bend.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/bend.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/bend.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/bend.mp3"
 };
 
 const contentItem1 = {
   word: "lift",
   sound: "/lɪft/",
-  Image: "../../../asset/image/vocabulary/action-verb/lift.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/lift.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/lift.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/lift.mp3"
 };
 
 const contentItem2 = {
   word: "carry",
   sound: "/bʌs/",
-  Image: "../../../asset/image/vocabulary/action-verb/carry.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/carry.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/carry.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/carry.mp3"
 };
 
 const contentItem3 = {
   word: "kneel",
   sound: "/trʌk/",
-  Image: "../../../asset/image/vocabulary/action-verb/kneel.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/kneel.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/kneel.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/kneel.mp3"
 };
 
 const contentItem4 = {
   word: "hold",
   sound: "/həʊld/",
-  Image: "../../../asset/image/vocabulary/action-verb/hold.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/hold.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/hold.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/hold.mp3"
 };
 
 const contentItem5 = {
   word: "sit",
   sound: "/sɪt/",
-  Image: "../../../asset/image/vocabulary/action-verb/sit.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/sit.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/sit.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/sit.mp3"
 };
 
 const contentItem6 = {
   word: "drag",
   sound: "/dræɡ/",
-  Image: "../../../asset/image/vocabulary/action-verb/drag.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/drag.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/drag.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/drag.mp3"
 };
 
 const contentItem7 = {
   word: "jump",
   sound: "/dʒʌmp/",
-  Image: "../../../asset/image/vocabulary/action-verb/jump.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/jump.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/jump.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/jump.mp3"
 };
 
 const contentItem8 = {
   word: "leap",
   sound: "/liːp/",
-  Image: "../../../asset/image/vocabulary/action-verb/leap.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/leap.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/leap.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/leap.mp3"
 };
 
 const contentItem9 = {
   word: "punch",
   sound: "/pʌntʃ/",
-  Image: "../../../asset/image/vocabulary/action-verb/punch.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/punch.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/punch.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/punch.mp3"
 };
 
 const contentItem10 = {
   word: "pull",
   sound: "/pʊl/",
-  Image: "../../../asset/image/vocabulary/action-verb/pull.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/pull.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/pull.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/pull.mp3"
 };
 
 const contentItem11 = {
   word: "dive",
   sound: "/ˈdaɪv/",
-  Image: "../../../asset/image/vocabulary/action-verb/dive.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/dive.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/dive.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/dive.mp3"
 };
 
 const contentItem12 = {
   word: "push",
   sound: "/pʊʃ/",
-  Image: "../../../asset/image/vocabulary/action-verb/push.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/push.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/push.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/push.mp3"
 };
 
 const contentItem13 = {
   word: "run",
   sound: "/rʌn/",
-  Image: "../../../asset/image/vocabulary/action-verb/run.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/run.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/run.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/run.mp3"
 };
 
 const contentItem14 = {
   word: "lean",
   sound: "/liːn/",
-  Image: "../../../asset/image/vocabulary/action-verb/lean.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/lean.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/lean.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/lean.mp3"
 };
 
 
 const contentItem15 = {
   word: "squat",
   sound: "/skwɒt/",
-  Image: "../../../asset/image/vocabulary/action-verb/squat.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/squat.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/squat.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/squat.mp3"
 };
 
 const contentItem16 = {
   word: "throw",
   sound: "/θrəʊ/",
-  Image: "../../../asset/image/vocabulary/action-verb/throw.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/throw.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/throw.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/throw.mp3"
 };
 
 const contentItem17 = {
   word: "tiptoe",
   sound: "/ˈtɪp.təʊ/",
-  Image: "../../../asset/image/vocabulary/action-verb/tiptoe.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/tiptoe.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/tiptoe.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/tiptoe.mp3"
 };
 
 const contentItem18 = {
   word: "walk",
   sound: "/wɔːk/",
-  Image: "../../../asset/image/vocabulary/action-verb/walk.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/walk.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/walk.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/walk.mp3"
 };
 
 const contentItem19 = {
   word: "hit",
   sound: "/hɪt/",
-  Image: "../../../asset/image/vocabulary/action-verb/hit.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/hit.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-2/hit.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-2/hit.mp3"
 };
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
@@ -155,10 +155,10 @@ const common ={
   game: null,
   testSection: document.getElementById("testSection"),
   letterSelected: false,
-  goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`,
-  right: "../../../asset/image/right.mp3",
-  wrong: "../../../asset/image/wrong.mp3"
+  goodResult: `<img src="../../../../asset/image/happy.png" alt="happy--v1"/>`,
+  poorResult: `<img src="../../../../asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../../../asset/image/right.mp3",
+  wrong: "../../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {

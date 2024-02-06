@@ -3,142 +3,142 @@ const pathname=window.location.pathname;
 const contentItem0 = {
   word: "bend",
   sound: "/bend/",
-  Image: "../../../asset/image/vocabulary/action-verb/bend.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/bend.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/bend.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/bend.mp3"
 };
 
 const contentItem1 = {
   word: "lift",
   sound: "/lɪft/",
-  Image: "../../../asset/image/vocabulary/action-verb/lift.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/lift.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/lift.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/lift.mp3"
 };
 
 const contentItem2 = {
   word: "carry",
   sound: "/bʌs/",
-  Image: "../../../asset/image/vocabulary/action-verb/carry.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/carry.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/carry.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/carry.mp3"
 };
 
 const contentItem3 = {
   word: "kneel",
   sound: "/trʌk/",
-  Image: "../../../asset/image/vocabulary/action-verb/kneel.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/kneel.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/kneel.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/kneel.mp3"
 };
 
 const contentItem4 = {
   word: "hold",
   sound: "/həʊld/",
-  Image: "../../../asset/image/vocabulary/action-verb/hold.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/hold.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/hold.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/hold.mp3"
 };
 
 const contentItem5 = {
   word: "sit",
   sound: "/sɪt/",
-  Image: "../../../asset/image/vocabulary/action-verb/sit.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/sit.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/sit.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/sit.mp3"
 };
 
 const contentItem6 = {
   word: "drag",
   sound: "/dræɡ/",
-  Image: "../../../asset/image/vocabulary/action-verb/drag.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/drag.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/drag.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/drag.mp3"
 };
 
 const contentItem7 = {
   word: "jump",
   sound: "/dʒʌmp/",
-  Image: "../../../asset/image/vocabulary/action-verb/jump.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/jump.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/jump.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/jump.mp3"
 };
 
 const contentItem8 = {
   word: "leap",
   sound: "/liːp/",
-  Image: "../../../asset/image/vocabulary/action-verb/leap.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/leap.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/leap.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/leap.mp3"
 };
 
 const contentItem9 = {
   word: "punch",
   sound: "/pʌntʃ/",
-  Image: "../../../asset/image/vocabulary/action-verb/punch.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/punch.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/punch.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/punch.mp3"
 };
 
 const contentItem10 = {
   word: "pull",
   sound: "/pʊl/",
-  Image: "../../../asset/image/vocabulary/action-verb/pull.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/pull.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/pull.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/pull.mp3"
 };
 
 const contentItem11 = {
   word: "dive",
   sound: "/ˈdaɪv/",
-  Image: "../../../asset/image/vocabulary/action-verb/dive.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/dive.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/dive.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/dive.mp3"
 };
 
 const contentItem12 = {
   word: "push",
   sound: "/pʊʃ/",
-  Image: "../../../asset/image/vocabulary/action-verb/push.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/push.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/push.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/push.mp3"
 };
 
 const contentItem13 = {
   word: "run",
   sound: "/rʌn/",
-  Image: "../../../asset/image/vocabulary/action-verb/run.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/run.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/run.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/run.mp3"
 };
 
 const contentItem14 = {
   word: "lean",
   sound: "/liːn/",
-  Image: "../../../asset/image/vocabulary/action-verb/lean.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/lean.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/lean.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/lean.mp3"
 };
 
 
 const contentItem15 = {
   word: "squat",
   sound: "/skwɒt/",
-  Image: "../../../asset/image/vocabulary/action-verb/squat.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/squat.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/squat.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/squat.mp3"
 };
 
 const contentItem16 = {
   word: "throw",
   sound: "/θrəʊ/",
-  Image: "../../../asset/image/vocabulary/action-verb/throw.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/throw.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/throw.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/throw.mp3"
 };
 
 const contentItem17 = {
   word: "tiptoe",
   sound: "/ˈtɪp.təʊ/",
-  Image: "../../../asset/image/vocabulary/action-verb/tiptoe.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/tiptoe.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/tiptoe.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/tiptoe.mp3"
 };
 
 const contentItem18 = {
   word: "walk",
   sound: "/wɔːk/",
-  Image: "../../../asset/image/vocabulary/action-verb/walk.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/walk.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/walk.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/walk.mp3"
 };
 
 const contentItem19 = {
   word: "hit",
   sound: "/hɪt/",
-  Image: "../../../asset/image/vocabulary/action-verb/hit.webp",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/hit.mp3"
+  Image: "../../../../asset/image/vocabulary/action-verb/action-verb-1/hit.webp",
+  soundfile: "../../../../asset/audio/vocabulary/action-verb/action-verb-1/hit.mp3"
 };
 
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
