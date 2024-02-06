@@ -1,152 +1,151 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "dance",
-  sound: "/kɑːr/",
-  Image: "../../../asset/image/vocabulary/action-verb/car.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/car.mp3"
+  word: "bend",
+  sound: "/bend/",
+  Image: "../../../asset/image/vocabulary/action-verb/bend.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/bend.mp3"
 };
 
 const contentItem1 = {
-  word: "sing",
-  sound: "/ˈbaɪ.sɪ.kəl/",
-  Image: "../../../asset/image/vocabulary/action-verb/bicycle.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/bicycle.mp3"
+  word: "lift",
+  sound: "/lɪft/",
+  Image: "../../../asset/image/vocabulary/action-verb/lift.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/lift.mp3"
 };
 
 const contentItem2 = {
-  word: "clap",
+  word: "carry",
   sound: "/bʌs/",
-  Image: "../../../asset/image/vocabulary/action-verb/bus.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/bus.mp3"
+  Image: "../../../asset/image/vocabulary/action-verb/carry.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/carry.mp3"
 };
 
 const contentItem3 = {
-  word: "stomp",
+  word: "kneel",
   sound: "/trʌk/",
-  Image: "../../../asset/image/vocabulary/action-verb/truck.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/truck.mp3"
+  Image: "../../../asset/image/vocabulary/action-verb/kneel.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/kneel.mp3"
 };
 
 const contentItem4 = {
-  word: "swim",
-  sound: "/bəʊt/",
-  Image: "../../../asset/image/vocabulary/action-verb/boat.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/boat.mp3"
+  word: "hold",
+  sound: "/həʊld/",
+  Image: "../../../asset/image/vocabulary/action-verb/hold.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/hold.mp3"
 };
 
 const contentItem5 = {
-  word: "jump",
-  sound: "/treɪn/",
-  Image: "../../../asset/image/vocabulary/action-verb/train.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/train.mp3"
+  word: "sit",
+  sound: "/sɪt/",
+  Image: "../../../asset/image/vocabulary/action-verb/sit.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/sit.mp3"
 };
 
 const contentItem6 = {
-  word: "read",
-  sound: "/ˈeə.pleɪn/",
-  Image: "../../../asset/image/vocabulary/action-verb/airplane.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/airplane.mp3"
+  word: "drag",
+  sound: "/dræɡ/",
+  Image: "../../../asset/image/vocabulary/action-verb/drag.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/drag.mp3"
 };
 
 const contentItem7 = {
-  word: "write",
-  sound: "/ˈhel.ɪˌkɒp.tər/",
-  Image: "../../../asset/image/vocabulary/action-verb/helicopter.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/helicopter.mp3"
+  word: "jump",
+  sound: "/dʒʌmp/",
+  Image: "../../../asset/image/vocabulary/action-verb/jump.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/jump.mp3"
 };
 
 const contentItem8 = {
-  word: "speak",
-  sound: "/ˈməʊ.təˌsaɪ.kəl/",
-  Image: "../../../asset/image/vocabulary/action-verb/motorcycle.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/motorcycle.mp3"
+  word: "leap",
+  sound: "/liːp/",
+  Image: "../../../asset/image/vocabulary/action-verb/leap.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/leap.mp3"
 };
 
 const contentItem9 = {
-  word: "listern",
-  sound: "/ˈskuː.tər/",
-  Image: "../../../asset/image/vocabulary/action-verb/scooter.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/scooter.mp3"
+  word: "punch",
+  sound: "/pʌntʃ/",
+  Image: "../../../asset/image/vocabulary/action-verb/punch.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/punch.mp3"
 };
 
 const contentItem10 = {
-  word: "eat",
-  sound: "/træm/",
-  Image: "../../../asset/image/vocabulary/action-verb/tram.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/tram.mp3"
+  word: "pull",
+  sound: "/pʊl/",
+  Image: "../../../asset/image/vocabulary/action-verb/pull.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/pull.mp3"
 };
 
 const contentItem11 = {
-  word: "drink",
-  sound: "/ˈsʌb.weɪ/",
-  Image: "../../../asset/image/vocabulary/action-verb/subway.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/subway.mp3"
+  word: "dive",
+  sound: "/ˈdaɪv/",
+  Image: "../../../asset/image/vocabulary/action-verb/dive.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/dive.mp3"
 };
 
 const contentItem12 = {
-  word: "sleep",
-  sound: "/ˈrɑːz.bər.i/",
-  Image: "../../../asset/image/vocabulary/action-verb/taxi.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/taxi.mp3"
+  word: "push",
+  sound: "/pʊʃ/",
+  Image: "../../../asset/image/vocabulary/action-verb/push.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/push.mp3"
 };
 
 const contentItem13 = {
-  word: "walk",
-  sound: "/væn/",
-  Image: "../../../asset/image/vocabulary/action-verb/van.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/van.mp3"
+  word: "run",
+  sound: "/rʌn/",
+  Image: "../../../asset/image/vocabulary/action-verb/run.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/run.mp3"
 };
 
 const contentItem14 = {
-  word: "climb",
-  sound: "/ʃɪp/",
-  Image: "../../../asset/image/vocabulary/action-verb/ship.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/ship.mp3"
+  word: "lean",
+  sound: "/liːn/",
+  Image: "../../../asset/image/vocabulary/action-verb/lean.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/lean.mp3"
 };
 
 
 const contentItem15 = {
-  word: "play",
-  sound: "/jɒt/",
-  Image: "../../../asset/image/vocabulary/action-verb/yacht.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/yacht.mp3"
+  word: "squat",
+  sound: "/skwɒt/",
+  Image: "../../../asset/image/vocabulary/action-verb/squat.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/squat.mp3"
 };
 
 const contentItem16 = {
-  word: "build",
-  sound: "/hɒtˈeə bəˌluːn/",
-  Image: "../../../asset/image/vocabulary/action-verb/balloon.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/balloon.mp3"
+  word: "throw",
+  sound: "/θrəʊ/",
+  Image: "../../../asset/image/vocabulary/action-verb/throw.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/throw.mp3"
 };
 
 const contentItem17 = {
-  word: "paint",
-  sound: "/ˈrɒk.ɪt/",
-  Image: "../../../asset/image/vocabulary/action-verb/rocket.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/rocket.mp3"
+  word: "tiptoe",
+  sound: "/ˈtɪp.təʊ/",
+  Image: "../../../asset/image/vocabulary/action-verb/tiptoe.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/tiptoe.mp3"
 };
 
 const contentItem18 = {
-  word: "drive",
-  sound: "/ˈskeɪt.bɔːd/",
-  Image: "../../../asset/image/vocabulary/action-verb/skateboard.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/skateboard.mp3"
+  word: "walk",
+  sound: "/wɔːk/",
+  Image: "../../../asset/image/vocabulary/action-verb/walk.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/walk.mp3"
 };
 
 const contentItem19 = {
-  word: "cook",
-  sound: "/ˈrəʊ.lə skeɪt/",
-  Image: "../../../asset/image/vocabulary/action-verb/roller.jpg",
-  soundfile: "../../../asset/audio/vocabulary/action-verb/roller.mp3"
+  word: "hit",
+  sound: "/hɪt/",
+  Image: "../../../asset/image/vocabulary/action-verb/hit.webp",
+  soundfile: "../../../asset/audio/vocabulary/action-verb/hit.mp3"
 };
-
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
 const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14]; 
 const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,contentItem19]; 
-const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3"];
+const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3",];
 
 const common ={
   testPreviousBtn: null,
