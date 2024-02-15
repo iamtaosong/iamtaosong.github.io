@@ -1,144 +1,144 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "get up",
+  word: "clean up",
   sound: "/naɪf/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/up.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/getup.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/clean-up.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/clean-up.mp3"
 };
 
 const contentItem1 = {
-  word: "get dressed",
+  word: "take out",
   sound: "/pleɪt/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/dress.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/dress.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/take-out.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/take-out.mp3"
 };
 
 const contentItem2 = {
-  word: "wash your face",
+  word: "put up",
   sound: "/fɔːk/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/face.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/face.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/put-up.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/put-up.mp3"
 };
 
 const contentItem3 = {
-  word: "brush your teeth",
+  word: "take down",
   sound: "/ˈtʃɒp.stɪk/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/teeth.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/teeth.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/take-down.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/take-down.mp3"
 };
 
 const contentItem4 = {
-  word: "brush your hair",
+  word: "put away",
   sound: "/spuːn/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/hair.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/hair.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/put-away.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/put-away.mp3"
 };
 
 const contentItem5 = {
-  word: "have breakfast",
+  word: "lock up",
   sound: "/ɡlɑːs/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/breakfast.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/breakfast.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/lock-up.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/lock-up.mp3"
 };
 
 const contentItem6 = {
-  word: "go to school",
+  word: "lock away",
   sound: "/kʌp/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/school.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/school.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/lock-away.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/lock-away.mp3"
 };
 
 const contentItem7 = {
-  word: "have lunch",
+  word: "lock in",
   sound: "/ˈspætʃ.ə.lə/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/lunch.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/lunch.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/lock-in.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/lock-in.mp3"
 };
 
 const contentItem8 = {
-  word: "play football",
+  word: "lock out",
   sound: "/wɪsk/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/football.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/football.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/lock-out.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/lock-out.mp3"
 };
 
 const contentItem9 = {
-  word: "hurry up",
+  word: "leave on",
   sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/hurry.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/hurryup.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/leave-on.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/leave-on.mp3"
 };
 
 
 const contentItem10 = {
-  word: "take classes",
+  word: "go out",
   sound: "/ˈɡreɪ.tər",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/class.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/class.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/go-out.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/go-out.mp3"
 };
 
 const contentItem11 = {
-  word: "go to bed",
+  word: "put on",
   sound: "/bəʊl/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/bed.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/bed.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/put-on.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/put-on.mp3"
 };
 
 const contentItem12 = {
-  word: "come home",
+  word: "blow out",
   sound: "/ˈkʌt.ɪŋ ˌbɔːd/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/home.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/home.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/blow-out.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/blow-out.mp3"
 };
 
 const contentItem13 = {
-  word: "have dinner",
+  word: "turn on",
   sound: "/tɒŋz/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/dinner.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/dinner.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/turn-on.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/turn-on.mp3"
 };
 
 const contentItem14 = {
-  word: "do your homework",
+  word: "turn off",
   sound: "/ˈbɒt.əl/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/homework.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/homework.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/turn-off.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/turn-off.mp3"
 };
 
 const contentItem15 = {
-  word: "walk dog",
+  word: "move in",
   sound: "/ˈket.əl/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/dog.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/dog.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/move-in.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/move-in.mp3"
 };
 
 const contentItem16 = {
-  word: "take a shower",
+  word: "move out",
   sound: "/pɒt/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/shower.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/shower.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/move-out.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/move-out.mp3"
 };
 
 const contentItem17 = {
-  word: "take a bath",
+  word: "move away",
   sound: "/frɪdʒ/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/bath.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/bath.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/move-away.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/move-away.mp3"
 };
 
 const contentItem18 = {
-  word: "drink water",
+  word: "come on",
   sound: "/mit/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/water.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/water.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/come-on.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/come-on.mp3"
 };
 
 const contentItem19 = {
-  word: "ride a bike",
+  word: "go off",
   sound: "/ˈfraɪ.ɪŋˌpæn/",
-  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/bike.jpg",
-  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/bike.mp3"
+  Image: "../../../asset/image/phrasal-verb/phrasal-verb-1/go-off.jpg",
+  soundfile: "../../../asset/audio/phrasal-verb/phrasal-verb-1/go-off.mp3"
 };
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
@@ -157,7 +157,9 @@ const common ={
   testSection: document.getElementById("testSection"),
   letterSelected: false,
   goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`
+  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../../asset/image/right.mp3",
+  wrong: "../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {
@@ -327,10 +329,9 @@ window.addEventListener("load", function(e){
 
     learnObj.letterList=contents3;
 
-  } 
-  
+  }
+
   learnObj.totalLenght=learnObj.letterList.length;
-  document.getElementById("content").style.opacity = 1;
 
 });
 
@@ -338,8 +339,8 @@ function loadData()
 {
  
   learnObj.content.innerText=learnObj.letterList[learnObj.counter].word;
-  // learnObj.sound.innerText=learnObj.letterList[learnObj.counter].sound
   learnObj.soundfile.setAttribute("src",learnObj.letterList[learnObj.counter].soundfile); 
+  learnObj.sound.innerText=learnObj.letterList[learnObj.counter].sound;
   learnObj.picture.setAttribute("src",learnObj.letterList[learnObj.counter].Image);
   learnObj.myAudio.load();
 }
@@ -351,27 +352,18 @@ learnObj.previous.addEventListener("click", function(){
     learnObj.counter--;
     loadData();
   }
-  
-  document.getElementById("content").style.opacity = 0;
-  setTimeout(function() {
-       document.getElementById("content").style.opacity = 1;
-  }, 1000);
- 
+
 });
 
 learnObj.next.addEventListener("click", function(){
-
 
   if(learnObj.counter<(learnObj.totalLenght-1))
   {
     learnObj.counter++;
     loadData();
   }
-  document.getElementById("content").style.opacity = 0;
-  setTimeout(function() {
-       document.getElementById("content").style.opacity = 1;
-  }, 1000);
- 
+
+
 });
 
 function testNextBtnFunction() {
@@ -436,32 +428,36 @@ function letterSoundCheck(e) {
 
   if(common.game=="wordImageMatch")
   {
-    if(learnObj.letterList[wordImageMatchObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[wordImageMatchObj.counter].word === (e.target.value))
     {
-  
       document.getElementById("showResult").innerHTML=common.goodResult;
-   
+      common.testSoundFile.setAttribute("src",common.right);
     }else 
     {
   
       document.getElementById("showResult").innerHTML=common.poorResult;
+      common.testSoundFile.setAttribute("src",common.wrong);
     }
   
 
   }else if (common.game=="wordSoundMatch")
   {
 
-    if(learnObj.letterList[wordSoundMatchObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[wordSoundMatchObj.counter].word === (e.target.value))
     {
   
-      document.getElementById("showResult").innerHTML=common.goodResult;
-   
+      document.getElementById("showResult").innerHTML=common.goodResult; 
+      common.testSoundFile.setAttribute("src",common.right);
     }else 
     {
   
       document.getElementById("showResult").innerHTML=common.poorResult;
+      common.testSoundFile.setAttribute("src",common.wrong);
     }
   }
+  common.testAudio.load();
+  common.testAudio.play();
+
 }
 
 function buildwordSoundMatch()
