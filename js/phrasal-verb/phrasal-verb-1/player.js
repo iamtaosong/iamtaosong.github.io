@@ -340,7 +340,7 @@ function loadData()
  
   learnObj.content.innerText=learnObj.letterList[learnObj.counter].word;
   learnObj.soundfile.setAttribute("src",learnObj.letterList[learnObj.counter].soundfile); 
-  learnObj.sound.innerText=learnObj.letterList[learnObj.counter].sound;
+  // learnObj.sound.innerText=learnObj.letterList[learnObj.counter].sound;
   learnObj.picture.setAttribute("src",learnObj.letterList[learnObj.counter].Image);
   learnObj.myAudio.load();
 }

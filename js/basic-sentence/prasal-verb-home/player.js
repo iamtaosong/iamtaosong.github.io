@@ -1,70 +1,70 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "clean up house on sunday",
+  word: "we clean up house on sunday",
   sound: "/naɪf/",
   Image: "../../../asset/image/basic-sentence/prasal-verb-home/clean-up.jpg",
   soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/clean-up.mp3"
 };
 
 const contentItem1 = {
-  word: "takes out trash everyday",
+  word: "I take out trash everyday",
   sound: "/pleɪt/",
   Image: "../../../asset/image/basic-sentence/prasal-verb-home/take-out.jpg",
   soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/take-out.mp3"
 };
 
 const contentItem2 = {
-  word: "put up the picture",
+  word: "lets put up the picture",
   sound: "/fɔːk/",
   Image: "../../../asset/image/basic-sentence/prasal-verb-home/put-up.jpg",
   soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/put-up.mp3"
 };
 
 const contentItem3 = {
-  word: "take down the picture",
+  word: "he takes down the picture",
   sound: "/ˈtʃɒp.stɪk/",
   Image: "../../../asset/image/basic-sentence/prasal-verb-home/take-down.jpg",
   soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/take-down.mp3"
 };
 
 const contentItem4 = {
-  word: "put away picture",
+  word: "we put away the picture",
   sound: "/spuːn/",
   Image: "../../../asset/image/basic-sentence/prasal-verb-home/put-away.jpg",
   soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/put-away.mp3"
 };
 
 const contentItem5 = {
-  word: "lock up house",
+  word: "please, lock up the house",
   sound: "/ɡlɑːs/",
   Image: "../../../asset/image/basic-sentence/prasal-verb-home/lock-up.jpg",
   soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/lock-up.mp3"
 };
 
 const contentItem6 = {
-  word: "lock away tools in shed",
+  word: "please, lock away tools in the shed",
   sound: "/kʌp/",
   Image: "../../../asset/image/basic-sentence/prasal-verb-home/lock-away.jpg",
   soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/lock-away.mp3"
 };
 
 const contentItem7 = {
-  word: "lock me in",
+  word: "don't lock me in",
   sound: "/ˈspætʃ.ə.lə/",
   Image: "../../../asset/image/basic-sentence/prasal-verb-home/lock-in.jpg",
   soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/lock-in.mp3"
 };
 
 const contentItem8 = {
-  word: "lock him out",
+  word: "I lock him out",
   sound: "/wɪsk/",
   Image: "../../../asset/image/basic-sentence/prasal-verb-home/lock-out.jpg",
   soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/lock-out.mp3"
 };
 
 const contentItem9 = {
-  word: "leave on lights",
+  word: "please,leave on lights",
   sound: "/ˈnuː.dəl/",
   Image: "../../../asset/image/basic-sentence/prasal-verb-home/leave-on.jpg",
   soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/leave-on.mp3"
@@ -72,7 +72,7 @@ const contentItem9 = {
 
 
 const contentItem10 = {
-  word: "hights go out",
+  word: "lights go out",
   sound: "/ˈɡreɪ.tər",
   Image: "../../../asset/image/basic-sentence/prasal-verb-home/go-out.jpg",
   soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/go-out.mp3"
@@ -107,21 +107,21 @@ const contentItem14 = {
 };
 
 const contentItem15 = {
-  word: "move in new house",
+  word: "we move in a new house on Saturday",
   sound: "/ˈket.əl/",
   Image: "../../../asset/image/basic-sentence/prasal-verb-home/move-in.jpg",
   soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/move-in.mp3"
 };
 
 const contentItem16 = {
-  word: "move out house",
+  word: "they move out house on Monday",
   sound: "/pɒt/",
   Image: "../../../asset/image/basic-sentence/prasal-verb-home/move-out.jpg",
   soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/move-out.mp3"
 };
 
 const contentItem17 = {
-  word: "we move away",
+  word: "we move away in October",
   sound: "/frɪdʒ/",
   Image: "../../../asset/image/basic-sentence/prasal-verb-home/move-away.jpg",
   soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/move-away.mp3"
