@@ -1,183 +1,150 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "get up",
+  word: "we clean up house on sunday",
   sound: "/naɪf/",
-  Image: "../../../asset/image/simple-sentence2/up.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/getup.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/clean-up.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/clean-up.mp3"
 };
 
 const contentItem1 = {
-  word: "get dressed",
+  word: "I take out trash everyday",
   sound: "/pleɪt/",
-  Image: "../../../asset/image/simple-sentence2/dress.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/dress.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/take-out.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/take-out.mp3"
 };
 
 const contentItem2 = {
-  word: "wash your face",
+  word: "lets put up the picture",
   sound: "/fɔːk/",
-  Image: "../../../asset/image/simple-sentence2/face.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/face.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/put-up.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/put-up.mp3"
 };
 
 const contentItem3 = {
-  word: "brush your teeth",
+  word: "he takes down the picture",
   sound: "/ˈtʃɒp.stɪk/",
-  Image: "../../../asset/image/simple-sentence2/teeth.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/teeth.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/take-down.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/take-down.mp3"
 };
 
 const contentItem4 = {
-  word: "brush your hair",
+  word: "we put away the picture",
   sound: "/spuːn/",
-  Image: "../../../asset/image/simple-sentence2/hair.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/hair.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/put-away.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/put-away.mp3"
 };
 
 const contentItem5 = {
-  word: "have breakfast",
+  word: "please, lock up the house",
   sound: "/ɡlɑːs/",
-  Image: "../../../asset/image/simple-sentence2/breakfast.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/breakfast.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/lock-up.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/lock-up.mp3"
 };
 
 const contentItem6 = {
-  word: "go to school",
+  word: "please, lock away tools in the shed",
   sound: "/kʌp/",
-  Image: "../../../asset/image/simple-sentence2/school.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/school.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/lock-away.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/lock-away.mp3"
 };
 
 const contentItem7 = {
-  word: "have lunch",
+  word: "don't lock me in",
   sound: "/ˈspætʃ.ə.lə/",
-  Image: "../../../asset/image/simple-sentence2/lunch.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/lunch.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/lock-in.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/lock-in.mp3"
 };
 
 const contentItem8 = {
-  word: "play football",
+  word: "I lock him out",
   sound: "/wɪsk/",
-  Image: "../../../asset/image/simple-sentence2/football.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/football.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/lock-out.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/lock-out.mp3"
 };
 
 const contentItem9 = {
-  word: "hurry up",
+  word: "please,leave on lights",
   sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/simple-sentence2/hurry.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/hurryup.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/leave-on.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/leave-on.mp3"
 };
 
 
 const contentItem10 = {
-  word: "take classes",
+  word: "lights go out",
   sound: "/ˈɡreɪ.tər",
-  Image: "../../../asset/image/simple-sentence2/class.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/class.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/go-out.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/go-out.mp3"
 };
 
 const contentItem11 = {
-  word: "go to bed",
+  word: "put on fan",
   sound: "/bəʊl/",
-  Image: "../../../asset/image/simple-sentence2/bed.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/bed.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/put-on.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/put-on.mp3"
 };
 
 const contentItem12 = {
-  word: "come home",
+  word: "blow out candle",
   sound: "/ˈkʌt.ɪŋ ˌbɔːd/",
-  Image: "../../../asset/image/simple-sentence2/home.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/home.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/blow-out.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/blow-out.mp3"
 };
 
 const contentItem13 = {
-  word: "have dinner",
+  word: "turn on TV",
   sound: "/tɒŋz/",
-  Image: "../../../asset/image/simple-sentence2/dinner.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/dinner.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/turn-on.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/turn-on.mp3"
 };
 
 const contentItem14 = {
-  word: "do your homework",
+  word: "turn off TV",
   sound: "/ˈbɒt.əl/",
-  Image: "../../../asset/image/simple-sentence2/homework.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/homework.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/turn-off.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/turn-off.mp3"
 };
 
 const contentItem15 = {
-  word: "walk dog",
+  word: "we move in a new house on Saturday",
   sound: "/ˈket.əl/",
-  Image: "../../../asset/image/simple-sentence2/dog.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/dog.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/move-in.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/move-in.mp3"
 };
 
 const contentItem16 = {
-  word: "take a shower",
+  word: "they move out house on Monday",
   sound: "/pɒt/",
-  Image: "../../../asset/image/simple-sentence2/shower.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/shower.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/move-out.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/move-out.mp3"
 };
 
 const contentItem17 = {
-  word: "take a bath",
+  word: "we move away in October",
   sound: "/frɪdʒ/",
-  Image: "../../../asset/image/simple-sentence2/bath.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/bath.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/move-away.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/move-away.mp3"
 };
 
 const contentItem18 = {
-  word: "drink water",
+  word: "lights come on at dusk",
   sound: "/mit/",
-  Image: "../../../asset/image/simple-sentence2/water.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/water.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/come-on.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/come-on.mp3"
 };
 
 const contentItem19 = {
-  word: "ride a bike",
+  word: "lights go off at dawn",
   sound: "/ˈfraɪ.ɪŋˌpæn/",
-  Image: "../../../asset/image/simple-sentence2/bike.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/bike.mp3"
+  Image: "../../../asset/image/basic-sentence/prasal-verb-home/go-off.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/prasal-verb-home/go-off.mp3"
 };
 
-const contentItem20 = {
-  word: "go and play",
-  sound: "/ˈmaɪ.krə.weɪv/",
-  Image: "../../../asset/image/simple-sentence2/play.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/play.mp3"
-};
-
-const contentItem21 = {
-  word: "I love the food",
-  sound: "/ˈeɪ.prən/",
-  Image: "../../../asset/image/simple-sentence2/food.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/food.mp3"
-};
-
-const contentItem22 = {
-  word: "we are friends",
-  sound: "/ˈeɪ.prən/",
-  Image: "../../../asset/image/simple-sentence2/friend.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/friend.mp3"
-};
-
-const contentItem23 = {
-  word: "take school bus",
-  sound: "/ˈeɪ.prən/",
-  Image: "../../../asset/image/simple-sentence2/schoolbus.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/bus.mp3"
-};
-
-const contentItem24 = {
-  word: "watch TV",
-  sound: "/ˈeɪ.prən/",
-  Image: "../../../asset/image/simple-sentence2/Tv.jpg",
-  soundfile: "../../../asset/audio/simple-sentence2/tv.mp3"
-};
 
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
-  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,contentItem20,contentItem21,contentItem22,contentItem23,contentItem24];
+  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19];
+
 
 const common ={
   testPreviousBtn: null,
@@ -188,7 +155,9 @@ const common ={
   testSection: document.getElementById("testSection"),
   letterSelected: false,
   goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`
+  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../../asset/image/right.mp3",
+  wrong: "../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {
@@ -196,15 +165,21 @@ const learnObj = {
   totalLength: contents.length
 };
 
-const wordSoundMatchObj = {
+const wordImageMatchObj = {
   wordElementLst: null,
   counter: 0,
   sectionLength: 5,
+  progress: null,
   list0: null,
   list1: null,
-  wordSoundMatch: document.getElementById("wordSoundMatch"),
-  wordSoundMatchContent: `<div class="card highlight border-0">
-                              <div class="my-5 h2">
+  picture: null,
+  wordImageMatch: document.getElementById("wordImageMatch"),
+  wordImageMatchContent: `<div class="card highlight">
+                              <h1 class="text-center my-3" id="progress">Learning test</h1>
+                              <div class="my-3">
+                                <img id="wordImageMatchPicture" src="" width="100" height="100" alt="">
+                              </div>
+                              <div class="my-3 h2">
                                 <div class="form-check form-check-inline">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
                                   <label class="form-check-label" for="letter1"></label>
@@ -259,92 +234,23 @@ const wordSoundMatchObj = {
                             </div>`,
 
 };
-
-const soundImageMatchObj = {
-  wordElementLst: null,
-  counter: 0,
-  sectionLength: 5,
-  list0: null,
-  list1: null,
-  picture: null,
-  soundImageMatch: document.getElementById("soundImageMatch"),
-  soundImageMatchContent: `<div class="card highlight border-0">
-                              <div class="my-3 h2">
-                                <div class="form-check form-check-inline">
-                                  <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
-                                  <label class="form-check-label" for="letter1"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
-                                </div>
-
-                                <div class="form-check form-check-inline">
-                                  <input class="form-check-input letterElement " type="radio" name="letter" id="letter2" value="">
-                                  <label class="form-check-label" for="letter2"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
-                                </div>
-
-                                <div class="form-check form-check-inline">
-                                  <input class="form-check-input letterElement" type="radio" name="letter" id="letter3" value="">
-                                  <label class="form-check-label" for="letter3"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
-                                </div>   
-
-                                <div class="form-check form-check-inline">
-                                  <input class="form-check-input letterElement" type="radio" name="letter" id="letter4" value="">
-                                  <label class="form-check-label" for="letter4"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
-                                </div>
-
-                                <div class="form-check form-check-inline">
-                                  <input class="form-check-input letterElement" type="radio" name="letter" id="letter5" value="">
-                                  <label class="form-check-label" for="letter5"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
-                                </div>
-                              </div>
-
-                              <div id="showResult" class="my-2">
-                              
-                              </div>
-
-                              <div class="card-body" style="background-color: #00ffff;">
-
-                                <div class="d-flex justify-content-around align-items-center">
-                              
-                                  <button type="button" class="btn border-0 p-0 mx-2" id="testPrevious">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-                                      <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
-                                    </svg>
-                                  </button>
-                                      
-                                  <audio id="testAudio" controls preload="none" controlsList="nodownload">
-                                    <source id="testSoundFile" src="" type="audio/mpeg">
-                                  </audio>
-
-                                  <button type="button" class="btn border-0 p-0 mx-2" id="testNext">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                                      <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-                                    </svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </div>`,
-
-};
-
 function wordGenProcess(i,index)
 {
 
-  for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
+  for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
     let m =Math.floor(Math.random()*learnObj.totalLength);
-    wordSoundMatchObj.list0[k].value=learnObj.letterList[m].word;
-    wordSoundMatchObj.list1[k].innerText=learnObj.letterList[m].word;
+    wordImageMatchObj.list0[k].value=learnObj.letterList[m].word;
+    wordImageMatchObj.list1[k].innerText=learnObj.letterList[m].word;
   }
-  wordSoundMatchObj.list0[i].value=learnObj.letterList[index].word;
-  wordSoundMatchObj.list1[i].innerText=learnObj.letterList[index].word;
-  common.testSoundFile.setAttribute("src",learnObj.letterList[index].soundfile);
-  common.testAudio.load();
+  wordImageMatchObj.list0[i].value=learnObj.letterList[index].word;
+  wordImageMatchObj.list1[i].innerText=learnObj.letterList[index].word;
+ 
 }
-
 
 function wordGen(index){
 
-  
-  let i=index%wordSoundMatchObj.sectionLength;
+   let i=index%wordImageMatchObj.sectionLength;
   if (i==0)
   {
 
@@ -369,57 +275,6 @@ function wordGen(index){
   {
 
     wordGenProcess(i,index);
-    
-  }
-
-}
-
-function imagedGenProcess(i,index)
-{
-
-  for(let k=0; k<soundImageMatchObj.sectionLength;k++)
-  {
-    let m =Math.floor(Math.random()*learnObj.totalLength);
-    console.log("m "+m);
-    soundImageMatchObj.list0[k].value=learnObj.letterList[m].word;
-    soundImageMatchObj.list1[k].setAttribute("src",learnObj.letterList[m].Image);
-  }
-  soundImageMatchObj.list0[i].value=learnObj.letterList[index].word;
-  soundImageMatchObj.list1[i].setAttribute("src",learnObj.letterList[index].Image);
-  common.testSoundFile.setAttribute("src",learnObj.letterList[index].soundfile);
-  common.testAudio.load();
-
-}
-
-
-function imagedGen(index){
-
-  
-  let i=index%soundImageMatchObj.sectionLength;
-  if (i==0)
-  {
-
-    imagedGenProcess(i,index);
-
-  }else if(index==1)
-  {
-
-    imagedGenProcess(i,index);
-
-  }else if(index==2)
-  {
-
-    imagedGenProcess(i,index);
-
-  }else if(index==3)
-  {
-
-    imagedGenProcess(i,index);
-
-  }else if(index)
-  {
-
-    imagedGenProcess(i,index);
     
   }
 
@@ -432,24 +287,19 @@ function testNextBtnFunction() {
     common.letterSelected.target.checked=false;
   }
 
-  if(common.game=="soundImageMatch")
-  {
-    if(soundImageMatchObj.counter<(learnObj.totalLength-1))
-    {
-      soundImageMatchObj.counter++;
-      imagedGen(soundImageMatchObj.counter);
-    }
-
-  }else if (common.game=="wordSoundMatch")
+ if (common.game=="wordImageMatch")
   {
 
-    if(wordSoundMatchObj.counter<(learnObj.totalLength-1))
+    if(wordImageMatchObj.counter<(learnObj.totalLength-1))
     {
-      wordSoundMatchObj.counter++;
-      wordGen(wordSoundMatchObj.counter);
+      wordImageMatchObj.counter++;
+      wordGen(wordImageMatchObj.counter);
     }
+    wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
+    common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
   }
-
+  wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1 +"/"+learnObj.totalLength;
+  common.testAudio.load();
   document.getElementById("showResult").innerHTML="";
 }
 
@@ -459,69 +309,54 @@ function testPreviousBtnFunction() {
   {
     common.letterSelected.target.checked=false;
   }
-  if(common.game=="soundImageMatch")
+  if (common.game=="wordImageMatch")
   {
-    if(soundImageMatchObj.counter>0)
+    if(wordImageMatchObj.counter>0)
     {
-      soundImageMatchObj.counter--;
-      imagedGen(soundImageMatchObj.counter); 
+      wordImageMatchObj.counter--;
+      wordGen(wordImageMatchObj.counter);
     }
 
-  }else if (common.game=="wordSoundMatch")
-  {
-
-    if(wordSoundMatchObj.counter>0)
-    {
-      wordSoundMatchObj.counter--;
-      wordGen(wordSoundMatchObj.counter);
-    }
+    wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
+    common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
+   
   }
+  wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1+"/"+learnObj.totalLength;
+  common.testAudio.load();
   document.getElementById("showResult").innerHTML="";
 }
 
 function letterSoundCheck(e) {
   common.letterSelected=e;
 
-  if(common.game=="soundImageMatch")
+  if(common.game=="wordImageMatch")
   {
-    if(learnObj.letterList[soundImageMatchObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[wordImageMatchObj.counter].word === (e.target.value))
     {
-  
-      document.getElementById("showResult").innerHTML=common.goodResult;
-   
+        document.getElementById("showResult").innerHTML=common.goodResult;
+        common.testSoundFile.setAttribute("src",common.right);
     }else 
     {
-  
-      document.getElementById("showResult").innerHTML=common.poorResult;
+       document.getElementById("showResult").innerHTML=common.poorResult;
+       common.testSoundFile.setAttribute("src",common.wrong);
     }
-  
 
-  }else if (common.game=="wordSoundMatch")
-  {
-
-    if(learnObj.letterList[wordSoundMatchObj.counter].word.includes(e.target.value))
-    {
-  
-      document.getElementById("showResult").innerHTML=common.goodResult;
-   
-    }else 
-    {
-  
-      document.getElementById("showResult").innerHTML=common.poorResult;
-    }
   }
+  common.testAudio.load();
+  common.testAudio.play();
 }
 
-function buildwordSoundMatch()
+function buildWordImageMatch()
 {
-  common.game="wordSoundMatch";
-  wordSoundMatchObj.counter=0;
+  common.game="wordImageMatch";
+  wordImageMatchObj.counter=0;
   let p = document.createElement("div"); 
-  p.innerHTML= wordSoundMatchObj.wordSoundMatchContent;
+  p.innerHTML= wordImageMatchObj.wordImageMatchContent;
   common.testSection.appendChild(p);
   
-  wordSoundMatchObj.list0= document.querySelectorAll(".form-check-input");
-  wordSoundMatchObj.list1 = document.querySelectorAll(".form-check-label");
+  wordImageMatchObj.list0= document.querySelectorAll(".form-check-input");
+  wordImageMatchObj.list1 = document.querySelectorAll(".form-check-label");
+  wordImageMatchObj.picture=document.getElementById("wordImageMatchPicture");
 
   common.testNextBtn = document.getElementById("testNext");
   common.testPreviousBtn = document.getElementById("testPrevious");
@@ -530,129 +365,59 @@ function buildwordSoundMatch()
   common.testNextBtn.addEventListener("click",testNextBtnFunction);
   common.testPreviousBtn.addEventListener("click",testPreviousBtnFunction);
 
-  wordSoundMatchObj.wordElementLst = document.querySelectorAll(".letterElement");
-  wordSoundMatchObj.wordElementLst.forEach(elem => {
+  wordImageMatchObj.wordElementLst = document.querySelectorAll(".letterElement");
+  wordImageMatchObj.wordElementLst.forEach(elem => {
     elem.addEventListener("click",letterSoundCheck); 
   });
-  //here fill up the letters 
-  for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
-  {
-    wordSoundMatchObj.list0[k].value=learnObj.letterList[k].word;
-    wordSoundMatchObj.list1[k].innerText=learnObj.letterList[k].word;
-  }
 
+  wordImageMatchObj.progress=document.getElementById("progress");
+  wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1+"/"+learnObj.totalLength;
+  //here fill up the letters 
+  for(let k=0; k<wordImageMatchObj.sectionLength;k++)
+  {
+    wordImageMatchObj.list0[k].value=learnObj.letterList[k].word;
+    wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].word;
+  }
+  wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[0].Image);
   common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
   common.testAudio.load();
+
 }
 
-wordSoundMatchObj.wordSoundMatch.addEventListener("click",function() {
-  
-  wordSoundMatchObj.counter=0;
-  if(common.game=="soundImageMatch")
+wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
+  wordImageMatchObj.counter=0;
+  if(common.game=="wordImageMatch")
   {
-    common.testNextBtn.removeEventListener("click",testNextBtnFunction);
-    common.testPreviousBtn.removeEventListener("click",testPreviousBtnFunction);
-    soundImageMatchObj.wordElementLst.forEach(elem => {
-      elem.removeEventListener("click",letterSoundCheck); 
-    });
-    common.testSection.innerHTML='';
-    buildwordSoundMatch();
-  }else 
-  {
-    if(common.game=="wordSoundMatch")
-    {
-  
-  
-    }else{
-      buildwordSoundMatch();
-    }
+
+  }else{
+
+    buildWordImageMatch();
   }
 
 });
 
-function buildWordImageMatch()
-{
-  common.game="soundImageMatch";
-  soundImageMatchObj.counter=0;
-  let p = document.createElement("div"); 
-  p.innerHTML= soundImageMatchObj.soundImageMatchContent;
-  common.testSection.appendChild(p);
-  
-  soundImageMatchObj.list0= document.querySelectorAll(".form-check-input");
-  soundImageMatchObj.list1 = document.querySelectorAll(".soundImageMatchPicture");
-
-  common.testNextBtn = document.getElementById("testNext");
-  common.testPreviousBtn = document.getElementById("testPrevious");
-  common.testAudio= document.getElementById("testAudio"); 
-  common.testSoundFile = document.getElementById("testSoundFile");
-  common.testNextBtn.addEventListener("click",testNextBtnFunction);
-  common.testPreviousBtn.addEventListener("click",testPreviousBtnFunction);
-
-  soundImageMatchObj.wordElementLst = document.querySelectorAll(".letterElement");
-  soundImageMatchObj.wordElementLst.forEach(elem => {
-    elem.addEventListener("click",letterSoundCheck); 
-  });
-
-  //here fill up the letters 
-  for(let k=0; k<soundImageMatchObj.sectionLength;k++)
-  {
-    soundImageMatchObj.list0[k].value=learnObj.letterList[k].word;
-  /*   soundImageMatchObj.list1[k].innerText=learnObj.letterList[k].word; */
-    soundImageMatchObj.list1[k].setAttribute("src",learnObj.letterList[k].Image);
-  }
-  /* soundImageMatchObj.picture=document.getElementById("soundImageMatchPicture");
-  soundImageMatchObj.picture.setAttribute("src",learnObj.letterList[0].Image); */
-  common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
-  common.testAudio.load();
-}
-
-
-/* soundImageMatchObj.soundImageMatch.addEventListener("click",function() {
-  
-  wordSoundMatchObj.counter=0;
-  if(common.game=="wordSoundMatch")
-  {
-    common.testNextBtn.removeEventListener("click",testNextBtnFunction);
-    common.testPreviousBtn.removeEventListener("click",testPreviousBtnFunction);
-    wordSoundMatchObj.wordElementLst.forEach(elem => {
-      elem.removeEventListener("click",letterSoundCheck); 
-    });
-    common.testSection.innerHTML='';
-    buildWordImageMatch();
-  }else 
-  {
-    if(common.game=="soundImageMatch")
-    {
-
-    }else{
-  
-      buildWordImageMatch();
-    }
-  }
-
-}); */
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/qD1pnquN_DM?si=wyCeUeAQaVMaWzET";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ckKQclquAXU?si=9LG0I0Mbu62K2Ibn";
   
 });
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/_oEAdz3MAj0?si=_K-TMMW0YE0hPNm2";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/2qDAmxooAr8?si=08-ULJ7w3jo4_dDh";
   
 });
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/zIrMXSCN5wg?si=C82kkiqu2OW8GtKi";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/TiZoHudqFq8?si=4x0iIKRalXkHtt5E";
   
 });
 
 document.getElementById("video3").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/b_8G7yFJS5g?si=BLPfXjRS9avHjbiE";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/j30YVOTrt8Y?si=x_LP2T4-4aFDtHSU";
   
 });
 
