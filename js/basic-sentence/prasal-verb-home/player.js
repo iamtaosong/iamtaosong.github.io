@@ -158,7 +158,9 @@ const common ={
   testSection: document.getElementById("testSection"),
   letterSelected: false,
   goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`
+  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../../asset/image/right.mp3",
+  wrong: "../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {
@@ -184,28 +186,28 @@ const wordSoundMatchObj = {
   list1: null,
   wordSoundMatch: document.getElementById("wordSoundMatch"),
   wordSoundMatchContent: `<div class="card highlight">
-                              <div class="my-5 h2">
-                                <div class="form-check form-check-inline">
+                              <div class="m-3 h2">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
                                   <label class="form-check-label" for="letter1"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
-                                  <input class="form-check-input letterElement " type="radio" name="letter" id="letter2" value="">
+                                <div class="form-check my-3">
+                                  <input class="form-check-input letterElement" type="radio" name="letter" id="letter2" value="">
                                   <label class="form-check-label" for="letter2"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter3" value="">
                                   <label class="form-check-label" for="letter3"></label>
                                 </div>   
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter4" value="">
                                   <label class="form-check-label" for="letter4"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter5" value="">
                                   <label class="form-check-label" for="letter5"></label>
                                 </div>
@@ -252,28 +254,28 @@ const wordImageMatchObj = {
                               <div class="my-3">
                                 <img id="wordImageMatchPicture" src="" width="100" height="100" alt="">
                               </div>
-                              <div class="my-3 h2">
-                                <div class="form-check form-check-inline">
+                              <div class="m-3 h2">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
                                   <label class="form-check-label" for="letter1"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement " type="radio" name="letter" id="letter2" value="">
                                   <label class="form-check-label" for="letter2"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter3" value="">
                                   <label class="form-check-label" for="letter3"></label>
                                 </div>   
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter4" value="">
                                   <label class="form-check-label" for="letter4"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter5" value="">
                                   <label class="form-check-label" for="letter5"></label>
                                 </div>
@@ -436,32 +438,36 @@ function letterSoundCheck(e) {
 
   if(common.game=="wordImageMatch")
   {
-    if(learnObj.letterList[wordImageMatchObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[wordImageMatchObj.counter].word === (e.target.value))
     {
-  
       document.getElementById("showResult").innerHTML=common.goodResult;
-   
+      common.testSoundFile.setAttribute("src",common.right);
     }else 
     {
   
       document.getElementById("showResult").innerHTML=common.poorResult;
+      common.testSoundFile.setAttribute("src",common.wrong);
     }
   
-
   }else if (common.game=="wordSoundMatch")
   {
 
-    if(learnObj.letterList[wordSoundMatchObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[wordSoundMatchObj.counter].word === (e.target.value))
     {
   
-      document.getElementById("showResult").innerHTML=common.goodResult;
-   
+      document.getElementById("showResult").innerHTML=common.goodResult; 
+      common.testSoundFile.setAttribute("src",common.right);
     }else 
     {
   
       document.getElementById("showResult").innerHTML=common.poorResult;
+      common.testSoundFile.setAttribute("src",common.wrong);
     }
+
   }
+
+  common.testAudio.load();
+  common.testAudio.play();
 }
 
 function buildwordSoundMatch()
