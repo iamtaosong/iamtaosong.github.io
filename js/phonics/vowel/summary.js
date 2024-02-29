@@ -310,13 +310,24 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/N2XMVfb8wNc?si=z9vtXEoRo3kKmJxK";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/RUSCz41aDug?si=f_veHLAI-IRJE5C0";
   
 });
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/iTF4kxmYEl4?si=fZfnl5vFOpOj3xkV";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/xPx9xFyzyCc?si=ZS5I2q-dstG4dmXN";
   
 });
 
+document.getElementById("video2").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/4TjcT7Gto3U?si=f0gUzuVYa1VrvxlA";
+ 
+});
+
+document.getElementById("video3").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ThtgU7GzvS0?si=lVj88NHOJ_razHV9";
+  
+});
