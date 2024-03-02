@@ -143,108 +143,73 @@ const contentItem19 = {
 };
 
 const contentItem20 = {
-  word: "can",
-  sound: "/cæn/",
-  Image: "../../../../asset/image/phonics/cvc/cac/can.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/can.mp3"
+  word: "boat",
+  sound: "/bəʊt/",
+  Image: "../../../asset/image/phonics/syllable/vowel-team/boat.jpg",
+  soundfile: "../../../asset/audio/phonics/syllable/vowel-team/boat.mp3"
 };
 
 const contentItem21 = {
-  word: "fan",
-  sound: "/fæn/",
-  Image: "../../../../asset/image/phonics/cvc/cac/fan.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/fan.mp3"
+  word: "rain",
+  sound: "/reɪn/",
+  Image: "../../../asset/image/phonics/syllable/vowel-team/rain.jpg",
+  soundfile: "../../../asset/audio/phonics/syllable/vowel-team/rain.mp3"
 };
 
 const contentItem22 = {
-  word: "man",
-  sound: "/mæn/",
-  Image: "../../../../asset/image/phonics/cvc/cac/man.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/man.mp3"
+  word: "bee",
+  sound: "/biː/",
+  Image: "../../../asset/image/phonics/syllable/vowel-team/bee.jpg",
+  soundfile: "../../../asset/audio/phonics/syllable/vowel-team/bee.mp3"
 };
 
 const contentItem23 = {
-  word: "pan",
-  sound: "/pæn/",
-  Image: "../../../../asset/image/phonics/cvc/cac/pan.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/pan.mp3"
+  word: "tea",
+  sound: "/tiː/",
+  Image: "../../../asset/image/phonics/syllable/vowel-team/tea.jpg",
+  soundfile: "../../../asset/audio/phonics/syllable/vowel-team/tea.mp3"
 };
 
 const contentItem24 = {
-  word: "ran",
-  sound: "/ræn/",
-  Image: "../../../../asset/image/phonics/cvc/cac/ran.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/ran.mp3"
+  word: "pie",
+  sound: "/paɪ/",
+  Image: "../../../asset/image/phonics/syllable/vowel-team/pie.jpg",
+  soundfile: "../../../asset/audio/phonics/syllable/vowel-team/pie.mp3"
 };
 
 const contentItem25 = {
-  word: "cap",
-  sound: "/ræp/",
-  Image: "../../../../asset/image/phonics/cvc/cac/cap.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/cap.mp3"
+  word: "table",
+  sound: "/ˈteɪ.bəl/",
+  Image: "../../../asset/image/phonics/syllable/consonant-le/table.jpg",
+  soundfile: "../../../asset/audio/phonics/syllable/consonant-le/table.mp3"
 };
 
 const contentItem26 = {
-  word: "lap",
-  sound: "/læp/",
-  Image: "../../../../asset/image/phonics/cvc/cac/lap.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/lap.mp3"
+  word: "bicycle",
+  sound: "/ˈbaɪ.sɪ.kəl/",
+  Image: "../../../asset/image/phonics/syllable/consonant-le/bicycle.jpg",
+  soundfile: "../../../asset/audio/phonics/syllable/consonant-le/bicycle.mp3"
 };
 
 const contentItem27 = {
-  word: "map",
-  sound: "/mæp/",
-  Image: "../../../../asset/image/phonics/cvc/cac/map.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/map.mp3"
+  word: "candle",
+  sound: "/ˈkæn.dəl/",
+  Image: "../../../asset/image/phonics/syllable/consonant-le/candle.jpg",
+  soundfile: "../../../asset/audio/phonics/syllable/consonant-le/candle.mp3"
 };
 
 const contentItem28 = {
-  word: "nap",
-  sound: "/næp/",
-  Image: "../../../../asset/image/phonics/cvc/cac/nap.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/nap.mp3"
+  word: "eagle",
+  sound: "/ˈiː.ɡəl/",
+  Image: "../../../asset/image/phonics/syllable/consonant-le/eagle.jpg",
+  soundfile: "../../../asset/audio/phonics/syllable/consonant-le/eagle.mp3"
 };
 
 const contentItem29 = {
-  word: "tap",
-  sound: "/tæp/",
-  Image: "../../../../asset/image/phonics/cvc/cac/tap.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/tap.mp3"
-};
-
-const contentItem30 = {
-  word: "bat",
-  sound: "/bæt/",
-  Image: "../../../../asset/image/phonics/cvc/cac/bat.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/bat.mp3"
-};
-
-const contentItem31 = {
-  word: "cat",
-  sound: "/kæt/",
-  Image: "../../../../asset/image/phonics/cvc/cac/cat.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/cat.mp3"
-};
-
-const contentItem32 = {
-  word: "rat",
-  sound: "/hæt/",
-  Image: "../../../../asset/image/phonics/cvc/cac/rat.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/rat.mp3"
-};
-
-const contentItem33 = {
-  word: "mat",
-  sound: "/mæt/",
-  Image: "../../../../asset/image/phonics/cvc/cac/mat.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/mat.mp3"
-};
-
-const contentItem34 = {
-  word: "sat",
-  sound: "/sæt/",
-  Image: "../../../../asset/image/phonics/cvc/cac/sat.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cac/sat.mp3"
+  word: "bottle",
+  sound: "/ˈbɒt.əl/",
+  Image: "../../../asset/image/phonics/syllable/consonant-le/bottle.jpg",
+  soundfile: "../../../asset/audio/phonics/syllable/consonant-le/bottle.mp3"
 };
 
 
@@ -254,7 +219,6 @@ const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,conte
 const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,contentItem19];
 const contents4 = [contentItem20,contentItem21,contentItem22,contentItem23,contentItem24];
 const contents5 = [contentItem25,contentItem26,contentItem27,contentItem28,contentItem29]; 
-const contents6 = [contentItem30,contentItem31,contentItem32,contentItem33,contentItem34]; 
 
 const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4","lesson-5","lesson-6"];
 
@@ -449,13 +413,7 @@ window.addEventListener("load", function(e){
 
     learnObj.letterList=contents5;
 
-  }else if(pathname.includes(lessons[6]))
-  {
-
-    learnObj.letterList=contents6;
-
   }
-
   learnObj.totalLenght=learnObj.letterList.length;
 
 });
