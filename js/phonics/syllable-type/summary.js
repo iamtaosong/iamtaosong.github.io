@@ -469,25 +469,66 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/uVeEAFy1z68?si=FrQXvwyiPax3iNRE";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/RB7ItJ8uGEU?si=Q_gZcKPaOxZ3i1ps";
   
 });
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/wFNRBW25_T0?si=nivoySFEiqG3OEhZ";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/IkLhsz_XBfE?si=HaLzCLGhFzBZyRCh";
   
 });
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/2FOX8ngNmDQ?si=TyPMDiPDu2GO5Kbu";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/UoNqeXW2lPA?si=zdZN0zarIf1quw5P";
   
 });
 
 document.getElementById("video3").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/Y7ClQc_4Txg?si=I69-uGZlGr6tZz8b";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/jUOH6bP5h0I?si=NCs7-VyfdvVKWElF";
   
 });
 
+document.getElementById("video4").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/huGvZ29sK4o?si=y2cASCmJOlJ_5bAQ";
+  
+});
+
+document.getElementById("video5").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ICTT8Tdn6Bs?si=Vwm5mf0BqKRduACf";
+  
+});
+
+document.getElementById("video6").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/c3j3YVocNxk?si=w9ukqPcKHiGP8_pu";
+  
+});
+
+document.getElementById("video7").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/gp1UmVSlLJ4?si=DLebQC5ODE-Ajfov";
+  
+});
+
+document.getElementById("video8").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/iWRsVUOJj9M?si=I1VgnGCnf_5M81vL";
+  
+});
+
+document.getElementById("video9").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/XSOVfpapSXA?si=nqTx0meHFlc_CeCM";
+  
+});
+
+document.getElementById("video10").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/GdmcWQCbqY8?si=zpwKNeuPUs4Pfqmt";
+  
+});
