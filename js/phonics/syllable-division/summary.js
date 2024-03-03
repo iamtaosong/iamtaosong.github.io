@@ -1,247 +1,112 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "cabin",
-  sound: "/ə/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/a.mp3"
+  word: 'cab<span class="text-danger">|</span>in',
+  word2:"cabin",
+  sound: "/ˈkæb.ɪn/",
+  soundfile: "../../../../asset/audio/phonics/syllable/division/cabin.mp3"
 };
 
 const contentItem1 = {
-  word: "camel",
-  sound: "/ænd/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/and.mp3"
+  word: 'cam<span class="text-danger">|</span>el',
+  word2:"camel",
+  sound: "/ˈkæm.əl/",
+  soundfile: "../../../../asset/audio/phonics/syllable/division/camel.mp3"
 };
 
 const contentItem2 = {
-  word: "no",
-  sound: "/əˈweɪ/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/away.mp3"
+  word: 'top<span class="text-danger">|</span>ic',
+  word2:"topic",
+  sound: "/ˈtɒp.ɪk/",
+  soundfile: "../../../../asset/audio/phonics/syllable/division/topic.mp3"
 };
 
 const contentItem3 = {
-  word: "baker",
-  sound: "/bɪɡ/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/big.mp3"
+  word: 'mu<span class="text-danger">|</span>sic',
+  word2:"music",
+  sound: "/ˈmjuː.zɪk/",
+  soundfile: "../../../../asset/audio/phonics/syllable/division/music.mp3"
 };
 
 const contentItem4 = {
-  word: "music",
-  sound: "/bluː/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/blue.mp3"
+  word: 'ba<span class="text-danger">|</span>ker',
+  word2:"baker",
+  sound: "/ˈbeɪ.kər/",
+  soundfile: "../../../../asset/audio/phonics/syllable/division/baker.mp3"
 };
 
 const contentItem5 = {
-  word: "can",
-  sound: "/kæn/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/can.mp3"
+  word: 'in<span class="text-danger">|</span>sect',
+  word2:"insect",
+  sound: "/ˈɪn.sekt/",
+  soundfile: "../../../../asset/audio/phonics/syllable/division/insect.mp3"
 };
 
 const contentItem6 = {
-  word: "come",
-  sound: "/kʌm/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/come.mp3"
+  word: 'car<span class="text-danger">|</span>pet',
+  word2:"carpet",
+  sound: "/ˈkɑː.pɪt/",
+  soundfile: "../../../../asset/audio/phonics/syllable/division/carpet.mp3"
 };
 
 const contentItem7 = {
-  word: "down",
-  sound: "/daʊn/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/down.mp3"
+  word: 'gar<span class="text-danger">|</span>den',
+  word2:"garden",
+  sound: "/ˈɡɑː.dən/",
+  soundfile: "../../../../asset/audio/phonics/syllable/division/garden.mp3"
 };
 
 const contentItem8 = {
-  word: "find",
-  sound: "/faɪnd/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/find.mp3"
+  word: 'rab<span class="text-danger">|</span>bit',
+  word2:"rabbit",
+  sound: "/ˈræb.ɪt/",
+  soundfile: "../../../../asset/audio/phonics/syllable/division/rabbit.mp3"
 };
 
 const contentItem9 = {
-  word: "for",
-  sound: "/fɔːr/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/for.mp3"
+  word: 'muf<span class="text-danger">|</span>fin',
+  word2:"muffin",
+  sound: "/ˈmʌf.ɪn/",
+  soundfile: "../../../../asset/audio/phonics/syllable/division/muffin.mp3"
 };
 
 const contentItem10 = {
-  word: "funny",
-  sound: "/ˈfʌn.i/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/funny.mp3"
+  word: 'ta<span class="text-danger">|</span>ble',
+  word2:"table",
+  sound: "/ˈteɪ.bəl/",
+  soundfile: "../../../asset/audio/phonics/syllable/division/table.mp3"
 };
 
 const contentItem11 = {
-  word: "go",
-  sound: "/ɡəʊ/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/go.mp3"
+  word: 'bicy<span class="text-danger">|</span>cle',
+  word2:"bicycle",
+  sound: "/ˈbaɪ.sɪ.kəl/",
+  soundfile: "../../../asset/audio/phonics/syllable/division/bicycle.mp3"
 };
 
 const contentItem12 = {
-  word: "help",
-  sound: "/help/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/help.mp3"
+  word: 'can<span class="text-danger">|</span>dle',
+  word2:"candle",
+  sound: "/ˈkæn.dəl/",
+  soundfile: "../../../asset/audio/phonics/syllable/division/candle.mp3"
 };
 
 const contentItem13 = {
-  word: "here",
-  sound: "/hɪər/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/here.mp3"
+  word: 'ea<span class="text-danger">|</span>gle',
+  word2:"eagle",
+  sound: "/ˈiː.ɡəl/",
+  soundfile: "../../../asset/audio/phonics/syllable/division/eagle.mp3"
 };
 
 const contentItem14 = {
-  word: "i",
-  sound: "/aɪ/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/i.mp3"
-};
-
-const contentItem15 = {
-  word: "in",
-  sound: "/ɪn/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/in.mp3"
-};
-
-const contentItem16 = {
-  word: "is",
-  sound: "/ɪz/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/is.mp3"
-};
-
-const contentItem17 = {
-  word: "it",
-  sound: "/it/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/it.mp3"
-};
-
-const contentItem18 = {
-  word: "jump",
-  sound: "/dʒʌmp/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/jump.mp3"
-};
-
-const contentItem19 = {
-  word: "little",
-  sound: "/ˈlɪt.əl/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/little.mp3"
-};
-const contentItem20 = {
-  word: "look",
-  sound: "/lʊk/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/look.mp3"
-};
-
-const contentItem21 = {
-  word: "make",
-  sound: "/meɪk/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/make.mp3"
-};
-
-const contentItem22 = {
-  word: "me",
-  sound: "/miː/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/me.mp3"
-};
-
-const contentItem23 = {
-  word: "my",
-  sound: "/maɪ/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/my.mp3"
-};
-
-const contentItem24 = {
-  word: "not",
-  sound: "/nɒt/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/not.mp3"
-};
-
-const contentItem25 = {
-  word: "one",
-  sound: "/wʌn/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/one.mp3"
-};
-
-const contentItem26 = {
-  word: "play",
-  sound: "/pleɪ/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/play.mp3"
-};
-
-const contentItem27 = {
-  word: "red",
-  sound: "/red/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/red.mp3"
-};
-
-const contentItem28 = {
-  word: "run",
-  sound: "/rʌn/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/run.mp3"
-};
-
-const contentItem29 = {
-  word: "said",
-  sound: "/sed/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/said.mp3"
-};
-
-const contentItem30 = {
-  word: "see",
-  sound: "/siː/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/see.mp3"
-};
-
-const contentItem31 = {
-  word: "the",
-  sound: "/ðiː/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/the.mp3"
-};
-
-const contentItem32 = {
-  word: "three",
-  sound: "/θriː/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/three.mp3"
-};
-
-const contentItem33 = {
-  word: "to",
-  sound: "/tuː/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/to.mp3"
-};
-
-const contentItem34 = {
-  word: "two",
-  sound: "/tuː/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/two.mp3"
-};
-
-const contentItem35 = {
-  word: "up",
-  sound: "/ʌp/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/up.mp3"
-};
-
-const contentItem36 = {
-  word: "we",
-  sound: "/wiː/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/we.mp3"
-};
-
-const contentItem37 = {
-  word: "where",
-  sound: "/weər/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/where.mp3"
-};
-
-const contentItem38 = {
-  word: "yellow",
-  sound: "/ˈjel.əʊ/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/yellow.mp3"
-};
-
-const contentItem39 = {
-  word: "you",
-  sound: "/juː/",
-  soundfile: "../../../../asset/audio/phonics/sight-word/sight-1/you.mp3"
+  word: 'bot<span class="text-danger">|</span>tle',
+  word2:"bottle",
+  sound: "/ˈbɒt.əl/",
+  soundfile: "../../../asset/audio/phonics/syllable/division/bottle.mp3"
 };
 
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
-  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,contentItem20,contentItem21,contentItem22,contentItem23,contentItem24,
-  contentItem25,contentItem26,contentItem27,contentItem28,contentItem29,contentItem30,contentItem31,contentItem32,contentItem33,contentItem34,contentItem35,contentItem36,contentItem37,contentItem38,contentItem39];
+  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14];
 
 const common ={
   testPreviousBtn: null,
@@ -333,11 +198,11 @@ function wordGenProcess(i,index)
   for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
     let m =Math.floor(Math.random()*learnObj.totalLength);
-    wordImageMatchObj.list0[k].value=learnObj.letterList[m].word;
-    wordImageMatchObj.list1[k].innerText=learnObj.letterList[m].word;
+    wordImageMatchObj.list0[k].value=learnObj.letterList[m].word2;
+    wordImageMatchObj.list1[k].innerText=learnObj.letterList[m].word2;
   }
-  wordImageMatchObj.list0[i].value=learnObj.letterList[index].word;
-  wordImageMatchObj.list1[i].innerText=learnObj.letterList[index].word;
+  wordImageMatchObj.list0[i].value=learnObj.letterList[index].word2;
+  wordImageMatchObj.list1[i].innerText=learnObj.letterList[index].word2;
  
 }
 
@@ -422,7 +287,7 @@ function letterSoundCheck(e) {
 
   if(common.game=="wordImageMatch")
   {
-    if(learnObj.letterList[wordImageMatchObj.counter].word === (e.target.value))
+    if(learnObj.letterList[wordImageMatchObj.counter].word2 === (e.target.value))
     {
         document.getElementById("showResult").innerHTML=common.goodResult;
         common.testSoundFile.setAttribute("src",common.right);
@@ -466,8 +331,8 @@ function buildWordImageMatch()
   //here fill up the letters 
   for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
-    wordImageMatchObj.list0[k].value=learnObj.letterList[k].word;
-    wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].word;
+    wordImageMatchObj.list0[k].value=learnObj.letterList[k].word2;
+    wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].word2;
   }
 
   common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
