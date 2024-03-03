@@ -532,3 +532,10 @@ document.getElementById("video10").addEventListener("click",function(){
   document.getElementById('videoLink').src ="https://www.youtube.com/embed/GdmcWQCbqY8?si=zpwKNeuPUs4Pfqmt";
   
 });
+
+
+document.getElementById("video11").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/AqqIbC1deGA?si=1eKoy0LDZ4BWXm0R";
+  
+});
