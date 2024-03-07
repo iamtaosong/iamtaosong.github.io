@@ -49,8 +49,59 @@ const contentItem6 = {
   soundfile: "../../../../asset/audio/grammar/basic/pronoun/You.mp3"
 };
 
+const contentItem7 = {
+  word: "me",
+  sound: "/miː/",
+  Image: "../../../../asset/image/grammar/basic/pronoun/I.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/me.mp3"
+};
+
+const contentItem8 = {
+  word: "him",
+  sound: "/hɪm/",
+  Image: "../../../../asset/image/grammar/basic/pronoun/He.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/him.mp3"
+};
+
+const contentItem9 = {
+  word: "her",
+  sound: "/hɜːr/",
+  Image: "../../../../asset/image/grammar/basic/pronoun/She.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/her.mp3"
+};
+
+const contentItem10 = {
+  word: "it",
+  sound: "/ɪt/",
+  Image: "../../../../asset/image/grammar/basic/pronoun/It.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/It.mp3"
+};
+
+const contentItem11 = {
+  word: "us",
+  sound: "/ʌs/",
+  Image: "../../../../asset/image/grammar/basic/pronoun/We.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/us.mp3"
+};
+
+const contentItem12 = {
+  word: "them",
+  sound: "/ðem/",
+  Image: "../../../../asset/image/grammar/basic/pronoun/They.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/them.mp3"
+};
+
+const contentItem13 = {
+  word: "you",
+  sound: "/juː/",
+  Image: "../../../../asset/image/grammar/basic/pronoun/You.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/You.mp3"
+};
+
+
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6];
-const lessons = ["lesson-0"];
+const contents1 = [contentItem7,contentItem8,contentItem9,contentItem10,contentItem11,contentItem12,contentItem13];
+const lessons = ["lesson-0","lesson-1"];
 
 const common ={
   testPreviousBtn: null,
@@ -218,6 +269,10 @@ window.addEventListener("load", function(e){
   if(pathname.includes(lessons[0]))
   {
     learnObj.letterList=contents0;
+
+  }else  if(pathname.includes(lessons[1]))
+  {
+    learnObj.letterList=contents1;
 
   }
 
