@@ -70,11 +70,83 @@ const contentItem9 = {
   soundfile: "../../../asset/audio/basic-sentence/pronoun/tennis.mp3"
 };
 
+const contentItem10 = {
+  word: "I am worried",
+  sound: "/naɪf/",
+  Image: "../../../asset/image/basic-sentence/pronoun/worried.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/worried.mp3"
+};
+
+const contentItem11 = {
+  word: "I am upset",
+  sound: "/pleɪt/",
+  Image: "../../../asset/image/basic-sentence/pronoun/upset.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/upset.mp3"
+};
+
+const contentItem12 = {
+  word: "she is sick",
+  sound: "/fɔːk/",
+  Image: "../../../asset/image/basic-sentence/pronoun/sick.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/sick.mp3"
+};
+
+const contentItem13 = {
+  word: "she is silly",
+  sound: "/ˈtʃɒp.stɪk/",
+  Image: "../../../asset/image/basic-sentence/pronoun/silly.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/silly.mp3"
+};
+
+const contentItem14 = {
+  word: "he is tired",
+  sound: "/spuːn/",
+  Image: "../../../asset/image/basic-sentence/pronoun/tired.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/tired.mp3"
+};
+
+const contentItem15 = {
+  word: "he is angry",
+  sound: "/ɡlɑːs/",
+  Image: "../../../asset/image/basic-sentence/pronoun/angry.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/angry.mp3"
+};
+
+const contentItem16 = {
+  word: "you are shy",
+  sound: "/kʌp/",
+  Image: "../../../asset/image/basic-sentence/pronoun/shy.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/shy.mp3"
+};
+
+const contentItem17 = {
+  word: "we are hungry",
+  sound: "/ˈspætʃ.ə.lə/",
+  Image: "../../../asset/image/basic-sentence/pronoun/hungry.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/hungry.mp3"
+};
+
+const contentItem18 = {
+  word: "It is noisy",
+  sound: "/wɪsk/",
+  Image: "../../../asset/image/basic-sentence/pronoun/noisy.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/noisy.mp3"
+};
+
+const contentItem19 = {
+  word: "they are friends",
+  sound: "/ˈnuː.dəl/",
+  Image: "../../../asset/image/basic-sentence/pronoun/friends.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/friends.mp3"
+};
+
+
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
+const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14]; 
+const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,contentItem19]; 
 
-
-const lessons = ["lesson-0","lesson-1"];
+const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3"];
 
 
 const common ={
@@ -247,6 +319,14 @@ window.addEventListener("load", function(e){
   }else if(pathname.includes(lessons[1]))
   {
     learnObj.letterList=contents1;
+
+  }else if(pathname.includes(lessons[2]))
+  {
+    learnObj.letterList=contents2;
+
+  }else if(pathname.includes(lessons[3]))
+  {
+    learnObj.letterList=contents3;
 
   }
 
