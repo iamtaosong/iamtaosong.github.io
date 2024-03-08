@@ -98,10 +98,61 @@ const contentItem13 = {
   soundfile: "../../../../asset/audio/grammar/basic/pronoun/You.mp3"
 };
 
+const contentItem14 = {
+  word: "I am",
+  sound: "/miː/",
+  Image: "../../../../asset/image/grammar/basic/pronoun/I.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/me.mp3"
+};
+
+const contentItem15 = {
+  word: "He is",
+  sound: "/hɪm/",
+  Image: "../../../../asset/image/grammar/basic/pronoun/He.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/him.mp3"
+};
+
+const contentItem16 = {
+  word: "She is",
+  sound: "/hɜːr/",
+  Image: "../../../../asset/image/grammar/basic/pronoun/She.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/her.mp3"
+};
+
+const contentItem17 = {
+  word: "It is",
+  sound: "/ɪt/",
+  Image: "../../../../asset/image/grammar/basic/pronoun/It.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/It.mp3"
+};
+
+const contentItem18 = {
+  word: "We are",
+  sound: "/ʌs/",
+  Image: "../../../../asset/image/grammar/basic/pronoun/We.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/us.mp3"
+};
+
+const contentItem19 = {
+  word: "They are",
+  sound: "/ðem/",
+  Image: "../../../../asset/image/grammar/basic/pronoun/They.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/them.mp3"
+};
+
+const contentItem20 = {
+  word: "You are",
+  sound: "/juː/",
+  Image: "../../../../asset/image/grammar/basic/pronoun/You.jpg",
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/You.mp3"
+};
+
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6];
 const contents1 = [contentItem7,contentItem8,contentItem9,contentItem10,contentItem11,contentItem12,contentItem13];
-const lessons = ["lesson-0","lesson-1"];
+const contents2 = [contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,contentItem20];
+
+const lessons = ["lesson-0","lesson-1","lesson-2"];
 
 const common ={
   testPreviousBtn: null,
@@ -270,9 +321,13 @@ window.addEventListener("load", function(e){
   {
     learnObj.letterList=contents0;
 
-  }else  if(pathname.includes(lessons[1]))
+  }else if(pathname.includes(lessons[1]))
   {
     learnObj.letterList=contents1;
+
+  }else if(pathname.includes(lessons[2]))
+  {
+    learnObj.letterList=contents2;
 
   }
 
