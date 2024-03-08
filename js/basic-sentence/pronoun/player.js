@@ -22,7 +22,7 @@ const contentItem2 = {
 };
 
 const contentItem3 = {
-  word: "it is sunny day",
+  word: "It is a sunny day",
   sound: "/ˈtʃɒp.stɪk/",
   Image: "../../../asset/image/basic-sentence/pronoun/sunny.jpg",
   soundfile: "../../../asset/audio/basic-sentence/pronoun/sunny.mp3"
