@@ -100,51 +100,51 @@ const contentItem13 = {
 
 const contentItem14 = {
   word: "I am",
-  sound: "/miː/",
+  sound: "/aɪ æm/",
   Image: "../../../../asset/image/grammar/basic/pronoun/I.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/me.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/iam.mp3"
 };
 
 const contentItem15 = {
   word: "He is",
-  sound: "/hɪm/",
+  sound: "/hiː ɪz/",
   Image: "../../../../asset/image/grammar/basic/pronoun/He.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/him.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/heis.mp3"
 };
 
 const contentItem16 = {
   word: "She is",
-  sound: "/hɜːr/",
+  sound: "/ʃiː ɪz/",
   Image: "../../../../asset/image/grammar/basic/pronoun/She.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/her.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/sheis.mp3"
 };
 
 const contentItem17 = {
   word: "It is",
-  sound: "/ɪt/",
+  sound: "/ɪt ɪz/",
   Image: "../../../../asset/image/grammar/basic/pronoun/It.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/It.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/itis.mp3"
 };
 
 const contentItem18 = {
   word: "We are",
-  sound: "/ʌs/",
+  sound: "/wiː ɑːr/",
   Image: "../../../../asset/image/grammar/basic/pronoun/We.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/us.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/weare.mp3"
 };
 
 const contentItem19 = {
   word: "They are",
-  sound: "/ðem/",
+  sound: "/ðeɪ ɑːr/",
   Image: "../../../../asset/image/grammar/basic/pronoun/They.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/them.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/theyare.mp3"
 };
 
 const contentItem20 = {
   word: "You are",
-  sound: "/juː/",
+  sound: "/juː ɑːr/",
   Image: "../../../../asset/image/grammar/basic/pronoun/You.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/You.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/pronoun/youare.mp3"
 };
 
 
