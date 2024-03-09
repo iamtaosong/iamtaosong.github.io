@@ -500,3 +500,8 @@ document.getElementById("video1").addEventListener("click",function(){
   
 });
 
+document.getElementById("video2").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/yVQg5UL1tgc?si=sLo0iBNA_m0Tb6UY";
+  
+});
