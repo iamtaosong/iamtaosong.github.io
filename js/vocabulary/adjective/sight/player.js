@@ -1,63 +1,63 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "big",
-  sound: "/bɪɡ/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/big.mp3"
+  word: "old",
+  sound: "/əʊld/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/sight/old.mp3"
 };
 
 const contentItem1 = {
-  word: "small",
-  sound: "/smɔːl/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/small.mp3"
+  word: "new",
+  sound: "/njuː/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/sight/new.mp3"
 };
 
 const contentItem2 = {
-  word: "tall",
-  sound: "/tɔːl/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/tall.mp3"
+  word: "clean",
+  sound: "/kliːn/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/sight/clean.mp3"
 };
 
 const contentItem3 = {
-  word: "short",
-  sound: "/ʃɔːt/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/short.mp3"
+  word: "dirty",
+  sound: "/ˈdɜː.ti/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/sight/dirty.mp3"
 };
 
 const contentItem4 = {
-  word: "huge",
-  sound: "/hjuːdʒ/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/huge.mp3"
+  word: "colorful",
+  sound: "/ˈkʌl.ə.fəl/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/sight/colorful.mp3"
 };
 
 const contentItem5 = {
-  word: "tiny",
-  sound: "/ˈtaɪ.ni/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/tiny.mp3"
+  word: "lovely",
+  sound: "/ˈlʌv.li/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/sight/lovely.mp3"
 };
 
 const contentItem6 = {
-  word: "long",
-  sound: "/lɒŋ/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/long.mp3"
+  word: "beautiful",
+  sound: "/ˈbjuː.tɪ.fəl/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/sight/beautiful.mp3"
 };
 
 const contentItem7 = {
-  word: "fat",
-  sound: "/fæt/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/fat.mp3"
+  word: "ugly",
+  sound: "/ˈʌɡ.li/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/sight/ugly.mp3"
 };
 
 const contentItem8 = {
-  word: "thin",
-  sound: "/θɪn/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/thin.mp3"
+  word: "shiny",
+  sound: "/ˈʃaɪ.ni/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/sight/shiny.mp3"
 };
 
 const contentItem9 = {
-  word: "lean",
-  sound: "/liːn/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/lean.mp3"
+  word: "rusty",
+  sound: "/ˈrʌs.ti/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/sight/rusty.mp3"
 };
 
 
