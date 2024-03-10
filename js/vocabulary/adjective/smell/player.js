@@ -1,63 +1,63 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "big",
-  sound: "/bɪɡ/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/big.mp3"
+  word: "nice",
+  sound: "/naɪs/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/smell/nice.mp3"
 };
 
 const contentItem1 = {
-  word: "small",
-  sound: "/smɔːl/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/small.mp3"
+  word: "stinky",
+  sound: "/ˈstɪŋ.ki/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/smell/stinky.mp3"
 };
 
 const contentItem2 = {
-  word: "tall",
-  sound: "/tɔːl/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/tall.mp3"
+  word: "yucky",
+  sound: "/ˈjʌk.i/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/smell/yucky.mp3"
 };
 
 const contentItem3 = {
-  word: "short",
-  sound: "/ʃɔːt/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/short.mp3"
+  word: "good",
+  sound: "/ɡʊd/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/smell/good.mp3"
 };
 
 const contentItem4 = {
-  word: "huge",
-  sound: "/hjuːdʒ/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/huge.mp3"
+  word: "bad",
+  sound: "/bæd/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/smell/bad.mp3"
 };
 
 const contentItem5 = {
-  word: "tiny",
-  sound: "/ˈtaɪ.ni/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/tiny.mp3"
+  word: "yummy",
+  sound: "/ˈjʌm.i/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/smell/yummy.mp3"
 };
 
 const contentItem6 = {
-  word: "long",
-  sound: "/lɒŋ/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/long.mp3"
+  word: "burnt",
+  sound: "/bɜːnt/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/smell/burnt.mp3"
 };
 
 const contentItem7 = {
-  word: "fat",
-  sound: "/fæt/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/fat.mp3"
+  word: "smoky",
+  sound: "/ˈsməʊ.ki/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/smell/smoky.mp3"
 };
 
 const contentItem8 = {
-  word: "thin",
-  sound: "/θɪn/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/thin.mp3"
+  word: "fishy",
+  sound: "/fɪʃ.i/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/smell/fishy.mp3"
 };
 
 const contentItem9 = {
-  word: "lean",
-  sound: "/liːn/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/lean.mp3"
+  word: "rotten",
+  sound: "/ˈrɒt.ən/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/smell/rotten.mp3"
 };
 
 
