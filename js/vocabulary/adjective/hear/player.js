@@ -1,63 +1,63 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "big",
-  sound: "/bɪɡ/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/big.mp3"
+  word: "loud",
+  sound: "/laʊd/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/hear/loud.mp3"
 };
 
 const contentItem1 = {
-  word: "small",
-  sound: "/smɔːl/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/small.mp3"
+  word: "quiet",
+  sound: "/ˈkwaɪ.ət/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/hear/quiet.mp3"
 };
 
 const contentItem2 = {
-  word: "tall",
-  sound: "/tɔːl/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/tall.mp3"
+  word: "noisy",
+  sound: "/ˈnɔɪ.zi/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/hear/noisy.mp3"
 };
 
 const contentItem3 = {
-  word: "short",
-  sound: "/ʃɔːt/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/short.mp3"
+  word: "melodic",
+  sound: "/məˈlɒd.ɪk/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/hear/melodic.mp3"
 };
 
 const contentItem4 = {
-  word: "huge",
-  sound: "/hjuːdʒ/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/huge.mp3"
+  word: "low",
+  sound: "/ləʊ/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/hear/low.mp3"
 };
 
 const contentItem5 = {
-  word: "tiny",
-  sound: "/ˈtaɪ.ni/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/tiny.mp3"
+  word: "muted",
+  sound: "/ˈmjuː.tɪd/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/hear/muted.mp3"
 };
 
 const contentItem6 = {
-  word: "long",
-  sound: "/lɒŋ/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/long.mp3"
+  word: "crunchy",
+  sound: "/ˈkrʌn.tʃi/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/hear/crunchy.mp3"
 };
 
 const contentItem7 = {
-  word: "fat",
-  sound: "/fæt/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/fat.mp3"
+  word: "high",
+  sound: "/haɪ/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/hear/high.mp3"
 };
 
 const contentItem8 = {
-  word: "thin",
-  sound: "/θɪn/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/thin.mp3"
+  word: "relaxing",
+  sound: "/rɪˈlæk.sɪŋ/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/hear/relaxing.mp3"
 };
 
 const contentItem9 = {
-  word: "lean",
-  sound: "/liːn/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/size/lean.mp3"
+  word: "irritating",
+  sound: "/ˈɪr.ɪ.teɪ.tɪŋ/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/hear/irritating.mp3"
 };
 
 
