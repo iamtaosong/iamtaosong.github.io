@@ -398,7 +398,7 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/qZ3t-m6_SpE?si=oBbtraA2MCBy3ey4";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/JJ6hu0TcL58?si=P4I1l37IkerSwwvN";
   
 });
 
@@ -414,3 +414,16 @@ document.getElementById("video2").addEventListener("click",function(){
   
 });
 
+document.getElementById("video3").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/cEzSLzzKkf0?si=l8YdnqBlXJ9QHt4g";
+  
+});
+
+/* document.getElementById("video4").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/JJ6hu0TcL58?si=P4I1l37IkerSwwvN";
+  
+});
+
+ */
