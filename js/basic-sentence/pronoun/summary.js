@@ -404,19 +404,13 @@ document.getElementById("video0").addEventListener("click",function(){
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/2qDAmxooAr8?si=08-ULJ7w3jo4_dDh";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/tfujAhBnYQE?si=kyQnpFhstWIlthQK";
   
 });
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/TiZoHudqFq8?si=4x0iIKRalXkHtt5E";
-  
-});
-
-document.getElementById("video3").addEventListener("click",function(){
-
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/j30YVOTrt8Y?si=x_LP2T4-4aFDtHSU";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/wAzx3kUQLTY?si=topswM3jGwthdcSk";
   
 });
 
