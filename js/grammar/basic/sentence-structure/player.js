@@ -1,91 +1,151 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "soft",
+  word: "I sit",
   sound: "/sɒft/",
   soundfile: "../../../../asset/audio/vocabulary/adjective/touch/soft.mp3"
 };
 
 const contentItem1 = {
-  word: "hard",
+  word: "They jump",
   sound: "/hɑːd/",
   soundfile: "../../../../asset/audio/vocabulary/adjective/touch/hard.mp3"
 };
 
 const contentItem2 = {
-  word: "rough",
+  word: "Dogs bark",
   sound: "/rʌf/",
   soundfile: "../../../../asset/audio/vocabulary/adjective/touch/rough.mp3"
 };
 
 const contentItem3 = {
-  word: "smooth",
+  word: "we play",
   sound: "/smuːð/",
   soundfile: "../../../../asset/audio/vocabulary/adjective/touch/smooth.mp3"
 };
 
 const contentItem4 = {
-  word: "fuzzy",
+  word: "fish swim",
   sound: "/ˈfʌz.i/",
   soundfile: "../../../../asset/audio/vocabulary/adjective/touch/fuzzy.mp3"
 };
 
 const contentItem5 = {
-  word: "bumpy",
+  word: "thay have lunch",
   sound: "/ˈbʌm.pi/",
   soundfile: "../../../../asset/audio/vocabulary/adjective/touch/bumpy.mp3"
 };
 
 const contentItem6 = {
-  word: "silky",
+  word: "father pulls dog",
   sound: "/ˈsɪl.ki/",
   soundfile: "../../../../asset/audio/vocabulary/adjective/touch/silky.mp3"
 };
 
 const contentItem7 = {
-  word: "light",
+  word: "mother cooks dinner",
   sound: "/laɪt/",
   soundfile: "../../../../asset/audio/vocabulary/adjective/touch/light.mp3"
 };
 
 const contentItem8 = {
-  word: "heavy",
+  word: "cows eat grass",
   sound: "/ˈhev.i/",
   soundfile: "../../../../asset/audio/vocabulary/adjective/touch/heavy.mp3"
 };
 
 const contentItem9 = {
-  word: "wet",
+  word: "painter paints picture",
   sound: "/wet/",
   soundfile: "../../../../asset/audio/vocabulary/adjective/touch/wet.mp3"
 };
 
 const contentItem10 = {
-  word: "dry",
+  word: "cats look fluffy",
   sound: "/draɪ/",
   soundfile: "../../../../asset/audio/vocabulary/adjective/touch/dry.mp3"
 };
 
 const contentItem11 = {
-  word: "sticky",
+  word: "frogs jump high",
   sound: "/ˈstɪk.i/",
   soundfile: "../../../../asset/audio/vocabulary/adjective/touch/sticky.mp3"
 };
 
 const contentItem12 = {
-  word: "greasy",
+  word: "it is cold",
   sound: "/ˈɡriː.si/",
   soundfile: "../../../../asset/audio/vocabulary/adjective/touch/greasy.mp3"
 };
 
 const contentItem13 = {
-  word: "hot",
+  word: "tomato is sweet",
   sound: "/hɒt/",
   soundfile: "../../../../asset/audio/vocabulary/adjective/touch/hot.mp3"
 };
 
 const contentItem14 = {
-  word: "cold",
+  word: "cat is quiet",
+  sound: "/kəʊld/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/cold.mp3"
+};
+
+const contentItem15 = {
+  word: "I am here",
+  sound: "/draɪ/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/dry.mp3"
+};
+
+const contentItem16 = {
+  word: "you are there",
+  sound: "/ˈstɪk.i/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/sticky.mp3"
+};
+
+const contentItem17 = {
+  word: "father walks slow",
+  sound: "/ˈɡriː.si/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/greasy.mp3"
+};
+
+const contentItem18= {
+  word: "trains run fast",
+  sound: "/hɒt/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/hot.mp3"
+};
+
+const contentItem19= {
+  word: "Birds sing beautifully",
+  sound: "/kəʊld/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/cold.mp3"
+};
+
+const contentItem20 = {
+  word: "I am a student",
+  sound: "/draɪ/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/dry.mp3"
+};
+
+const contentItem21 = {
+  word: "it is winter",
+  sound: "/ˈstɪk.i/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/sticky.mp3"
+};
+
+const contentItem22 = {
+  word: "father is a doctor",
+  sound: "/ˈɡriː.si/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/greasy.mp3"
+};
+
+const contentItem23= {
+  word: "mother is a teacher",
+  sound: "/hɒt/",
+  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/hot.mp3"
+};
+
+const contentItem24= {
+  word: "she is a waiter",
   sound: "/kəʊld/",
   soundfile: "../../../../asset/audio/vocabulary/adjective/touch/cold.mp3"
 };
@@ -93,8 +153,9 @@ const contentItem14 = {
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
 const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14]; 
-
-const lessons = ["lesson-0","lesson-1","lesson-2"];
+const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,contentItem19];
+const contents4 = [contentItem20,contentItem21,contentItem22,contentItem23,contentItem24]; 
+const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4"];
 
 const common ={
   testPreviousBtn: null,
@@ -200,7 +261,16 @@ window.addEventListener("load", function(e){
   {
     learnObj.letterList=contents2;
 
+  }else if(pathname.includes(lessons[3]))
+  {
+    learnObj.letterList=contents3;
+
+  }else if(pathname.includes(lessons[4]))
+  {
+    learnObj.letterList=contents4;
+
   }
+
   learnObj.totalLenght=learnObj.letterList.length;
 
 });
