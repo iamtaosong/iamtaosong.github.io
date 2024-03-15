@@ -1,94 +1,154 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "soft",
+  word: "I sit",
   sound: "/sɒft/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/soft.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/sit.mp3"
 };
-
 const contentItem1 = {
-  word: "hard",
+  word: "They jump",
   sound: "/hɑːd/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/hard.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/jump.mp3"
 };
 
 const contentItem2 = {
-  word: "rough",
+  word: "Dogs bark",
   sound: "/rʌf/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/rough.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/bark.mp3"
 };
 
 const contentItem3 = {
-  word: "smooth",
+  word: "We play",
   sound: "/smuːð/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/smooth.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/play.mp3"
 };
 
 const contentItem4 = {
-  word: "fuzzy",
+  word: "Fish swim",
   sound: "/ˈfʌz.i/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/fuzzy.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/swim.mp3"
 };
 
 const contentItem5 = {
-  word: "bumpy",
+  word: "Thay have lunch",
   sound: "/ˈbʌm.pi/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/bumpy.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/lunch.mp3"
 };
 
 const contentItem6 = {
-  word: "silky",
+  word: "Father pulls dog",
   sound: "/ˈsɪl.ki/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/silky.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/dog.mp3"
 };
 
 const contentItem7 = {
-  word: "light",
+  word: "Mother cooks dinner",
   sound: "/laɪt/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/light.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/dinner.mp3"
 };
 
 const contentItem8 = {
-  word: "heavy",
+  word: "Cows eat grass",
   sound: "/ˈhev.i/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/heavy.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/grass.mp3"
 };
 
 const contentItem9 = {
-  word: "wet",
+  word: "Painters paint picture",
   sound: "/wet/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/wet.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/picture.mp3"
 };
 
 const contentItem10 = {
-  word: "dry",
+  word: "London is beautiful",
   sound: "/draɪ/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/dry.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/London.mp3"
 };
 
 const contentItem11 = {
-  word: "sticky",
+  word: "Frogs jump high",
   sound: "/ˈstɪk.i/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/sticky.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/frogs.mp3"
 };
 
 const contentItem12 = {
-  word: "greasy",
+  word: "It is cold",
   sound: "/ˈɡriː.si/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/greasy.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/cold.mp3"
 };
 
 const contentItem13 = {
-  word: "hot",
+  word: "Tomatoes are sweet",
   sound: "/hɒt/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/hot.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/sweet.mp3"
 };
 
 const contentItem14 = {
-  word: "cold",
+  word: "Cats are quiet",
   sound: "/kəʊld/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/touch/cold.mp3"
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/Cats.mp3"
 };
+
+const contentItem15 = {
+  word: "I am here",
+  sound: "/draɪ/",
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/here.mp3"
+};
+
+const contentItem16 = {
+  word: "You are there",
+  sound: "/ˈstɪk.i/",
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/there.mp3"
+};
+
+const contentItem17 = {
+  word: "Father walks slow",
+  sound: "/ˈɡriː.si/",
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/slow.mp3"
+};
+
+const contentItem18= {
+  word: "Trains run fast",
+  sound: "/hɒt/",
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/fast.mp3"
+};
+
+const contentItem19= {
+  word: "Birds sing beautifully",
+  sound: "/kəʊld/",
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/birds.mp3"
+};
+
+const contentItem20 = {
+  word: "I am a student",
+  sound: "/draɪ/",
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/student.mp3"
+};
+
+const contentItem21 = {
+  word: "It is winter",
+  sound: "/ˈstɪk.i/",
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/winter.mp3"
+};
+
+const contentItem22 = {
+  word: "Father is a doctor",
+  sound: "/ˈɡriː.si/",
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/doctor.mp3"
+};
+
+const contentItem23= {
+  word: "Mother is a teacher",
+  sound: "/hɒt/",
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/teacher.mp3"
+};
+
+const contentItem24= {
+  word: "She is a waiter",
+  sound: "/kəʊld/",
+  soundfile: "../../../../asset/audio/grammar/basic/sentence-structure/waiter.mp3"
+};
+
 
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
   contentItem10,contentItem11,contentItem12,contentItem13,contentItem14];

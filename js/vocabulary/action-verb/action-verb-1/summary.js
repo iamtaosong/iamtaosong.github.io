@@ -152,10 +152,10 @@ const common ={
   game: null,
   testSection: document.getElementById("testSection"),
   letterSelected: false,
-  goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`,
-  right: "../../../asset/image/right.mp3",
-  wrong: "../../../asset/image/wrong.mp3"
+  goodResult: `<img src="../../../../asset/image/happy.png" alt="happy--v1"/>`,
+  poorResult: `<img src="../../../../asset/image/sad.png" alt="sad--v1"/>`,
+  right: "../../../../asset/image/right.mp3",
+  wrong: "../../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {
