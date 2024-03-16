@@ -15,21 +15,21 @@ const contentItem1 = {
 };
 
 const contentItem2 = {
-  word: "wash your face",
+  word: "wash face",
   sound: "/fɔːk/",
   Image: "../../../asset/image/phrase/phrase-2/face.jpg",
   soundfile: "../../../asset/audio/phrase/phrase-2/face.mp3"
 };
 
 const contentItem3 = {
-  word: "brush your teeth",
+  word: "brush teeth",
   sound: "/ˈtʃɒp.stɪk/",
   Image: "../../../asset/image/phrase/phrase-2/teeth.jpg",
   soundfile: "../../../asset/audio/phrase/phrase-2/teeth.mp3"
 };
 
 const contentItem4 = {
-  word: "brush your hair",
+  word: "brush hair",
   sound: "/spuːn/",
   Image: "../../../asset/image/phrase/phrase-2/hair.jpg",
   soundfile: "../../../asset/audio/phrase/phrase-2/hair.mp3"
