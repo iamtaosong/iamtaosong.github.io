@@ -1,187 +1,153 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "get up",
+  word: "she looks happy",
   sound: "/naɪf/",
-  Image: "../../../asset/image/phrase/phrase-2/up.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/getup.mp3"
+  Image: "../../../asset/image/basic-sentence/pronoun/happy.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/happy.mp3"
 };
 
 const contentItem1 = {
-  word: "get dressed",
+  word: "they come to a yellow bus",
   sound: "/pleɪt/",
-  Image: "../../../asset/image/phrase/phrase-2/dress.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/dress.mp3"
+  Image: "../../../asset/image/basic-sentence/pronoun/bus.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/bus.mp3"
 };
 
 const contentItem2 = {
-  word: "wash face",
+  word: "we can jump",
   sound: "/fɔːk/",
-  Image: "../../../asset/image/phrase/phrase-2/face.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/face.mp3"
+  Image: "../../../asset/image/basic-sentence/pronoun/jump.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/jump.mp3"
 };
 
 const contentItem3 = {
-  word: "brush teeth",
+  word: "It is a sunny day",
   sound: "/ˈtʃɒp.stɪk/",
-  Image: "../../../asset/image/phrase/phrase-2/teeth.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/teeth.mp3"
+  Image: "../../../asset/image/basic-sentence/pronoun/sunny.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/sunny.mp3"
 };
 
 const contentItem4 = {
-  word: "brush hair",
+  word: "Can you see them?",
   sound: "/spuːn/",
-  Image: "../../../asset/image/phrase/phrase-2/hair.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/hair.mp3"
+  Image: "../../../asset/image/basic-sentence/pronoun/see.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/see.mp3"
 };
 
 const contentItem5 = {
-  word: "have breakfast",
+  word: "they come and help us",
   sound: "/ɡlɑːs/",
-  Image: "../../../asset/image/phrase/phrase-2/breakfast.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/breakfast.mp3"
+  Image: "../../../asset/image/basic-sentence/pronoun/help.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/help.mp3"
 };
 
 const contentItem6 = {
-  word: "go to school",
+  word: "I make her cry",
   sound: "/kʌp/",
-  Image: "../../../asset/image/phrase/phrase-2/school.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/school.mp3"
+  Image: "../../../asset/image/basic-sentence/pronoun/cry.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/cry.mp3"
 };
 
 const contentItem7 = {
-  word: "have lunch",
+  word: "he goes to school with me",
   sound: "/ˈspætʃ.ə.lə/",
-  Image: "../../../asset/image/phrase/phrase-2/lunch.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/lunch.mp3"
+  Image: "../../../asset/image/basic-sentence/pronoun/school.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/school.mp3"
 };
 
 const contentItem8 = {
-  word: "play football",
+  word: "I find it in the dog house",
   sound: "/wɪsk/",
-  Image: "../../../asset/image/phrase/phrase-2/football.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/football.mp3"
+  Image: "../../../asset/image/basic-sentence/pronoun/in.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/in.mp3"
 };
 
 const contentItem9 = {
-  word: "hurry up",
+  word: "she plays tennis with him",
   sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/phrase/phrase-2/hurry.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/hurryup.mp3"
+  Image: "../../../asset/image/basic-sentence/pronoun/tennis.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/tennis.mp3"
 };
 
 const contentItem10 = {
-  word: "take classes",
-  sound: "/ˈɡreɪ.tər",
-  Image: "../../../asset/image/phrase/phrase-2/class.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/class.mp3"
+  word: "I am worried",
+  sound: "/naɪf/",
+  Image: "../../../asset/image/basic-sentence/pronoun/worried.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/worried.mp3"
 };
 
 const contentItem11 = {
-  word: "go to bed",
-  sound: "/bəʊl/",
-  Image: "../../../asset/image/phrase/phrase-2/bed.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/bed.mp3"
+  word: "I am upset",
+  sound: "/pleɪt/",
+  Image: "../../../asset/image/basic-sentence/pronoun/upset.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/upset.mp3"
 };
 
 const contentItem12 = {
-  word: "come home",
-  sound: "/ˈkʌt.ɪŋ ˌbɔːd/",
-  Image: "../../../asset/image/phrase/phrase-2/home.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/home.mp3"
+  word: "she is sick",
+  sound: "/fɔːk/",
+  Image: "../../../asset/image/basic-sentence/pronoun/sick.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/sick.mp3"
 };
 
 const contentItem13 = {
-  word: "have dinner",
-  sound: "/tɒŋz/",
-  Image: "../../../asset/image/phrase/phrase-2/dinner.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/dinner.mp3"
+  word: "she is silly",
+  sound: "/ˈtʃɒp.stɪk/",
+  Image: "../../../asset/image/basic-sentence/pronoun/silly.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/silly.mp3"
 };
 
 const contentItem14 = {
-  word: "do your homework",
-  sound: "/ˈbɒt.əl/",
-  Image: "../../../asset/image/phrase/phrase-2/homework.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/homework.mp3"
+  word: "he is tired",
+  sound: "/spuːn/",
+  Image: "../../../asset/image/basic-sentence/pronoun/tired.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/tired.mp3"
 };
 
 const contentItem15 = {
-  word: "walk dog",
-  sound: "/ˈket.əl/",
-  Image: "../../../asset/image/phrase/phrase-2/dog.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/dog.mp3"
+  word: "he is angry",
+  sound: "/ɡlɑːs/",
+  Image: "../../../asset/image/basic-sentence/pronoun/angry.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/angry.mp3"
 };
 
 const contentItem16 = {
-  word: "take a shower",
-  sound: "/pɒt/",
-  Image: "../../../asset/image/phrase/phrase-2/shower.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/shower.mp3"
+  word: "you are shy",
+  sound: "/kʌp/",
+  Image: "../../../asset/image/basic-sentence/pronoun/shy.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/shy.mp3"
 };
 
 const contentItem17 = {
-  word: "take a bath",
-  sound: "/frɪdʒ/",
-  Image: "../../../asset/image/phrase/phrase-2/bath.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/bath.mp3"
+  word: "we are hungry",
+  sound: "/ˈspætʃ.ə.lə/",
+  Image: "../../../asset/image/basic-sentence/pronoun/hungry.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/hungry.mp3"
 };
 
 const contentItem18 = {
-  word: "drink water",
-  sound: "/mit/",
-  Image: "../../../asset/image/phrase/phrase-2/water.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/water.mp3"
+  word: "It is noisy",
+  sound: "/wɪsk/",
+  Image: "../../../asset/image/basic-sentence/pronoun/noisy.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/noisy.mp3"
 };
 
 const contentItem19 = {
-  word: "ride a bike",
-  sound: "/ˈfraɪ.ɪŋˌpæn/",
-  Image: "../../../asset/image/phrase/phrase-2/bike.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/bike.mp3"
+  word: "they are friends",
+  sound: "/ˈnuː.dəl/",
+  Image: "../../../asset/image/basic-sentence/pronoun/friends.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/pronoun/friends.mp3"
 };
 
-const contentItem20 = {
-  word: "go and play",
-  sound: "/ˈmaɪ.krə.weɪv/",
-  Image: "../../../asset/image/phrase/phrase-2/play.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/play.mp3"
-};
-
-const contentItem21 = {
-  word: "I love the food",
-  sound: "/ˈeɪ.prən/",
-  Image: "../../../asset/image/phrase/phrase-2/food.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/food.mp3"
-};
-
-const contentItem22 = {
-  word: "we are friends",
-  sound: "/ˈeɪ.prən/",
-  Image: "../../../asset/image/phrase/phrase-2/friend.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/friend.mp3"
-};
-
-const contentItem23 = {
-  word: "take school bus",
-  sound: "/ˈeɪ.prən/",
-  Image: "../../../asset/image/phrase/phrase-2/schoolbus.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/bus.mp3"
-};
-
-const contentItem24 = {
-  word: "watch TV",
-  sound: "/ˈeɪ.prən/",
-  Image: "../../../asset/image/phrase/phrase-2/Tv.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-2/tv.mp3"
-};
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 const contents1 = [contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
 const contents2 = [contentItem10,contentItem11,contentItem12,contentItem13,contentItem14]; 
 const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,contentItem19]; 
-const contents4 = [contentItem20,contentItem21,contentItem22,contentItem23,contentItem24]; 
 
-const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4"];
+const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3"];
+
 
 const common ={
   testPreviousBtn: null,
@@ -192,7 +158,9 @@ const common ={
   testSection: document.getElementById("testSection"),
   letterSelected: false,
   goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`
+  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../../asset/image/right.mp3",
+  wrong: "../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {
@@ -225,7 +193,7 @@ const wordSoundMatchObj = {
                                 </div>
 
                                 <div class="form-check my-3">
-                                  <input class="form-check-input letterElement " type="radio" name="letter" id="letter2" value="">
+                                  <input class="form-check-input letterElement" type="radio" name="letter" id="letter2" value="">
                                   <label class="form-check-label" for="letter2"></label>
                                 </div>
 
@@ -354,20 +322,14 @@ window.addEventListener("load", function(e){
 
   }else if(pathname.includes(lessons[2]))
   {
-
     learnObj.letterList=contents2;
 
   }else if(pathname.includes(lessons[3]))
   {
-
     learnObj.letterList=contents3;
 
-  } else if(pathname.includes(lessons[4]))
-  {
-
-    learnObj.letterList=contents4;
-
   }
+
   learnObj.totalLenght=learnObj.letterList.length;
   document.getElementById("content").style.opacity = 1;
 
@@ -475,32 +437,36 @@ function letterSoundCheck(e) {
 
   if(common.game=="wordImageMatch")
   {
-    if(learnObj.letterList[wordImageMatchObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[wordImageMatchObj.counter].word === (e.target.value))
     {
-  
       document.getElementById("showResult").innerHTML=common.goodResult;
-   
+      common.testSoundFile.setAttribute("src",common.right);
     }else 
     {
   
       document.getElementById("showResult").innerHTML=common.poorResult;
+      common.testSoundFile.setAttribute("src",common.wrong);
     }
   
-
   }else if (common.game=="wordSoundMatch")
   {
 
-    if(learnObj.letterList[wordSoundMatchObj.counter].word.includes(e.target.value))
+    if(learnObj.letterList[wordSoundMatchObj.counter].word === (e.target.value))
     {
   
-      document.getElementById("showResult").innerHTML=common.goodResult;
-   
+      document.getElementById("showResult").innerHTML=common.goodResult; 
+      common.testSoundFile.setAttribute("src",common.right);
     }else 
     {
   
       document.getElementById("showResult").innerHTML=common.poorResult;
+      common.testSoundFile.setAttribute("src",common.wrong);
     }
+
   }
+
+  common.testAudio.load();
+  common.testAudio.play();
 }
 
 function buildwordSoundMatch()
