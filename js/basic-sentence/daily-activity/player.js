@@ -8,7 +8,7 @@ const contentItem0 = {
 };
 
 const contentItem1 = {
-  word: "I bush teeth carefully",
+  word: "I brush teeth carefully",
   sound: "/pleɪt/",
   Image: "../../../asset/image/basic-sentence/daily-activity/teeth.jpg",
   soundfile: "../../../asset/audio/basic-sentence/daily-activity/teeth.mp3"
@@ -53,15 +53,15 @@ const contentItem7 = {
   word: "I really like football",
   sound: "/ˈspætʃ.ə.lə/",
   Image: "../../../asset/image/basic-sentence/daily-activity/football.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/football.mp3"
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/likefootball.mp3"
 };
 
 
 const contentItem8 = {
-  word: "we always take classes at 8 clock",
+  word: "We always take classes at 8 clock",
   sound: "/wɪsk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/lunch.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/lunch.mp3"
+  Image: "../../../asset/image/basic-sentence/daily-activity/class.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/class.mp3"
 };
 
 const contentItem9 = {
@@ -100,21 +100,21 @@ const contentItem13 = {
 };
 
 const contentItem14 = {
-  word: "I drink quite some water everyday ",
+  word: "I drink quite some water everyday",
   sound: "/ˈtʃɒp.stɪk/",
   Image: "../../../asset/image/basic-sentence/daily-activity/water.jpg",
   soundfile: "../../../asset/audio/basic-sentence/daily-activity/water.mp3"
 };
 
 const contentItem15 = {
-  word: "I sometimes walk dog on Sunday ",
+  word: "I sometimes walk dog on Sunday",
   sound: "/spuːn/",
   Image: "../../../asset/image/basic-sentence/daily-activity/dog.jpg",
   soundfile: "../../../asset/audio/basic-sentence/daily-activity/dog.mp3"
 };
 
 const contentItem16 = {
-  word: "I ride a bike outside too ",
+  word: "I ride a bike too",
   sound: "/ɡlɑːs/",
   Image: "../../../asset/image/basic-sentence/daily-activity/bike.jpg",
   soundfile: "../../../asset/audio/basic-sentence/daily-activity/bike.mp3"
@@ -156,7 +156,7 @@ const contentItem21 = {
 };
 
 const contentItem22 = {
-  word: "There are flowers everywhere ",
+  word: "There are flowers everywhere",
   sound: "/ˈnuː.dəl/",
   Image: "../../../asset/image/basic-sentence/daily-activity/flowers.jpg",
   soundfile: "../../../asset/audio/basic-sentence/daily-activity/flowers.mp3"

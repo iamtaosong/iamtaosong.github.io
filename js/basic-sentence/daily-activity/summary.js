@@ -1,148 +1,184 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "she looks happy",
+  word: "I usually get up at 7 clock in the morning",
   sound: "/naɪf/",
-  Image: "../../../asset/image/basic-sentence/pronoun/happy.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/happy.mp3"
+  Image: "../../../asset/image/basic-sentence/daily-activity/up.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/up.mp3"
 };
 
 const contentItem1 = {
-  word: "they come to a yellow bus",
+  word: "I brush teeth carefully",
   sound: "/pleɪt/",
-  Image: "../../../asset/image/basic-sentence/pronoun/bus.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/bus.mp3"
+  Image: "../../../asset/image/basic-sentence/daily-activity/teeth.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/teeth.mp3"
 };
 
 const contentItem2 = {
-  word: "we can jump",
+  word: "I then wash face",
   sound: "/fɔːk/",
-  Image: "../../../asset/image/basic-sentence/pronoun/jump.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/jump.mp3"
+  Image: "../../../asset/image/basic-sentence/daily-activity/face.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/face.mp3"
 };
 
 const contentItem3 = {
-  word: "It is a sunny day",
+  word: "I have breakfast slowly",
   sound: "/ˈtʃɒp.stɪk/",
-  Image: "../../../asset/image/basic-sentence/pronoun/sunny.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/sunny.mp3"
+  Image: "../../../asset/image/basic-sentence/daily-activity/breakfast.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/breakfast.mp3"
 };
 
 const contentItem4 = {
-  word: "Can you see them?",
+  word: "I go to school today",
   sound: "/spuːn/",
-  Image: "../../../asset/image/basic-sentence/pronoun/see.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/see.mp3"
+  Image: "../../../asset/image/basic-sentence/daily-activity/school.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/school.mp3"
 };
 
 const contentItem5 = {
-  word: "they come and help us",
+  word: "I often take school bus",
   sound: "/ɡlɑːs/",
-  Image: "../../../asset/image/basic-sentence/pronoun/help.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/help.mp3"
+  Image: "../../../asset/image/basic-sentence/daily-activity/schoolbus.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/schoolbus.mp3"
 };
 
 const contentItem6 = {
-  word: "I make her cry",
+  word: "I sometimes play football outside",
   sound: "/kʌp/",
-  Image: "../../../asset/image/basic-sentence/pronoun/cry.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/cry.mp3"
+  Image: "../../../asset/image/basic-sentence/daily-activity/football.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/football.mp3"
 };
 
 const contentItem7 = {
-  word: "he goes to school with me",
+  word: "I really like football",
   sound: "/ˈspætʃ.ə.lə/",
-  Image: "../../../asset/image/basic-sentence/pronoun/school.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/school.mp3"
+  Image: "../../../asset/image/basic-sentence/daily-activity/football.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/likefootball.mp3"
 };
 
+
 const contentItem8 = {
-  word: "I find it in the dog house",
+  word: "We always take classes at 8 clock",
   sound: "/wɪsk/",
-  Image: "../../../asset/image/basic-sentence/pronoun/in.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/in.mp3"
+  Image: "../../../asset/image/basic-sentence/daily-activity/class.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/class.mp3"
 };
 
 const contentItem9 = {
-  word: "she plays tennis with him",
-  sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/pronoun/tennis.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/tennis.mp3"
+  word: "We usually have lunch at 12 clock",
+  sound: "/wɪsk/",
+  Image: "../../../asset/image/basic-sentence/daily-activity/lunch.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/lunch.mp3"
 };
 
 const contentItem10 = {
-  word: "I am worried",
-  sound: "/naɪf/",
-  Image: "../../../asset/image/basic-sentence/pronoun/worried.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/worried.mp3"
+  word: "I often come home at 5 clock in the afternoon",
+  sound: "/ˈnuː.dəl/",
+  Image: "../../../asset/image/basic-sentence/daily-activity/home.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/home.mp3"
 };
 
 const contentItem11 = {
-  word: "I am upset",
-  sound: "/pleɪt/",
-  Image: "../../../asset/image/basic-sentence/pronoun/upset.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/upset.mp3"
+  word: "I do my homework easily and quickly",
+  sound: "/naɪf/",
+  Image: "../../../asset/image/basic-sentence/daily-activity/homework.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/homework.mp3"
 };
 
 const contentItem12 = {
-  word: "she is sick",
-  sound: "/fɔːk/",
-  Image: "../../../asset/image/basic-sentence/pronoun/sick.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/sick.mp3"
+  word: "I always take a shower quickly",
+  sound: "/pleɪt/",
+  Image: "../../../asset/image/basic-sentence/daily-activity/shower.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/shower.mp3"
 };
 
 const contentItem13 = {
-  word: "she is silly",
-  sound: "/ˈtʃɒp.stɪk/",
-  Image: "../../../asset/image/basic-sentence/pronoun/silly.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/silly.mp3"
+  word: "I never go to bed late at night",
+  sound: "/fɔːk/",
+  Image: "../../../asset/image/basic-sentence/daily-activity/bed.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/bed.mp3"
 };
 
 const contentItem14 = {
-  word: "he is tired",
-  sound: "/spuːn/",
-  Image: "../../../asset/image/basic-sentence/pronoun/tired.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/tired.mp3"
+  word: "I drink quite some water everyday",
+  sound: "/ˈtʃɒp.stɪk/",
+  Image: "../../../asset/image/basic-sentence/daily-activity/water.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/water.mp3"
 };
 
 const contentItem15 = {
-  word: "he is angry",
-  sound: "/ɡlɑːs/",
-  Image: "../../../asset/image/basic-sentence/pronoun/angry.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/angry.mp3"
+  word: "I sometimes walk dog on Sunday",
+  sound: "/spuːn/",
+  Image: "../../../asset/image/basic-sentence/daily-activity/dog.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/dog.mp3"
 };
 
 const contentItem16 = {
-  word: "you are shy",
-  sound: "/kʌp/",
-  Image: "../../../asset/image/basic-sentence/pronoun/shy.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/shy.mp3"
+  word: "I ride a bike too",
+  sound: "/ɡlɑːs/",
+  Image: "../../../asset/image/basic-sentence/daily-activity/bike.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/bike.mp3"
 };
 
 const contentItem17 = {
-  word: "we are hungry",
-  sound: "/ˈspætʃ.ə.lə/",
-  Image: "../../../asset/image/basic-sentence/pronoun/hungry.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/hungry.mp3"
+  word: "we are never friends",
+  sound: "/kʌp/",
+  Image: "../../../asset/image/basic-sentence/daily-activity/friends.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/friends.mp3"
 };
 
 const contentItem18 = {
-  word: "It is noisy",
-  sound: "/wɪsk/",
-  Image: "../../../asset/image/basic-sentence/pronoun/noisy.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/noisy.mp3"
+  word: "I watch TV happily",
+  sound: "/ˈspætʃ.ə.lə/",
+  Image: "../../../asset/image/basic-sentence/daily-activity/TV.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/TV.mp3"
 };
 
 const contentItem19 = {
-  word: "they are friends",
-  sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/pronoun/friends.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/pronoun/friends.mp3"
+  word: "I really love the food there",
+  sound: "/wɪsk/",
+  Image: "../../../asset/image/basic-sentence/daily-activity/food.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/food.mp3"
 };
 
+const contentItem20 = {
+  word: "It was hot yesterday",
+  sound: "/ˈnuː.dəl/",
+  Image: "../../../asset/image/basic-sentence/daily-activity/hot.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/hot.mp3"
+};
+
+const contentItem21 = {
+  word: "I go and play tennis tomorrow",
+  sound: "/ˈnuː.dəl/",
+  Image: "../../../asset/image/basic-sentence/daily-activity/tennis.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/tennis.mp3"
+};
+
+const contentItem22 = {
+  word: "There are flowers everywhere",
+  sound: "/ˈnuː.dəl/",
+  Image: "../../../asset/image/basic-sentence/daily-activity/flowers.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/flowers.mp3"
+};
+
+const contentItem23 = {
+  word: "Please come here",
+  sound: "/ˈnuː.dəl/",
+  Image: "../../../asset/image/basic-sentence/daily-activity/welcome.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/welcome.mp3"
+};
+
+const contentItem24 = {
+  word: "I cook now",
+  sound: "/ˈnuː.dəl/",
+  Image: "../../../asset/image/basic-sentence/daily-activity/cook.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/daily-activity/cook.mp3"
+};
 
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
-  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19];
+  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,
+  contentItem20,contentItem21,contentItem22,contentItem23,contentItem24];
 
 
 const common ={
