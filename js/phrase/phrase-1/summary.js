@@ -1,28 +1,28 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "good morning",
+  word: "Good morning",
   sound: "/naɪf/",
   Image: "../../../asset/image/phrase/phrase-1/good-morning.jpg",
   soundfile: "../../../asset/audio/phrase/phrase-1/good-morning.mp3"
 };
 
 const contentItem1 = {
-  word: "good afternoon",
+  word: "Good afternoon",
   sound: "/pleɪt/",
   Image: "../../../asset/image/phrase/phrase-1/good-afternoon.jpg",
   soundfile: "../../../asset/audio/phrase/phrase-1/good-afternoon.mp3"
 };
 
 const contentItem2 = {
-  word: "good evening",
+  word: "Good evening",
   sound: "/fɔːk/",
   Image: "../../../asset/image/phrase/phrase-1/good-evening.jpg",
   soundfile: "../../../asset/audio/phrase/phrase-1/good-evening.mp3"
 };
 
 const contentItem3 = {
-  word: "good night",
+  word: "Good night",
   sound: "/ˈtʃɒp.stɪk/",
   Image: "../../../asset/image/phrase/phrase-1/good-night.jpg",
   soundfile: "../../../asset/audio/phrase/phrase-1/good-night.mp3"
@@ -30,42 +30,42 @@ const contentItem3 = {
 
 
 const contentItem4 = {
-  word: "how are you？",
+  word: "How are you？",
   sound: "/spuːn/",
   Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
   soundfile: "../../../asset/audio/phrase/phrase-1/how-are-you.mp3"
 };
 
 const contentItem5 = {
-  word: "nice to meet you",
+  word: "Nice to meet you",
   sound: "/ɡlɑːs/",
   Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
   soundfile: "../../../asset/audio/phrase/phrase-1/nice-to-meet-you.mp3"
 };
 
 const contentItem6 = {
-  word: "what's your name",
-  sound: "/kʌp/",
-  Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-1/what's-your-name.mp3"
+  word: "You're welcome",
+  sound: "/ˈeɪ.prən/",
+  Image: "../../../asset/image/phrase/phrase-1/boy.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/welcome.mp3"
 };
 
 const contentItem7 = {
-  word: "my name is Grace",
+  word: "Hi",
   sound: "/ˈspætʃ.ə.lə/",
   Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-1/my-name-is-grace.mp3"
+  soundfile: "../../../asset/audio/phrase/phrase-1/hi.mp3"
 };
 
 const contentItem8 = {
-  word: "excuse me",
+  word: "Excuse me",
   sound: "/wɪsk/",
   Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
   soundfile: "../../../asset/audio/phrase/phrase-1/excuse-me.mp3"
 };
 
 const contentItem9 = {
-  word: "thank you",
+  word: "Thank you",
   sound: "/ˈnuː.dəl/",
   Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
   soundfile: "../../../asset/audio/phrase/phrase-1/thank-you.mp3"
@@ -79,21 +79,21 @@ const contentItem10 = {
 };
 
 const contentItem11 = {
-  word: "goodbye",
+  word: "Goodbye",
   sound: "/ˈɡreɪ.tər",
   Image: "../../../asset/image/phrase/phrase-1/boy.jpg",
   soundfile: "../../../asset/audio/phrase/phrase-1/goodbye.mp3"
 };
 
 const contentItem12 = {
-  word: "have a nice day",
+  word: "Have a nice day",
   sound: "/bəʊl/",
   Image: "../../../asset/image/phrase/phrase-1/boy.jpg",
   soundfile: "../../../asset/audio/phrase/phrase-1/niceday.mp3"
 };
 
 const contentItem13 = {
-  word: "can you help me?",
+  word: "Can you help me?",
   sound: "/ˈkʌt.ɪŋ ˌbɔːd/",
   Image: "../../../asset/image/phrase/phrase-1/boy.jpg",
   soundfile: "../../../asset/audio/phrase/phrase-1/help.mp3"
@@ -142,41 +142,78 @@ const contentItem19 = {
 };
 
 const contentItem20 = {
-  word: "take a bite",
-  sound: "/frɪdʒ/",
-  Image: "../../../asset/image/phrase/phrase-1/bite.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-1/bite.mp3"
+  word: "Can I play?",
+  sound: "/ˈeɪ.prən/",
+  Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/play.mp3"
 };
 
 const contentItem21 = {
-  word: "take a sip",
+  word: "It's my turn",
   sound: "/mit/",
-  Image: "../../../asset/image/phrase/phrase-1/sip.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-1/sip.mp3"
+  Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/turn.mp3"
 };
 
 const contentItem22 = {
-  word: "It is hot",
-  sound: "/ˈfraɪ.ɪŋˌpæn/",
-  Image: "../../../asset/image/phrase/phrase-1/hot.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-1/hot.mp3"
+  word: "Please stop",
+  sound: "/frɪdʒ/",
+  Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/stop.mp3"
 };
 
 const contentItem23 = {
-  word: "It is cold",
+  word: "Can we be friends?",
   sound: "/ˈmaɪ.krə.weɪv/",
-  Image: "../../../asset/image/phrase/phrase-1/cold.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-1/cold.mp3"
+  Image: "../../../asset/image/phrase/phrase-1/boy.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/friends.mp3"
 };
 
 const contentItem24 = {
-  word: "you are welcome",
+  word: "Here you go",
   sound: "/ˈeɪ.prən/",
   Image: "../../../asset/image/phrase/phrase-1/boy.jpg",
-  soundfile: "../../../asset/audio/phrase/phrase-1/welcome.mp3"
+  soundfile: "../../../asset/audio/phrase/phrase-1/go.mp3"
 };
+
+const contentItem25 = {
+  word: "Yes,I agree",
+  sound: "/mit/",
+  Image: "../../../asset/image/phrase/phrase-1/yes.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/agree.mp3"
+};
+
+const contentItem26 = {
+  word: "No,I disagree",
+  sound: "/ˈfraɪ.ɪŋˌpæn/",
+  Image: "../../../asset/image/phrase/phrase-1/no.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/disagree.mp3"
+};
+
+const contentItem27 = {
+  word: "I think so",
+  sound: "/ˈmaɪ.krə.weɪv/",
+  Image: "../../../asset/image/phrase/phrase-1/so.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/so.mp3"
+};
+
+const contentItem28 = {
+  word: "I don’t think so",
+  sound: "/ˈeɪ.prən/",
+  Image: "../../../asset/image/phrase/phrase-1/no.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/notso.mp3"
+};
+
+const contentItem29 = {
+  word: "That’s a good idea",
+  sound: "/mit/",
+  Image: "../../../asset/image/phrase/phrase-1/good.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/good.mp3"
+};
+
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
-  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,contentItem20,contentItem21,contentItem22,contentItem23,contentItem24];
+  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,contentItem20,contentItem21,contentItem22,contentItem23,contentItem24,
+  contentItem25,contentItem26,contentItem27,contentItem28,contentItem29];
 
 const common ={
   testPreviousBtn: null,
