@@ -1,247 +1,156 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "sweet",
-  sound: "/swiːt/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/sweet.mp3"
+  word: "quickly",
+  sound: "/ˈkwɪk.li/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/quickly.mp3"
 };
 
 const contentItem1 = {
-  word: "sour",
-  sound: "/saʊər/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/sour.mp3"
+  word: "slowly",
+  sound: "/ˈsləʊ.li/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/slowly.mp3"
 };
 
 const contentItem2 = {
-  word: "spicy",
-  sound: "/əˈweɪ/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/spicy.mp3"
+  word: "carefully",
+  sound: "/ˈkeə.fəl.i/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/carefully.mp3"
 };
 
 const contentItem3 = {
-  word: "salty",
-  sound: "/ˈsɒl.ti/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/salty.mp3"
+  word: "happily",
+  sound: "/ˈhæp.əl.i/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/happily.mp3"
 };
 
 const contentItem4 = {
-  word: "savory",
-  sound: "/ˈseɪ.vər.i/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/savory.mp3"
+  word: "easily",
+  sound: "/ˈiː.zəl.i/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/easily.mp3"
 };
 
 const contentItem5 = {
-  word: "bitter",
-  sound: "/ˈbɪt.ər/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/bitter.mp3"
+  word: "now",
+  sound: "/naʊ/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/now.mp3"
 };
 
 const contentItem6 = {
-  word: "icy",
-  sound: "/ˈaɪ.si/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/icy.mp3"
+  word: "then",
+  sound: "/ðen/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/then.mp3"
 };
 
 const contentItem7 = {
-  word: "hot",
-  sound: "/hɒt/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/hot.mp3"
+  word: "today",
+  sound: "/təˈdeɪ/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/today.mp3"
 };
 
 const contentItem8 = {
-  word: "delicious",
-  sound: "/dɪˈlɪʃ.əs/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/delicious.mp3"
+  word: "tomorrow",
+  sound: "/təˈmɒr.əʊ/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/tomorrow.mp3"
 };
 
 const contentItem9 = {
-  word: "juicy",
-  sound: "/ˈdʒuː.si/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/juicy.mp3"
+  word: "yesterday",
+  sound: "/ˈjes.tə.deɪ/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/yesterday.mp3"
 };
 
 const contentItem10 = {
-  word: "fishy",
-  sound: "/ˈfʌn.i/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/funny.mp3"
+  word: "here",
+  sound: "/hɪər/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/here.mp3"
 };
 
 const contentItem11 = {
-  word: "icy",
-  sound: "/ɡəʊ/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/go.mp3"
+  word: "there",
+  sound: "/ðeər/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/there.mp3"
 };
 
 const contentItem12 = {
-  word: "help",
-  sound: "/help/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/help.mp3"
+  word: "everywhere",
+  sound: "/ˈev.ri.weər/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/everywhere.mp3"
 };
 
 const contentItem13 = {
-  word: "here",
-  sound: "/hɪər/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/here.mp3"
+  word: "inside",
+  sound: "/ɪnˈsaɪd/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/inside.mp3"
 };
 
 const contentItem14 = {
-  word: "i",
-  sound: "/aɪ/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/i.mp3"
+  word: "outside",
+  sound: "/ˌaʊtˈsaɪd/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/outside.mp3"
 };
 
 const contentItem15 = {
-  word: "in",
-  sound: "/ɪn/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/in.mp3"
+  word: "very",
+  sound: "/ˈver.i/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/very.mp3"
 };
 
 const contentItem16 = {
-  word: "is",
-  sound: "/ɪz/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/is.mp3"
+  word: "too",
+  sound: "/tuː/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/too.mp3"
 };
 
 const contentItem17 = {
-  word: "it",
-  sound: "/it/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/it.mp3"
+  word: "quite",
+  sound: "/kwaɪt/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/quite.mp3"
 };
 
 const contentItem18 = {
-  word: "jump",
-  sound: "/dʒʌmp/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/jump.mp3"
+  word: "almost",
+  sound: "/ˈɔːl.məʊst/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/almost.mp3"
 };
 
 const contentItem19 = {
-  word: "little",
-  sound: "/ˈlɪt.əl/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/little.mp3"
+  word: "really",
+  sound: "/ˈrɪə.li/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/really.mp3"
 };
 const contentItem20 = {
-  word: "look",
-  sound: "/lʊk/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/look.mp3"
+  word: "always",
+  sound: "/ˈɔːl.weɪz/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/always.mp3"
 };
 
 const contentItem21 = {
-  word: "make",
-  sound: "/meɪk/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/make.mp3"
+  word: "often",
+  sound: "/ˈɒf.ən/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/often.mp3"
 };
 
 const contentItem22 = {
-  word: "me",
-  sound: "/miː/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/me.mp3"
+  word: "sometimes",
+  sound: "/ˈsʌm.taɪmz/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/sometimes.mp3"
 };
 
 const contentItem23 = {
-  word: "my",
-  sound: "/maɪ/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/my.mp3"
+  word: "never",
+  sound: "/ˈnev.ər/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/never.mp3"
 };
 
 const contentItem24 = {
-  word: "not",
-  sound: "/nɒt/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/not.mp3"
-};
-
-const contentItem25 = {
-  word: "one",
-  sound: "/wʌn/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/one.mp3"
-};
-
-const contentItem26 = {
-  word: "play",
-  sound: "/pleɪ/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/play.mp3"
-};
-
-const contentItem27 = {
-  word: "red",
-  sound: "/red/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/red.mp3"
-};
-
-const contentItem28 = {
-  word: "run",
-  sound: "/rʌn/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/run.mp3"
-};
-
-const contentItem29 = {
-  word: "said",
-  sound: "/sed/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/said.mp3"
-};
-
-const contentItem30 = {
-  word: "see",
-  sound: "/siː/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/see.mp3"
-};
-
-const contentItem31 = {
-  word: "the",
-  sound: "/ðiː/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/the.mp3"
-};
-
-const contentItem32 = {
-  word: "three",
-  sound: "/θriː/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/three.mp3"
-};
-
-const contentItem33 = {
-  word: "to",
-  sound: "/tuː/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/to.mp3"
-};
-
-const contentItem34 = {
-  word: "two",
-  sound: "/tuː/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/two.mp3"
-};
-
-const contentItem35 = {
-  word: "up",
-  sound: "/ʌp/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/up.mp3"
-};
-
-const contentItem36 = {
-  word: "we",
-  sound: "/wiː/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/we.mp3"
-};
-
-const contentItem37 = {
-  word: "where",
-  sound: "/weər/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/where.mp3"
-};
-
-const contentItem38 = {
-  word: "yellow",
-  sound: "/ˈjel.əʊ/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/yellow.mp3"
-};
-
-const contentItem39 = {
-  word: "you",
-  sound: "/juː/",
-  soundfile: "../../../../asset/audio/vocabulary/adjective/taste/you.mp3"
+  word: "usually",
+  sound: "/ˈjuː.ʒu.ə.li/",
+  soundfile: "../../../../asset/audio/vocabulary/adverb/usually.mp3"
 };
 
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
-  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,contentItem20,contentItem21,contentItem22,contentItem23,contentItem24,
-  contentItem25,contentItem26,contentItem27,contentItem28,contentItem29,contentItem30,contentItem31,contentItem32,contentItem33,contentItem34,contentItem35,contentItem36,contentItem37,contentItem38,contentItem39];
+  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,contentItem20,contentItem21,contentItem22,contentItem23,contentItem24];
 
 const common ={
   testPreviousBtn: null,

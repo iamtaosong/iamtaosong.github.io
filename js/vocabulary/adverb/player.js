@@ -146,7 +146,7 @@ const contentItem23 = {
 const contentItem24 = {
   word: "usually",
   sound: "/ˈjuː.ʒu.ə.li/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/usually .mp3"
+  soundfile: "../../../../asset/audio/vocabulary/adverb/usually.mp3"
 };
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
