@@ -434,32 +434,7 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/JJ6hu0TcL58?si=P4I1l37IkerSwwvN";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/qD1pnquN_DM?si=tX5wWgLWKgJKTp2t";
   
 });
 
-document.getElementById("video1").addEventListener("click",function(){
-
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/tfujAhBnYQE?si=kyQnpFhstWIlthQK";
-  
-});
-
-document.getElementById("video2").addEventListener("click",function(){
-
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/wAzx3kUQLTY?si=topswM3jGwthdcSk";
-  
-});
-
-document.getElementById("video3").addEventListener("click",function(){
-
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/cEzSLzzKkf0?si=l8YdnqBlXJ9QHt4g";
-  
-});
-
-/* document.getElementById("video4").addEventListener("click",function(){
-
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/JJ6hu0TcL58?si=P4I1l37IkerSwwvN";
-  
-});
-
- */
