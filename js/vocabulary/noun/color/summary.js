@@ -101,32 +101,33 @@ const wordImageMatchObj = {
                             <div class="my-3 d-flex justify-content-center">
                               <div id="wordImageMatchPicture" class="border border-5 border-black rounded-circle" style="background-color: #800080; width: 100px; height: 100px;"></div>
                             </div>
-                              <div class="my-3 h2">
-                                <div class="form-check form-check-inline">
-                                  <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
-                                  <label class="form-check-label" for="letter1"></label>
-                                </div>
-
-                                <div class="form-check form-check-inline">
-                                  <input class="form-check-input letterElement " type="radio" name="letter" id="letter2" value="">
-                                  <label class="form-check-label" for="letter2"></label>
-                                </div>
-
-                                <div class="form-check form-check-inline">
-                                  <input class="form-check-input letterElement" type="radio" name="letter" id="letter3" value="">
-                                  <label class="form-check-label" for="letter3"></label>
-                                </div>   
-
-                                <div class="form-check form-check-inline">
-                                  <input class="form-check-input letterElement" type="radio" name="letter" id="letter4" value="">
-                                  <label class="form-check-label" for="letter4"></label>
-                                </div>
-
-                                <div class="form-check form-check-inline">
-                                  <input class="form-check-input letterElement" type="radio" name="letter" id="letter5" value="">
-                                  <label class="form-check-label" for="letter5"></label>
-                                </div>
+                            <div class="m-3 h2">
+                              <div class="form-check my-3">
+                                <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
+                                <label class="form-check-label" for="letter1"></label>
                               </div>
+
+                              <div class="form-check my-3">
+                                <input class="form-check-input letterElement" type="radio" name="letter" id="letter2" value="">
+                                <label class="form-check-label" for="letter2"></label>
+                              </div>
+
+                              <div class="form-check my-3">
+                                <input class="form-check-input letterElement" type="radio" name="letter" id="letter3" value="">
+                                <label class="form-check-label" for="letter3"></label>
+                              </div>   
+
+                              <div class="form-check my-3">
+                                <input class="form-check-input letterElement" type="radio" name="letter" id="letter4" value="">
+                                <label class="form-check-label" for="letter4"></label>
+                              </div>
+
+                              <div class="form-check my-3">
+                                <input class="form-check-input letterElement" type="radio" name="letter" id="letter5" value="">
+                                <label class="form-check-label" for="letter5"></label>
+                              </div>
+                            </div>
+
 
                               <div id="showResult" class="my-2">
                               
