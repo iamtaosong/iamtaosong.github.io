@@ -1,184 +1,290 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "I usually get up at 7 clock in the morning",
+  word: "I see a cat",
   sound: "/naɪf/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/up.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/up.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/a.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/a.mp3"
 };
 
 const contentItem1 = {
-  word: "I brush teeth carefully",
+  word: "You and I play",
   sound: "/pleɪt/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/teeth.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/teeth.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/and.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/and.mp3"
 };
 
 const contentItem2 = {
-  word: "I then wash face",
+  word: "Cat ran away",
   sound: "/fɔːk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/face.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/face.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/away.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/away.mp3"
 };
 
 const contentItem3 = {
-  word: "I have breakfast slowly",
+  word: "Look at the big dog",
   sound: "/ˈtʃɒp.stɪk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/breakfast.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/breakfast.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/big.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/big.mp3"
 };
 
 const contentItem4 = {
-  word: "I go to school today",
+  word: "Sky is blue",
   sound: "/spuːn/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/school.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/school.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/blue.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/blue.mp3"
 };
 
 const contentItem5 = {
-  word: "I often take school bus",
+  word: "I can jump",
   sound: "/ɡlɑːs/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/schoolbus.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/schoolbus.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/can.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/can.mp3"
 };
 
 const contentItem6 = {
-  word: "I sometimes play football outside",
+  word: "Come to me",
   sound: "/kʌp/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/football.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/football.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/come.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/come.mp3"
 };
 
 const contentItem7 = {
-  word: "I really like football",
+  word: "Birds fly down",
   sound: "/ˈspætʃ.ə.lə/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/football.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/likefootball.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/down.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/down.mp3"
 };
 
 
 const contentItem8 = {
-  word: "We always take classes at 8 clock",
+  word: "Find the ball",
   sound: "/wɪsk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/class.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/class.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/find.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/find.mp3"
 };
 
 const contentItem9 = {
-  word: "We usually have lunch at 12 clock",
+  word: "This gift is for you",
   sound: "/wɪsk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/lunch.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/lunch.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/for.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/for.mp3"
 };
 
 const contentItem10 = {
-  word: "I often come home at 5 clock in the afternoon",
+  word: "Clown is funny",
   sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/home.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/home.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/funny.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/funny.mp3"
 };
 
 const contentItem11 = {
-  word: "I do my homework easily and quickly",
+  word: "Let's go to the park",
   sound: "/naɪf/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/homework.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/homework.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/go.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/go.mp3"
 };
 
 const contentItem12 = {
-  word: "I always take a shower quickly",
+  word: "Can you help me?",
   sound: "/pleɪt/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/shower.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/shower.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/help.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/help.mp3"
 };
 
 const contentItem13 = {
-  word: "I never go to bed late at night",
+  word: "Toy is here",
   sound: "/fɔːk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/bed.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/bed.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/here.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/here.mp3"
 };
 
 const contentItem14 = {
-  word: "I drink quite some water everyday",
+  word: "I like ice cream",
   sound: "/ˈtʃɒp.stɪk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/water.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/water.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/I.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/I.mp3"
 };
 
 const contentItem15 = {
-  word: "I sometimes walk dog on Sunday",
+  word: "The frog is in pond",
   sound: "/spuːn/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/dog.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/dog.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/in.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/in.mp3"
 };
 
 const contentItem16 = {
-  word: "I ride a bike too",
+  word: "It is hot today",
   sound: "/ɡlɑːs/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/bike.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/bike.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/is.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/is.mp3"
 };
 
 const contentItem17 = {
-  word: "we are never friends",
+  word: "It is my toy",
   sound: "/kʌp/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/friends.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/friends.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/it.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/it.mp3"
 };
 
 const contentItem18 = {
-  word: "I watch TV happily",
+  word: "Watch me jump",
   sound: "/ˈspætʃ.ə.lə/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/TV.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/TV.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/jump.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/jump.mp3"
 };
 
 const contentItem19 = {
-  word: "I really love the food there",
+  word: "It is a little dog",
   sound: "/wɪsk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/food.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/food.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/little.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/little.mp3"
 };
 
 const contentItem20 = {
-  word: "It was hot yesterday",
+  word: "Look at stars",
   sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/hot.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/hot.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/look.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/look.mp3"
 };
 
 const contentItem21 = {
-  word: "I go and play tennis tomorrow",
+  word: "We make a cake",
   sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/tennis.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/tennis.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/make.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/make.mp3"
 };
 
 const contentItem22 = {
-  word: "There are flowers everywhere",
+  word: "Give it to me",
   sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/flowers.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/flowers.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/me.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/me.mp3"
 };
 
 const contentItem23 = {
-  word: "Please come here",
+  word: "This is my book",
   sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/welcome.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/welcome.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/my.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/my.mp3"
 };
 
 const contentItem24 = {
-  word: "I cook now",
+  word: "I am not sad",
   sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/cook.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/cook.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/not.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/not.mp3"
+};
+
+const contentItem25 = {
+  word: "I have one apple",
+  sound: "/pleɪt/",
+  Image: "../../../asset/image/basic-sentence/sight-sentence/one.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/one.mp3"
+};
+
+const contentItem26 = {
+  word: "We play together",
+  sound: "/fɔːk/",
+  Image: "../../../asset/image/basic-sentence/sight-sentence/play.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/play.mp3"
+};
+
+const contentItem27 = {
+  word: "The apple is red",
+  sound: "/ˈtʃɒp.stɪk/",
+  Image: "../../../asset/image/basic-sentence/sight-sentence/red.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/red.mp3"
+};
+
+const contentItem28 = {
+  word: "Dogs like to run",
+  sound: "/spuːn/",
+  Image: "../../../asset/image/basic-sentence/sight-sentence/run.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/run.mp3"
+};
+
+const contentItem29 = {
+  word: "She said hi",
+  sound: "/ɡlɑːs/",
+  Image: "../../../asset/image/basic-sentence/sight-sentence/said.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/said.mp3"
+};
+
+const contentItem30 = {
+  word: "I see you",
+  sound: "/kʌp/",
+  Image: "../../../asset/image/basic-sentence/sight-sentence/see.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/see.mp3"
+};
+
+const contentItem31 = {
+  word: "The tomato is sweet",
+  sound: "/ˈspætʃ.ə.lə/",
+  Image: "../../../asset/image/basic-sentence/sight-sentence/the.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/the.mp3"
+};
+
+const contentItem32 = {
+  word: "I have three cookies",
+  sound: "/wɪsk/",
+  Image: "../../../asset/image/basic-sentence/sight-sentence/three.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/three.mp3"
+};
+
+const contentItem33 = {
+  word: "We walk to school",
+  sound: "/ˈnuː.dəl/",
+  Image: "../../../asset/image/basic-sentence/sight-sentence/to.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/to.mp3"
+};
+
+const contentItem34 = {
+  word: "I have two cats",
+  sound: "/ˈnuː.dəl/",
+  Image: "../../../asset/image/basic-sentence/sight-sentence/two.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/two.mp3"
+};
+
+const contentItem35 = {
+  word: "Birds fly up",
+  sound: "/ˈnuː.dəl/",
+  Image: "../../../asset/image/basic-sentence/sight-sentence/up.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/up.mp3"
+};
+
+const contentItem36 = {
+  word: "We are friends",
+  sound: "/ˈnuː.dəl/",
+  Image: "../../../asset/image/basic-sentence/sight-sentence/we.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/we.mp3"
+};
+
+const contentItem37 = {
+  word: "Where is duck?",
+  sound: "/ˈnuː.dəl/",
+  Image: "../../../asset/image/basic-sentence/sight-sentence/where.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/where.mp3"
+};
+
+
+const contentItem38 = {
+  word: "Sun is yellow",
+  sound: "/ˈnuː.dəl/",
+  Image: "../../../asset/image/basic-sentence/sight-sentence/yellow.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/yellow.mp3"
+};
+
+const contentItem39 = {
+  word: "You are great",
+  sound: "/ˈnuː.dəl/",
+  Image: "../../../asset/image/basic-sentence/sight-sentence/you.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/you.mp3"
 };
 
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
-  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,
-  contentItem20,contentItem21,contentItem22,contentItem23,contentItem24];
+  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,contentItem20,contentItem21,contentItem22,contentItem23,contentItem24,
+  contentItem25,contentItem26,contentItem27,contentItem28,contentItem29,contentItem30,contentItem31,contentItem32,contentItem33,contentItem34,contentItem35,contentItem36,contentItem37,contentItem38,contentItem39];
 
 
 const common ={
