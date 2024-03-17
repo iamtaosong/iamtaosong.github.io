@@ -219,7 +219,7 @@ const contentItem30 = {
 };
 
 const contentItem31 = {
-  word: "The sun is bright",
+  word: "The tomato is sweet",
   sound: "/ˈspætʃ.ə.lə/",
   Image: "../../../asset/image/basic-sentence/sight-sentence/the.jpg",
   soundfile: "../../../asset/audio/basic-sentence/sight-sentence/the.mp3"
@@ -261,7 +261,7 @@ const contentItem36 = {
 };
 
 const contentItem37 = {
-  word: "Where is toy?",
+  word: "Where is duck?",
   sound: "/ˈnuː.dəl/",
   Image: "../../../asset/image/basic-sentence/sight-sentence/where.jpg",
   soundfile: "../../../asset/audio/basic-sentence/sight-sentence/where.mp3"
@@ -276,7 +276,7 @@ const contentItem38 = {
 };
 
 const contentItem39 = {
-  word: "I help you",
+  word: "You are great",
   sound: "/ˈnuː.dəl/",
   Image: "../../../asset/image/basic-sentence/sight-sentence/you.jpg",
   soundfile: "../../../asset/audio/basic-sentence/sight-sentence/you.mp3"
