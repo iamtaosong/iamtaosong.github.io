@@ -45,12 +45,12 @@ const contentItem5 = {
 const contentItem6 = {
   word: "Come to me",
   sound: "/kʌp/",
-  Image: "../../../asset/image/basic-sentence/sight-sentence/Come.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/Come.mp3"
+  Image: "../../../asset/image/basic-sentence/sight-sentence/come.jpg",
+  soundfile: "../../../asset/audio/basic-sentence/sight-sentence/come.mp3"
 };
 
 const contentItem7 = {
-  word: "Bird flew down",
+  word: "Birds fly down",
   sound: "/ˈspætʃ.ə.lə/",
   Image: "../../../asset/image/basic-sentence/sight-sentence/down.jpg",
   soundfile: "../../../asset/audio/basic-sentence/sight-sentence/down.mp3"
@@ -247,7 +247,7 @@ const contentItem34 = {
 };
 
 const contentItem35 = {
-  word: "Bird flew up",
+  word: "Birds fly up",
   sound: "/ˈnuː.dəl/",
   Image: "../../../asset/image/basic-sentence/sight-sentence/up.jpg",
   soundfile: "../../../asset/audio/basic-sentence/sight-sentence/up.mp3"
