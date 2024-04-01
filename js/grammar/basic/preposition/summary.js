@@ -102,7 +102,7 @@ const wordImageMatchObj = {
   picture: null,
   wordImageMatch: document.getElementById("wordImageMatch"),
   wordImageMatchContent: `<div class="card highlight">
-                              <h1 class="text-center my-3" id="progress">Learning test</h1>
+                              <h1 class="text-center my-3" id="progress"></h1>
                               <div class="my-3">
                                 <img id="wordImageMatchPicture" src="" width="100" height="100" alt="">
                               </div>
