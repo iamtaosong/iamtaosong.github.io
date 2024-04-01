@@ -373,7 +373,6 @@ function letterSoundCheck(e) {
   }
   common.testAudio.load();
   common.testAudio.play();
-
 }
 
 function buildwordSoundMatch()

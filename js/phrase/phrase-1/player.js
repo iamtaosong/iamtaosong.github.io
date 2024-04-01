@@ -266,7 +266,9 @@ const common ={
   testSection: document.getElementById("testSection"),
   letterSelected: false,
   goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`
+  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../../asset/image/right.mp3",
+  wrong: "../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {
@@ -546,11 +548,12 @@ function letterSoundCheck(e) {
     {
   
       document.getElementById("showResult").innerHTML=common.goodResult;
-   
+      common.testSoundFile.setAttribute("src",common.right);
     }else 
     {
   
       document.getElementById("showResult").innerHTML=common.poorResult;
+      common.testSoundFile.setAttribute("src",common.wrong);
     }
   
 
@@ -561,13 +564,17 @@ function letterSoundCheck(e) {
     {
   
       document.getElementById("showResult").innerHTML=common.goodResult;
-   
+      common.testSoundFile.setAttribute("src",common.right);
     }else 
     {
   
       document.getElementById("showResult").innerHTML=common.poorResult;
+      common.testSoundFile.setAttribute("src",common.wrong);
     }
   }
+
+  common.testAudio.load();
+  common.testAudio.play();
 }
 
 function buildwordSoundMatch()
