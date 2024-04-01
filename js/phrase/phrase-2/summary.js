@@ -202,6 +202,7 @@ const wordSoundMatchObj = {
   wordElementLst: null,
   counter: 0,
   sectionLength: 5,
+  progress: null,
   list0: null,
   list1: null,
   wordSoundMatch: document.getElementById("wordSoundMatch"),
@@ -346,7 +347,6 @@ function wordGenProcess(i,index)
 
 function wordGen(index){
 
-  
   let i=index%wordSoundMatchObj.sectionLength;
   if (i==0)
   {
@@ -397,7 +397,6 @@ function imagedGenProcess(i,index)
 
 function imagedGen(index){
 
-  
   let i=index%soundImageMatchObj.sectionLength;
   if (i==0)
   {
@@ -454,7 +453,7 @@ function testNextBtnFunction() {
   }
   wordSoundMatchObj.progress.innerText=wordSoundMatchObj.counter+1 +"/"+learnObj.totalLength;
   common.testAudio.load();
-  document.getElementById("showResult").innerHTML="";;
+  document.getElementById("showResult").innerHTML="";
 }
 
 function testPreviousBtnFunction() {
@@ -545,6 +544,9 @@ function buildwordSoundMatch()
   wordSoundMatchObj.wordElementLst.forEach(elem => {
     elem.addEventListener("click",letterSoundCheck); 
   });
+
+  wordSoundMatchObj.progress=document.getElementById("progress");
+  wordSoundMatchObj.progress.innerText=wordSoundMatchObj.counter+1+"/"+learnObj.totalLength;
   //here fill up the letters 
   for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
   {
