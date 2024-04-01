@@ -3,71 +3,71 @@ const pathname=window.location.pathname;
 const contentItem0 = {
   word: "between",
   sound: "/bɪˈtwiːn/",
-  Image: "../../../../asset/image/grammar/basic/preposition/between.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/preposition/between.mp3"
+  Image: "../../../asset/image/grammar/basic/preposition/between.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/preposition/between.mp3"
 };
 
 const contentItem1 = {
   word: "on",
   sound: "/ɒn/",
-  Image: "../../../../asset/image/grammar/basic/preposition/on.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/preposition/on.mp3"
+  Image: "../../../asset/image/grammar/basic/preposition/on.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/preposition/on.mp3"
 };
 
 const contentItem2 = {
   word: "behind",
   sound: "/bɪˈhaɪnd/",
-  Image: "../../../../asset/image/grammar/basic/preposition/behind.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/preposition/behind.mp3"
+  Image: "../../../asset/image/grammar/basic/preposition/behind.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/preposition/behind.mp3"
 };
 
 const contentItem3 = {
   word: "under",
   sound: "/ˈʌn.də/",
-  Image: "../../../../asset/image/grammar/basic/preposition/under.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/preposition/under.mp3"
+  Image: "../../../asset/image/grammar/basic/preposition/under.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/preposition/under.mp3"
 };
 
 const contentItem4 = {
   word: "beside",
   sound: "/bɪˈsaɪd/",
-  Image: "../../../../asset/image/grammar/basic/preposition/beside.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/preposition/beside.mp3"
+  Image: "../../../asset/image/grammar/basic/preposition/beside.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/preposition/beside.mp3"
 };
 
 const contentItem5 = {
   word: "in",
   sound: "/ɪn/",
-  Image: "../../../../asset/image/grammar/basic/preposition/in.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/preposition/in.mp3"
+  Image: "../../../asset/image/grammar/basic/preposition/in.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/preposition/in.mp3"
 };
 
 const contentItem6 = {
   word: "above",
   sound: "/əˈbʌv/",
-  Image: "../../../../asset/image/grammar/basic/preposition/above.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/preposition/above.mp3"
+  Image: "../../../asset/image/grammar/basic/preposition/above.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/preposition/above.mp3"
 };
 
 const contentItem7 = {
   word: "near",
   sound: "/nɪə/",
-  Image: "../../../../asset/image/grammar/basic/preposition/near.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/preposition/near.mp3"
+  Image: "../../../asset/image/grammar/basic/preposition/near.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/preposition/near.mp3"
 };
 
 const contentItem8 = {
   word: "in front of",
   sound: "/frʌnt/",
-  Image: "../../../../asset/image/grammar/basic/preposition/front.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/preposition/front.mp3"
+  Image: "../../../asset/image/grammar/basic/preposition/front.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/preposition/front.mp3"
 };
 
 const contentItem9 = {
   word: "among",
   sound: "/əˈmʌŋ/",
-  Image: "../../../../asset/image/grammar/basic/preposition/among.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/preposition/among.mp3"
+  Image: "../../../asset/image/grammar/basic/preposition/among.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/preposition/among.mp3"
 };
 
 
@@ -81,10 +81,10 @@ const common ={
   game: null,
   testSection: document.getElementById("testSection"),
   letterSelected: false,
-  goodResult: `<img src="../../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../../asset/image/sad.png" alt="bad--v1"/>`,
-  right: "../../../../asset/image/right.mp3",
-  wrong: "../../../../asset/image/wrong.mp3"
+  goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
+  poorResult: `<img src="../../../asset/image/sad.png" alt="bad--v1"/>`,
+  right: "../../../asset/image/right.mp3",
+  wrong: "../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {
@@ -106,28 +106,28 @@ const wordImageMatchObj = {
                               <div class="my-3">
                                 <img id="wordImageMatchPicture" src="" width="100" height="100" alt="">
                               </div>
-                              <div class="my-3 h2">
-                                <div class="form-check form-check-inline">
+                              <div class="m-3 h2">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
                                   <label class="form-check-label" for="letter1"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
-                                  <input class="form-check-input letterElement " type="radio" name="letter" id="letter2" value="">
+                                <div class="form-check my-3">
+                                  <input class="form-check-input letterElement" type="radio" name="letter" id="letter2" value="">
                                   <label class="form-check-label" for="letter2"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter3" value="">
                                   <label class="form-check-label" for="letter3"></label>
                                 </div>   
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter4" value="">
                                   <label class="form-check-label" for="letter4"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter5" value="">
                                   <label class="form-check-label" for="letter5"></label>
                                 </div>

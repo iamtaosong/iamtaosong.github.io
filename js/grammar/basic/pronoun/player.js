@@ -3,148 +3,148 @@ const pathname=window.location.pathname;
 const contentItem0 = {
   word: "I",
   sound: "/aɪi/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/I.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/I.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/I.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/I.mp3"
 };
 
 const contentItem1 = {
   word: "He",
   sound: "/hiː/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/He.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/He.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/He.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/He.mp3"
 };
 
 const contentItem2 = {
   word: "She",
   sound: "/ʃiː/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/She.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/She.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/She.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/She.mp3"
 };
 
 const contentItem3 = {
   word: "It",
   sound: "/ɪt/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/It.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/It.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/It.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/It.mp3"
 };
 
 const contentItem4 = {
   word: "We",
   sound: "/wiː/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/We.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/We.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/We.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/We.mp3"
 };
 
 const contentItem5 = {
   word: "They",
   sound: "/ðeɪ/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/They.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/They.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/They.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/They.mp3"
 };
 
 const contentItem6 = {
   word: "You",
   sound: "/juː/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/You.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/You.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/You.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/You.mp3"
 };
 
 const contentItem7 = {
   word: "me",
   sound: "/miː/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/I.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/me.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/I.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/me.mp3"
 };
 
 const contentItem8 = {
   word: "him",
   sound: "/hɪm/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/He.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/him.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/He.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/him.mp3"
 };
 
 const contentItem9 = {
   word: "her",
   sound: "/hɜːr/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/She.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/her.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/She.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/her.mp3"
 };
 
 const contentItem10 = {
   word: "it",
   sound: "/ɪt/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/It.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/It.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/It.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/It.mp3"
 };
 
 const contentItem11 = {
   word: "us",
   sound: "/ʌs/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/We.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/us.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/We.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/us.mp3"
 };
 
 const contentItem12 = {
   word: "them",
   sound: "/ðem/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/They.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/them.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/They.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/them.mp3"
 };
 
 const contentItem13 = {
   word: "you",
   sound: "/juː/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/You.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/You.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/You.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/You.mp3"
 };
 
 const contentItem14 = {
   word: "I am",
   sound: "/aɪ æm/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/I.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/iam.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/I.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/iam.mp3"
 };
 
 const contentItem15 = {
   word: "He is",
   sound: "/hiː ɪz/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/He.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/heis.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/He.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/heis.mp3"
 };
 
 const contentItem16 = {
   word: "She is",
   sound: "/ʃiː ɪz/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/She.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/sheis.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/She.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/sheis.mp3"
 };
 
 const contentItem17 = {
   word: "It is",
   sound: "/ɪt ɪz/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/It.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/itis.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/It.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/itis.mp3"
 };
 
 const contentItem18 = {
   word: "We are",
   sound: "/wiː ɑːr/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/We.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/weare.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/We.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/weare.mp3"
 };
 
 const contentItem19 = {
   word: "They are",
   sound: "/ðeɪ ɑːr/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/They.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/theyare.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/They.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/theyare.mp3"
 };
 
 const contentItem20 = {
   word: "You are",
   sound: "/juː ɑːr/",
-  Image: "../../../../asset/image/grammar/basic/pronoun/You.jpg",
-  soundfile: "../../../../asset/audio/grammar/basic/pronoun/youare.mp3"
+  Image: "../../../asset/image/grammar/basic/pronoun/You.jpg",
+  soundfile: "../../../asset/audio/grammar/basic/pronoun/youare.mp3"
 };
 
 
@@ -162,10 +162,10 @@ const common ={
   game: null,
   testSection: document.getElementById("testSection"),
   letterSelected: false,
-  goodResult: `<img src="../../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../../asset/image/sad.png" alt="happy--v1"/>`,
-  right: "../../../../asset/image/right.mp3",
-  wrong: "../../../../asset/image/wrong.mp3"
+  goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
+  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../../asset/image/right.mp3",
+  wrong: "../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {
@@ -191,28 +191,28 @@ const wordSoundMatchObj = {
   list1: null,
   wordSoundMatch: document.getElementById("wordSoundMatch"),
   wordSoundMatchContent: `<div class="card highlight">
-                              <div class="my-5 h2">
-                                <div class="form-check form-check-inline">
+                              <div class="m-3 h2">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
                                   <label class="form-check-label" for="letter1"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
-                                  <input class="form-check-input letterElement " type="radio" name="letter" id="letter2" value="">
+                                <div class="form-check my-3">
+                                  <input class="form-check-input letterElement" type="radio" name="letter" id="letter2" value="">
                                   <label class="form-check-label" for="letter2"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter3" value="">
                                   <label class="form-check-label" for="letter3"></label>
                                 </div>   
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter4" value="">
                                   <label class="form-check-label" for="letter4"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter5" value="">
                                   <label class="form-check-label" for="letter5"></label>
                                 </div>
@@ -259,33 +259,33 @@ const wordImageMatchObj = {
                               <div class="my-3">
                                 <img id="wordImageMatchPicture" src="" width="100" height="100" alt="">
                               </div>
-                              <div class="my-3 h2">
-                                <div class="form-check form-check-inline">
+                              <div class="m-3 h2">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
                                   <label class="form-check-label" for="letter1"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
-                                  <input class="form-check-input letterElement " type="radio" name="letter" id="letter2" value="">
+                                <div class="form-check my-3">
+                                  <input class="form-check-input letterElement" type="radio" name="letter" id="letter2" value="">
                                   <label class="form-check-label" for="letter2"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter3" value="">
                                   <label class="form-check-label" for="letter3"></label>
                                 </div>   
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter4" value="">
                                   <label class="form-check-label" for="letter4"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter5" value="">
                                   <label class="form-check-label" for="letter5"></label>
                                 </div>
                               </div>
-
+                              
                               <div id="showResult" class="my-2">
                               
                               </div>
