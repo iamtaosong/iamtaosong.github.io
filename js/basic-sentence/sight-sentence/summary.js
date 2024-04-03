@@ -327,17 +327,17 @@ const wordImageMatchObj = {
                               <div class="d-flex justify-content-around align-items-center text-center my-1">
 
                                 <div>
-                                  <img src="/asset/image/happy.png" width="50" height="50" alt="">
+                                  <img src="../../../asset/image/happy.png" width="50" height="50" alt="">
                                   <p class="text-danger my-0" id="right">100</p>
                                 </div>
                       
                                 <div>
-                                  <img src="/asset/image/score.png" width="50" height="50" alt="">
+                                  <img src="../../../asset/image/score.png" width="50" height="50" alt="">
                                   <p class="text-danger my-0" id="score">Core</p>
                                 </div>
                       
                                 <div>
-                                  <img src="/asset/image/sad.png" width="50" height="50" alt="">
+                                  <img src="../../../asset/image/sad.png" width="50" height="50" alt="">
                                   <p class="text-danger my-0" id="wrong">100</p>
                                 </div>
                     
