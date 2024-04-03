@@ -163,11 +163,7 @@ const wordImageMatchObj = {
                                 </div>
                     
                               </div>
-
-                              <div class="my-1">
-                                <img id="wordImageMatchPicture" src="" width="100" height="100" alt="">
-                              </div>
-                              
+                             
                               <div class="m-1 h2">
                                 <div class="form-check">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
@@ -222,11 +218,11 @@ function wordGenProcess(i,index)
   for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
     let m =Math.floor(Math.random()*learnObj.totalLength);
-    wordImageMatchObj.list0[k].value=learnObj.letterList[m].word;
-    wordImageMatchObj.list1[k].innerText=learnObj.letterList[m].word;
+    wordImageMatchObj.list0[k].value=learnObj.letterList[m].word2;
+    wordImageMatchObj.list1[k].innerText=learnObj.letterList[m].word2;
   }
-  wordImageMatchObj.list0[i].value=learnObj.letterList[index].word;
-  wordImageMatchObj.list1[i].innerText=learnObj.letterList[index].word;
+  wordImageMatchObj.list0[i].value=learnObj.letterList[index].word2;
+  wordImageMatchObj.list1[i].innerText=learnObj.letterList[index].word2;
 }
 
 function wordGen(index){
@@ -274,7 +270,7 @@ function testNextBtnFunction() {
         wordImageMatchObj.counter++;
         wordGen(wordImageMatchObj.counter);
       }
-      wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
+
       common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
     }
     wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1+"/"+learnObj.totalLength;
@@ -319,7 +315,7 @@ function letterSoundCheck(e) {
   
   if(common.game=="wordImageMatch")
   {
-    if(learnObj.letterList[wordImageMatchObj.counter].word === (e.target.value))
+    if(learnObj.letterList[wordImageMatchObj.counter].word2 === (e.target.value))
     {
         common.testSoundFile.setAttribute("src",common.right);
         wordImageMatchObj.right++;
@@ -376,10 +372,10 @@ function buildWordImageMatch()
   //here fill up the letters 
   for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
-    wordImageMatchObj.list0[k].value=learnObj.letterList[k].word;
-    wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].word;
+    wordImageMatchObj.list0[k].value=learnObj.letterList[k].word2;
+    wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].word2;
   }
-  wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[0].Image);
+
   common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
   common.testAudio.load();
 
