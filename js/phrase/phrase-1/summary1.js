@@ -1,188 +1,219 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "Head",
-  sound: "/hed/",
-  Image: "../../../../asset/image/body-part/head.jpg",
-  soundfile: "../../../../asset/audio/body-part/head.mp3"
+  word: "Good morning",
+  sound: "/naɪf/",
+  Image: "../../../asset/image/phrase/phrase-1/good-morning.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/good-morning.mp3"
 };
 
 const contentItem1 = {
-  word: "Hair",
-  sound: "/heər/",
-  Image: "../../../../asset/image/body-part/hair.jpg",
-  soundfile: "../../../../asset/audio/body-part/hair.mp3"
+  word: "Good afternoon",
+  sound: "/pleɪt/",
+  Image: "../../../asset/image/phrase/phrase-1/good-afternoon.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/good-afternoon.mp3"
 };
 
 const contentItem2 = {
-  word: "Eye",
-  sound: "/aɪ/",
-  Image: "../../../../asset/image/body-part/eye.jpg",
-  soundfile: "../../../../asset/audio/body-part/eye.mp3"
+  word: "Good evening",
+  sound: "/fɔːk/",
+  Image: "../../../asset/image/phrase/phrase-1/good-evening.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/good-evening.mp3"
 };
 
 const contentItem3 = {
-  word: "Eyebrow",
-  sound: "/aɪ.braʊ/",
-  Image: "../../../../asset/image/body-part/eyebrow.jpg",
-  soundfile: "../../../../asset/audio/body-part/eyebrow.mp3"
+  word: "Good night",
+  sound: "/ˈtʃɒp.stɪk/",
+  Image: "../../../asset/image/phrase/phrase-1/good-night.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/good-night.mp3"
 };
 
 
 const contentItem4 = {
-  word: "Ear",
-  sound: "/ɪər/",
-  Image: "../../../../asset/image/body-part/ear.jpg",
-  soundfile: "../../../../asset/audio/body-part/ear.mp3"
+  word: "How are you？",
+  sound: "/spuːn/",
+  Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/how-are-you.mp3"
 };
 
 const contentItem5 = {
-  word: "Nose",
-  sound: "/nəʊz/",
-  Image: "../../../../asset/image/body-part/nose.jpg",
-  soundfile: "../../../../asset/audio/body-part/nose.mp3"
+  word: "Nice to meet you",
+  sound: "/ɡlɑːs/",
+  Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/nice-to-meet-you.mp3"
 };
 
 const contentItem6 = {
-  word: "Lip",
-  sound: "/lip/",
-  Image: "../../../../asset/image/body-part/lip.jpg",
-  soundfile: "../../../../asset/audio/body-part/lip.mp3"
+  word: "You're welcome",
+  sound: "/ˈeɪ.prən/",
+  Image: "../../../asset/image/phrase/phrase-1/boy.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/welcome.mp3"
 };
 
-
 const contentItem7 = {
-  word: "Mouth",
-  sound: "/maʊθ/",
-  Image: "../../../../asset/image/body-part/mouth.jpg",
-  soundfile: "../../../../asset/audio/body-part/mouth.mp3"
+  word: "Hi",
+  sound: "/ˈspætʃ.ə.lə/",
+  Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/hi.mp3"
 };
 
 const contentItem8 = {
-  word: "Teeth",
-  sound: "/tiːθ/",
-  Image: "../../../../asset/image/body-part/teeth.jpg",
-  soundfile: "../../../../asset/audio/body-part/teeth.mp3"
+  word: "Excuse me",
+  sound: "/wɪsk/",
+  Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/excuse-me.mp3"
 };
 
 const contentItem9 = {
-  word: "Tongue",
-  sound: "/tʌŋ/",
-  Image: "../../../../asset/image/body-part/tongue.jpg",
-  soundfile: "../../../../asset/audio/body-part/tongue.mp3"
+  word: "Thank you",
+  sound: "/ˈnuː.dəl/",
+  Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/thank-you.mp3"
 };
 
-
 const contentItem10 = {
-  word: "Neck",
-  sound: "/nek/",
-  Image: "../../../../asset/image/body-part/neck.jpg",
-  soundfile: "../../../../asset/audio/body-part/neck.mp3"
+  word: "I am sorry",
+  sound: "/ˈpiː.lər/",
+  Image: "../../../asset/image/phrase/phrase-1/boy.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/sorry.mp3"
 };
 
 const contentItem11 = {
-  word: "Arm",
-  sound: "/el/",
-  Image: "../../../../asset/image/body-part/arm.jpg",
-  soundfile: "../../../../asset/audio/body-part/arm.mp3"
+  word: "Goodbye",
+  sound: "/ˈɡreɪ.tər",
+  Image: "../../../asset/image/phrase/phrase-1/boy.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/goodbye.mp3"
 };
 
 const contentItem12 = {
-  word: "Hand",
-  sound: "/em/",
-  Image: "../../../../asset/image/body-part/hand.jpg",
-  soundfile: "../../../../asset/audio/body-part/hand.mp3"
+  word: "Have a nice day",
+  sound: "/bəʊl/",
+  Image: "../../../asset/image/phrase/phrase-1/boy.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/niceday.mp3"
 };
 
 const contentItem13 = {
-  word: "Finger",
-  sound: "/ˈfɪŋ.ɡər/",
-  Image: "../../../../asset/image/body-part/finger.jpg",
-  soundfile: "../../../../asset/audio/body-part/finger.mp3"
+  word: "Can you help me?",
+  sound: "/ˈkʌt.ɪŋ ˌbɔːd/",
+  Image: "../../../asset/image/phrase/phrase-1/boy.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/help.mp3"
 };
 
 const contentItem14 = {
-  word: "Fist",
-  sound: "/fist/",
-  Image: "../../../../asset/image/body-part/fist.jpg",
-  soundfile: "../../../../asset/audio/body-part/fist.mp3"
+  word: "I need help",
+  sound: "/ˈkɒl.ən.dər",
+  Image: "../../../asset/image/phrase/phrase-1/boy.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/needhelp.mp3"
 };
 
 const contentItem15 = {
-  word: "Fingernail",
-  sound: "/fɪŋ.ɡə.neɪl/",
-  Image: "../../../../asset/image/body-part/fingernail.jpg",
-  soundfile: "../../../../asset/audio/body-part/fingernail.mp3"
+  word: "I am thirsty",
+  sound: "/tɒŋz/",
+  Image: "../../../asset/image/phrase/phrase-1/thirsty.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/thirsty.mp3"
 };
 
-
 const contentItem16 = {
-  word: "Foot",
-  sound: "/fuːt/",
-  Image: "../../../../asset/image/body-part/foot.jpg",
-  soundfile: "../../../../asset/audio/body-part/foot.mp3"
+  word: "I am hungry",
+  sound: "/ˈbɒt.əl/",
+  Image: "../../../asset/image/phrase/phrase-1/hungry.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/hungry.mp3"
 };
 
 const contentItem17 = {
-  word: "Leg",
-  sound: "/leg/",
-  Image: "../../../../asset/image/body-part/leg.jpg",
-  soundfile: "../../../../asset/audio/body-part/leg.mp3"
+  word: "I am happy",
+  sound: "/ˈrəʊ.lɪŋˌpɪn/",
+  Image: "../../../asset/image/phrase/phrase-1/happy.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/happy.mp3"
 };
 
 const contentItem18 = {
-  word: "Toe",
-  sound: "/təʊ/",
-  Image: "../../../../asset/image/body-part/toe.jpg",
-  soundfile: "../../../../asset/audio/body-part/toe.mp3"
+  word: "I am sad",
+  sound: "/ˈket.əl/",
+  Image: "../../../asset/image/phrase/phrase-1/sad.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/sad.mp3"
 };
 
 const contentItem19 = {
-  word: "Knee",
-  sound: "/ni:/",
-  Image: "../../../../asset/image/body-part/knee.jpg",
-  soundfile: "../../../../asset/audio/body-part/knee.mp3"
+  word: "I am tired",
+  sound: "/pɒt/",
+  Image: "../../../asset/image/phrase/phrase-1/tired.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/tired.mp3"
 };
 
 const contentItem20 = {
-  word: "Boy",
-  sound: "/bɔɪ:/",
-  Image: "../../../../asset/image/body-part/boy.jpg",
-  soundfile: "../../../../asset/audio/body-part/boy.mp3"
+  word: "Can I play?",
+  sound: "/ˈeɪ.prən/",
+  Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/play.mp3"
 };
 
-
 const contentItem21 = {
-  word: "Girl",
-  sound: "/ɡɜːl/",
-  Image: "../../../../asset/image/body-part/girl.jpg",
-  soundfile: "../../../../asset/audio/body-part/girl.mp3"
+  word: "It's my turn",
+  sound: "/mit/",
+  Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/turn.mp3"
 };
 
 const contentItem22 = {
-  word: "Front",
-  sound: "/frʌnt/",
-  Image: "../../../../asset/image/body-part/front.jpg",
-  soundfile: "../../../../asset/audio/body-part/front.mp3"
+  word: "Please stop",
+  sound: "/frɪdʒ/",
+  Image: "../../../asset/image/phrase/phrase-1/girl.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/stop.mp3"
 };
 
 const contentItem23 = {
-  word: "Back",
-  sound: "/bæk/",
-  Image: "../../../../asset/image/body-part/back.jpg",
-  soundfile: "../../../../asset/audio/body-part/back.mp3"
+  word: "Can we be friends?",
+  sound: "/ˈmaɪ.krə.weɪv/",
+  Image: "../../../asset/image/phrase/phrase-1/boy.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/friends.mp3"
 };
 
 const contentItem24 = {
-  word: "Shoulder",
-  sound: "/ʃəʊl.dər/",
-  Image: "../../../../asset/image/body-part/shoulder.jpg",
-  soundfile: "../../../../asset/audio/body-part/shoulder.mp3"
-}
+  word: "Here you go",
+  sound: "/ˈeɪ.prən/",
+  Image: "../../../asset/image/phrase/phrase-1/boy.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/go.mp3"
+};
+
+const contentItem25 = {
+  word: "Yes,I agree",
+  sound: "/mit/",
+  Image: "../../../asset/image/phrase/phrase-1/yes.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/agree.mp3"
+};
+
+const contentItem26 = {
+  word: "No,I disagree",
+  sound: "/ˈfraɪ.ɪŋˌpæn/",
+  Image: "../../../asset/image/phrase/phrase-1/no.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/disagree.mp3"
+};
+
+const contentItem27 = {
+  word: "I think so",
+  sound: "/ˈmaɪ.krə.weɪv/",
+  Image: "../../../asset/image/phrase/phrase-1/so.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/so.mp3"
+};
+
+const contentItem28 = {
+  word: "I don’t think so",
+  sound: "/ˈeɪ.prən/",
+  Image: "../../../asset/image/phrase/phrase-1/no.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/notso.mp3"
+};
+
+const contentItem29 = {
+  word: "That’s a good idea",
+  sound: "/mit/",
+  Image: "../../../asset/image/phrase/phrase-1/good.jpg",
+  soundfile: "../../../asset/audio/phrase/phrase-1/good.mp3"
+};
 
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
-  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,
-  contentItem20,contentItem21,contentItem22,contentItem23,contentItem24];
+  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,contentItem20,contentItem21,contentItem22,contentItem23,contentItem24,
+  contentItem25,contentItem26,contentItem27,contentItem28,contentItem29];
 
 const common ={
   testPreviousBtn: null,
@@ -192,8 +223,10 @@ const common ={
   game: null,
   testSection: document.getElementById("testSection"),
   letterSelected: false,
-  goodResult: `<img src="../../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../../asset/image/sad.png" alt="happy--v1"/>`
+  goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
+  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../../asset/image/right.mp3",
+  wrong: "../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {
@@ -205,10 +238,12 @@ const wordSoundMatchObj = {
   wordElementLst: null,
   counter: 0,
   sectionLength: 5,
+  progress: null,
   list0: null,
   list1: null,
   wordSoundMatch: document.getElementById("wordSoundMatch"),
-  wordSoundMatchContent: `<div class="card highlight">
+  wordSoundMatchContent: `<div class="card highlight border-0">
+                              <h1 class="text-center my-3" id="progress"></h1>
                               <div class="m-3 h2">
                                 <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
@@ -216,7 +251,7 @@ const wordSoundMatchObj = {
                                 </div>
 
                                 <div class="form-check my-3">
-                                  <input class="form-check-input letterElement" type="radio" name="letter" id="letter2" value="">
+                                  <input class="form-check-input letterElement " type="radio" name="letter" id="letter2" value="">
                                   <label class="form-check-label" for="letter2"></label>
                                 </div>
 
@@ -273,9 +308,9 @@ const soundImageMatchObj = {
   list1: null,
   picture: null,
   soundImageMatch: document.getElementById("soundImageMatch"),
-  soundImageMatchContent: `<div class="card highlight">
+  soundImageMatchContent: `<div class="card highlight border-0">
                               <div class="m-3 h2">
-                                <div class="form-check">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
                                   <label class="form-check-label" for="letter1"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
                                 </div>
@@ -385,6 +420,7 @@ function imagedGenProcess(i,index)
   for(let k=0; k<soundImageMatchObj.sectionLength;k++)
   {
     let m =Math.floor(Math.random()*learnObj.totalLength);
+    console.log("m "+m);
     soundImageMatchObj.list0[k].value=learnObj.letterList[m].word;
     soundImageMatchObj.list1[k].setAttribute("src",learnObj.letterList[m].Image);
   }
@@ -454,6 +490,8 @@ function testNextBtnFunction() {
     }
   }
 
+  wordSoundMatchObj.progress.innerText=wordSoundMatchObj.counter+1 +"/"+learnObj.totalLength;
+  common.testAudio.load();
   document.getElementById("showResult").innerHTML="";
 }
 
@@ -480,6 +518,8 @@ function testPreviousBtnFunction() {
       wordGen(wordSoundMatchObj.counter);
     }
   }
+  wordSoundMatchObj.progress.innerText=wordSoundMatchObj.counter+1+"/"+learnObj.totalLength;
+  common.testAudio.load();
   document.getElementById("showResult").innerHTML="";
 }
 
@@ -492,11 +532,12 @@ function letterSoundCheck(e) {
     {
   
       document.getElementById("showResult").innerHTML=common.goodResult;
-   
+      common.testSoundFile.setAttribute("src",common.right);
     }else 
     {
   
       document.getElementById("showResult").innerHTML=common.poorResult;
+      common.testSoundFile.setAttribute("src",common.wrong);
     }
   
 
@@ -507,13 +548,18 @@ function letterSoundCheck(e) {
     {
   
       document.getElementById("showResult").innerHTML=common.goodResult;
-   
+      common.testSoundFile.setAttribute("src",common.right);
     }else 
     {
   
       document.getElementById("showResult").innerHTML=common.poorResult;
+      common.testSoundFile.setAttribute("src",common.wrong);
     }
   }
+
+  common.testAudio.load();
+  common.testAudio.play();
+
 }
 
 function buildwordSoundMatch()
@@ -538,6 +584,9 @@ function buildwordSoundMatch()
   wordSoundMatchObj.wordElementLst.forEach(elem => {
     elem.addEventListener("click",letterSoundCheck); 
   });
+
+  wordSoundMatchObj.progress=document.getElementById("progress");
+  wordSoundMatchObj.progress.innerText=wordSoundMatchObj.counter+1+"/"+learnObj.totalLength;
   //here fill up the letters 
   for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
   {
@@ -610,52 +659,27 @@ function buildWordImageMatch()
   common.testAudio.load();
 }
 
-
-soundImageMatchObj.soundImageMatch.addEventListener("click",function() {
-  
-  wordSoundMatchObj.counter=0;
-  if(common.game=="wordSoundMatch")
-  {
-    common.testNextBtn.removeEventListener("click",testNextBtnFunction);
-    common.testPreviousBtn.removeEventListener("click",testPreviousBtnFunction);
-    wordSoundMatchObj.wordElementLst.forEach(elem => {
-      elem.removeEventListener("click",letterSoundCheck); 
-    });
-    common.testSection.innerHTML='';
-    buildWordImageMatch();
-  }else 
-  {
-    if(common.game=="soundImageMatch")
-    {
-
-    }else{
-  
-      buildWordImageMatch();
-    }
-  }
-
-});
-
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/h4eueDYPTIg?si=F28ivrFziOcy_8Mw";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/gghDRJVxFxU?si=3gu2nEnkRcqlfLiy";
   
 });
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ZanHgPprl-0?si=IPHd31g3rVSqWIVI";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/mebfKDQ4dLo?si=orR76Olz0Moe8I6J";
   
 });
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/R1Hrkqep8nU?si=RRnUmn0_-frqTfwE";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/tVlcKp3bWH8?si=Vb9YSRbI7Bcg2Y2C";
   
 });
 
 document.getElementById("video3").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/SUt8q0EKbms?si=L3bhrsCGcBS8Wny9";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/dLsjQLdp8WM?si=2AuAsVVHhWY4R_VE";
   
 });
+
