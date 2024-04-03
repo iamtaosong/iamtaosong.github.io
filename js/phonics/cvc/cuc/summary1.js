@@ -1,148 +1,147 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "big",
-  sound: "/big/",
-  Image: "../../../../asset/image/phonics/cvc/cic/big.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/big.mp3"
+  word: "cub",
+  sound: "/kʌb/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/cub.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/cub.mp3"
 };
 
 const contentItem1 = {
-  word: "dig",
-  sound: "/dig/",
-  Image: "../../../../asset/image/phonics/cvc/cic/dig.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/dig.mp3"
+  word: "hub",
+  sound: "/hʌb/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/hub.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/hub.mp3"
 };
 
 const contentItem2 = {
-  word: "fig",
-  sound: "/fig/",
-  Image: "../../../../asset/image/phonics/cvc/cic/fig.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/fig.mp3"
+  word: "rub",
+  sound: "/rʌb/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/rub.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/rub.mp3"
 };
 
 const contentItem3 = {
-  word: "pig",
-  sound: "/pig/",
-  Image: "../../../../asset/image/phonics/cvc/cic/pig.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/pig.mp3"
+  word: "tub",
+  sound: "/tʌb/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/tub.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/tub.mp3"
 };
 
 const contentItem4 = {
-  word: "wig",
-  sound: "/wig/",
-  Image: "../../../../asset/image/phonics/cvc/cic/wig.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/wig.mp3"
+  word: "sub",
+  sound: "/sʌb/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/sub.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/sub.mp3"
 };
 
 const contentItem5 = {
-  word: "bin",
-  sound: "/bin/",
-  Image: "../../../../asset/image/phonics/cvc/cic/bin.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/bin.mp3"
+  word: "bug",
+  sound: "/bʌg/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/bug.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/bug.mp3"
 };
 
 const contentItem6 = {
-  word: "fin",
-  sound: "/fin/",
-  Image: "../../../../asset/image/phonics/cvc/cic/fin.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/fin.mp3"
+  word: "hug",
+  sound: "/hʌɡ/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/hug.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/hug.mp3"
 };
 
 const contentItem7 = {
-  word: "pin",
-  sound: "/pin/",
-  Image: "../../../../asset/image/phonics/cvc/cic/pin.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/pin.mp3"
+  word: "jug",
+  sound: "/dʒʌɡ/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/jug.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/jug.mp3"
 };
 
 const contentItem8 = {
-  word: "tin",
-  sound: "/tin/",
-  Image: "../../../../asset/image/phonics/cvc/cic/tin.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/tin.mp3"
+  word: "mug",
+  sound: "/mʌɡ/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/mug.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/mug.mp3"
 };
 
 const contentItem9 = {
-  word: "win",
-  sound: "/ten/",
-  Image: "../../../../asset/image/phonics/cvc/cic/win.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/win.mp3"
+  word: "rug",
+  sound: "/rʌɡ/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/rug.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/rug.mp3"
 };
 
 const contentItem10 = {
-  word: "dip",
-  sound: "/dip/",
-  Image: "../../../../asset/image/phonics/cvc/cic/dip.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/dip.mp3"
+  word: "bun",
+  sound: "/bʌn/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/bun.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/bun.mp3"
 };
 
 const contentItem11 = {
-  word: "lip",
-  sound: "/hip/",
-  Image: "../../../../asset/image/phonics/cvc/cic/lip.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/lip.mp3"
+  word: "fun",
+  sound: "/fʌn/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/fun.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/fun.mp3"
 };
 
 const contentItem12 = {
-  word: "rip",
-  sound: "/rip/",
-  Image: "../../../../asset/image/phonics/cvc/cic/rip.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/rip.mp3"
+  word: "sun",
+  sound: "/sʌn/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/sun.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/sun.mp3"
 };
 
 const contentItem13 = {
-  word: "sip",
-  sound: "/sip/",
-  Image: "../../../../asset/image/phonics/cvc/cic/sip.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/sip.mp3"
+  word: "run",
+  sound: "/rʌn/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/run.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/run.mp3"
 };
 
 const contentItem14 = {
-  word: "zip",
-  sound: "/zip/",
-  Image: "../../../../asset/image/phonics/cvc/cic/zip.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/zip.mp3"
+  word: "gun",
+  sound: "/gʌn/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/gun.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/gun.mp3"
 };
 
 const contentItem15 = {
-  word: "bit",
-  sound: "/bit/",
-  Image: "../../../../asset/image/phonics/cvc/cic/bit.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/bit.mp3"
+  word: "cut",
+  sound: "/kʌt/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/cut.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/cut.mp3"
 };
 
 const contentItem16 = {
-  word: "fit",
-  sound: "/fit/",
-  Image: "../../../../asset/image/phonics/cvc/cic/fit.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/fit.mp3"
+  word: "hut",
+  sound: "/hʌt/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/hut.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/hut.mp3"
 };
 
 const contentItem17 = {
-  word: "hit",
-  sound: "/hit/",
-  Image: "../../../../asset/image/phonics/cvc/cic/hit.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/hit.mp3"
+  word: "gut",
+  sound: "/gʌt/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/gut.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/gut.mp3"
 };
 
 const contentItem18 = {
-  word: "lit",
-  sound: "/lit/",
-  Image: "../../../../asset/image/phonics/cvc/cic/lit.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/lit.mp3"
+  word: "nut",
+  sound: "/nʌt/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/nut.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/nut.mp3"
 };
 
 const contentItem19 = {
-  word: "sit",
-  sound: "/sit/",
-  Image: "../../../../asset/image/phonics/cvc/cic/sit.jpg",
-  soundfile: "../../../../asset/audio/phonics/cvc/cic/sit.mp3"
+  word: "rut",
+  sound: "/tot/",
+  Image: "../../../../asset/image/phonics/cvc/cuc/rut.jpg",
+  soundfile: "../../../../asset/audio/phonics/cvc/cuc/rut.mp3"
 };
-
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
   contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19]; 
-
+  
 const common ={
   testPreviousBtn: null,
   testNextBtn: null,
@@ -165,12 +164,6 @@ const learnObj = {
 const wordImageMatchObj = {
   wordElementLst: null,
   counter: 0,
-  right:  0,
-  wrong:  0,
-  score:  0,
-  right_content:null,
-  wrong_content:null,
-  score_conent:null,
   sectionLength: 5,
   progress: null,
   list0: null,
@@ -178,82 +171,67 @@ const wordImageMatchObj = {
   picture: null,
   wordImageMatch: document.getElementById("wordImageMatch"),
   wordImageMatchContent: `<div class="card highlight">
-                              <h2 class="text-center my-1" id="progress">Learning test</h2>
-
-                              <div class="d-flex justify-content-around align-items-center text-center my-1">
-
-                                <div>
-                                  <img src="../../../../asset/image/happy.png" width="50" height="50" alt="">
-                                  <p class="text-danger my-0" id="right">100</p>
-                                </div>
-                      
-                                <div>
-                                  <img src="../../../../asset/image/score.png" width="50" height="50" alt="">
-                                  <p class="text-danger my-0" id="score">Core</p>
-                                </div>
-                      
-                                <div>
-                                  <img src="../../../../asset/image/sad.png" width="50" height="50" alt="">
-                                  <p class="text-danger my-0" id="wrong">100</p>
-                                </div>
-                    
-                              </div>
-
-                              <div class="my-1">
+                              <h1 class="text-center my-3" id="progress">Learning test</h1>
+                              <div class="my-3">
                                 <img id="wordImageMatchPicture" src="" width="100" height="100" alt="">
                               </div>
-                              
-                              <div class="m-1 h2">
-                                <div class="form-check">
+                              <div class="m-3 h2">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
                                   <label class="form-check-label" for="letter1"></label>
                                 </div>
 
-                                <div class="form-check my-2">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter2" value="">
                                   <label class="form-check-label" for="letter2"></label>
                                 </div>
 
-                                <div class="form-check my-2">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter3" value="">
                                   <label class="form-check-label" for="letter3"></label>
                                 </div>   
 
-                                <div class="form-check my-2">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter4" value="">
                                   <label class="form-check-label" for="letter4"></label>
                                 </div>
 
-                                <div class="form-check my-2">
+                                <div class="form-check my-3">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter5" value="">
                                   <label class="form-check-label" for="letter5"></label>
                                 </div>
                               </div>
-
-                              <div id="showResult" class="my-1">
+                              <div id="showResult" class="my-2">
                               
                               </div>
 
-                              <div class="card-body p-1" style="background-color: #00ffff;">
-                                <div class="m-1">
+                              <div class="card-body" style="background-color: #00ffff;">
+
+                                <div class="d-flex justify-content-around align-items-center">
+                              
+                                  <button type="button" class="btn border-0 p-0 mx-2" id="testPrevious">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                                      <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                                    </svg>
+                                  </button>
+                                      
+                                  <audio id="testAudio" controls preload="none" controlsList="nodownload">
+                                    <source id="testSoundFile" src="" type="audio/mpeg">
+                                  </audio>
+
                                   <button type="button" class="btn border-0 p-0 mx-2" id="testNext">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
                                       <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
                                     </svg>
                                   </button>
                                 </div>
-
-                                <audio id="testAudio" controls preload="none" controlsList="nodownload">
-                                  <source id="testSoundFile" src="" type="audio/mpeg">
-                                </audio>
-                  
                               </div>
                             </div>`,
 
 };
-
 function wordGenProcess(i,index)
 {
+
   for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
     let m =Math.floor(Math.random()*learnObj.totalLength);
@@ -262,6 +240,7 @@ function wordGenProcess(i,index)
   }
   wordImageMatchObj.list0[i].value=learnObj.letterList[index].word;
   wordImageMatchObj.list1[i].innerText=learnObj.letterList[index].word;
+ 
 }
 
 function wordGen(index){
@@ -301,32 +280,25 @@ function testNextBtnFunction() {
   if(common.letterSelected!=false)
   {
     common.letterSelected.target.checked=false;
-    common.letterSelected =false;
-    if (common.game=="wordImageMatch")
-    {
-      if(wordImageMatchObj.counter<(learnObj.totalLength-1))
-      {
-        wordImageMatchObj.counter++;
-        wordGen(wordImageMatchObj.counter);
-      }
-      wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
-      common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
-    }
-    wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1+"/"+learnObj.totalLength;
-    common.testAudio.load();
-    document.getElementById("showResult").innerHTML="";
-
-    wordImageMatchObj.wordElementLst.forEach(elem => {
-      elem.disabled=false;
-    });
-  
-
   }
 
+ if (common.game=="wordImageMatch")
+  {
 
+    if(wordImageMatchObj.counter<(learnObj.totalLength-1))
+    {
+      wordImageMatchObj.counter++;
+      wordGen(wordImageMatchObj.counter);
+    }
+    wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
+    common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
+  }
+  wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1 +"/"+learnObj.totalLength;
+  common.testAudio.load();
+  document.getElementById("showResult").innerHTML="";
 }
 
-/* function testPreviousBtnFunction() {
+function testPreviousBtnFunction() {
 
   if(common.letterSelected!=false)
   {
@@ -347,34 +319,26 @@ function testNextBtnFunction() {
   wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1+"/"+learnObj.totalLength;
   common.testAudio.load();
   document.getElementById("showResult").innerHTML="";
-} */
+}
 
 function letterSoundCheck(e) {
   common.letterSelected=e;
-  
+
   if(common.game=="wordImageMatch")
   {
     if(learnObj.letterList[wordImageMatchObj.counter].word === (e.target.value))
     {
+        document.getElementById("showResult").innerHTML=common.goodResult;
         common.testSoundFile.setAttribute("src",common.right);
-        wordImageMatchObj.right++;
-        wordImageMatchObj.right_content.innerText=wordImageMatchObj.right;
-     
     }else 
     {
+       document.getElementById("showResult").innerHTML=common.poorResult;
        common.testSoundFile.setAttribute("src",common.wrong);
-       wordImageMatchObj.wrong++;
-       wordImageMatchObj.wrong_content.innerText=wordImageMatchObj.wrong;
     }
 
   }
-  wordImageMatchObj.score_conent.innerText=Math.round(100*wordImageMatchObj.right/(wordImageMatchObj.counter+1))
   common.testAudio.load();
   common.testAudio.play();
-  wordImageMatchObj.wordElementLst.forEach(elem => {
-    elem.disabled=true;
-  });
-
 }
 
 function buildWordImageMatch()
@@ -390,9 +354,11 @@ function buildWordImageMatch()
   wordImageMatchObj.picture=document.getElementById("wordImageMatchPicture");
 
   common.testNextBtn = document.getElementById("testNext");
+  common.testPreviousBtn = document.getElementById("testPrevious");
   common.testAudio= document.getElementById("testAudio"); 
   common.testSoundFile = document.getElementById("testSoundFile");
   common.testNextBtn.addEventListener("click",testNextBtnFunction);
+  common.testPreviousBtn.addEventListener("click",testPreviousBtnFunction);
 
   wordImageMatchObj.wordElementLst = document.querySelectorAll(".letterElement");
   wordImageMatchObj.wordElementLst.forEach(elem => {
@@ -401,13 +367,6 @@ function buildWordImageMatch()
 
   wordImageMatchObj.progress=document.getElementById("progress");
   wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1+"/"+learnObj.totalLength;
-  wordImageMatchObj.right_content=document.getElementById("right");
-  wordImageMatchObj.wrong_content=document.getElementById("wrong");
-  wordImageMatchObj.score_conent=document.getElementById("score");
-  wordImageMatchObj.right_content.innerText=wordImageMatchObj.right;
-  wordImageMatchObj.wrong_content.innerText=wordImageMatchObj.wrong;
-  wordImageMatchObj.score_conent.innerText=wordImageMatchObj.score;
-
   //here fill up the letters 
   for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
@@ -435,24 +394,24 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/JEBzFc0IlGE?si=9DCMAFuMxwwY6SpC";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/p8ue-UrXgE4?si=pVvR50yBsl2Ys4cW";
   
 });
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/zi8S_I0k7YY?si=MyRDFls_BNrSpq_O";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ijvwIDJkRfE?si=Gfzd2-qBDk3y3g_a";
   
 });
 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/uWQcGjo9I3M?si=V0Ig2GjqiAIEPr0V";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ehCrjk4hdc4?si=X9lN-pcpVSyphRZk";
   
 });
 
 document.getElementById("video3").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/Ez5A_7nVd3o?si=PXDm0nyFybkmUIpt";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/jXmB_ZMwbSE?si=29nYk82mc6IwAIDf";
   
 });

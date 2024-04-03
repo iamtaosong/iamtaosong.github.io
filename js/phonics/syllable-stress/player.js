@@ -4,105 +4,105 @@ const contentItem0 = {
   word: 'cab<span class="text-danger">|</span>in',
   word2:"cabin",
   sound: "/ˈkæb.ɪn/",
-  soundfile: "../../../../asset/audio/phonics/syllable/division/cabin.mp3"
+  soundfile: "../../../asset/audio/phonics/syllable/stress/cabin.mp3"
 };
 
 const contentItem1 = {
   word: 'cam<span class="text-danger">|</span>el',
   word2:"camel",
   sound: "/ˈkæm.əl/",
-  soundfile: "../../../../asset/audio/phonics/syllable/division/camel.mp3"
+  soundfile: "../../../asset/audio/phonics/syllable/stress/camel.mp3"
 };
 
 const contentItem2 = {
   word: 'top<span class="text-danger">|</span>ic',
   word2:"topic",
   sound: "/ˈtɒp.ɪk/",
-  soundfile: "../../../../asset/audio/phonics/syllable/division/topic.mp3"
+  soundfile: "../../../asset/audio/phonics/syllable/stress/topic.mp3"
 };
 
 const contentItem3 = {
   word: 'mu<span class="text-danger">|</span>sic',
   word2:"music",
   sound: "/ˈmjuː.zɪk/",
-  soundfile: "../../../../asset/audio/phonics/syllable/division/music.mp3"
+  soundfile: "../../../asset/audio/phonics/syllable/stress/music.mp3"
 };
 
 const contentItem4 = {
   word: 'ba<span class="text-danger">|</span>ker',
   word2:"baker",
   sound: "/ˈbeɪ.kər/",
-  soundfile: "../../../../asset/audio/phonics/syllable/division/baker.mp3"
+  soundfile: "../../../asset/audio/phonics/syllable/stress/baker.mp3"
 };
 
 const contentItem5 = {
   word: 'in<span class="text-danger">|</span>sect',
   word2:"insect",
   sound: "/ˈɪn.sekt/",
-  soundfile: "../../../../asset/audio/phonics/syllable/division/insect.mp3"
+  soundfile: "../../../asset/audio/phonics/syllable/stress/insect.mp3"
 };
 
 const contentItem6 = {
   word: 'car<span class="text-danger">|</span>pet',
   word2:"carpet",
   sound: "/ˈkɑː.pɪt/",
-  soundfile: "../../../../asset/audio/phonics/syllable/division/carpet.mp3"
+  soundfile: "../../../asset/audio/phonics/syllable/stress/carpet.mp3"
 };
 
 const contentItem7 = {
   word: 'gar<span class="text-danger">|</span>den',
   word2:"garden",
   sound: "/ˈɡɑː.dən/",
-  soundfile: "../../../../asset/audio/phonics/syllable/division/garden.mp3"
+  soundfile: "../../../asset/audio/phonics/syllable/stress/garden.mp3"
 };
 
 const contentItem8 = {
   word: 'rab<span class="text-danger">|</span>bit',
   word2:"rabbit",
   sound: "/ˈræb.ɪt/",
-  soundfile: "../../../../asset/audio/phonics/syllable/division/rabbit.mp3"
+  soundfile: "../../../asset/audio/phonics/syllable/stress/rabbit.mp3"
 };
 
 const contentItem9 = {
   word: 'muf<span class="text-danger">|</span>fin',
   word2:"muffin",
   sound: "/ˈmʌf.ɪn/",
-  soundfile: "../../../../asset/audio/phonics/syllable/division/muffin.mp3"
+  soundfile: "../../../asset/audio/phonics/syllable/stress/muffin.mp3"
 };
 
 const contentItem10 = {
   word: 'ta<span class="text-danger">|</span>ble',
   word2:"table",
   sound: "/ˈteɪ.bəl/",
-  soundfile: "../../../asset/audio/phonics/syllable/division/table.mp3"
+  soundfile: "../../../asset/audio/phonics/syllable/stress/table.mp3"
 };
 
 const contentItem11 = {
   word: 'bicy<span class="text-danger">|</span>cle',
   word2:"bicycle",
   sound: "/ˈbaɪ.sɪ.kəl/",
-  soundfile: "../../../asset/audio/phonics/syllable/division/bicycle.mp3"
+  soundfile: "../../../asset/audio/phonics/syllable/stress/bicycle.mp3"
 };
 
 const contentItem12 = {
   word: 'can<span class="text-danger">|</span>dle',
   word2:"candle",
   sound: "/ˈkæn.dəl/",
-  soundfile: "../../../asset/audio/phonics/syllable/division/candle.mp3"
+  soundfile: "../../../asset/audio/phonics/syllable/stress/candle.mp3"
 };
 
 const contentItem13 = {
   word: 'ea<span class="text-danger">|</span>gle',
   word2:"eagle",
   sound: "/ˈiː.ɡəl/",
-  soundfile: "../../../asset/audio/phonics/syllable/division/eagle.mp3"
+  soundfile: "../../../asset/audio/phonics/syllable/stress/eagle.mp3"
 };
 
 const contentItem14 = {
   word: 'bot<span class="text-danger">|</span>tle',
   word2:"bottle",
   sound: "/ˈbɒt.əl/",
-  soundfile: "../../../asset/audio/phonics/syllable/division/bottle.mp3"
+  soundfile: "../../../asset/audio/phonics/syllable/stress/bottle.mp3"
 };
 
 
@@ -120,10 +120,10 @@ const common ={
   game: null,
   testSection: document.getElementById("testSection"),
   letterSelected: false,
-  goodResult: `<img src="../../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../../asset/image/sad.png" alt="happy--v1"/>`,
-  right: "../../../../asset/image/right.mp3",
-  wrong: "../../../../asset/image/wrong.mp3"
+  goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
+  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../../asset/image/right.mp3",
+  wrong: "../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {
