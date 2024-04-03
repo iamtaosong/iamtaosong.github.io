@@ -332,7 +332,7 @@ const wordImageMatchObj = {
                                 </div>
                       
                                 <div>
-                                  <img src="/asset/image/score.jpg" width="50" height="50" alt="">
+                                  <img src="/asset/image/score.png" width="50" height="50" alt="">
                                   <p class="text-danger my-0" id="score">Core</p>
                                 </div>
                       
@@ -500,14 +500,12 @@ function letterSoundCheck(e) {
   {
     if(learnObj.letterList[wordImageMatchObj.counter].word === (e.target.value))
     {
-        document.getElementById("showResult").innerHTML=common.goodResult;
         common.testSoundFile.setAttribute("src",common.right);
         wordImageMatchObj.right++;
         wordImageMatchObj.right_content.innerText=wordImageMatchObj.right;
      
     }else 
     {
-       document.getElementById("showResult").innerHTML=common.poorResult;
        common.testSoundFile.setAttribute("src",common.wrong);
        wordImageMatchObj.wrong++;
        wordImageMatchObj.wrong_content.innerText=wordImageMatchObj.wrong;
@@ -517,7 +515,6 @@ function letterSoundCheck(e) {
   wordImageMatchObj.score_conent.innerText=Math.round(100*wordImageMatchObj.right/(wordImageMatchObj.counter+1))
   common.testAudio.load();
   common.testAudio.play();
-
   wordImageMatchObj.wordElementLst.forEach(elem => {
     elem.disabled=true;
   });
@@ -578,7 +575,6 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
   }
 
 });
-
 
 document.getElementById("video0").addEventListener("click",function(){
 
