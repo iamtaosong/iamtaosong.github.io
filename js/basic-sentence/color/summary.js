@@ -1,184 +1,96 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "I usually get up at 7 clock in the morning",
-  sound: "/naɪf/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/up.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/up.mp3"
+  question: "Where is the dog?",
+  answer: "It's in the dog house",
+  Image: "../../../asset/image/basic-sentence/where/in.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/where/dog.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/where/sunny.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/where/qain.mp3"
 };
 
 const contentItem1 = {
-  word: "I brush teeth carefully",
-  sound: "/pleɪt/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/teeth.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/teeth.mp3"
+  question: "Where is the dog?",
+  answer: "It's near the ball",
+  Image: "../../../asset/image/basic-sentence/where/near.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/where/dog.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/where/qanear.mp3"
 };
 
 const contentItem2 = {
-  word: "I then wash face",
-  sound: "/fɔːk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/face.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/face.mp3"
+  question: "Where is the dog?",
+  answer: "It's on the stool",
+  Image: "../../../asset/image/basic-sentence/where/on.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/where/dog.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/where/qaon.mp3"
 };
 
 const contentItem3 = {
-  word: "I have breakfast slowly",
-  sound: "/ˈtʃɒp.stɪk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/breakfast.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/breakfast.mp3"
+  question: "Where is the fox?",
+  answer: "It's under the stump",
+  Image: "../../../asset/image/basic-sentence/where/under.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/where/fox.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/where/qaunder.mp3"
 };
 
 const contentItem4 = {
-  word: "I go to school today",
-  sound: "/spuːn/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/school.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/school.mp3"
+  question: "Where is he?",
+  answer: "He is among people",
+  Image: "../../../asset/image/basic-sentence/where/among.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/where/he.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/where/qaamong.mp3"
 };
 
 const contentItem5 = {
-  word: "I often take school bus",
-  sound: "/ɡlɑːs/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/schoolbus.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/schoolbus.mp3"
+  question: "Where are you from?",
+  answer: "I am from London",
+  Image: "../../../asset/image/basic-sentence/where/You.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/where/you.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/where/qayou.mp3"
 };
 
 const contentItem6 = {
-  word: "I sometimes play football outside",
-  sound: "/kʌp/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/football.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/football.mp3"
+  question: "Where is she from?",
+  answer: "She is from New York",
+  Image: "../../../asset/image/basic-sentence/where/She.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/where/she.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/where/qashe.mp3"
 };
 
 const contentItem7 = {
-  word: "I really like football",
-  sound: "/ˈspætʃ.ə.lə/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/football.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/likefootball.mp3"
+  question: "Where is he from?",
+  answer: "He is from China",
+  Image: "../../../asset/image/basic-sentence/where/He.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/where/fromhe.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/where/qafromhe.mp3"
 };
 
-
 const contentItem8 = {
-  word: "We always take classes at 8 clock",
-  sound: "/wɪsk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/class.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/class.mp3"
+  question: "Where are they from?",
+  answer: "They are from Paris",
+  Image: "../../../asset/image/basic-sentence/where/They.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/where/they.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/where/qathey.mp3"
 };
 
 const contentItem9 = {
-  word: "We usually have lunch at 12 clock",
-  sound: "/wɪsk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/lunch.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/lunch.mp3"
+  question: "Are we from london?",
+  answer: "yes, we are",
+  Image: "../../../asset/image/basic-sentence/where/We.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/where/we.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/where/qawe.mp3"
 };
 
-const contentItem10 = {
-  word: "I often come home at 5 clock in the afternoon",
-  sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/home.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/home.mp3"
-};
-
-const contentItem11 = {
-  word: "I do my homework easily and quickly",
-  sound: "/naɪf/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/homework.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/homework.mp3"
-};
-
-const contentItem12 = {
-  word: "I always take a shower quickly",
-  sound: "/pleɪt/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/shower.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/shower.mp3"
-};
-
-const contentItem13 = {
-  word: "I never go to bed late at night",
-  sound: "/fɔːk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/bed.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/bed.mp3"
-};
-
-const contentItem14 = {
-  word: "I drink quite some water everyday",
-  sound: "/ˈtʃɒp.stɪk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/water.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/water.mp3"
-};
-
-const contentItem15 = {
-  word: "I sometimes walk dog on Sunday",
-  sound: "/spuːn/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/dog.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/dog.mp3"
-};
-
-const contentItem16 = {
-  word: "I ride a bike too",
-  sound: "/ɡlɑːs/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/bike.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/bike.mp3"
-};
-
-const contentItem17 = {
-  word: "we are never friends",
-  sound: "/kʌp/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/friends.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/friends.mp3"
-};
-
-const contentItem18 = {
-  word: "I watch TV happily",
-  sound: "/ˈspætʃ.ə.lə/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/TV.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/TV.mp3"
-};
-
-const contentItem19 = {
-  word: "I really love the food there",
-  sound: "/wɪsk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/food.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/food.mp3"
-};
-
-const contentItem20 = {
-  word: "It was hot yesterday",
-  sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/hot.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/hot.mp3"
-};
-
-const contentItem21 = {
-  word: "I go and play tennis tomorrow",
-  sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/tennis.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/tennis.mp3"
-};
-
-const contentItem22 = {
-  word: "There are flowers everywhere",
-  sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/flowers.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/flowers.mp3"
-};
-
-const contentItem23 = {
-  word: "Please come here",
-  sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/welcome.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/welcome.mp3"
-};
-
-const contentItem24 = {
-  word: "I cook now",
-  sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/cook.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/cook.mp3"
-};
-
-const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
-  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,
-  contentItem20,contentItem21,contentItem22,contentItem23,contentItem24];
+const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
 
 const common ={
   testPreviousBtn: null,
@@ -286,7 +198,6 @@ const wordImageMatchObj = {
                   
                               </div>
                             </div>`,
-
 };
 
 function wordGenProcess(i,index)
@@ -294,11 +205,11 @@ function wordGenProcess(i,index)
   for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
     let m =Math.floor(Math.random()*learnObj.totalLength);
-    wordImageMatchObj.list0[k].value=learnObj.letterList[m].word;
-    wordImageMatchObj.list1[k].innerText=learnObj.letterList[m].word;
+    wordImageMatchObj.list0[k].value=learnObj.letterList[m].answer;
+    wordImageMatchObj.list1[k].innerText=learnObj.letterList[m].answer;
   }
-  wordImageMatchObj.list0[i].value=learnObj.letterList[index].word;
-  wordImageMatchObj.list1[i].innerText=learnObj.letterList[index].word;
+  wordImageMatchObj.list0[i].value=learnObj.letterList[index].answer;
+  wordImageMatchObj.list1[i].innerText=learnObj.letterList[index].answer;
 }
 
 function wordGen(index){
@@ -347,7 +258,7 @@ function testNextBtnFunction() {
         wordGen(wordImageMatchObj.counter);
       }
       wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
-      common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
+      common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfileQ); 
     }
     wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1+"/"+learnObj.totalLength;
     common.testAudio.load();
@@ -391,7 +302,7 @@ function letterSoundCheck(e) {
   
   if(common.game=="wordImageMatch")
   {
-    if(learnObj.letterList[wordImageMatchObj.counter].word === (e.target.value))
+    if(learnObj.letterList[wordImageMatchObj.counter].answer === (e.target.value))
     {
         common.testSoundFile.setAttribute("src",common.right);
         wordImageMatchObj.right++;
@@ -448,11 +359,11 @@ function buildWordImageMatch()
   //here fill up the letters 
   for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
-    wordImageMatchObj.list0[k].value=learnObj.letterList[k].word;
-    wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].word;
+    wordImageMatchObj.list0[k].value=learnObj.letterList[k].answer;
+    wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].answer;
   }
   wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[0].Image);
-  common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
+  common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfileQ);
   common.testAudio.load();
 
 }
@@ -471,13 +382,25 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/qD1pnquN_DM?si=tX5wWgLWKgJKTp2t";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/3Sq8ibmgmS8?si=LKN4r9pp_hQWefhX";
   
 });
 
-/* document.getElementById("video1").addEventListener("click",function(){
+document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/qD1pnquN_DM?si=ymcPLifH7WlnAEPD";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/7qiVlIpkIU8?si=Yz3WirwCMXIhExzD";
   
 });
- */
+
+document.getElementById("video2").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/zxIpA5nF_LY?si=xTZnWM3oiNdIxrXm";
+  
+});
+
+document.getElementById("video3").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/YcAPsT7z9VE?si=Tgo8FunlXz_zc8iX";
+  
+});
+

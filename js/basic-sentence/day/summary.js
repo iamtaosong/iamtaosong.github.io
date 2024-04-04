@@ -471,13 +471,19 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/qD1pnquN_DM?si=tX5wWgLWKgJKTp2t";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ij0iWJB2uMo?si=zsbRUH5Z36k9-R8V";
   
 });
 
-/* document.getElementById("video1").addEventListener("click",function(){
+document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/qD1pnquN_DM?si=ymcPLifH7WlnAEPD";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/5cYMu3RTMJU?si=VCVGpbGGgKExmueL";
   
 });
- */
+ 
+document.getElementById("video2").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/pE7OBuaMX5k?si=McYiCBOpGgV66u9T";
+  
+});
+ 
