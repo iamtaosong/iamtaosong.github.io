@@ -3,150 +3,150 @@ const pathname=window.location.pathname;
 const contentItem0 = {
   word: "quickly",
   sound: "/ˈkwɪk.li/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/quickly.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/quickly.mp3"
 };
 
 const contentItem1 = {
   word: "slowly",
   sound: "/ˈsləʊ.li/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/slowly.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/slowly.mp3"
 };
 
 const contentItem2 = {
   word: "carefully",
   sound: "/ˈkeə.fəl.i/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/carefully.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/carefully.mp3"
 };
 
 const contentItem3 = {
   word: "happily",
   sound: "/ˈhæp.əl.i/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/happily.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/happily.mp3"
 };
 
 const contentItem4 = {
   word: "easily",
   sound: "/ˈiː.zəl.i/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/easily.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/easily.mp3"
 };
 
 const contentItem5 = {
   word: "now",
   sound: "/naʊ/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/now.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/now.mp3"
 };
 
 const contentItem6 = {
   word: "then",
   sound: "/ðen/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/then.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/then.mp3"
 };
 
 const contentItem7 = {
   word: "today",
   sound: "/təˈdeɪ/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/today.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/today.mp3"
 };
 
 const contentItem8 = {
   word: "tomorrow",
   sound: "/təˈmɒr.əʊ/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/tomorrow.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/tomorrow.mp3"
 };
 
 const contentItem9 = {
   word: "yesterday",
   sound: "/ˈjes.tə.deɪ/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/yesterday.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/yesterday.mp3"
 };
 
 const contentItem10 = {
   word: "here",
   sound: "/hɪər/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/here.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/here.mp3"
 };
 
 const contentItem11 = {
   word: "there",
   sound: "/ðeər/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/there.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/there.mp3"
 };
 
 const contentItem12 = {
   word: "everywhere",
   sound: "/ˈev.ri.weər/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/everywhere.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/everywhere.mp3"
 };
 
 const contentItem13 = {
   word: "inside",
   sound: "/ɪnˈsaɪd/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/inside.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/inside.mp3"
 };
 
 const contentItem14 = {
   word: "outside",
   sound: "/ˌaʊtˈsaɪd/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/outside.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/outside.mp3"
 };
 
 const contentItem15 = {
   word: "very",
   sound: "/ˈver.i/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/very.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/very.mp3"
 };
 
 const contentItem16 = {
   word: "too",
   sound: "/tuː/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/too.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/too.mp3"
 };
 
 const contentItem17 = {
   word: "quite",
   sound: "/kwaɪt/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/quite.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/quite.mp3"
 };
 
 const contentItem18 = {
   word: "almost",
   sound: "/ˈɔːl.məʊst/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/almost.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/almost.mp3"
 };
 
 const contentItem19 = {
   word: "really",
   sound: "/ˈrɪə.li/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/really.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/really.mp3"
 };
 const contentItem20 = {
   word: "always",
   sound: "/ˈɔːl.weɪz/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/always.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/always.mp3"
 };
 
 const contentItem21 = {
   word: "often",
   sound: "/ˈɒf.ən/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/often.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/often.mp3"
 };
 
 const contentItem22 = {
   word: "sometimes",
   sound: "/ˈsʌm.taɪmz/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/sometimes.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/sometimes.mp3"
 };
 
 const contentItem23 = {
   word: "never",
   sound: "/ˈnev.ər/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/never.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/never.mp3"
 };
 
 const contentItem24 = {
   word: "usually",
   sound: "/ˈjuː.ʒu.ə.li/",
-  soundfile: "../../../../asset/audio/vocabulary/adverb/usually.mp3"
+  soundfile: "../../../asset/audio/vocabulary/adverb/usually.mp3"
 };
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
@@ -165,10 +165,10 @@ const common ={
   game: null,
   testSection: document.getElementById("testSection"),
   letterSelected: false,
-  goodResult: `<img src="../../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../../asset/image/sad.png" alt="happy--v1"/>`,
-  right: "../../../../asset/image/right.mp3",
-  wrong: "../../../../asset/image/wrong.mp3"
+  goodResult: `<img src="../../../asset/image/happy.png" alt="happy--v1"/>`,
+  poorResult: `<img src="../../../asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../../asset/image/right.mp3",
+  wrong: "../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {

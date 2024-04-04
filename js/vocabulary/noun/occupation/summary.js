@@ -1,112 +1,148 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "football",
-  sound: "/ˈfʊt.bɔːl/",
-  Image: "../../../../asset/image/vocabulary/sport/football.jpg",
-  soundfile: "../../../../asset/audio/vocabulary/sport/football.mp3"
+  word: "teacher",
+  sound: "/ˈtiː.tʃər/",
+  Image: "../../../../asset/image/vocabulary/occupation/teacher.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/teacher.mp3"
 };
 
 const contentItem1 = {
-  word: "basketball",
-  sound: "/ˈbaɪ.sɪ.kəl/",
-  Image: "../../../../asset/image/vocabulary/sport/basketball.jpg",
-  soundfile: "../../../../asset/audio/vocabulary/sport/basketball.mp3"
+  word: "student",
+  sound: "/ˈstjuː.dənt/",
+  Image: "../../../../asset/image/vocabulary/occupation/student.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/student.mp3"
 };
 
 const contentItem2 = {
-  word: "baseball",
-  sound: "/ˈbeɪs.bɔːl/",
-  Image: "../../../../asset/image/vocabulary/sport/baseball.jpg",
-  soundfile: "../../../../asset/audio/vocabulary/sport/baseball.mp3"
+  word: "nurse",
+  sound: "/nɜːs/",
+  Image: "../../../../asset/image/vocabulary/occupation/nurse.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/nurse.mp3"
 };
 
 const contentItem3 = {
-  word: "volleyball",
-  sound: "/ˈvɒl.i.bɔːl/",
-  Image: "../../../../asset/image/vocabulary/sport/volleyball.jpg",
-  soundfile: "../../../../asset/audio/vocabulary/sport/volleyball.mp3"
+  word: "doctor",
+  sound: "/ˈdɒk.tər/",
+  Image: "../../../../asset/image/vocabulary/occupation/doctor.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/doctor.mp3"
 };
 
 const contentItem4 = {
-  word: "tennis",
-  sound: "/ˈten.ɪs/",
-  Image: "../../../../asset/image/vocabulary/sport/tennis.jpg",
-  soundfile: "../../../../asset/audio/vocabulary/sport/tennis.mp3"
+  word: "firefighter",
+  sound: "/ˈfaɪəˌfaɪ.tər/",
+  Image: "../../../../asset/image/vocabulary/occupation/firefighter.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/firefighter.mp3"
 };
 
 const contentItem5 = {
-  word: "swimming",
-  sound: "/ˈswɪm.ɪŋ/",
-  Image: "../../../../asset/image/vocabulary/sport/swimming.jpg",
-  soundfile: "../../../../asset/audio/vocabulary/sport/swimming.mp3"
+  word: "police",
+  sound: "/pəˈliːs/",
+  Image: "../../../../asset/image/vocabulary/occupation/police.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/police.mp3"
 };
 
 const contentItem6 = {
-  word: "cycling",
-  sound: "/ˈsaɪ.klɪŋ/",
-  Image: "../../../../asset/image/vocabulary/sport/cycling.jpg",
-  soundfile: "../../../../asset/audio/vocabulary/sport/cycling.mp3"
+  word: "dentist",
+  sound: "/ˈden.tɪst/",
+  Image: "../../../../asset/image/vocabulary/occupation/dentist.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/dentist.mp3"
 };
 
 const contentItem7 = {
-  word: "badminton",
-  sound: "/ˈbæd.mɪn.tən/",
-  Image: "../../../../asset/image/vocabulary/sport/badminton.jpg",
-  soundfile: "../../../../asset/audio/vocabulary/sport/badminton.mp3"
+  word: "farmer",
+  sound: "/ˈfɑː.mər/",
+  Image: "../../../../asset/image/vocabulary/occupation/farmer.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/farmer.mp3"
 };
 
 const contentItem8 = {
-  word: "running",
-  sound: "/ˈrʌn.ɪŋ/",
-  Image: "../../../../asset/image/vocabulary/sport/running.jpg",
-  soundfile: "../../../../asset/audio/vocabulary/sport/running.mp3"
+  word: "cook",
+  sound: "/kʊk/",
+  Image: "../../../../asset/image/vocabulary/occupation/cook.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/cook.mp3"
 };
 
 const contentItem9 = {
-  word: "boxing",
-  sound: "/ˈbɒk.sɪŋ/",
-  Image: "../../../../asset/image/vocabulary/sport/boxing.jpg",
-  soundfile: "../../../../asset/audio/vocabulary/sport/boxing.mp3"
+  word: "pilot",
+  sound: "/ˈpaɪ.lət/",
+  Image: "../../../../asset/image/vocabulary/occupation/pilot.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/pilot.mp3"
 };
 
 const contentItem10 = {
-  word: "archery",
+  word: "musician",
   sound: "/ˈɑː.tʃər.i/",
-  Image: "../../../../asset/image/vocabulary/sport/archery.jpg",
-  soundfile: "../../../../asset/audio/vocabulary/sport/archery.mp3"
+  Image: "../../../../asset/image/vocabulary/occupation/musician.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/musician.mp3"
 };
 
 const contentItem11 = {
-  word: "ice skating",
-  sound: "/ˈaɪsˌskeɪ.tɪŋ/",
-  Image: "../../../../asset/image/vocabulary/sport/ice-skating.jpg",
-  soundfile: "../../../../asset/audio/vocabulary/sport/ice-skating.mp3"
+  word: "mechanic",
+  sound: "/məˈkæn.ɪk/",
+  Image: "../../../../asset/image/vocabulary/occupation/mechanic.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/mechanic.mp3"
 };
 
 const contentItem12 = {
-  word: "surfing",
-  sound: "/ˈsɜː.fɪŋ/",
-  Image: "../../../../asset/image/vocabulary/sport/surfing.jpg",
-  soundfile: "../../../../asset/audio/vocabulary/sport/surfing.mp3"
+  word: "painter",
+  sound: "/ˈpeɪn.tər/",
+  Image: "../../../../asset/image/vocabulary/occupation/painter.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/painter.mp3"
 };
 
 const contentItem13 = {
-  word: "karate",
-  sound: "/kəˈrɑː.ti/",
-  Image: "../../../../asset/image/vocabulary/sport/karate.jpg",
-  soundfile: "../../../../asset/audio/vocabulary/sport/karate.mp3"
+  word: "waiter",
+  sound: "/ˈweɪ.tər/",
+  Image: "../../../../asset/image/vocabulary/occupation/waiter.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/waiter.mp3"
 };
 
 const contentItem14 = {
-  word: "diving",
-  sound: "/ˈdaɪ.vɪŋ/",
-  Image: "../../../../asset/image/vocabulary/sport/diving.jpg",
-  soundfile: "../../../../asset/audio/vocabulary/sport/diving.mp3"
+  word: "judge",
+  sound: "/dʒʌdʒ/",
+  Image: "../../../../asset/image/vocabulary/occupation/judge.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/judge.mp3"
+};
+
+const contentItem15 = {
+  word: "plumber",
+  sound: "/ˈplʌm.ər/",
+  Image: "../../../../asset/image/vocabulary/occupation/plumber.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/plumber.mp3"
+};
+
+const contentItem16 = {
+  word: "scientist",
+  sound: "/ˈsaɪən.tɪst/",
+  Image: "../../../../asset/image/vocabulary/occupation/scientist.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/scientist.mp3"
+};
+
+const contentItem17 = {
+  word: "postman",
+  sound: "/ˈpəʊst.mən/",
+  Image: "../../../../asset/image/vocabulary/occupation/postman.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/postman.mp3"
+};
+
+const contentItem18 = {
+  word: "footballer",
+  sound: "/ˈfʊt.bɔː.lər/",
+  Image: "../../../../asset/image/vocabulary/occupation/footballer.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/footballer.mp3"
+};
+
+const contentItem19 = {
+  word: "reporter",
+  sound: "/rɪˈpɔː.tər/",
+  Image: "../../../../asset/image/vocabulary/occupation/reporter.jpg",
+  soundfile: "../../../../asset/audio/vocabulary/occupation/reporter.mp3"
 };
 
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
-  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14];
+  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19];
+
 
 const common ={
   testPreviousBtn: null,
@@ -130,6 +166,12 @@ const learnObj = {
 const wordImageMatchObj = {
   wordElementLst: null,
   counter: 0,
+  right:  0,
+  wrong:  0,
+  score:  0,
+  right_content:null,
+  wrong_content:null,
+  score_conent:null,
   sectionLength: 5,
   progress: null,
   list0: null,
@@ -137,69 +179,82 @@ const wordImageMatchObj = {
   picture: null,
   wordImageMatch: document.getElementById("wordImageMatch"),
   wordImageMatchContent: `<div class="card highlight">
-                              <h1 class="text-center my-3" id="progress"></h1>
-                              <div class="my-3">
+                              <h2 class="text-center my-1" id="progress">Learning test</h2>
+
+                              <div class="d-flex justify-content-around align-items-center text-center my-1">
+
+                                <div>
+                                  <img src="../../../../asset/image/happy.png" width="50" height="50" alt="">
+                                  <p class="text-danger my-0" id="right">100</p>
+                                </div>
+                      
+                                <div>
+                                  <img src="../../../../asset/image/score.png" width="50" height="50" alt="">
+                                  <p class="text-danger my-0" id="score">Core</p>
+                                </div>
+                      
+                                <div>
+                                  <img src="../../../../asset/image/sad.png" width="50" height="50" alt="">
+                                  <p class="text-danger my-0" id="wrong">100</p>
+                                </div>
+                    
+                              </div>
+
+                              <div class="my-1">
                                 <img id="wordImageMatchPicture" src="" width="100" height="100" alt="">
                               </div>
-                              <div class="m-3 h2">
-                                <div class="form-check my-3">
+                              
+                              <div class="m-1 h2">
+                                <div class="form-check">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
-                                  <label class="form-check-label" for="letter1"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
+                                  <label class="form-check-label" for="letter1"></label>
                                 </div>
 
-                                <div class="form-check my-3">
-                                  <input class="form-check-input letterElement " type="radio" name="letter" id="letter2" value="">
-                                  <label class="form-check-label" for="letter2"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
+                                <div class="form-check my-2">
+                                  <input class="form-check-input letterElement" type="radio" name="letter" id="letter2" value="">
+                                  <label class="form-check-label" for="letter2"></label>
                                 </div>
 
-                                <div class="form-check my-3">
+                                <div class="form-check my-2">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter3" value="">
-                                  <label class="form-check-label" for="letter3"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
+                                  <label class="form-check-label" for="letter3"></label>
                                 </div>   
 
-                                <div class="form-check my-3">
+                                <div class="form-check my-2">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter4" value="">
-                                  <label class="form-check-label" for="letter4"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
+                                  <label class="form-check-label" for="letter4"></label>
                                 </div>
 
-                                <div class="form-check my-3">
+                                <div class="form-check my-2">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter5" value="">
-                                  <label class="form-check-label" for="letter5"><img class="soundImageMatchPicture" src="" alt="" width="50" height="50"></label>
+                                  <label class="form-check-label" for="letter5"></label>
                                 </div>
                               </div>
 
-
-                              <div id="showResult" class="my-2">
+                              <div id="showResult" class="my-1">
                               
                               </div>
 
-                              <div class="card-body" style="background-color: #00ffff;">
-
-                                <div class="d-flex justify-content-around align-items-center">
-                              
-                                  <button type="button" class="btn border-0 p-0 mx-2" id="testPrevious">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-                                      <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
-                                    </svg>
-                                  </button>
-                                      
-                                  <audio id="testAudio" controls preload="none" controlsList="nodownload">
-                                    <source id="testSoundFile" src="" type="audio/mpeg">
-                                  </audio>
-
+                              <div class="card-body p-1" style="background-color: #00ffff;">
+                                <div class="m-1">
                                   <button type="button" class="btn border-0 p-0 mx-2" id="testNext">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
                                       <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
                                     </svg>
                                   </button>
                                 </div>
+
+                                <audio id="testAudio" controls preload="none" controlsList="nodownload">
+                                  <source id="testSoundFile" src="" type="audio/mpeg">
+                                </audio>
+                  
                               </div>
                             </div>`,
 
 };
+
 function wordGenProcess(i,index)
 {
-
   for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
     let m =Math.floor(Math.random()*learnObj.totalLength);
@@ -208,7 +263,6 @@ function wordGenProcess(i,index)
   }
   wordImageMatchObj.list0[i].value=learnObj.letterList[index].word;
   wordImageMatchObj.list1[i].innerText=learnObj.letterList[index].word;
- 
 }
 
 function wordGen(index){
@@ -248,25 +302,32 @@ function testNextBtnFunction() {
   if(common.letterSelected!=false)
   {
     common.letterSelected.target.checked=false;
-  }
-
- if (common.game=="wordImageMatch")
-  {
-
-    if(wordImageMatchObj.counter<(learnObj.totalLength-1))
+    common.letterSelected =false;
+    if (common.game=="wordImageMatch")
     {
-      wordImageMatchObj.counter++;
-      wordGen(wordImageMatchObj.counter);
+      if(wordImageMatchObj.counter<(learnObj.totalLength-1))
+      {
+        wordImageMatchObj.counter++;
+        wordGen(wordImageMatchObj.counter);
+      }
+      wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
+      common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
     }
-    wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
-    common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
+    wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1+"/"+learnObj.totalLength;
+    common.testAudio.load();
+    document.getElementById("showResult").innerHTML="";
+
+    wordImageMatchObj.wordElementLst.forEach(elem => {
+      elem.disabled=false;
+    });
+  
+
   }
-  wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1 +"/"+learnObj.totalLength;
-  common.testAudio.load();
-  document.getElementById("showResult").innerHTML="";
+
+
 }
 
-function testPreviousBtnFunction() {
+/* function testPreviousBtnFunction() {
 
   if(common.letterSelected!=false)
   {
@@ -287,26 +348,34 @@ function testPreviousBtnFunction() {
   wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1+"/"+learnObj.totalLength;
   common.testAudio.load();
   document.getElementById("showResult").innerHTML="";
-}
+} */
 
 function letterSoundCheck(e) {
   common.letterSelected=e;
-
+  
   if(common.game=="wordImageMatch")
   {
     if(learnObj.letterList[wordImageMatchObj.counter].word === (e.target.value))
     {
-        document.getElementById("showResult").innerHTML=common.goodResult;
         common.testSoundFile.setAttribute("src",common.right);
+        wordImageMatchObj.right++;
+        wordImageMatchObj.right_content.innerText=wordImageMatchObj.right;
+     
     }else 
     {
-       document.getElementById("showResult").innerHTML=common.poorResult;
        common.testSoundFile.setAttribute("src",common.wrong);
+       wordImageMatchObj.wrong++;
+       wordImageMatchObj.wrong_content.innerText=wordImageMatchObj.wrong;
     }
 
   }
+  wordImageMatchObj.score_conent.innerText=Math.round(100*wordImageMatchObj.right/(wordImageMatchObj.counter+1))
   common.testAudio.load();
   common.testAudio.play();
+  wordImageMatchObj.wordElementLst.forEach(elem => {
+    elem.disabled=true;
+  });
+
 }
 
 function buildWordImageMatch()
@@ -322,11 +391,9 @@ function buildWordImageMatch()
   wordImageMatchObj.picture=document.getElementById("wordImageMatchPicture");
 
   common.testNextBtn = document.getElementById("testNext");
-  common.testPreviousBtn = document.getElementById("testPrevious");
   common.testAudio= document.getElementById("testAudio"); 
   common.testSoundFile = document.getElementById("testSoundFile");
   common.testNextBtn.addEventListener("click",testNextBtnFunction);
-  common.testPreviousBtn.addEventListener("click",testPreviousBtnFunction);
 
   wordImageMatchObj.wordElementLst = document.querySelectorAll(".letterElement");
   wordImageMatchObj.wordElementLst.forEach(elem => {
@@ -335,6 +402,13 @@ function buildWordImageMatch()
 
   wordImageMatchObj.progress=document.getElementById("progress");
   wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1+"/"+learnObj.totalLength;
+  wordImageMatchObj.right_content=document.getElementById("right");
+  wordImageMatchObj.wrong_content=document.getElementById("wrong");
+  wordImageMatchObj.score_conent=document.getElementById("score");
+  wordImageMatchObj.right_content.innerText=wordImageMatchObj.right;
+  wordImageMatchObj.wrong_content.innerText=wordImageMatchObj.wrong;
+  wordImageMatchObj.score_conent.innerText=wordImageMatchObj.score;
+
   //here fill up the letters 
   for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
@@ -358,7 +432,6 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
   }
 
 });
-
 
 document.getElementById("video0").addEventListener("click",function(){
 
