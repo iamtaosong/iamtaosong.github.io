@@ -135,7 +135,9 @@ const common ={
   testSection: document.getElementById("testSection"),
   letterSelected: false,
   goodResult: `<img src="../../../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../../../asset/image/sad.png" alt="happy--v1"/>`
+  poorResult: `<img src="../../.././asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../../../asset/image/right.mp3",
+  wrong: "../../../../asset/image/wrong.mp3"
 }
 
 const learnObj = {
@@ -143,142 +145,94 @@ const learnObj = {
   totalLength: contents.length
 };
 
-
 const wordSoundMatchObj = {
   wordElementLst: null,
   counter: 0,
+  right:  0,
+  wrong:  0,
+  score:  0,
+  right_content:null,
+  wrong_content:null,
+  score_conent:null,
   sectionLength: 5,
+  progress: null,
   list0: null,
   list1: null,
-  wordSoundMatch: document.getElementById("wordSoundMatch"),
-  wordSoundMatchContent: `<div class="card highlight">
-                              <div class="m-3 h2">
-                                <div class="form-check my-3">
+  picture: null,
+  wordImageMatch: document.getElementById("wordSoundMatch"),
+  wordImageMatchContent: `<div class="card highlight">
+                              <h2 class="text-center my-1" id="progress"></h2>
+
+                              <div class="d-flex justify-content-around align-items-center text-center my-1">
+
+                                <div>
+                                  <img src="../../../../asset/image/happy.png" width="50" height="50" alt="">
+                                  <p class="text-danger my-0" id="right">100</p>
+                                </div>
+                      
+                                <div>
+                                  <img src="../../../../asset/image/score.png" width="50" height="50" alt="">
+                                  <p class="text-danger my-0" id="score">Core</p>
+                                </div>
+                      
+                                <div>
+                                  <img src="../../../../asset/image/sad.png" width="50" height="50" alt="">
+                                  <p class="text-danger my-0" id="wrong">100</p>
+                                </div>
+                    
+                              </div>
+                                             
+                              <div class="m-1 h2">
+                                <div class="form-check">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
                                   <label class="form-check-label" for="letter1"></label>
                                 </div>
 
-                                <div class="form-check my-3">
+                                <div class="form-check my-2">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter2" value="">
                                   <label class="form-check-label" for="letter2"></label>
                                 </div>
 
-                                <div class="form-check my-3">
+                                <div class="form-check my-2">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter3" value="">
                                   <label class="form-check-label" for="letter3"></label>
                                 </div>   
 
-                                <div class="form-check my-3">
+                                <div class="form-check my-2">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter4" value="">
                                   <label class="form-check-label" for="letter4"></label>
                                 </div>
 
-                                <div class="form-check my-3">
+                                <div class="form-check my-2">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter5" value="">
                                   <label class="form-check-label" for="letter5"></label>
                                 </div>
                               </div>
 
-                              <div id="showResult" class="my-2">
+                              <div id="showResult" class="my-1">
                               
                               </div>
 
-                              <div class="card-body" style="background-color: #00ffff;">
-
-                                <div class="d-flex justify-content-around align-items-center">
-                              
-                                  <button type="button" class="btn border-0 p-0 mx-2" id="testPrevious">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-                                      <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
-                                    </svg>
-                                  </button>
-                                      
-                                  <audio id="testAudio" controls preload="none" controlsList="nodownload">
-                                    <source id="testSoundFile" src="" type="audio/mpeg">
-                                  </audio>
-
+                              <div class="card-body p-1" style="background-color: #00ffff;">
+                                <div class="m-1">
                                   <button type="button" class="btn border-0 p-0 mx-2" id="testNext">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
                                       <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
                                     </svg>
                                   </button>
                                 </div>
+
+                                <audio id="testAudio" controls preload="none" controlsList="nodownload">
+                                  <source id="testSoundFile" src="" type="audio/mpeg">
+                                </audio>
+                  
                               </div>
                             </div>`,
 
 };
 
-const wordOrderObj ={
-  counter: 0,
-  sectionLength: 5,
-  checkResultBtn: null,
-  draggableElements: null,
-  droppableElements: null,
-  wordOrder:document.getElementById("wordOrder"),
-  wordOrderContent:` <div class="card border border-0">
-                      <div class="h2">
-                        <div class="row justify-content-center my-5">
-
-                          <div class="col-2">
-                            <H2 id="source1" class="justify-content-center dragSource" style="cursor: move;" draggable="true"></H2>
-                          </div>
-
-                          <div class="col-2">
-                            <H2 id="source2" class="justify-content-center dragSource" style="cursor: move;" draggable="true"></H2>
-                          </div>
-
-                          <div class="col-2">
-                            <H2 id="source3" class="justify-content-center dragSource" style="cursor: move;" draggable="true"></H2>
-                          </div>
-
-                          <div class="col-2">
-                            <H2 id="source4" class="justify-content-center dragSource" style="cursor: move;" draggable="true"></H2>
-                          </div>
-                          
-                          <div class="col-2">
-                            <H2 id="source5" class="justify-content-center dragSource" style="cursor: move;" draggable="true"></H2>
-                          </div>
-                        </div>  
-
-                        <div class="row justify-content-center my-5 text-warning"style="height: 50px;" >
-                        
-                        <div class="col-2 border-3 border border-info mx-1 droppTarget">
-
-                          </div>
-
-                          <div class="col-2 border-3 border border-info mx-1 droppTarget">
-
-                          </div>
-
-                          <div class="col-2 border-3 border border-info mx-1 droppTarget">
-
-                          </div>
-
-                          <div class="col-2 border-3 border border-info mx-1 droppTarget">
-
-                          </div>
-
-                          <div class="col-2 border-3 border border-info mx-1 droppTarget">
-
-                          </div>
-                        </div>  
-
-                        <div id="showResult">
-                        
-                        </div>
-
-                        <button id="checkResult" type="button" style="width: 50%;" class="btn rounded-pill py-2 px-3 my-3 shadow practicebuttoncolor border-0">
-                          <span class="text-white">Play again</span> 
-                          <i class="bi bi-hand-index-thumb text-white"></i>    
-                        </button>
-                      </div> 
-                    </div> `
-
-};
-
 function wordGenProcess(i,index)
 {
-
   for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
   {
     let m =Math.floor(Math.random()*learnObj.totalLength);
@@ -287,14 +241,11 @@ function wordGenProcess(i,index)
   }
   wordSoundMatchObj.list0[i].value=learnObj.letterList[index].word;
   wordSoundMatchObj.list1[i].innerText=learnObj.letterList[index].word;
-  common.testSoundFile.setAttribute("src",learnObj.letterList[index].soundfile);
-  common.testAudio.load();
 }
 
-
 function wordGen(index){
-  
-  let i=index%wordSoundMatchObj.sectionLength;
+
+   let i=index%wordSoundMatchObj.sectionLength;
   if (i==0)
   {
 
@@ -329,233 +280,112 @@ function testNextBtnFunction() {
   if(common.letterSelected!=false)
   {
     common.letterSelected.target.checked=false;
-  }
-
- if (common.game=="wordSoundMatch")
-  {
-    if(wordSoundMatchObj.counter<(learnObj.totalLength-1))
+    common.letterSelected =false;
+    if (common.game=="wordSoundMatch")
     {
-      wordSoundMatchObj.counter++;
-      wordGen(wordSoundMatchObj.counter);
+      if(wordSoundMatchObj.counter<(learnObj.totalLength-1))
+      {
+        wordSoundMatchObj.counter++;
+        wordGen(wordSoundMatchObj.counter);
+      }
+      common.testSoundFile.setAttribute("src",learnObj.letterList[wordSoundMatchObj.counter].soundfile); 
     }
+    wordSoundMatchObj.progress.innerText=wordSoundMatchObj.counter+1+"/"+learnObj.totalLength;
+    common.testAudio.load();
+    document.getElementById("showResult").innerHTML="";
+
+    wordSoundMatchObj.wordElementLst.forEach(elem => {
+      elem.disabled=false;
+    });
+  
 
   }
 
-  document.getElementById("showResult").innerHTML="";
+
 }
 
-function testPreviousBtnFunction() {
-
-  if(common.letterSelected!=false)
-  {
-    common.letterSelected.target.checked=false;
-  }
-
-  if (common.game=="wordSoundMatch")
-  {
-    if(wordSoundMatchObj.counter>0)
-    {
-      wordSoundMatchObj.counter--;
-      wordGen(wordSoundMatchObj.counter);
-    }
-  }
-  document.getElementById("showResult").innerHTML="";
-}
-
-function wordSoundCheck(e) {
+function letterSoundCheck(e) {
   common.letterSelected=e;
- if (common.game=="wordSoundMatch")
+  
+  if(common.game=="wordSoundMatch")
   {
     if(learnObj.letterList[wordSoundMatchObj.counter].word === (e.target.value))
     {
-  
-      document.getElementById("showResult").innerHTML=common.goodResult;
-   
+        common.testSoundFile.setAttribute("src",common.right);
+        wordSoundMatchObj.right++;
+        wordSoundMatchObj.right_content.innerText=wordSoundMatchObj.right;
+     
     }else 
     {
-  
-      document.getElementById("showResult").innerHTML=common.poorResult;
+       common.testSoundFile.setAttribute("src",common.wrong);
+       wordSoundMatchObj.wrong++;
+       wordSoundMatchObj.wrong_content.innerText=wordSoundMatchObj.wrong;
     }
+
   }
+  wordSoundMatchObj.score_conent.innerText=Math.round(100*wordSoundMatchObj.right/(wordSoundMatchObj.counter+1))
+  common.testAudio.load();
+  common.testAudio.play();
+  wordSoundMatchObj.wordElementLst.forEach(elem => {
+    elem.disabled=true;
+  });
+
 }
 
-function buildwordSoundMatch()
+function buildWordImageMatch()
 {
   common.game="wordSoundMatch";
+  wordSoundMatchObj.counter=0;
   let p = document.createElement("div"); 
-  p.innerHTML= wordSoundMatchObj.wordSoundMatchContent;
+  p.innerHTML= wordSoundMatchObj.wordImageMatchContent;
   common.testSection.appendChild(p);
   
   wordSoundMatchObj.list0= document.querySelectorAll(".form-check-input");
   wordSoundMatchObj.list1 = document.querySelectorAll(".form-check-label");
+  wordSoundMatchObj.picture=document.getElementById("wordImageMatchPicture");
 
   common.testNextBtn = document.getElementById("testNext");
-  common.testPreviousBtn = document.getElementById("testPrevious");
   common.testAudio= document.getElementById("testAudio"); 
   common.testSoundFile = document.getElementById("testSoundFile");
   common.testNextBtn.addEventListener("click",testNextBtnFunction);
-  common.testPreviousBtn.addEventListener("click",testPreviousBtnFunction);
 
   wordSoundMatchObj.wordElementLst = document.querySelectorAll(".letterElement");
   wordSoundMatchObj.wordElementLst.forEach(elem => {
-    elem.addEventListener("click",wordSoundCheck); 
+    elem.addEventListener("click",letterSoundCheck); 
   });
+
+  wordSoundMatchObj.progress=document.getElementById("progress");
+  wordSoundMatchObj.progress.innerText=wordSoundMatchObj.counter+1+"/"+learnObj.totalLength;
+  wordSoundMatchObj.right_content=document.getElementById("right");
+  wordSoundMatchObj.wrong_content=document.getElementById("wrong");
+  wordSoundMatchObj.score_conent=document.getElementById("score");
+  wordSoundMatchObj.right_content.innerText=wordSoundMatchObj.right;
+  wordSoundMatchObj.wrong_content.innerText=wordSoundMatchObj.wrong;
+  wordSoundMatchObj.score_conent.innerText=wordSoundMatchObj.score;
+
   //here fill up the letters 
   for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
   {
     wordSoundMatchObj.list0[k].value=learnObj.letterList[k].word;
     wordSoundMatchObj.list1[k].innerText=learnObj.letterList[k].word;
   }
-
   common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
   common.testAudio.load();
+
 }
 
-wordSoundMatchObj.wordSoundMatch.addEventListener("click",function() {
-  
+wordSoundMatchObj.wordImageMatch.addEventListener("click",function() {
   wordSoundMatchObj.counter=0;
-
-  if(common.game=="wordSoundMatch")
+  if(common.game=="wordImageMatch")
   {
 
-
   }else{
-    buildwordSoundMatch();
+
+    buildWordImageMatch();
   }
 
 });
 
-
-/* function dragStart(ev) {
-  ev.dataTransfer.setData("text", ev.target.id);
-  ev.dataTransfer.effectAllowed = "move";
-
-}
- 
-function dragOver(ev) {
-  ev.preventDefault();
-}
-
-function checkResult()
-{
-  let flag = false;
-  for(let i=0; i<wordOrderObj.droppableElements.length; i++)
-  {
-     if(wordOrderObj.droppableElements[i].innerText !="") {
-      
-
-     }else
-     {
-        flag=true;
-     }
-  }
-
-  if(flag==false)
-  {
-    for(let i=0; i<wordOrderObj.droppableElements.length-1; i++)
-    {
-      if(wordOrderObj.droppableElements[i].innerText<wordOrderObj.droppableElements[i+1].innerText)
-      {
-
-      }else
-      {
-        flag=true;
-      }
-      
-    }
-
-    if(flag==false)
-    {
-
-      document.getElementById("showResult").innerHTML=common.goodResult;
-    }else{
-      document.getElementById("showResult").innerHTML=common.poorResult;
-    }
-  }
- 
-}
-
-function drop(ev) {
-  ev.preventDefault();
-  var data = ev.dataTransfer.getData("text");
-  if(ev.target.innerText=="")
-  {
-    ev.target.appendChild(document.getElementById(data)); 
-  }
-  checkResult();
-}
- 
-
-function buildWordOrder(){
-
-  common.game="wordOrderMatch";
-  let p = document.createElement("div"); 
-  p.innerHTML= wordOrderObj.wordOrderContent;
-  common.testSection.appendChild(p);
-  wordOrderObj.draggableElements = document.querySelectorAll(".dragSource");
-  wordOrderObj.droppableElements = document.querySelectorAll(".droppTarget");
-  wordOrderObj.checkResultBtn = document.getElementById("checkResult");
-
-  for(let k=0; k< wordOrderObj.sectionLength;k++)
-  {
-
-    let m =Math.floor(Math.random()*learnObj.totalLength);
-    wordOrderObj.draggableElements[k].innerText=learnObj.letterList[m].word;
-
-  }
-
-  wordOrderObj.draggableElements.forEach(elem => {
-    elem.addEventListener("dragstart", dragStart); 
-  });
-  
-  wordOrderObj.droppableElements.forEach(elem => {
-    elem.addEventListener("dragover", dragOver); 
-    elem.addEventListener("drop", drop); 
-  });
-
-  wordOrderObj.checkResultBtn.addEventListener("click",function()
-  {
-    wordOrderObj.draggableElements.forEach(elem => {
-      elem.removeEventListener("dragstart", dragStart); 
-    });
-    
-    wordOrderObj.droppableElements.forEach(elem => {
-      elem.removeEventListener("dragover", dragOver); 
-      elem.removeEventListener("drop", drop); 
-    });
-
-    common.testSection.innerHTML='';
-    buildWordOrder();
-
-  });
-}
-
-wordOrderObj.wordOrder.addEventListener("click", function(){
-
-  wordOrderObj.counter=0;
-  if(common.game=="wordSoundMatch")
-  {
-    common.testNextBtn.removeEventListener("click",testNextBtnFunction);
-    common.testPreviousBtn.removeEventListener("click",testPreviousBtnFunction);
-    wordSoundMatchObj.wordElementLst.forEach(elem => {
-      elem.removeEventListener("click",wordSoundCheck); 
-    });
-    common.testSection.innerHTML='';
-    buildWordOrder();
-  }else 
-  {
-    if(common.game=="wordOrderMatch")
-    {
-
-
-    }else{
-
-      buildWordOrder();
-
-    }
-  }
- 
-});  */
 
 document.getElementById("video0").addEventListener("click",function(){
 
@@ -580,4 +410,5 @@ document.getElementById("video3").addEventListener("click",function(){
   document.getElementById('videoLink').src ="https://www.youtube.com/embed/DR-cfDsHCGA?si=evKl7ebyESsJ3P4V";
   
 });
+
 
