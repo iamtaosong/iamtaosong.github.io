@@ -9,27 +9,34 @@ const contentItem0 = {
 };
 
 const contentItem1 = {
+  word: "lunch",
+  sound: "/lʌntʃ/",
+  Image: "../../../../asset/image/time/lunch.jpg",
+  soundfile: "../../../../asset/audio/time/lunch.mp3"
+};
+
+const contentItem2 = {
   word: "afternoon",
   sound: "/ˌɑːf.təˈnuːn/",
   Image: "../../../../asset/image/time/afternoon.jpg",
   soundfile: "../../../../asset/audio/time/afternoon.mp3"
 };
 
-const contentItem2 = {
+const contentItem3 = {
   word: "evening",
   sound: "/ˈiːv.nɪŋ/",
   Image: "../../../../asset/image/time/evening.jpg",
   soundfile: "../../../../asset/audio/time/evening.mp3"
 };
 
-const contentItem3 = {
+const contentItem4 = {
   word: "night",
   sound: "/naɪt/",
   Image: "../../../../asset/image/time/night.jpg",
   soundfile: "../../../../asset/audio/time/night.mp3"
 };
 
-const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3];
+const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
 
 const lessons = ["lesson-0"];
 

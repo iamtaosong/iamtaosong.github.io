@@ -499,3 +499,9 @@ document.getElementById("video3").addEventListener("click",function(){
   document.getElementById('videoLink').src ="https://www.youtube.com/embed/gVIFEVLzP4o?si=cleWYbepQJOXbymg";
   
 });
+
+document.getElementById("video4").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/GqNaVXycr_o?si=EqYKi01K8zUCg4kZ";
+  
+});
