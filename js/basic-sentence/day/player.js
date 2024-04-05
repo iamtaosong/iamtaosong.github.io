@@ -3,91 +3,91 @@ const pathname=window.location.pathname;
 const contentItem0 = {
   question: "What day is it?",
   answer: "It's Monday",
-  Image: "../../../asset/image/basic-sentence/where/in.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/where/dog.mp3",
-  soundfileA: "../../../asset/audio/basic-sentence/where/sunny.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/where/qain.mp3"
+  Image: "../../../asset/image/basic-sentence/day/in.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/dog.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/sunny.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qain.mp3"
 };
 
 const contentItem1 = {
   question: "What day is it?",
   answer: "It's Tuesday",
-  Image: "../../../asset/image/basic-sentence/where/near.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/where/dog.mp3",
-  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/where/qanear.mp3"
+  Image: "../../../asset/image/basic-sentence/day/near.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/dog.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qanear.mp3"
 };
 
 const contentItem2 = {
   question: "What day is it?",
   answer: "It's Wednesday",
-  Image: "../../../asset/image/basic-sentence/where/on.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/where/dog.mp3",
-  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/where/qaon.mp3"
+  Image: "../../../asset/image/basic-sentence/day/on.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/dog.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qaon.mp3"
 };
 
 const contentItem3 = {
   question: "What day is it?",
   answer: "It's Thursday",
-  Image: "../../../asset/image/basic-sentence/where/under.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/where/fox.mp3",
-  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/where/qaunder.mp3"
+  Image: "../../../asset/image/basic-sentence/day/under.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/fox.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qaunder.mp3"
 };
 
 const contentItem4 = {
   question: "What's your favorite day",
   answer: "I like Friday",
-  Image: "../../../asset/image/basic-sentence/where/among.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/where/he.mp3",
-  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/where/qaamong.mp3"
+  Image: "../../../asset/image/basic-sentence/day/among.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/he.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qaamong.mp3"
 };
 
 const contentItem5 = {
   question: "What day comes after Sunday?",
   answer: "Monday comes after Sunday",
-  Image: "../../../asset/image/basic-sentence/where/You.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/where/you.mp3",
-  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/where/qayou.mp3"
+  Image: "../../../asset/image/basic-sentence/day/You.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/you.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qayou.mp3"
 };
 
 const contentItem6 = {
   question: "What day comes before Monday?",
   answer: "Sunday comes before Monday",
-  Image: "../../../asset/image/basic-sentence/where/She.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/where/she.mp3",
-  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/where/qashe.mp3"
+  Image: "../../../asset/image/basic-sentence/day/She.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/she.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qashe.mp3"
 };
 
 const contentItem7 = {
   question: "What is your favorite Saturday activity?",
   answer: "My favorite Saturday activity is going to the park.",
-  Image: "../../../asset/image/basic-sentence/where/He.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/where/fromhe.mp3",
-  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/where/qafromhe.mp3"
+  Image: "../../../asset/image/basic-sentence/day/He.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/fromhe.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qafromhe.mp3"
 };
 
 const contentItem8 = {
   question: "What day is the last day of the school",
   answer: "Friday is the last day of the school",
-  Image: "../../../asset/image/basic-sentence/where/They.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/where/they.mp3",
-  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/where/qathey.mp3"
+  Image: "../../../asset/image/basic-sentence/day/They.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/they.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qathey.mp3"
 };
 
 const contentItem9 = {
   question: "What day is it before Wednesday?",
   answer: "It's Tuesday before Wednesday",
-  Image: "../../../asset/image/basic-sentence/where/We.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/where/we.mp3",
-  soundfileA: "../../../asset/audio/basic-sentence/where/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/where/qawe.mp3"
+  Image: "../../../asset/image/basic-sentence/day/We.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/we.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qawe.mp3"
 };
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];
