@@ -4,36 +4,36 @@ const contentItem0 = {
   question: "What color is it?",
   answer: "It's red",
   Image: "../../../asset/image/basic-sentence/color/red.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/color/dog.mp3",
-  soundfileA: "../../../asset/audio/basic-sentence/color/sunny.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/color/qain.mp3"
+  soundfileQ: "../../../asset/audio/basic-sentence/color/color.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/color/red.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/color/qared.mp3"
 };
 
 const contentItem1 = {
   question: "What color is it?",
   answer: "It's blue",
   Image: "../../../asset/image/basic-sentence/color/blue.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/color/dog.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/color/color.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/color/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/color/qanear.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/color/qablue.mp3"
 };
 
 const contentItem2 = {
   question: "What color is it?",
   answer: "It's orange",
   Image: "../../../asset/image/basic-sentence/color/orange.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/color/dog.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/color/color.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/color/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/color/qaon.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/color/qaorange.mp3"
 };
 
 const contentItem3 = {
   question: "What color is it?",
   answer: "It's yellow like banana",
   Image: "../../../asset/image/basic-sentence/color/banana.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/color/fox.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/color/color.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/color/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/color/qaunder.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/color/qabanana.mp3"
 };
 
 const contentItem4 = {
@@ -42,52 +42,52 @@ const contentItem4 = {
   Image: "../../../asset/image/basic-sentence/color/pink.jpg",
   soundfileQ: "../../../asset/audio/basic-sentence/color/he.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/color/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/color/qaamong.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/color/qapink.mp3"
 };
 
 const contentItem5 = {
   question: "Is it red tomato",
   answer: "Yes, it is",
   Image: "../../../asset/image/basic-sentence/color/tomato.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/color/you.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/color/tomato.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/color/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/color/qayou.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/color/qatomato.mp3"
 };
 
 const contentItem6 = {
   question: "Is it purple",
   answer: "No,it isn't",
   Image: "../../../asset/image/basic-sentence/color/purple.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/color/she.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/color/purple.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/color/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/color/qashe.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/color/qapurple.mp3"
 };
 
 const contentItem7 = {
   question: "What's this",
   answer: "It's green apple",
   Image: "../../../asset/image/basic-sentence/color/apple.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/color/fromhe.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/color/this.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/color/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/color/qafromhe.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/color/qaapple.mp3"
 };
 
 const contentItem8 = {
   question: "Is the sky blue",
   answer: "Yes, it is",
   Image: "../../../asset/image/basic-sentence/color/sky.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/color/they.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/color/sky.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/color/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/color/qathey.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/color/qasky.mp3"
 };
 
 const contentItem9 = {
   question: "Whats the color of sun",
-  answer: "it is yellow",
+  answer: "It is yellow",
   Image: "../../../asset/image/basic-sentence/color/sun.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/color/we.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/color/sun.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/color/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/color/qawe.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/color/qasun.mp3"
 };
 
 
