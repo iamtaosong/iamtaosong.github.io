@@ -4,50 +4,50 @@ const contentItem0 = {
   question: "What day is it?",
   answer: "It's Monday",
   Image: "../../../asset/image/basic-sentence/day/in.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/day/dog.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/day.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/day/sunny.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/day/qain.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qamonday.mp3"
 };
 
 const contentItem1 = {
   question: "What day is it?",
   answer: "It's Tuesday",
   Image: "../../../asset/image/basic-sentence/day/near.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/day/dog.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/day.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/day/qanear.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qatuesday.mp3"
 };
 
 const contentItem2 = {
   question: "What day is it?",
   answer: "It's Wednesday",
   Image: "../../../asset/image/basic-sentence/day/on.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/day/dog.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/day.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/day/qaon.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qawednesday.mp3"
 };
 
 const contentItem3 = {
   question: "What day is it?",
   answer: "It's Thursday",
   Image: "../../../asset/image/basic-sentence/day/under.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/day/fox.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/day.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/day/qaunder.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qathursday.mp3"
 };
 
 const contentItem4 = {
   question: "What's your favorite day",
   answer: "I like Friday",
   Image: "../../../asset/image/basic-sentence/day/among.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/day/he.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/favorite.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/day/qaamong.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qafavorite.mp3"
 };
 
 const contentItem5 = {
   question: "What day comes after Sunday?",
-  answer: "Monday comes after Sunday",
+  answer: "Monday comes after sunday",
   Image: "../../../asset/image/basic-sentence/day/You.jpg",
   soundfileQ: "../../../asset/audio/basic-sentence/day/you.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
@@ -55,8 +55,8 @@ const contentItem5 = {
 };
 
 const contentItem6 = {
-  question: "What day comes before Monday?",
-  answer: "Sunday comes before Monday",
+  question: "What day comes before monday?",
+  answer: "Sunday comes before monday",
   Image: "../../../asset/image/basic-sentence/day/She.jpg",
   soundfileQ: "../../../asset/audio/basic-sentence/day/she.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
@@ -65,9 +65,9 @@ const contentItem6 = {
 
 const contentItem7 = {
   question: "What is your favorite Saturday activity?",
-  answer: "My favorite Saturday activity is going to the park.",
+  answer: "It is going to the park",
   Image: "../../../asset/image/basic-sentence/day/He.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/day/fromhe.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/park.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
   soundfileQA: "../../../asset/audio/basic-sentence/day/qafromhe.mp3"
 };
@@ -78,12 +78,12 @@ const contentItem8 = {
   Image: "../../../asset/image/basic-sentence/day/They.jpg",
   soundfileQ: "../../../asset/audio/basic-sentence/day/they.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/day/qathey.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qapark.mp3"
 };
 
 const contentItem9 = {
-  question: "What day is it before Wednesday?",
-  answer: "It's Tuesday before Wednesday",
+  question: "What day is it before wednesday?",
+  answer: "It's Tuesday before wednesday",
   Image: "../../../asset/image/basic-sentence/day/We.jpg",
   soundfileQ: "../../../asset/audio/basic-sentence/day/we.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",

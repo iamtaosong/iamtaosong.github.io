@@ -4,90 +4,90 @@ const contentItem0 = {
   question: "What season is it?",
   answer: "It's spring",
   Image: "../../../asset/image/basic-sentence/season/spring.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/dog.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/spring.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/sunny.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/season/qain.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/season/qaspring.mp3"
 };
 
 const contentItem1 = {
   question: "What season is it?",
   answer: "It's summer",
   Image: "../../../asset/image/basic-sentence/season/summer.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/dog.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/summer.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/season/qanear.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/season/qasummer.mp3"
 };
 
 const contentItem2 = {
   question: "What season is it?",
   answer: "It's fall",
   Image: "../../../asset/image/basic-sentence/season/fall.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/dog.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/fall.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/season/qaon.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/season/qafall.mp3"
 };
 
 const contentItem3 = {
   question: "What season is it?",
   answer: "It's winter",
   Image: "../../../asset/image/basic-sentence/season/winter.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/fox.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/winter.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/season/qaunder.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/season/qawinter.mp3"
 };
 
 const contentItem4 = {
   question: "What season comes after winter?",
   answer: "Spring comes after winter",
   Image: "../../../asset/image/basic-sentence/season/spring.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/he.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/whatafterwinter.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/season/qaamong.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/season/qaafterwinter.mp3"
 };
 
 const contentItem5 = {
   question: "What season comes after spring?",
-  answer: "Summer comes after winter",
+  answer: "Summer comes after spring",
   Image: "../../../asset/image/basic-sentence/season/summer.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/you.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/whatafterspring.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/season/qayou.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/season/qasfterspring.mp3"
 };
 
 const contentItem6 = {
   question: "What season comes after summer?",
-  answer: "Fall comes after winter",
+  answer: "Fall comes after summer",
   Image: "../../../asset/image/basic-sentence/season/fall.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/she.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/whataftersummer.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/season/qashe.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/season/qaaftersummer.mp3"
 };
 
 const contentItem7 = {
   question: "What season comes after fall?",
   answer: "Winter comes after fall",
   Image: "../../../asset/image/basic-sentence/season/winter.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/fromhe.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/whatafterfall.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/season/qafromhe.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/season/qaafterfall.mp3"
 };
 
 const contentItem8 = {
   question: "What is the warmest season of the year?",
   answer: "Summer is the warmest season of the year",
   Image: "../../../asset/image/basic-sentence/season/summer.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/they.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/warmest.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/season/qathey.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/season/qawarmest.mp3"
 };
 
 const contentItem9 = {
   question: "What is the coldest season of the year?",
-  answer: "Winter is the coldest season of the year",
+  answer: "It is winter",
   Image: "../../../asset/image/basic-sentence/season/winter.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/we.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/coldest.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/getup.mp3",
-  soundfileQA: "../../../asset/audio/basic-sentence/season/qawe.mp3"
+  soundfileQA: "../../../asset/audio/basic-sentence/season/qacoldest.mp3"
 };
 
 const contents0 = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4];

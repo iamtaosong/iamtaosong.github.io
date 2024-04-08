@@ -4,7 +4,7 @@ const contentItem0 = {
   question: "What season is it?",
   answer: "It's spring",
   Image: "../../../asset/image/basic-sentence/season/spring.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/season.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/spring.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/sunny.mp3",
   soundfileQA: "../../../asset/audio/basic-sentence/season/qaspring.mp3"
 };
@@ -13,7 +13,7 @@ const contentItem1 = {
   question: "What season is it?",
   answer: "It's summer",
   Image: "../../../asset/image/basic-sentence/season/summer.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/season.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/summer.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/getup.mp3",
   soundfileQA: "../../../asset/audio/basic-sentence/season/qasummer.mp3"
 };
@@ -22,7 +22,7 @@ const contentItem2 = {
   question: "What season is it?",
   answer: "It's fall",
   Image: "../../../asset/image/basic-sentence/season/fall.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/season.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/fall.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/getup.mp3",
   soundfileQA: "../../../asset/audio/basic-sentence/season/qafall.mp3"
 };
@@ -31,7 +31,7 @@ const contentItem3 = {
   question: "What season is it?",
   answer: "It's winter",
   Image: "../../../asset/image/basic-sentence/season/winter.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/season.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/winter.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/getup.mp3",
   soundfileQA: "../../../asset/audio/basic-sentence/season/qawinter.mp3"
 };
@@ -206,11 +206,11 @@ function wordGenProcess(i,index)
   for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
     let m =Math.floor(Math.random()*learnObj.totalLength);
-    wordImageMatchObj.list0[k].value=learnObj.letterList[m].answer;
-    wordImageMatchObj.list1[k].innerText=learnObj.letterList[m].answer;
+    wordImageMatchObj.list0[k].value=learnObj.letterList[m].word;
+    wordImageMatchObj.list1[k].innerText=learnObj.letterList[m].word;
   }
-  wordImageMatchObj.list0[i].value=learnObj.letterList[index].answer;
-  wordImageMatchObj.list1[i].innerText=learnObj.letterList[index].answer;
+  wordImageMatchObj.list0[i].value=learnObj.letterList[index].word;
+  wordImageMatchObj.list1[i].innerText=learnObj.letterList[index].word;
 }
 
 function wordGen(index){
@@ -259,7 +259,7 @@ function testNextBtnFunction() {
         wordGen(wordImageMatchObj.counter);
       }
       wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
-      common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfileQ); 
+      common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
     }
     wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1+"/"+learnObj.totalLength;
     common.testAudio.load();
@@ -303,7 +303,7 @@ function letterSoundCheck(e) {
   
   if(common.game=="wordImageMatch")
   {
-    if(learnObj.letterList[wordImageMatchObj.counter].answer === (e.target.value))
+    if(learnObj.letterList[wordImageMatchObj.counter].word === (e.target.value))
     {
         common.testSoundFile.setAttribute("src",common.right);
         wordImageMatchObj.right++;
@@ -360,11 +360,11 @@ function buildWordImageMatch()
   //here fill up the letters 
   for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
-    wordImageMatchObj.list0[k].value=learnObj.letterList[k].answer;
-    wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].answer;
+    wordImageMatchObj.list0[k].value=learnObj.letterList[k].word;
+    wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].word;
   }
   wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[0].Image);
-  common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfileQ);
+  common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
   common.testAudio.load();
 
 }
@@ -383,24 +383,19 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/qoVcMJTjJ4A?si=ilbJOtk7Hci6vq9t";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ij0iWJB2uMo?si=zsbRUH5Z36k9-R8V";
   
 });
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/frN3nvhIHUk?si=YoHDTaW-rGe6m4_3";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/5cYMu3RTMJU?si=VCVGpbGGgKExmueL";
   
 });
-
+ 
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/lcl8uB2AWM0?si=iFjOF9CiqrWcvKSh";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/pE7OBuaMX5k?si=McYiCBOpGgV66u9T";
   
 });
-
-document.getElementById("video3").addEventListener("click",function(){
-
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/v0QjJORZ7Hg?si=Rz9KXj3VEoXu9ShT";
-  
-});
+ 
