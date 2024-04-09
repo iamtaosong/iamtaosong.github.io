@@ -1,184 +1,96 @@
 "use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  word: "I usually get up at 7 clock in the morning",
-  sound: "/naɪf/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/up.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/up.mp3"
+  question: "What day is it?",
+  answer: "It's monday",
+  Image: "../../../asset/image/basic-sentence/day/monday.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/day.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/sunny.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qamonday.mp3"
 };
 
 const contentItem1 = {
-  word: "I brush teeth carefully",
-  sound: "/pleɪt/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/teeth.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/teeth.mp3"
+  question: "What day is it?",
+  answer: "It's tuesday",
+  Image: "../../../asset/image/basic-sentence/day/tuesday.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/day.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qatuesday.mp3"
 };
 
 const contentItem2 = {
-  word: "I then wash face",
-  sound: "/fɔːk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/face.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/face.mp3"
+  question: "What day is it?",
+  answer: "It's wednesday",
+  Image: "../../../asset/image/basic-sentence/day/wednesday.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/day.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qawednesday.mp3"
 };
 
 const contentItem3 = {
-  word: "I have breakfast slowly",
-  sound: "/ˈtʃɒp.stɪk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/breakfast.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/breakfast.mp3"
+  question: "What day is it?",
+  answer: "It's thursday",
+  Image: "../../../asset/image/basic-sentence/day/thursday.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/day.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qathursday.mp3"
 };
 
 const contentItem4 = {
-  word: "I go to school today",
-  sound: "/spuːn/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/school.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/school.mp3"
+  question: "What's your favorite day",
+  answer: "I like friday",
+  Image: "../../../asset/image/basic-sentence/day/friday.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/favorite.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qafavorite.mp3"
 };
 
 const contentItem5 = {
-  word: "I often take school bus",
-  sound: "/ɡlɑːs/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/schoolbus.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/schoolbus.mp3"
+  question: "What day comes after sunday?",
+  answer: "Monday comes after sunday",
+  Image: "../../../asset/image/basic-sentence/day/monday.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/whataftersunday.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qaaftersunday.mp3"
 };
 
 const contentItem6 = {
-  word: "I sometimes play football outside",
-  sound: "/kʌp/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/football.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/football.mp3"
+  question: "What day comes before monday?",
+  answer: "Sunday comes before monday",
+  Image: "../../../asset/image/basic-sentence/day/sunday.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/whatbeforemonday.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qabeforemonday.mp3"
 };
 
 const contentItem7 = {
-  word: "I really like football",
-  sound: "/ˈspætʃ.ə.lə/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/football.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/likefootball.mp3"
+  question: "What is your favorite saturday activity?",
+  answer: "It is going to the park",
+  Image: "../../../asset/image/basic-sentence/day/park.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/favoritesaturday.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qapark.mp3"
 };
 
-
 const contentItem8 = {
-  word: "We always take classes at 8 clock",
-  sound: "/wɪsk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/class.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/class.mp3"
+  question: "What day is the last day of the school",
+  answer: "Friday is the last day of the school",
+  Image: "../../../asset/image/basic-sentence/day/friday.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/whatlast.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qalast.mp3"
 };
 
 const contentItem9 = {
-  word: "We usually have lunch at 12 clock",
-  sound: "/wɪsk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/lunch.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/lunch.mp3"
+  question: "What day is it before wednesday?",
+  answer: "It's tuesday before wednesday",
+  Image: "../../../asset/image/basic-sentence/day/tuesday.jpg",
+  soundfileQ: "../../../asset/audio/basic-sentence/day/whatbeforewednesday.mp3",
+  soundfileA: "../../../asset/audio/basic-sentence/day/getup.mp3",
+  soundfileQA: "../../../asset/audio/basic-sentence/day/qabeforewednesday.mp3"
 };
 
-const contentItem10 = {
-  word: "I often come home at 5 clock in the afternoon",
-  sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/home.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/home.mp3"
-};
-
-const contentItem11 = {
-  word: "I do my homework easily and quickly",
-  sound: "/naɪf/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/homework.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/homework.mp3"
-};
-
-const contentItem12 = {
-  word: "I always take a shower quickly",
-  sound: "/pleɪt/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/shower.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/shower.mp3"
-};
-
-const contentItem13 = {
-  word: "I never go to bed late at night",
-  sound: "/fɔːk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/bed.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/bed.mp3"
-};
-
-const contentItem14 = {
-  word: "I drink quite some water everyday",
-  sound: "/ˈtʃɒp.stɪk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/water.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/water.mp3"
-};
-
-const contentItem15 = {
-  word: "I sometimes walk dog on Sunday",
-  sound: "/spuːn/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/dog.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/dog.mp3"
-};
-
-const contentItem16 = {
-  word: "I ride a bike too",
-  sound: "/ɡlɑːs/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/bike.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/bike.mp3"
-};
-
-const contentItem17 = {
-  word: "we are never friends",
-  sound: "/kʌp/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/friends.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/friends.mp3"
-};
-
-const contentItem18 = {
-  word: "I watch TV happily",
-  sound: "/ˈspætʃ.ə.lə/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/TV.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/TV.mp3"
-};
-
-const contentItem19 = {
-  word: "I really love the food there",
-  sound: "/wɪsk/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/food.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/food.mp3"
-};
-
-const contentItem20 = {
-  word: "It was hot yesterday",
-  sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/hot.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/hot.mp3"
-};
-
-const contentItem21 = {
-  word: "I go and play tennis tomorrow",
-  sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/tennis.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/tennis.mp3"
-};
-
-const contentItem22 = {
-  word: "There are flowers everywhere",
-  sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/flowers.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/flowers.mp3"
-};
-
-const contentItem23 = {
-  word: "Please come here",
-  sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/welcome.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/welcome.mp3"
-};
-
-const contentItem24 = {
-  word: "I cook now",
-  sound: "/ˈnuː.dəl/",
-  Image: "../../../asset/image/basic-sentence/daily-activity/cook.jpg",
-  soundfile: "../../../asset/audio/basic-sentence/daily-activity/cook.mp3"
-};
-
-const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
-  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,
-  contentItem20,contentItem21,contentItem22,contentItem23,contentItem24];
+const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9];
 
 const common ={
   testPreviousBtn: null,
@@ -294,11 +206,11 @@ function wordGenProcess(i,index)
   for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
     let m =Math.floor(Math.random()*learnObj.totalLength);
-    wordImageMatchObj.list0[k].value=learnObj.letterList[m].word;
-    wordImageMatchObj.list1[k].innerText=learnObj.letterList[m].word;
+    wordImageMatchObj.list0[k].value=learnObj.letterList[m].answer;
+    wordImageMatchObj.list1[k].innerText=learnObj.letterList[m].answer;
   }
-  wordImageMatchObj.list0[i].value=learnObj.letterList[index].word;
-  wordImageMatchObj.list1[i].innerText=learnObj.letterList[index].word;
+  wordImageMatchObj.list0[i].value=learnObj.letterList[index].answer;
+  wordImageMatchObj.list1[i].innerText=learnObj.letterList[index].answer;
 }
 
 function wordGen(index){
@@ -347,7 +259,7 @@ function testNextBtnFunction() {
         wordGen(wordImageMatchObj.counter);
       }
       wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].Image);
-      common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfile); 
+      common.testSoundFile.setAttribute("src",learnObj.letterList[wordImageMatchObj.counter].soundfileQ); 
     }
     wordImageMatchObj.progress.innerText=wordImageMatchObj.counter+1+"/"+learnObj.totalLength;
     common.testAudio.load();
@@ -391,7 +303,7 @@ function letterSoundCheck(e) {
   
   if(common.game=="wordImageMatch")
   {
-    if(learnObj.letterList[wordImageMatchObj.counter].word === (e.target.value))
+    if(learnObj.letterList[wordImageMatchObj.counter].answer === (e.target.value))
     {
         common.testSoundFile.setAttribute("src",common.right);
         wordImageMatchObj.right++;
@@ -448,11 +360,11 @@ function buildWordImageMatch()
   //here fill up the letters 
   for(let k=0; k<wordImageMatchObj.sectionLength;k++)
   {
-    wordImageMatchObj.list0[k].value=learnObj.letterList[k].word;
-    wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].word;
+    wordImageMatchObj.list0[k].value=learnObj.letterList[k].answer;
+    wordImageMatchObj.list1[k].innerText=learnObj.letterList[k].answer;
   }
   wordImageMatchObj.picture.setAttribute("src",learnObj.letterList[0].Image);
-  common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
+  common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfileQ);
   common.testAudio.load();
 
 }
@@ -471,19 +383,24 @@ wordImageMatchObj.wordImageMatch.addEventListener("click",function() {
 
 document.getElementById("video0").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/ij0iWJB2uMo?si=zsbRUH5Z36k9-R8V";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/qoVcMJTjJ4A?si=ilbJOtk7Hci6vq9t";
   
 });
 
 document.getElementById("video1").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/5cYMu3RTMJU?si=VCVGpbGGgKExmueL";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/frN3nvhIHUk?si=YoHDTaW-rGe6m4_3";
   
 });
- 
+
 document.getElementById("video2").addEventListener("click",function(){
 
-  document.getElementById('videoLink').src ="https://www.youtube.com/embed/pE7OBuaMX5k?si=McYiCBOpGgV66u9T";
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/lcl8uB2AWM0?si=iFjOF9CiqrWcvKSh";
   
 });
- 
+
+document.getElementById("video3").addEventListener("click",function(){
+
+  document.getElementById('videoLink').src ="https://www.youtube.com/embed/v0QjJORZ7Hg?si=Rz9KXj3VEoXu9ShT";
+  
+});
