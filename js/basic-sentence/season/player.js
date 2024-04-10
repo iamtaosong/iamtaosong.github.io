@@ -4,7 +4,7 @@ const contentItem0 = {
   question: "What season is it?",
   answer: "It's spring",
   Image: "../../../asset/image/basic-sentence/season/spring.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/spring.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/season.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/sunny.mp3",
   soundfileQA: "../../../asset/audio/basic-sentence/season/qaspring.mp3"
 };
@@ -13,7 +13,7 @@ const contentItem1 = {
   question: "What season is it?",
   answer: "It's summer",
   Image: "../../../asset/image/basic-sentence/season/summer.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/summer.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/season.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/getup.mp3",
   soundfileQA: "../../../asset/audio/basic-sentence/season/qasummer.mp3"
 };
@@ -22,7 +22,7 @@ const contentItem2 = {
   question: "What season is it?",
   answer: "It's fall",
   Image: "../../../asset/image/basic-sentence/season/fall.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/fall.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/season.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/getup.mp3",
   soundfileQA: "../../../asset/audio/basic-sentence/season/qafall.mp3"
 };
@@ -31,7 +31,7 @@ const contentItem3 = {
   question: "What season is it?",
   answer: "It's winter",
   Image: "../../../asset/image/basic-sentence/season/winter.jpg",
-  soundfileQ: "../../../asset/audio/basic-sentence/season/winter.mp3",
+  soundfileQ: "../../../asset/audio/basic-sentence/season/season.mp3",
   soundfileA: "../../../asset/audio/basic-sentence/season/getup.mp3",
   soundfileQA: "../../../asset/audio/basic-sentence/season/qawinter.mp3"
 };
