@@ -1,848 +1,425 @@
-"use strict";  
+"use strict"; 
 const pathname=window.location.pathname;
 const contentItem0 = {
-  alphabet: "A a",
+  word: "A a",
   sound: "/eɪ/",
   soundfile: "../../asset/audio/alphabet/A.mp3"
 };
 
 const contentItem1 = {
-  alphabet: "B b",
+  word: "B b",
   sound: "/bi:/",
   soundfile: "../../asset/audio/alphabet/B.mp3"
 };
 
 const contentItem2 = {
-  alphabet: "C c",
+  word: "C c",
   sound: "/si:/",
   soundfile: "../../asset/audio/alphabet/C.mp3"
 };
 
 const contentItem3 = {
-  alphabet: "D d",
+  word: "D d",
   sound: "/di:/",
   soundfile: "../../asset/audio/alphabet/D.mp3"
 };
 
 const contentItem4 = {
-  alphabet: "E e",
+  word: "E e",
   sound: "/i:/",
   soundfile: "../../asset/audio/alphabet/E.mp3"
 };
 
 const contentItem5 = {
-  alphabet: "F f",
+  word: "F f",
   sound: "/ef/",
   soundfile: "../../asset/audio/alphabet/F.mp3"
 };
 
 const contentItem6 = {
-  alphabet: "G g",
+  word: "G g",
   sound: "/dʒiː/",
   soundfile: "../../asset/audio/alphabet/G.mp3"
 };
 
 const contentItem7 = {
-  alphabet: "H h",
+  word: "H h",
   sound: "/eɪtʃ/",
   soundfile: "../../asset/audio/alphabet/H.mp3"
 };
 
 const contentItem8 = {
-  alphabet: "I i",
+  word: "I i",
   sound: "/aɪ/",
   soundfile: "../../asset/audio/alphabet/I.mp3"
 };
 
 const contentItem9 = {
-  alphabet: "J j",
+  word: "J j",
   sound: "/dʒeɪ/",
   soundfile: "../../asset/audio/alphabet/J.mp3"
 };
 
 const contentItem10 = {
-  alphabet: "K k",
+  word: "K k",
   sound: "/keɪ/",
   soundfile: "../../asset/audio/alphabet/K.mp3"
 };
 
 const contentItem11 = {
-  alphabet: "L l",
+  word: "L l",
   sound: "/el/",
   soundfile: "../../asset/audio/alphabet/L.mp3"
 };
 
 const contentItem12 = {
-  alphabet: "M m",
+  word: "M m",
   sound: "/em/",
   soundfile: "../../asset/audio/alphabet/M.mp3"
 };
 
 const contentItem13 = {
-  alphabet: "N n",
+  word: "N n",
   sound: "/en/",
   soundfile: "../../asset/audio/alphabet/N.mp3"
 };
 
 const contentItem14 = {
-  alphabet: "O o",
+  word: "O o",
   sound: "/əʊ/",
   soundfile: "../../asset/audio/alphabet/O.mp3"
 };
 
 const contentItem15 = {
-  alphabet: "P p",
+  word: "P p",
   sound: "/piː/",
   soundfile: "../../asset/audio/alphabet/P.mp3"
 };
 
 const contentItem16 = {
-  alphabet: "Q q",
+  word: "Q q",
   sound: "/kjuː/",
   soundfile: "../../asset/audio/alphabet/Q.mp3"
 };
 
 const contentItem17 = {
-  alphabet: "R r",
+  word: "R r",
   sound: "/ɑːr/",
   soundfile: "../../asset/audio/alphabet/R.mp3"
 };
 
 const contentItem18 = {
-  alphabet: "S s",
+  word: "S s",
   sound: "/es:/",
   soundfile: "../../asset/audio/alphabet/S.mp3"
 };
 
 const contentItem19 = {
-  alphabet: "T t",
+  word: "T t",
   sound: "/tiː/",
   soundfile: "../../asset/audio/alphabet/T.mp3"
 };
 
 const contentItem20 = {
-  alphabet: "U u",
+  word: "U u",
   sound: "/juː/",
   soundfile: "../../asset/audio/alphabet/U.mp3"
 };
 
 const contentItem21 = {
-  alphabet: "V v",
+  word: "V v",
   sound: "/viː/",
   soundfile: "../../asset/audio/alphabet/V.mp3"
 };
 
 const contentItem22= {
-  alphabet: "W w",
+  word: "W w",
   sound: "/dʌb.əl.juː/",
   soundfile: "../../asset/audio/alphabet/W.mp3"
 };
 
 const contentItem23 = {
-  alphabet: "X x",
+  word: "X x",
   sound: "/eks/",
   soundfile: "../../asset/audio/alphabet/X.mp3"
 };
 
 const contentItem24 = {
-  alphabet: "Y y",
+  word: "Y y",
   sound: "/waɪ/",
   soundfile: "../../asset/audio/alphabet/Y.mp3"
 };
 const contentItem25 = {
-  alphabet: "Z z",
+  word: "Z z",
   sound: "/zed/",
   soundfile: "../../asset/audio/alphabet/Z.mp3"
 };
 
-const learnObj = {
-  firstName: "John",
-  lastName: "Doe",
-  age: 30,
-  eyeColor: "blue"
-};
-
 const contents = [contentItem0,contentItem1,contentItem2,contentItem3,contentItem4,contentItem5,contentItem6,contentItem7,contentItem8,contentItem9,
-                  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,contentItem20,
-                  contentItem21,contentItem22,contentItem23,contentItem24,contentItem25];
+  contentItem10,contentItem11,contentItem12,contentItem13,contentItem14,contentItem15,contentItem16,contentItem17,contentItem18,contentItem19,contentItem20,contentItem21,contentItem22,contentItem23,contentItem24];
 
 const common ={
-
   testPreviousBtn: null,
   testNextBtn: null,
   testAudio: null,
   testSoundFile:null,
   game: null,
   testSection: document.getElementById("testSection"),
+  letterSelected: false,
   goodResult: `<img src="../../asset/image/happy.png" alt="happy--v1"/>`,
-  poorResult: `<img src="../../asset/image/sad.png" alt="happy--v1"/>`
+  poorResult: `<img src="../../asset/image/sad.png" alt="happy--v1"/>`,
+  right: "../../asset/image/right.mp3",
+  wrong: "../../asset/image/wrong.mp3"
 }
 
-const letterSoundMatchObj = {
-  letterList: contents,
-  totalLenght: contents.length,
-  letterElementLst: null,
+const learnObj = {
+  letterList:contents,
+  totalLength: contents.length
+};
+
+const wordSoundMatchObj = {
+  wordElementLst: null,
   counter: 0,
+  right:  0,
+  wrong:  0,
+  score:  0,
+  right_content:null,
+  wrong_content:null,
+  score_conent:null,
   sectionLength: 5,
+  progress: null,
   list0: null,
   list1: null,
-  letterSoundMatch: document.getElementById("letterSoundMatch"),
-  letterSoundMatchContent: `<div class="card border-0 highlight">
-                              <div class="my-5 h2">
-                                <div class="form-check form-check-inline">
+  picture: null,
+  wordImageMatch: document.getElementById("wordSoundMatch"),
+  wordImageMatchContent: `<div class="card highlight">
+                              <h2 class="text-center my-1" id="progress"></h2>
+
+                              <div class="d-flex justify-content-around align-items-center text-center my-1">
+
+                                <div>
+                                  <img src="../../asset/image/happy.png" width="50" height="50" alt="">
+                                  <p class="text-danger my-0" id="right">100</p>
+                                </div>
+                      
+                                <div>
+                                  <img src="../../asset/image/score.png" width="50" height="50" alt="">
+                                  <p class="text-danger my-0" id="score">Core</p>
+                                </div>
+                      
+                                <div>
+                                  <img src="../../asset/image/sad.png" width="50" height="50" alt="">
+                                  <p class="text-danger my-0" id="wrong">100</p>
+                                </div>
+                    
+                              </div>
+                                             
+                              <div class="m-1 h2">
+                                <div class="form-check">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
                                   <label class="form-check-label" for="letter1"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
-                                  <input class="form-check-input letterElement " type="radio" name="letter" id="letter2" value="">
+                                <div class="form-check my-2">
+                                  <input class="form-check-input letterElement" type="radio" name="letter" id="letter2" value="">
                                   <label class="form-check-label" for="letter2"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-2">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter3" value="">
                                   <label class="form-check-label" for="letter3"></label>
                                 </div>   
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-2">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter4" value="">
                                   <label class="form-check-label" for="letter4"></label>
                                 </div>
 
-                                <div class="form-check form-check-inline">
+                                <div class="form-check my-2">
                                   <input class="form-check-input letterElement" type="radio" name="letter" id="letter5" value="">
                                   <label class="form-check-label" for="letter5"></label>
                                 </div>
                               </div>
 
-                              <div id="showResult" class="my-2">
+                              <div id="showResult" class="my-1">
                               
                               </div>
 
-                              <div class="card-body" style="background-color: #00ffff;">
-
-                                <div class="d-flex justify-content-around align-items-center">
-                              
-                                  <button type="button" class="btn border-0 p-0 mx-2" id="testPrevious">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-                                      <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
-                                    </svg>
-                                  </button>
-                                      
-                                  <audio id="testAudio" controls preload="none" controlsList="nodownload">
-                                    <source id="testSoundFile" src="" type="audio/mpeg">
-                                  </audio>
-
+                              <div class="card-body p-1" style="background-color: #00ffff;">
+                                <div class="m-1">
                                   <button type="button" class="btn border-0 p-0 mx-2" id="testNext">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
                                       <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
                                     </svg>
                                   </button>
                                 </div>
+
+                                <audio id="testAudio" controls preload="none" controlsList="nodownload">
+                                  <source id="testSoundFile" src="" type="audio/mpeg">
+                                </audio>
+                  
                               </div>
                             </div>`,
 
 };
 
-
-const LetterOrderObj = {
-  letterOrder: document.getElementById("letterOrder"),
-  letterList: contents,
-  totalLenght: contents.length,
-  letterElementLst: null,
-  counter: 0,
-  sectionLength: 5,
-  draggableElements: null,
-  droppableElements: null,
-  checkResultBtn:null,
-  letterOrderContent: `<div class="card border">
-                        <div class="h2">
-                          <div class="row justify-content-center my-5">
-                            <div class="col-2">
-                              <H2 id="source1" class=" justify-content-center dragSource" style="cursor: move;" draggable="true"></H2>
-                            </div>
-                      
-                            <div class="col-2">
-                              <H2 id="source2" class="justify-content-center dragSource" style="cursor: move;" draggable="true"></H2>
-                            </div>
-                      
-                            <div class="col-2">
-                              <H2 id="source3" class="justify-content-center dragSource" style="cursor: move;" draggable="true"></H2>
-                            </div>
-                      
-                            <div class="col-2">
-                              <H2 id="source4" class="justify-content-center dragSource" style="cursor: move;" draggable="true"></H2>
-                            </div>
-                            
-                            <div class="col-2">
-                              <H2 id="source5" class="justify-content-center dragSource" style="cursor: move;" draggable="true"></H2>
-                            </div>
-                        </div>  
-                      
-                        <div class="row justify-content-center my-5 text-warning"style="height: 50px;" >
-                          
-                          <div class="col-2 border-3 border border-info mx-1 droppTarget">
-                      
-                            </div>
-                      
-                            <div class="col-2 border-3 border border-info mx-1 droppTarget">
-                      
-                            </div>
-                      
-                            <div class="col-2 border-3 border border-info mx-1 droppTarget">
-                      
-                            </div>
-                      
-                            <div class="col-2 border-3 border border-info mx-1 droppTarget">
-                      
-                            </div>
-                      
-                            <div class="col-2 border-3 border border-info mx-1 droppTarget">
-                      
-                            </div>
-                        </div>  
-                      
-                        <div id="showResult">
-                        
-                        </div>
-
-                        <button id="checkResult" type="button" style="width: 50%;" class="btn btn-light rounded-pill py-2 px-3 my-3 shadow backgroundcolor1">
-                          <span >Play again</span> 
-                          <i class="bi bi-hand-index-thumb text-danger" style='font-size:24px;'></i>    
-                        </button>
-
-                        </div> 
-                      </div>`
-
-};
-
-const SpellingOrderObj = {
-  spelling: document.getElementById("spelling"),
-  spellingInput: null,
-  letterList: contents,
-  counter: 0,
-  spellingContent: `<div class="card border">
-                      <div class="row justify-content-center my-5">
-                        <div class="col-4">
-                          <input type="text" class="form-control highlight input-large text-center" id="spellingInput" maxlength="1">
-                        </div>
-                      </div>
-                    
-                      <div id="showResult" class="my-2">
-                      
-                      </div>
-                                  
-                      <div class="card-body" style="background-color: #00ffff;">
-                    
-                        <div class="d-flex justify-content-around align-items-center">
-                      
-                          <button type="button" class="btn border-0 p-0 mx-2" id="testPrevious">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-                              <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
-                            </svg>
-                          </button>
-                              
-                          <audio id="testAudio" controls preload="none" controlsList="nodownload">
-                            <source id="testSoundFile" src="" type="audio/mpeg">
-                          </audio>
-                    
-                          <button type="button" class="btn border-0 p-0 mx-2" id="testNext">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                              <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-                            </svg>
-                          </button>
-                        </div>
-                      </div>
-                    </div>`
-  
-};
-
-let letterSelected=false;
-
-function testCommon2 ()
+function wordGenProcess(i,index)
 {
-
-  for(let k=0; k<letterSoundMatchObj.sectionLength;k++)
+  for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
   {
-    letterSoundMatchObj.list0[k].value=letterSoundMatchObj.letterList[letterSoundMatchObj.counter+k].alphabet.charAt(0);
-    letterSoundMatchObj.list1[k].innerText=letterSoundMatchObj.letterList[letterSoundMatchObj.counter+k].alphabet.charAt(0);
+    let m =Math.floor(Math.random()*learnObj.totalLength);
+    wordSoundMatchObj.list0[k].value=learnObj.letterList[m].word;
+    wordSoundMatchObj.list1[k].innerText=learnObj.letterList[m].word;
   }
-
+  wordSoundMatchObj.list0[i].value=learnObj.letterList[index].word;
+  wordSoundMatchObj.list1[i].innerText=learnObj.letterList[index].word;
 }
 
-function testCommon3 ()
-{
+function wordGen(index){
 
-  for(let k=0; k<letterSoundMatchObj.sectionLength;k++)
-  {
-    letterSoundMatchObj.list0[k].value=letterSoundMatchObj.letterList[letterSoundMatchObj.counter-4+k].alphabet.charAt(0);
-    letterSoundMatchObj.list1[k].innerText=letterSoundMatchObj.letterList[letterSoundMatchObj.counter-4+k].alphabet.charAt(0);
-  }
-
-}
-
-function testCommon()
-{
-  common.testSoundFile.setAttribute("src",letterSoundMatchObj.letterList[letterSoundMatchObj.counter].soundfile); 
-  common.testAudio.load();
- if(letterSoundMatchObj.counter/letterSoundMatchObj.sectionLength==1 && letterSoundMatchObj.counter%letterSoundMatchObj.sectionLength==0)
+   let i=index%wordSoundMatchObj.sectionLength;
+  if (i==0)
   {
 
-    testCommon2();
-  }else if(letterSoundMatchObj.counter/letterSoundMatchObj.sectionLength==2 && letterSoundMatchObj.counter%letterSoundMatchObj.sectionLength==0)
-  {
-    testCommon2();
+    wordGenProcess(i,index);
 
-  }else if(letterSoundMatchObj.counter/letterSoundMatchObj.sectionLength==3 && letterSoundMatchObj.counter%letterSoundMatchObj.sectionLength==0)
+  }else if(index==1)
   {
 
-    testCommon2();
-  }else if(letterSoundMatchObj.counter/letterSoundMatchObj.sectionLength==4 && letterSoundMatchObj.counter%letterSoundMatchObj.sectionLength==0)
+    wordGenProcess(i,index);
+
+  }else if(index==2)
   {
 
-    testCommon2();
-  }else if(letterSoundMatchObj.counter/letterSoundMatchObj.sectionLength==5 && letterSoundMatchObj.counter%letterSoundMatchObj.sectionLength==0)
+    wordGenProcess(i,index);
+
+  }else if(index==3)
   {
 
-    testCommon3();
+    wordGenProcess(i,index);
+
+  }else if(index)
+  {
+
+    wordGenProcess(i,index);
+    
   }
 
 }
 
 function testNextBtnFunction() {
-  if(letterSelected!=false)
-  {
-    letterSelected.target.checked=false;
-  }
-
-  if(letterSoundMatchObj.counter<(letterSoundMatchObj.totalLenght-1))
-  {
-    letterSoundMatchObj.counter++;
-    testCommon();
-  }
-  document.getElementById("showResult").innerHTML="";
-}
-
-function testPreviousBtnFunction() 
-{
-
-  document.getElementById("showResult").innerHTML="";
-  if(letterSelected!=false)
-  {
-    letterSelected.target.checked=false;
-  }
-
-  if(letterSoundMatchObj.counter>0)
-  {
-    letterSoundMatchObj.counter--;
-    common.testSoundFile.setAttribute("src",letterSoundMatchObj.letterList[letterSoundMatchObj.counter].soundfile); 
-    common.testAudio.load();
-
-    if(Math.floor(letterSoundMatchObj.counter/letterSoundMatchObj.sectionLength)==4 && letterSoundMatchObj.counter%letterSoundMatchObj.sectionLength==4)
-    {
-       testCommon3();
-    }else if(Math.floor(letterSoundMatchObj.counter/letterSoundMatchObj.sectionLength)==3 && letterSoundMatchObj.counter%letterSoundMatchObj.sectionLength==4)
-    {
-      testCommon3();
-    }else if(Math.floor(letterSoundMatchObj.counter/letterSoundMatchObj.sectionLength)==2 && letterSoundMatchObj.counter%letterSoundMatchObj.sectionLength==4)
-    {
-      testCommon3();
-  
-    }else if(Math.floor(letterSoundMatchObj.counter/letterSoundMatchObj.sectionLength)==1 && letterSoundMatchObj.counter%letterSoundMatchObj.sectionLength==4)
-    {
-      testCommon3();
-    }else if(Math.floor(letterSoundMatchObj.counter/letterSoundMatchObj.sectionLength)==0 && letterSoundMatchObj.counter%letterSoundMatchObj.sectionLength==4)
-    {
-      testCommon3();
-    }
-  }
  
-}
+  if(common.letterSelected!=false)
+  {
+    common.letterSelected.target.checked=false;
+    common.letterSelected =false;
+    if (common.game=="wordSoundMatch")
+    {
+      if(wordSoundMatchObj.counter<(learnObj.totalLength-1))
+      {
+        wordSoundMatchObj.counter++;
+        wordGen(wordSoundMatchObj.counter);
+      }
+      common.testSoundFile.setAttribute("src",learnObj.letterList[wordSoundMatchObj.counter].soundfile); 
+    }
+    wordSoundMatchObj.progress.innerText=wordSoundMatchObj.counter+1+"/"+learnObj.totalLength;
+    common.testAudio.load();
+    document.getElementById("showResult").innerHTML="";
 
+    wordSoundMatchObj.wordElementLst.forEach(elem => {
+      elem.disabled=false;
+    });
+  
+
+  }
+
+
+}
 
 function letterSoundCheck(e) {
-
-  let letter;
-  letterSelected=e;
-
-  letter=letterSoundMatchObj.letterList[letterSoundMatchObj.counter].alphabet; 
-
-  if(letter.includes(e.target.value))
+  common.letterSelected=e;
+  
+  if(common.game=="wordSoundMatch")
   {
+    if(learnObj.letterList[wordSoundMatchObj.counter].word === (e.target.value))
+    {
+        common.testSoundFile.setAttribute("src",common.right);
+        wordSoundMatchObj.right++;
+        wordSoundMatchObj.right_content.innerText=wordSoundMatchObj.right;
+     
+    }else 
+    {
+       common.testSoundFile.setAttribute("src",common.wrong);
+       wordSoundMatchObj.wrong++;
+       wordSoundMatchObj.wrong_content.innerText=wordSoundMatchObj.wrong;
+    }
 
-    document.getElementById("showResult").innerHTML=common.goodResult;
- 
-  }else 
-  {
-
-    document.getElementById("showResult").innerHTML=common.poorResult;
   }
+  wordSoundMatchObj.score_conent.innerText=Math.round(100*wordSoundMatchObj.right/(wordSoundMatchObj.counter+1))
+  common.testAudio.load();
+  common.testAudio.play();
+  wordSoundMatchObj.wordElementLst.forEach(elem => {
+    elem.disabled=true;
+  });
 
- };
+}
 
-function buildletterSoundMatch()
+function buildWordImageMatch()
 {
-  common.game="letterSoundMatch";
+  common.game="wordSoundMatch";
+  wordSoundMatchObj.counter=0;
   let p = document.createElement("div"); 
-  p.innerHTML= letterSoundMatchObj.letterSoundMatchContent;
+  p.innerHTML= wordSoundMatchObj.wordImageMatchContent;
   common.testSection.appendChild(p);
   
-  letterSoundMatchObj.list0= document.querySelectorAll(".form-check-input");
-  letterSoundMatchObj.list1 = document.querySelectorAll(".form-check-label");
+  wordSoundMatchObj.list0= document.querySelectorAll(".form-check-input");
+  wordSoundMatchObj.list1 = document.querySelectorAll(".form-check-label");
+  wordSoundMatchObj.picture=document.getElementById("wordImageMatchPicture");
 
   common.testNextBtn = document.getElementById("testNext");
-  common.testPreviousBtn = document.getElementById("testPrevious");
   common.testAudio= document.getElementById("testAudio"); 
   common.testSoundFile = document.getElementById("testSoundFile");
   common.testNextBtn.addEventListener("click",testNextBtnFunction);
-  common.testPreviousBtn.addEventListener("click",testPreviousBtnFunction);
 
-  letterSoundMatchObj.letterElementLst = document.querySelectorAll(".letterElement");
-  letterSoundMatchObj.letterElementLst.forEach(elem => {
+  wordSoundMatchObj.wordElementLst = document.querySelectorAll(".letterElement");
+  wordSoundMatchObj.wordElementLst.forEach(elem => {
     elem.addEventListener("click",letterSoundCheck); 
   });
 
-  //here fill up the letters 
-  for(let k=0; k<letterSoundMatchObj.sectionLength;k++)
-  {
-    letterSoundMatchObj.list0[k].value=letterSoundMatchObj.letterList[k].alphabet.charAt(0);
-    letterSoundMatchObj.list1[k].innerText=letterSoundMatchObj.letterList[k].alphabet.charAt(0);
-  }
+  wordSoundMatchObj.progress=document.getElementById("progress");
+  wordSoundMatchObj.progress.innerText=wordSoundMatchObj.counter+1+"/"+learnObj.totalLength;
+  wordSoundMatchObj.right_content=document.getElementById("right");
+  wordSoundMatchObj.wrong_content=document.getElementById("wrong");
+  wordSoundMatchObj.score_conent=document.getElementById("score");
+  wordSoundMatchObj.right_content.innerText=wordSoundMatchObj.right;
+  wordSoundMatchObj.wrong_content.innerText=wordSoundMatchObj.wrong;
+  wordSoundMatchObj.score_conent.innerText=wordSoundMatchObj.score;
 
-  common.testSoundFile.setAttribute("src",letterSoundMatchObj.letterList[0].soundfile);
+  //here fill up the letters 
+  for(let k=0; k<wordSoundMatchObj.sectionLength;k++)
+  {
+    wordSoundMatchObj.list0[k].value=learnObj.letterList[k].word;
+    wordSoundMatchObj.list1[k].innerText=learnObj.letterList[k].word;
+  }
+  common.testSoundFile.setAttribute("src",learnObj.letterList[0].soundfile);
   common.testAudio.load();
+
 }
 
-letterSoundMatchObj.letterSoundMatch.addEventListener("click",function() {
-letterSoundMatchObj.counter=0;
-if(common.game=="letterOrder")
-{
-    LetterOrderObj.draggableElements.forEach(elem => {
-    elem.removeEventListener("dragstart", dragStart); 
-  });
-  
-  LetterOrderObj.droppableElements.forEach(elem => {
-    elem.removeEventListener("dragover", dragOver); 
-    elem.removeEventListener("drop", drop); 
-  });
-
-  common.testSection.innerHTML='';
-  buildletterSoundMatch();
-
-}else if (common.game=="spelling")
-{
-
-  common.testNextBtn.removeEventListener("click",testNextBtnFunction);
-  common.testPreviousBtn.removeEventListener("click",testPreviousBtnFunction);
-  SpellingOrderObj.spellingInput.removeEventListener('change',inputChange);
-  common.testSection.innerHTML='';
-  buildletterSoundMatch();
-
-}else 
-{
-  if(common.game=="letterSoundMatch")
+wordSoundMatchObj.wordImageMatch.addEventListener("click",function() {
+  wordSoundMatchObj.counter=0;
+  if(common.game=="wordImageMatch")
   {
-
 
   }else{
 
-    buildletterSoundMatch();
+    buildWordImageMatch();
   }
-}
-
-}); 
-
-function dragStart(ev) {
-  ev.dataTransfer.setData("text", ev.target.id);
-  ev.dataTransfer.effectAllowed = "move";
-
-}
-
-function dragOver(ev) {
-  ev.preventDefault();
-}
-
-function checkResult()
-{
-  let flag = false;
-  for(let i=0; i<LetterOrderObj.droppableElements.length; i++)
-  {
-     if(LetterOrderObj.droppableElements[i].innerText !="") {
-      
-
-     }else
-     {
-        flag=true;
-     }
-  }
-
-  if(flag==false)
-  {
-    for(let i=0; i< LetterOrderObj.droppableElements.length-1; i++)
-    {
-      if(LetterOrderObj.droppableElements[i].innerText<=LetterOrderObj.droppableElements[i+1].innerText)
-      {
-
-      }else
-      {
-        flag=true;
-      }
-      
-    }
-
-    if(flag==false)
-    {
-  
-      document.getElementById("showResult").innerHTML=common.goodResult;
-    }else{
-      document.getElementById("showResult").innerHTML=common.poorResult;
-  
-    }
-  }
- 
-}
-
-function drop(ev) {
-  ev.preventDefault();
-  var data = ev.dataTransfer.getData("text");
-  if(ev.target.innerText=="")
-  {
-    ev.target.appendChild(document.getElementById(data)); 
-  }
-  
-  checkResult();
-}
-
-function LetterOrderTestCommon2 ()
-{
-  for(let k=0; k<LetterOrderObj.sectionLength;k++)
-  {
-    LetterOrderObj.draggableElements[k].innerText=LetterOrderObj.letterList[LetterOrderObj.counter+k].alphabet.charAt(0);
-  }
-}
-
-function LetterOrderTestCommon3()
-{
-  for(let k=0; k<LetterOrderObj.sectionLength;k++)
-  {
-    LetterOrderObj.draggableElements[k].innerText=LetterOrderObj.letterList[LetterOrderObj.counter-4+k].alphabet.charAt(0);
-  }
-}
-
-function LetterOrdertestCommon()
-{
- if(LetterOrderObj.counter/LetterOrderObj.sectionLength==1 && LetterOrderObj.counter%LetterOrderObj.sectionLength==0)
-  {
-    LetterOrderTestCommon2();
-  }else if(LetterOrderObj.counter/LetterOrderObj.sectionLength==2 && LetterOrderObj.counter%LetterOrderObj.sectionLength==0)
-  {
-    LetterOrderTestCommon2();
-
-  }else if(LetterOrderObj.counter/LetterOrderObj.sectionLength==3 && LetterOrderObj.counter%LetterOrderObj.sectionLength==0)
-  {
-
-    LetterOrderTestCommon2();
-  }else if(LetterOrderObj.counter/LetterOrderObj.sectionLength==4 && LetterOrderObj.counter%LetterOrderObj.sectionLength==0)
-  {
-
-    LetterOrderTestCommon2();
-  }else if(LetterOrderObj.counter/LetterOrderObj.sectionLength==5 && LetterOrderObj.counter%LetterOrderObj.sectionLength==0)
-  {
-
-    LetterOrderTestCommon3();
-  }
-
-}
-
-function letterOrderNextBtnFunction() {
-  if(letterSelected!=false)
-  {
-    letterSelected.target.checked=false;
-  }
-
-  if(LetterOrderObj.counter<(LetterOrderObj.totalLenght-1))
-  {
-    LetterOrderObj.counter++;
-    LetterOrdertestCommon();
-  }
-  document.getElementById("showResult").innerHTML="";
-}
-
-function letterOrderPreviousBtnFunction() 
-{
-
-  document.getElementById("showResult").innerHTML="";
-  if(letterSelected!=false)
-  {
-    letterSelected.target.checked=false;
-  }
-
-  if(LetterOrderObj.counter>0)
-  {
-    LetterOrderObj.counter--;
-    if(Math.floor(LetterOrderObj.counter/LetterOrderObj.sectionLength)==4 && LetterOrderObj.counter%LetterOrderObj.sectionLength==4)
-    {
-      LetterOrderTestCommon3();
-    }else if(Math.floor(LetterOrderObj.counter/LetterOrderObj.sectionLength)==3 && LetterOrderObj.counter%LetterOrderObj.sectionLength==4)
-    {
-      LetterOrderTestCommon3();
-    }else if(Math.floor(LetterOrderObj.counter/LetterOrderObj.sectionLength)==2 && LetterOrderObj.counter%LetterOrderObj.sectionLength==4)
-    {
-      LetterOrderTestCommon3();
-  
-    }else if(Math.floor(LetterOrderObj.counter/LetterOrderObj.sectionLength)==1 && LetterOrderObj.counter%LetterOrderObj.sectionLength==4)
-    {
-      LetterOrderTestCommon3();
-    }else if(Math.floor(LetterOrderObj.counter/LetterOrderObj.sectionLength)==0 && LetterOrderObj.counter%LetterOrderObj.sectionLength==4)
-    {
-      LetterOrderTestCommon3();
-    }
-  }
- 
-}
-
-function buildletterOrder(){
-
-  common.game="letterOrder";
-  let p = document.createElement("div"); 
-  p.innerHTML= LetterOrderObj.letterOrderContent;
-  common.testSection.appendChild(p);
-  LetterOrderObj.draggableElements = document.querySelectorAll(".dragSource");
-  LetterOrderObj.droppableElements = document.querySelectorAll(".droppTarget");
-  LetterOrderObj.checkResultBtn = document.getElementById("checkResult");
-
-  for(let k=0; k<LetterOrderObj.sectionLength;k++)
-  {
-    let m =Math.floor(Math.random()*LetterOrderObj.totalLenght);
-    LetterOrderObj.draggableElements[k].innerText=LetterOrderObj.letterList[m].alphabet.charAt(0);
-  }
-
-  LetterOrderObj.draggableElements.forEach(elem => {
-    elem.addEventListener("dragstart", dragStart); 
-  });
-  
-  LetterOrderObj.droppableElements.forEach(elem => {
-    elem.addEventListener("dragover", dragOver); 
-    elem.addEventListener("drop", drop); 
-  });
-
-  LetterOrderObj.checkResultBtn.addEventListener("click",function()
-  {
-    LetterOrderObj.draggableElements.forEach(elem => {
-      elem.removeEventListener("dragstart", dragStart); 
-    });
-    
-    LetterOrderObj.droppableElements.forEach(elem => {
-      elem.removeEventListener("dragover", dragOver); 
-      elem.removeEventListener("drop", drop); 
-    });
-
-    common.testSection.innerHTML='';
-    buildletterOrder();
-
-  });
-}
-
-LetterOrderObj.letterOrder.addEventListener("click", function(){
-  
-  LetterOrderObj.counter=0;
-  if(common.game=="letterSoundMatch")
-  {
-    common.testNextBtn.removeEventListener("click",testNextBtnFunction);
-    common.testPreviousBtn.removeEventListener("click",testPreviousBtnFunction);
-    letterSoundMatchObj.letterElementLst.forEach(elem => {
-      elem.removeEventListener("click",letterSoundCheck); 
-    });
-
-    common.testSection.innerHTML='';
-    buildletterOrder();
-  }else if (common.game=="spelling")
-  {
-    common.testNextBtn.removeEventListener("click",testNextBtnFunction);
-    common.testPreviousBtn.removeEventListener("click",testPreviousBtnFunction);
-    SpellingOrderObj.spellingInput.removeEventListener('change',inputChange);
-    common.testSection.innerHTML='';
-    buildletterOrder();
-  }else 
-  {
-    if(common.game=="letterOrder")
-    {
-
-
-    }else{
-
-      buildletterOrder();
-
-    }
-  }
- 
 
 });
 
-function inputChange(e){
-  letterSoundCheck(e);
-}
 
-function buildspelling()
-{
-  common.game="spelling";
-  let p = document.createElement("div"); 
-  p.innerHTML= SpellingOrderObj.spellingContent;
-  common.testSection.appendChild(p);
-  common.testNextBtn = document.getElementById("testNext");
-  common.testPreviousBtn = document.getElementById("testPrevious");
-  common.testAudio= document.getElementById("testAudio"); 
-  common.testSoundFile = document.getElementById("testSoundFile");
-  common.testNextBtn.addEventListener("click",testNextBtnFunction);
-  common.testPreviousBtn.addEventListener("click",testPreviousBtnFunction);
-  SpellingOrderObj.spellingInput=document.getElementById("spellingInput");
-  SpellingOrderObj.spellingInput.addEventListener('change',inputChange);
-  testSoundFile.setAttribute("src",SpellingOrderObj.letterList[0].soundfile);
-  common.testAudio.load();
-
-};
-
-SpellingOrderObj.spelling.addEventListener("click", function(){
-
-  SpellingOrderObj.counter=0;
-  if(common.game=="letterSoundMatch")
-  {
-    common.testNextBtn.removeEventListener("click",testNextBtnFunction);
-    common.testPreviousBtn.removeEventListener("click",testPreviousBtnFunction);
-    letterSoundMatchObj.letterElementLst.forEach(elem => {
-      elem.removeEventListener("click",letterSoundCheck); 
-    });
-    common.testSection.innerHTML='';
-    buildspelling();
-  }else if (common.game=="letterOrder")
-  {
-    LetterOrderObj.draggableElements.forEach(elem => {
-      elem.removeEventListener("dragstart", dragStart); 
-    });
-    
-    LetterOrderObj.droppableElements.forEach(elem => {
-      elem.removeEventListener("dragover", dragOver); 
-      elem.removeEventListener("drop", drop); 
-    });
-
-    common.testSection.innerHTML='';
-    buildspelling();
-  }else 
-  {
-    if(common.game=="spelling")
-    {
-
-
-    }else{
-
-      buildspelling();
-   
-    }
-  }
- 
-});
-
- document.getElementById("video0").addEventListener("click",function(){
+document.getElementById("video0").addEventListener("click",function(){
 
   document.getElementById('videoLink').src ="https://www.youtube.com/embed/hq3yfQnllfQ?si=N_trdSgVY7q4jcgX";
   

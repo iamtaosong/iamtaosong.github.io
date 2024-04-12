@@ -173,61 +173,63 @@ const contents3 = [contentItem15,contentItem16,contentItem17,contentItem18,conte
 const contents4 = [contentItem20,contentItem21,contentItem22,contentItem23,contentItem24,contentItem25];
 const lessons = ["lesson-0","lesson-1","lesson-2","lesson-3","lesson-4"];
 
-const letterSoundMatchContent =`<div class="card highlight">
-<div class="m-3 h2">
-  <div class="form-check my-3">
-    <input class="form-check-input letterElement" type="radio" name="letter" id="letter1" value="">
-    <label class="form-check-label" for="letter1"></label>
+const letterSoundMatchContent = `
+<div class="card border-0 highlight">
+  <div class="my-5 h2">
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="letter" id="letter1" value="">
+      <label class="form-check-label" for="letter1"></label>
+    </div>
+
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="letter" id="letter2" value="">
+      <label class="form-check-label" for="letter2"></label>
+    </div>
+
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="letter" id="letter3" value="">
+      <label class="form-check-label" for="letter3"></label>
+    </div>   
+
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="letter" id="letter4" value="">
+      <label class="form-check-label" for="letter4"></label>
+    </div>
+
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="letter" id="letter5" value="">
+      <label class="form-check-label" for="letter5"></label>
+    </div>
   </div>
 
-  <div class="form-check my-3">
-    <input class="form-check-input letterElement" type="radio" name="letter" id="letter2" value="">
-    <label class="form-check-label" for="letter2"></label>
+  <div id="showResult" class="my-2">
+   
   </div>
 
-  <div class="form-check my-3">
-    <input class="form-check-input letterElement" type="radio" name="letter" id="letter3" value="">
-    <label class="form-check-label" for="letter3"></label>
-  </div>   
+  <div class="card-body" style="background-color: #00ffff;">
 
-  <div class="form-check my-3">
-    <input class="form-check-input letterElement" type="radio" name="letter" id="letter4" value="">
-    <label class="form-check-label" for="letter4"></label>
-  </div>
+    <div class="d-flex justify-content-around align-items-center">
+  
+      <button type="button" class="btn border-0 p-0 mx-2" id="testPrevious">
+        <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+          <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+        </svg>
+      </button>
+          
+      <audio id="testAudio" controls preload="none" controlsList="nodownload">
+        <source id="testSoundFile" src="" type="audio/mpeg">
+      </audio>
 
-  <div class="form-check my-3">
-    <input class="form-check-input letterElement" type="radio" name="letter" id="letter5" value="">
-    <label class="form-check-label" for="letter5"></label>
+      <button type="button" class="btn border-0 p-0 mx-2" id="testNext">
+        <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+          <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+        </svg>
+      </button>
+    </div>
   </div>
 </div>
 
-<div id="showResult" class="my-2">
-
-</div>
-
-<div class="card-body" style="background-color: #00ffff;">
-
-  <div class="d-flex justify-content-around align-items-center">
-
-    <button type="button" class="btn border-0 p-0 mx-2" id="testPrevious">
-      <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
-      </svg>
-    </button>
-        
-    <audio id="testAudio" controls preload="none" controlsList="nodownload">
-      <source id="testSoundFile" src="" type="audio/mpeg">
-    </audio>
-
-    <button type="button" class="btn border-0 p-0 mx-2" id="testNext">
-      <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-      </svg>
-    </button>
-  </div>
-</div>
-</div>`
-;
+`;
 
 const spellingContent =`
 <div class="card border-0">

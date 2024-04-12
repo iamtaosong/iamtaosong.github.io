@@ -40,6 +40,7 @@ https://m.pdfdrive.com.pk/6358/?fbclid=IwAR2lqXRdz-4DKWt_EG6cFjmibxYGsZ9kdaAVAr8
 kidsfunenglish.com
 justfunenglish.com
 easykidsenglish.com
+
 https://kidvideo.org/video/family-finger-house-song-dream-english-kids-i44209.html
 https://kidvideo.org/
 https://kidsclubenglish.com/song-playlists/family-songs/
@@ -54,6 +55,13 @@ https://b.fims.pk/3801/
 https://i6.fims.org.pk/instant-phonics-practice/
 https://m.pdfdrive.com.pk/20782/?fbclid=IwAR1DIIA485JihJoCfOVcdSYOB9VIkHG9u6UmVwnLnYEYAxkVu_EiwrMtkug
 
+https://createdres.com/new-reading-comprehension-farm-animals/?fbclid=IwAR21GJ8rmg94gSWaUpb-FT_t2Ry0hVWlVO061jkc8vv802v5KnkxQdXHPXQ_aem_Aeb6f9QfHKLBESEA0bFF1SX43dPkYXBO7MhzdMGP5kPMPMXH8-rTbUqyltVQR38G9qBTcrT4esv79SAgl-0iGBPj
+
+https://kindergarten.worksheethouse.com/pdf-books/11214/
+
+https://aboutpreschool.net/grade-1-activities-worksheets-letter/free-worksheets/?fbclid=IwAR2RMMg8SDFyxa7hfHTT_561CBdx9Aj-f1bqz0e49pdNpjdPsFeCWRVQTro_aem_AeYH-wLyWuhFA0Kd24decdCiC6QqOWg1ypzCtgDiZrALKgoXCIg2a3Q5BnyBaoQKRhPkMOFVjehNU5xV959Uh3c_
+
+https://zlibrarybooks.com/
 
 english.worksheethouse.com
 fbclid=IwAR2TUyJz1s-i25LslSg-0Ev0lWavleTYRSQjeDYvQLRAKH3KkPdjHL_0mws
